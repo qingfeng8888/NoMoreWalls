@@ -180,7 +180,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,8,9,21,23,24,25|🇺🇸 _US_美国 #12'
+  h2-opts: {}
+  http-opts: {}
+  name: '3,4,6,8,9,19,21,23,24,25|🇺🇸 _US_美国 #12'
   network: ws
   port: '8080'
   server: www.crispyrainbow.online
@@ -188,6 +190,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -217,7 +220,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 255a31a1-9705-4ba9-87fd-88d6e1892377
+  uuid: 3905c81c-32af-4a2c-8f53-0a5b2b019f62
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -227,7 +230,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 255a31a1-9705-4ba9-87fd-88d6e1892377
+  uuid: 3905c81c-32af-4a2c-8f53-0a5b2b019f62
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -237,21 +240,47 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 255a31a1-9705-4ba9-87fd-88d6e1892377
+  uuid: 3905c81c-32af-4a2c-8f53-0a5b2b019f62
 - alterId: 0
   cipher: auto
-  name: 19|美国 CloudFlare节点
+  name: '19|美国 CloudFlare节点 #2'
   network: ws
-  port: 443
-  server: cf.fovi.tk
-  servername: ''
-  tls: true
+  port: '2082'
+  server: s1c.v2.v001sss.xyz
+  tls: false
   type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: foxlux.fovi.tk
-    path: /eisasqa
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20,21|🇺🇸|US|美国|@wxgqlfx|70
+  network: ws
+  port: 2052
+  server: 104.18.202.232
+  tls: false
+  type: vmess
+  uuid: 33316b88-907c-4562-ac4e-75aecbc0d8a0
+  ws-opts:
+    headers:
+      Host: etc.tellss.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: '80'
+  server: 104.17.25.1
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa8edc9c-978a-4f09-906f-a2668751e935
+  ws-opts:
+    headers:
+      Host: usnatvpn.catnipballs.gay
+    path: /
 - alterId: 0
   cipher: auto
   name: '19,20|github.com/freefq - 美国CloudFla... #4'
@@ -293,33 +322,6 @@ proxies:
   ws-opts:
     headers:
       Host: lmnyvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 20|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: '80'
-  server: 104.17.25.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa8edc9c-978a-4f09-906f-a2668751e935
-  ws-opts:
-    headers:
-      Host: usnatvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 20,21|🇺🇸|US|美国|@wxgqlfx|70
-  network: ws
-  port: 2052
-  server: 104.18.202.232
-  tls: false
-  type: vmess
-  uuid: 33316b88-907c-4562-ac4e-75aecbc0d8a0
-  ws-opts:
-    headers:
-      Host: etc.tellss.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -531,7 +533,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4146b05c-c2f3-4a72-a19d-fa0386fa5192
+  uuid: b0f5406f-bf04-47fa-a60b-548f3ee52d17
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -541,7 +543,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4146b05c-c2f3-4a72-a19d-fa0386fa5192
+  uuid: b0f5406f-bf04-47fa-a60b-548f3ee52d17
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -551,7 +553,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4146b05c-c2f3-4a72-a19d-fa0386fa5192
+  uuid: b0f5406f-bf04-47fa-a60b-548f3ee52d17
 - alterId: 0
   cipher: auto
   name: 23,24|美国2|@ripaojiedian
