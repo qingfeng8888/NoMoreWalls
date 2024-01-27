@@ -69,14 +69,11 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,4,6,8,9,19,20,21,25,29|🇺🇸_US_美国_2_25
+  name: 0,3,4,8,9,19,20,21,25,29|🇺🇸_US_美国_2_25
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -162,10 +159,13 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,4,8,9,25|🇺🇸 _US_美国 #11'
+  h2-opts: {}
+  http-opts: {}
+  name: '3,4,6,8,9,25|🇺🇸 _US_美国 #11'
   network: ws
   port: '8080'
   server: www.blueberrywindow.online
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -175,9 +175,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '3,4,6,8,9,21,23,24,25|🇺🇸 _US_美国 #12'
+  name: '3,4,8,9,21,23,24,25|🇺🇸 _US_美国 #12'
   network: ws
   port: '8080'
   server: www.crispyrainbow.online
@@ -185,7 +183,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
