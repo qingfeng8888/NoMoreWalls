@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_34
+  name: 0|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
   network: ws
-  port: 80
+  port: '80'
   server: 162.159.200.7
   tls: false
   type: vmess
@@ -14,9 +14,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_36
+  name: '0|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #1'
   network: ws
-  port: 80
+  port: '80'
   server: 104.18.15.148
   tls: false
   type: vmess
@@ -27,9 +27,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4_37
+  name: '0|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #2'
   network: ws
-  port: 80
+  port: '80'
   server: 104.18.15.149
   tls: false
   type: vmess
@@ -40,11 +40,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,25,29|🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其_3由快嘴科技提供：...
+  name: '0,3,4,8,9,25|🇹🇷 _IQ_伊拉克->🇹🇷_TR_土耳其 #2'
   network: ws
-  port: 443
+  port: '443'
   server: 130.193.166.2
-  servername: ''
   tls: true
   type: vmess
   uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
@@ -54,9 +53,9 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 0,29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
+  name: '0|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #3'
   network: ws
-  port: 80
+  port: '80'
   server: 162.159.200.6
   tls: false
   type: vmess
@@ -67,18 +66,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,29|🇨🇳_CN_中国->🇵🇰_PK_巴基斯坦_38
+  name: 0|🇵🇰 _CN_中国->🇵🇰_PK_巴基斯坦
   network: tcp
-  port: 33311
+  port: '33311'
   server: 36.212.152.13
   tls: false
   type: vmess
   uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
 - alterId: 0
   cipher: auto
-  name: 0,19,29|🇪🇸_ES_西班牙->🇭🇰_HK_香港_39
+  name: 0,19|西班牙 v2rayfree.eu.org
   network: ws
-  port: 8002
+  port: '8002'
   server: 185.214.103.249
   tls: false
   type: vmess
@@ -91,7 +90,7 @@ proxies:
   cipher: chacha20-poly1305
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-59
+  name: 1,6|-https://t.me/MrXbin-37
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
