@@ -87,8 +87,10 @@ proxies:
       Host: cache-hk-1.cn-db.top
     path: /db00
 - alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__1
+  cipher: chacha20-poly1305
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-53
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -97,8 +99,6 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
     path: /
 - name: 1|_AU_->_US__1
   network: ws
@@ -167,7 +167,7 @@ proxies:
   cipher: chacha20-poly1305
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-61
+  name: 1,6|-https://t.me/MrXbin-46
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -285,12 +285,16 @@ proxies:
     path: /yfjc/kus2
 - alterId: 0
   cipher: auto
-  name: '3,4,8,9,21,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #3'
+  h2-opts: {}
+  http-opts: {}
+  name: '3,4,6,8,9,21,25|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #3'
   network: ws
   port: '8080'
   server: www.darkroom.lol
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
