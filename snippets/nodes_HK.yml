@@ -50,6 +50,20 @@ proxies:
       Host: ''
     path: /opt/video/images
 - cipher: aes-128-gcm
+  name: 23|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.223.223
+  type: ss
+- cipher: aes-128-gcm
   name: 23|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -63,3 +77,13 @@ proxies:
   port: 443
   server: 47.243.59.144
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn香港
+  network: tcp
+  port: '30515'
+  server: 103.30.76.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c
