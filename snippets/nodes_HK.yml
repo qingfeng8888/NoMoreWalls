@@ -1,19 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21|HK香港(mibei77.com 米贝节点分享)
-  network: ws
-  port: '80'
-  server: 197.215.140.235
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
-  ws-opts:
-    headers:
-      Host: sahar55.serveirc.com
-    path: /@forwardv2ray
 - cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 23|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.223.223
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
   name: 23|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -26,6 +29,7 @@ proxies:
     tls: false
   port: 443
   server: 47.243.59.144
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
