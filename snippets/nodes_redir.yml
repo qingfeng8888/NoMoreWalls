@@ -1,12 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,4,8,9,19,21|🇺🇸_US_美国->🇮🇷_IR_伊朗 #6'
+  h2-opts: {}
+  http-opts: {}
+  name: '0,4,6,8,9,19,21|关注电报https://t.me/aifenxiang202... #1'
   network: ws
-  port: 8080
+  port: '8080'
   server: www.darkroom.lol
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -27,11 +31,10 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: 0,20,21|🔒 VM-TCP-NA 🇮🇷 IR-185.213.165....
+  name: 0|🇩🇪 _IR_伊朗->🇩🇪_DE_德国
   network: tcp
   port: '18287'
   server: 185.213.165.194
-  servername: ''
   tls: false
   type: vmess
   uuid: 644350df-352f-4d9f-97a0-8dea21d7019d
@@ -47,7 +50,7 @@ proxies:
   uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
 - alterId: 0
   cipher: auto
-  name: '0,4,8,9,19,20,21|US美国(mibei77.com 米贝节点分享) #2'
+  name: '0,4,8,9,19,20,21|VPN招代理电报联系@xiaoying229 #1'
   network: ws
   port: '8080'
   server: www.crispyrainbow.biz
@@ -104,7 +107,7 @@ proxies:
   cipher: chacha20-poly1305
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-65
+  name: 1,6|-https://t.me/MrXbin-104
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
