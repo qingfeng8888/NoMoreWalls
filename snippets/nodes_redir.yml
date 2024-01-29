@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,19,20,25|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其 #4'
+  name: '0,3,4,8,9,19,25|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其 #4'
   network: ws
   port: '80'
   server: 197.215.140.234
@@ -70,7 +70,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,19,21,25|🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 #2'
+  name: '0,3,4,8,9,19,25|🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 #2'
   network: ws
   port: '80'
   server: 5.188.94.5
@@ -112,7 +112,7 @@ proxies:
   cipher: chacha20-poly1305
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-63
+  name: 1,6|-https://t.me/MrXbin-93
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -178,18 +178,19 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__2
+  cipher: chacha20-poly1305
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-105
   network: ws
   port: 8080
   server: www.darkroom.lol
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      host: www.darkroom.lol
     path: /
 - name: 1|_CN_->_US__2
   network: tcp
@@ -309,7 +310,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 9,19,20|github.com/freefq - 伊拉克  19
+  name: 9,19|伊拉克  22
   network: ws
   port: 80
   server: 130.193.166.2
