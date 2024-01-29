@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,25|🇳🇱 _BH_巴林->🇳🇱_NL_荷兰 #2'
+  name: '0,3,4,8,9,25|🇳🇱 _BH_巴林->🇳🇱_NL_荷兰 #2'
   network: ws
   port: '80'
   server: 151.248.104.91
@@ -14,11 +14,14 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -28,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,19,20,25|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其 #4'
+  name: '0,3,4,8,9,19,20,25|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其 #4'
   network: ws
   port: '80'
   server: 197.215.140.234
@@ -41,7 +44,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,25|🇹🇷 _UZ_乌兹别克斯坦->🇹🇷_TR_土耳其 #2'
+  name: '0,3,4,8,9,25|🇹🇷 _UZ_乌兹别克斯坦->🇹🇷_TR_土耳其 #2'
   network: ws
   port: '80'
   server: 37.110.209.228
@@ -54,17 +57,12 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,4,6,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_3由快嘴科技提供：...
+  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_3由快嘴科技提供：...
   network: ws
   port: 8080
   server: www.darkroom.lol
-  servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
@@ -72,7 +70,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,19,25|🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 #2'
+  name: '0,3,4,8,9,19,21,25|🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 #2'
   network: ws
   port: '80'
   server: 5.188.94.5
@@ -85,7 +83,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,21,25|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其 #5'
+  name: '0,3,4,8,9,25|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其 #5'
   network: ws
   port: '80'
   server: 197.215.140.235
@@ -114,7 +112,7 @@ proxies:
   cipher: chacha20-poly1305
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-117
+  name: 1,6|-https://t.me/MrXbin-63
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -259,28 +257,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 8|🇨🇳_CN_中国->🇺🇸_US_美国
-  network: tcp
-  port: 50005
-  server: 05.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
-- alterId: 0
-  cipher: auto
-  name: 8|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: 80
-  server: 104.18.15.149
-  tls: false
-  type: vmess
-  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
-  ws-opts:
-    headers:
-      Host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇾_CY_塞浦路斯->🇹🇷_TR_土耳其
   network: ws
   port: 80
@@ -333,7 +309,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '9,19,20,21|🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其 #2'
+  name: 9,19,20|github.com/freefq - 伊拉克  19
   network: ws
   port: 80
   server: 130.193.166.2
@@ -343,4 +319,17 @@ proxies:
   ws-opts:
     headers:
       Host: xyz33.servecounterstrike.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 21|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 80
+  server: 92.38.159.4
+  tls: false
+  type: vmess
+  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
+  ws-opts:
+    headers:
+      Host: sahar55.serveirc.com
     path: /@forwardv2ray
