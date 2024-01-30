@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
+  name: 0,3,4,8,19,20,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20,21,25|🇨🇾 _CY_塞浦路斯->🇹🇷_TR_土耳其 #2'
+  name: '0,3,4,8,9,25|🇨🇾 _CY_塞浦路斯->🇹🇷_TR_土耳其 #2'
   network: ws
   port: '80'
   server: 195.14.146.81
@@ -83,16 +83,19 @@ proxies:
   cipher: chacha20-poly1305
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-36
+  name: 1,6,21|Youtube顺丰资源  US00192
   network: ws
-  port: 8080
+  port: '8080'
   server: www.darkroom.lol
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
