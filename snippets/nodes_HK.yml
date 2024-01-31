@@ -14,6 +14,22 @@ proxies:
     path: /sssddd
 - cipher: aes-128-gcm
   client-fingerprint: chrome
+  name: 23|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.223.223
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
   name: 23|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -45,3 +61,16 @@ proxies:
     headers:
       Host: data-hk-1.cn-db.top
     path: /db00
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇮🇳 印度|@ripaojiedian
+  password: c94df578-85f2-4c04-bc86-d18a8eda5a67
+  port: 38664
+  server: 103.65.140.83
+  skip-cert-verify: false
+  sni: download.xn--mes358a9urctx.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39
