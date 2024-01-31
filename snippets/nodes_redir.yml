@@ -14,10 +14,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_22
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -27,7 +30,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,3,4,8,19,20,21,25,28|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_2
+  name: 0,1,3,4,8,19,20,21,25,28|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_由快嘴科技提供：k...
   network: tcp
   port: 443
   server: 173.249.197.176
@@ -38,9 +41,9 @@ proxies:
   uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,25|🇺🇸 _CN_中国->🇺🇸_US_美国 #8'
+  name: 0,3,4,8,9,25,28|🇨🇳_CN_中国->🇺🇸_US_美国_2_由快嘴科技提供：k...
   network: ws
-  port: '41082'
+  port: 41082
   server: 101.89.154.94
   tls: false
   type: vmess
@@ -64,9 +67,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,25|🇺🇸 _CN_中国->🇺🇸_US_美国 #9'
+  name: 0,3,4,8,9,25,28|🇨🇳_CN_中国->🇺🇸_US_美国_3_2由快嘴科技提供：...
   network: ws
-  port: '46242'
+  port: 46242
   server: 101.91.226.84
   tls: false
   type: vmess
@@ -90,9 +93,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,8,9,25|🇮🇳 _CN_中国->🇮🇳_IN_印度 #2'
+  name: 0,1,3,4,8,9,25,28|🇨🇳_CN_中国->🇮🇳_IN_印度_29
   network: tcp
-  port: '30128'
+  port: 30128
   server: 183.232.170.22
   skip-cert-verify: true
   tls: false
@@ -101,9 +104,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,4,8,9,23,24,25,26|baipaovpn上海市
+  name: 0,3,4,8,9,23,24,25,28|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
   network: ws
-  port: '58081'
+  port: 58081
   server: 101.89.219.103
   servername: ''
   skip-cert-verify: false
@@ -156,9 +159,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20,25|🇺🇸 _CN_中国->🇺🇸_US_美国 #11'
+  name: 0,3,4,8,9,20,25,28|🇨🇳_CN_中国->🇺🇸_US_美国_4_38
   network: ws
-  port: '2095'
+  port: 2095
   server: 120.233.45.104
   tls: false
   type: vmess
@@ -169,9 +172,9 @@ proxies:
     path: /dabai.in
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,8,9,21,25|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩 #4'
+  name: 0,1,3,4,8,9,21,25,28|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_2_36
   network: tcp
-  port: '443'
+  port: 443
   server: pitcairn.ednovas.org
   skip-cert-verify: true
   tls: false
@@ -205,11 +208,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,19,20,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_20
+  name: 0,3,4,8,19,20,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.darkroom.lol
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -466,19 +468,18 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-75
+  cipher: auto
+  name: 1|_US_->_IR__2
   network: ws
   port: 8080
   server: www.darkroom.lol
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
@@ -503,3 +504,16 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 28|🇨🇾_CY_塞浦路斯->🇷🇺_RU_俄罗斯联邦_8
+  network: ws
+  port: 80
+  server: 195.14.146.81
+  tls: false
+  type: vmess
+  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
+  ws-opts:
+    headers:
+      Host: sahar55.serveirc.com
+    path: /@forwardv2ray
