@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,21,25|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #4'
+  name: 0,3,4,8,9,21,25,28|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
   network: ws
-  port: '80'
+  port: 80
   server: 162.159.200.5
   tls: false
   type: vmess
@@ -14,10 +14,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_22
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -40,9 +44,9 @@ proxies:
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,21,25|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #5'
+  name: 0,3,4,8,9,21,25,28|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_25
   network: ws
-  port: '80'
+  port: 80
   server: 162.159.200.3
   tls: false
   type: vmess
@@ -53,9 +57,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,25|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #11'
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
   network: ws
-  port: '80'
+  port: 80
   server: 104.18.15.149
   tls: false
   type: vmess
@@ -66,7 +70,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,3,4,8,9,19,20,25,29|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_由快嘴科技提供：k...
+  name: 0,1,3,4,8,9,19,20,21,25,28|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_由快嘴科技提供：k...
   network: tcp
   port: 443
   server: 173.249.197.176
@@ -77,10 +81,11 @@ proxies:
   uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 0,3,4,8,19,20,21,25,28|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_5
   network: ws
   port: 8080
   server: www.darkroom.lol
+  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -113,9 +118,9 @@ proxies:
   uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,25|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #12'
+  name: 0,3,4,8,9,25,28|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_由快嘴科技提...
   network: ws
-  port: '80'
+  port: 80
   server: 104.18.15.148
   tls: false
   type: vmess
@@ -139,7 +144,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,3,4,8,9,20,25,29|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_2_36
+  name: 0,1,3,4,8,9,20,21,25,28|🇺🇸_US_美国->🇵🇳_PN_皮特凯恩_2_3由快嘴科技提...
   network: tcp
   port: 443
   server: pitcairn.ednovas.org
@@ -176,10 +181,8 @@ proxies:
       host: ca3.889611.com
     path: /
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-54
+  cipher: auto
+  name: 1|_US_->_IR__1
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -188,6 +191,8 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
@@ -303,7 +308,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,19,20,29|🇨🇳_CN_中国->🇮🇳_IN_印度_29
+  name: 9,19,20,28|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
   network: tcp
   port: 30128
   server: 183.232.170.22
@@ -311,68 +316,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇾_CY_塞浦路斯->🇷🇺_RU_俄罗斯联邦_8
-  network: ws
-  port: 80
-  server: 195.14.146.81
-  tls: false
-  type: vmess
-  uuid: 75916879-adcf-45b3-98d8-54a2412470b5
-  ws-opts:
-    headers:
-      Host: sahar55.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-  network: ws
-  port: 58081
-  server: 101.89.219.103
-  tls: false
-  type: vmess
-  uuid: 8c456efc-67d7-3190-8b75-5c879e133288
-  ws-opts:
-    headers:
-      Host: data-us-3.db-link01.top
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_2_由快嘴科技提供：k...
-  network: ws
-  port: 41082
-  server: 101.89.154.94
-  tls: false
-  type: vmess
-  uuid: 8c456efc-67d7-3190-8b75-5c879e133288
-  ws-opts:
-    headers:
-      Host: data-us-2.db-link01.top
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_3_2由快嘴科技提供：...
-  network: ws
-  port: 46242
-  server: 101.91.226.84
-  tls: false
-  type: vmess
-  uuid: 8c456efc-67d7-3190-8b75-5c879e133288
-  ws-opts:
-    headers:
-      Host: cache-us-1.db-link01.top
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_4_38
-  network: ws
-  port: 2095
-  server: 120.233.45.104
-  tls: false
-  type: vmess
-  uuid: 8c456efc-67d7-3190-8b75-5c879e133288
-  ws-opts:
-    headers:
-      Host: data-us-2.db-link02.top
-    path: /dabai.in
