@@ -1,11 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_由快嘴科技提供：k...
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,4,6,8,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -15,11 +18,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 0,3,4,8,19,20,21,25,29|🇺🇸_US_美国->🇮🇷_IR_伊朗_2_24
   network: ws
   port: 8080
   server: www.darkroom.lol
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -29,11 +31,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,21,25,29|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_25
+  name: 0,3,4,8,9,19,20,21,25,29|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_22
   network: ws
   port: 80
   server: 104.17.25.1
-  servername: ''
   tls: false
   type: vmess
   uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
@@ -60,8 +61,10 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__1
+  cipher: chacha20-poly1305
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-65
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -70,8 +73,6 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
     path: /
 - name: 1|_CN_->_US__2
   network: tcp
@@ -148,9 +149,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,19,20|github.com/freefq - 广东省佛山市移动 1...
+  name: 9,19,29|🇨🇳_CN_中国->🇮🇳_IN_印度_27
   network: tcp
-  port: '30128'
+  port: 30128
   server: 183.232.170.22
   tls: false
   type: vmess
@@ -168,42 +169,3 @@ proxies:
     headers:
       Host: cache-hk-1.cn-db.top
     path: /db00
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供：kkz...
-  network: ws
-  port: 2096
-  server: 104.25.254.162
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_29
-  network: ws
-  port: 2096
-  server: 162.159.129.87
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇳🇱_NL_荷兰_3_3由快嘴科技提供：...
-  network: ws
-  port: 2095
-  server: 172.67.185.208
-  tls: false
-  type: vmess
-  uuid: 3c1cca21-1373-4707-a575-195e9da0fb71
-  ws-opts:
-    headers:
-      Host: ebiii.fozool76.lol
-    path: /
