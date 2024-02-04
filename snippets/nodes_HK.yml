@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|🇭🇰香港1-移动优选 0.1X
-  network: ws
-  port: '80'
-  server: cfzl1.freeapp.buzz
-  tls: false
-  type: vmess
-  uuid: 1ae0f67d-197e-4c80-8d91-a8388821c81b
-  ws-opts:
-    headers:
-      Host: wz3.kcjs.me
-    path: /gd3245vd2S32cr
-- alterId: 0
-  cipher: auto
   name: 21|🇭🇰 VGA香港15TB纪念版
   network: ws
   port: '10510'
@@ -58,6 +45,19 @@ proxies:
   server: 47.243.196.229
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇮🇳 印度|@ripaojiedian
+  password: 941634d941894a4a8c894824302af28c
+  port: 38664
+  server: 103.65.140.83
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6f052e34-456e-47f1-84a4-d0aa3b9e8b39
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
