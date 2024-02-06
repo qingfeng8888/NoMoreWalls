@@ -94,7 +94,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20,21,25|🇺🇸 _US_美国 #43'
+  name: '0,3,4,8,9,21,25|🇺🇸 _US_美国 #43'
   network: ws
   port: '8880'
   server: server20.beheshtbaneh.com
@@ -166,10 +166,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_4
+  name: 0,3,4,8,9,25,26,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_4
   network: ws
   port: 8080
   server: 172.67.212.114
+  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -209,7 +210,7 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,21,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_25
+  name: 0,3,4,8,9,19,20,21,25,28|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_25
   network: ws
   port: 8880
   server: server32.beheshtbaneh.com
@@ -304,10 +305,8 @@ proxies:
       host: www.blueberrywindow.online
     path: /
 - alterId: 0
-  cipher: chacha20-poly1305
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-38
+  cipher: auto
+  name: 1|_US__5
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -316,6 +315,8 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
@@ -333,9 +334,7 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-31
+  name: 1|_US__7
   network: ws
   port: 8080
   server: 172.67.166.190
@@ -503,7 +502,7 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: 9,19,20,21|-2556-RELAY【ccbaohe.com〗 永久免费节...
+  name: 9,19,21|-2556-RELAY【ccbaohe.com〗 永久免费节...
   network: ws
   port: 8880
   server: server33.beheshtbaneh.com
@@ -524,7 +523,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d66fa0b4-ff77-44cd-bac6-045cc0264c21
+  uuid: edabbdb8-99d3-40f4-8221-a7f89915bb43
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -534,7 +533,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d66fa0b4-ff77-44cd-bac6-045cc0264c21
+  uuid: edabbdb8-99d3-40f4-8221-a7f89915bb43
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -544,7 +543,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d66fa0b4-ff77-44cd-bac6-045cc0264c21
+  uuid: edabbdb8-99d3-40f4-8221-a7f89915bb43
 - alterId: 0
   cipher: auto
   name: 19|美国CloudFlare公司CDN节点 5
@@ -561,9 +560,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|美国Fastly全球Anycast节点 11
+  name: 19,20|github.com/freefq - 美国Fastly全球...
   network: ws
-  port: '443'
+  port: 443
   server: gov.uk
   servername: gov.uk
   tls: true
@@ -616,9 +615,9 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 21|美国75〖电报：@ccbaohe】免费节点定时更新
+  name: 21,26|baipaovpn美国
   network: ws
-  port: 8080
+  port: '8080'
   server: 104.21.83.10
   servername: ''
   tls: false
@@ -823,7 +822,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d2133ff-cf39-4130-8f8a-5f329a6f3477
+  uuid: 79974ada-cadf-46e1-bd1c-a6f0d4c8825d
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -833,7 +832,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d2133ff-cf39-4130-8f8a-5f329a6f3477
+  uuid: 79974ada-cadf-46e1-bd1c-a6f0d4c8825d
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -843,7 +842,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d2133ff-cf39-4130-8f8a-5f329a6f3477
+  uuid: 79974ada-cadf-46e1-bd1c-a6f0d4c8825d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇺🇸 美国1|@ripaojiedian
@@ -852,20 +851,6 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn美国
-  network: ws
-  port: '8080'
-  server: 172.67.221.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.blueberrywindow.online
-    path: /
 - alterId: 0
   cipher: auto
   name: 28|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com8
