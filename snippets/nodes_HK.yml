@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 20,21|[宇航员] 香港 80免流 04
+  name: 19,20,21|[宇航员] 香港 80免流 04
   network: ws
   port: '80'
   server: hke9016a-9c15-ce43.xn--jsrz0o258a.online
@@ -53,6 +53,22 @@ proxies:
     headers:
       Host: www.alipay.com
     path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 23|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.196.224
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
