@@ -143,7 +143,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,9,19,21,25|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #7'
+  name: 3,4,9,19,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: mci--join.outline-vpn.cloud
@@ -157,7 +157,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '3,4,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #16'
+  name: 3,4,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_29
   network: ws
   port: 80
   server: 104.22.51.162
@@ -183,7 +183,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #17'
+  name: 3,4,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_4_4由快嘴科技提供：...
   network: ws
   port: 80
   server: www.greendam.site
@@ -196,10 +196,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,19,21,25|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #8'
+  name: 3,4,19,21,25,29|🇳🇱_NL_荷兰->🇩🇪_DE_德国_2_39
   network: ws
   port: 80
   server: 188.114.96.11
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -209,7 +210,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '3,4,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #18'
+  name: 3,4,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
@@ -222,7 +223,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #19'
+  name: 3,4,9,25,29|🇺🇸_US_美国->🇩🇪_DE_德国_3_3由快嘴科技提供：...
   network: ws
   port: 80
   server: 104.24.208.37
@@ -232,4 +233,95 @@ proxies:
   ws-opts:
     headers:
       Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  network: ws
+  port: 80
+  server: 162.159.200.4
+  tls: false
+  type: vmess
+  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
+  network: ws
+  port: 80
+  server: 162.159.200.6
+  tls: false
+  type: vmess
+  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  ws-opts:
+    headers:
+      Host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_9
+  network: ws
+  port: 80
+  server: 162.159.200.3
+  tls: false
+  type: vmess
+  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  ws-opts:
+    headers:
+      Host: ca3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_由快嘴科技提...
+  network: ws
+  port: 80
+  server: 104.18.15.149
+  tls: false
+  type: vmess
+  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  ws-opts:
+    headers:
+      Host: er3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_2由快嘴科技...
+  network: ws
+  port: 80
+  server: 104.18.15.150
+  tls: false
+  type: vmess
+  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  ws-opts:
+    headers:
+      Host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4_30
+  network: ws
+  port: 80
+  server: 162.159.200.7
+  tls: false
+  type: vmess
+  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  ws-opts:
+    headers:
+      Host: er3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_5_35
+  network: ws
+  port: 80
+  server: 104.18.15.148
+  tls: false
+  type: vmess
+  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  ws-opts:
+    headers:
+      Host: er3.889611.com
     path: /
