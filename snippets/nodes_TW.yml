@@ -1,28 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|中国 033
+  name: '21|台湾【TG：@ccbaohe】定时更新节点订阅 #1'
   network: tcp
-  port: 4443
-  server: 118.167.68.3
+  port: '2024'
+  server: b23.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
   uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇹🇼 台湾|@ripaojiedian
+  password: qwerREWQ@@
+  port: 2003
+  server: e001.panda003.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -53,3 +47,13 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省新竹市
+  network: tcp
+  port: '12002'
+  server: 114.37.134.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6
