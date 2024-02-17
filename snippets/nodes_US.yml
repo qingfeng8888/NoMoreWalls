@@ -167,7 +167,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b60fca9a-8e64-453c-b109-e9fc56609023
+  uuid: 733a89a4-502f-41b3-a187-7d09c8823abf
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -177,7 +177,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b60fca9a-8e64-453c-b109-e9fc56609023
+  uuid: 733a89a4-502f-41b3-a187-7d09c8823abf
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -187,7 +187,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b60fca9a-8e64-453c-b109-e9fc56609023
+  uuid: 733a89a4-502f-41b3-a187-7d09c8823abf
 - alterId: 0
   cipher: auto
   name: 19|美国 CloudFlare节点
@@ -260,7 +260,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19,23,24,29|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
+  name: 19,23,24,26,29|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com3
   network: ws
   port: 8080
   server: 162.159.136.253
@@ -274,19 +274,6 @@ proxies:
     headers:
       Host: xentain.kmoljklj.top
     path: /7bFcoRZS?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 19|美国 马里兰州罗耀拉大学
-  network: ws
-  port: 80
-  server: 144.126.145.219
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
   name: 19,21|日本【TG：@ccbaohe】定时更新节点订阅
@@ -2228,11 +2215,10 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 21,26|baipaovpn伊朗
+  name: 21|Hetzner US
   network: ws
-  port: '57223'
+  port: 57223
   server: 5.78.77.159
-  servername: ''
   tls: false
   type: vmess
   uuid: 90b62acb-7ffb-4dd3-cba7-f7ed511be8ab
@@ -3006,7 +2992,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 21,23,24,29|🇺🇸_US_美国->🇩🇪_DE_德国_22_35
+  name: 21,23,24,26,29|🇺🇸_US_美国->🇩🇪_DE_德国_22_35
   network: ws
   port: 80
   server: 104.21.225.108
@@ -3042,7 +3028,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3a51e2f8-d0b6-42ce-a34e-9137a44ea116
+  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -3052,7 +3038,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3a51e2f8-d0b6-42ce-a34e-9137a44ea116
+  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -3062,31 +3048,35 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3a51e2f8-d0b6-42ce-a34e-9137a44ea116
+  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn美国
-  network: tcp
-  port: '28514'
-  server: 45.154.14.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c119b176-7240-43f7-b26f-9b67d54e2b95
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn美国 #1'
   network: ws
-  port: '25314'
-  server: 129.146.31.240
+  port: '80'
+  server: 104.18.107.163
   servername: ''
   tls: false
   type: vmess
-  uuid: 2c8bcc42-4fc4-4c00-88fe-80be04cd6e48
+  uuid: 3566ed4a-5103-4f3c-917d-a6e6e1315062
   ws-opts:
     headers:
-      Host: us-n1.speedyyun.com
-    path: /victorias
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #3'
+  network: ws
+  port: '443'
+  server: 104.17.123.56
+  servername: pq.kmoljklj.top
+  tls: true
+  type: vmess
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  ws-opts:
+    headers:
+      Host: pq.kmoljklj.top
+    path: /qZTtpya?ed=2048
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
