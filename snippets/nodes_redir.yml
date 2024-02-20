@@ -1465,9 +1465,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '4,8|🇺🇸_US_美国->🇩🇪_DE_德国 #111'
+  name: 4,8,19|美国 CloudFlare节点
   network: ws
-  port: 80
+  port: '80'
   server: 104.21.224.23
   tls: false
   type: vmess
@@ -1689,7 +1689,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 4,8,19,21,29|🇺🇸_US_美国->🇩🇪_DE_德国_7_8
+  name: 4,8,21,29|🇺🇸_US_美国->🇩🇪_DE_德国_7_8
   network: ws
   port: 80
   server: 104.21.236.60
@@ -2079,7 +2079,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 9,19,23,24|香港2|@ripaojiedian
+  name: 9,23,24|香港2|@ripaojiedian
   network: ws
   port: '19979'
   server: 101.89.154.94
