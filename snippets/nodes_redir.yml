@@ -170,7 +170,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,9,25|🇺🇸_US_美国->🇩🇪_DE_德国 #190'
+  name: '0,3,9,19,25|🇺🇸_US_美国->🇩🇪_DE_德国 #190'
   network: ws
   port: 80
   server: 104.21.225.229
@@ -1005,21 +1005,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-76
+  name: 1|_US_->_ZA_
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
-  servername: yhnsb3.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      HOST: yhnsb3.shabijichang.com
+      host: yhnsb3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -1548,7 +1544,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,8,9|🇺🇸_US_美国->🇿🇦_ZA_南非 #2'
+  name: '4,8,9,19|美国 CloudFlare节点 #9'
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
@@ -1834,7 +1830,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国->🇩🇪_DE_德国 #148'
+  name: '9,19|美国 CloudFlare节点 #5'
   network: ws
   port: 80
   server: 104.21.224.24
@@ -1847,7 +1843,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国->🇩🇪_DE_德国 #149'
+  name: '9,19|美国 CloudFlare节点 #7'
   network: ws
   port: 80
   server: 104.21.225.253
@@ -1977,7 +1973,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 9,19|美国 CloudFlare节点
+  name: '9|🇺🇸_US_美国->🇩🇪_DE_德国 #163'
   network: ws
   port: 80
   server: 104.21.225.202
