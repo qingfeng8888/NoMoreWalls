@@ -204,7 +204,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1a372fa-f5bc-41fc-a170-96599c0d9b42
+  uuid: 2c33b5ad-8f37-40fd-b206-9b161d58ee4e
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -214,7 +214,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1a372fa-f5bc-41fc-a170-96599c0d9b42
+  uuid: 2c33b5ad-8f37-40fd-b206-9b161d58ee4e
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -224,7 +224,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c1a372fa-f5bc-41fc-a170-96599c0d9b42
+  uuid: 2c33b5ad-8f37-40fd-b206-9b161d58ee4e
 - alterId: 64
   cipher: auto
   name: 19|美国 v2rayfree.eu.org
@@ -2300,7 +2300,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9084ece3-f6cc-4621-8786-48d20e8d794b
+  uuid: b08ac1a0-1623-4998-85ba-b7fd78f9e6fb
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -2310,7 +2310,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9084ece3-f6cc-4621-8786-48d20e8d794b
+  uuid: b08ac1a0-1623-4998-85ba-b7fd78f9e6fb
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -2320,11 +2320,11 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9084ece3-f6cc-4621-8786-48d20e8d794b
+  uuid: b08ac1a0-1623-4998-85ba-b7fd78f9e6fb
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24|美国|@ripaojiedian
+  name: 23,24,26|baipaovpn美国
   network: ws
   port: '80'
   server: 104.21.225.38
@@ -2363,3 +2363,17 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国华盛顿
+  network: ws
+  port: '2612'
+  server: 38.54.97.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d6d16f50-a1a2-5833-81df-939697b6844c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
