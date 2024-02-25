@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 21|[vmess]🇭🇰 HK | 香港LB
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 10625ba4-c22a-4255-9ab3-894a896b8bde
+  ws-opts:
+    headers:
+      Host: d2p3s81qynueox.cloudfront.net
+    path: /stream
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
@@ -73,3 +87,17 @@ proxies:
     headers:
       Host: doxinjiapo.5201314.cfd
     path: /0987ff95
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn香港
+  network: ws
+  port: '36801'
+  server: 20.24.236.121
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  ws-opts:
+    headers:
+      Host: annie50.ceoiii.com
+    path: /hls/cctv5phd.m3u8
