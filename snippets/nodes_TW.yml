@@ -9,26 +9,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf
-- alterId: 0
-  cipher: auto
-  name: 24|台湾|@ripaojiedian
-  network: tcp
-  port: '14431'
-  server: c12.twtc.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn台湾省南投县
-  network: tcp
-  port: '14431'
-  server: 36.232.170.118
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 23|🇹🇼 台湾|@ripaojiedian
+  password: 7A78E173-F183-4E8F-A389-277F8C272140
+  port: 10027
+  server: 36.138.102.76
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 23|🇹🇼 台湾2|@ripaojiedian
+  password: 7A78E173-F183-4E8F-A389-277F8C272140
+  port: 10026
+  server: 36.138.102.76
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn台湾省新北市
@@ -38,7 +34,7 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 19999918-f5fc-4a0b-89d1-f19210b430c9
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn台湾省台北市
@@ -48,13 +44,23 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf
+  uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn台湾省
   network: tcp
   port: '5681'
   server: 118.167.68.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c1400d1-f58b-4551-8df7-c7e3557e1a98
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn台湾省南投县
+  network: tcp
+  port: '14431'
+  server: 36.232.170.118
   servername: ''
   tls: false
   type: vmess
