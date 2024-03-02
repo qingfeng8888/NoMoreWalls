@@ -25,7 +25,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6f968fdd-e264-4c7d-afa3-82f9545d77ae
+  uuid: 1b88e04a-0cf8-4787-84de-738edf34e488
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -35,7 +35,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6f968fdd-e264-4c7d-afa3-82f9545d77ae
+  uuid: 1b88e04a-0cf8-4787-84de-738edf34e488
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -45,7 +45,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6f968fdd-e264-4c7d-afa3-82f9545d77ae
+  uuid: 1b88e04a-0cf8-4787-84de-738edf34e488
 - alterId: 0
   cipher: auto
   name: 19,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_由快嘴科技提供：...
@@ -431,7 +431,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '21,26|baipaovpn美国 #2'
+  name: 21,26|baipaovpn美国
   network: ws
   port: '19344'
   server: 192.9.134.82
@@ -452,7 +452,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d4bb196-250e-4780-8430-c798932b1249
+  uuid: 1fcdeb35-1f7f-4835-9d15-cb63b1a6b904
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -462,7 +462,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d4bb196-250e-4780-8430-c798932b1249
+  uuid: 1fcdeb35-1f7f-4835-9d15-cb63b1a6b904
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -472,7 +472,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d4bb196-250e-4780-8430-c798932b1249
+  uuid: 1fcdeb35-1f7f-4835-9d15-cb63b1a6b904
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -491,31 +491,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn美国
-  network: ws
-  port: '80'
-  server: 172.64.136.149
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: newus1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
   name: '26|baipaovpn美国 #1'
   network: ws
-  port: '28902'
-  server: 64.110.80.81
+  port: '8080'
+  server: 172.67.0.238
   servername: ''
   tls: false
   type: vmess
-  uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   ws-opts:
     headers:
-      Host: kr.pxiz.site
+      Host: eu3.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #2'
+  network: ws
+  port: '8080'
+  server: 172.67.232.144
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  ws-opts:
+    headers:
+      Host: eu3.openxai.link
     path: /?ed=2048
 - alterId: 0
   cipher: auto
