@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-TCP-NA 🇭🇰 HK-185.242.232....
+  network: tcp
+  port: '25185'
+  server: 185.242.232.164
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 784e7466-c926-4c50-dbf4-f07fe8eaf77d
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
@@ -75,7 +85,7 @@ proxies:
     path: d7ea6546-296f-4524-952f-16b4ced4857e-vm
 - alterId: 64
   cipher: auto
-  name: 24,26|baipaovpn广东省广州市
+  name: 24|香港1|@ripaojiedian
   network: tcp
   port: '54137'
   server: 183.233.187.216
@@ -95,7 +105,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 24,26|baipaovpn香港
+  name: 24|香港6|@ripaojiedian
   network: tcp
   port: '36527'
   server: 103.30.76.155
