@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,9|🇪🇸_ES_西班牙->🇭🇰_HK_香港
+  name: '0,3,4,9,25|🇪🇸_ES_西班牙->🇭🇰_HK_香港 #3'
   network: ws
   port: 34601
   server: 185.214.103.156
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,19,21,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_8
+  name: 0,3,4,8,9,21,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_8
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -52,8 +52,8 @@ proxies:
       Host: a.prapt4.ir
     path: /
 - alterId: 0
-  cipher: auto
-  name: 0,9,21|美国 081
+  cipher: chacha20-poly1305
+  name: '0,3,4,9,19,21,25|🇺🇸_US_美国->🇮🇷_IR_伊朗 #3'
   network: ws
   port: 80
   server: you2.fastiran.info
@@ -67,7 +67,7 @@ proxies:
     path: /R5ymmhAFAg5fXQOaPOZVq
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供；...
+  name: 0,3,4,8,9,19,25,29|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供；...
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -80,7 +80,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,9,21|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '0,3,4,9,21,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
   network: ws
   port: 8080
   server: yh1.freeh1.xyz
@@ -93,7 +93,7 @@ proxies:
     path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
 - alterId: 0
   cipher: auto
-  name: '0,9,21|🇺🇸_US_美国->🇩🇪_DE_德国 #5'
+  name: '0,3,4,9,21,25|🇺🇸_US_美国->🇩🇪_DE_德国 #9'
   network: ws
   port: 8080
   server: de-01.cloudlion.me
@@ -106,11 +106,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,9,19,21|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  name: '0,3,4,9,21,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
   network: ws
   port: 8080
   server: fbi.gov
-  servername: ''
   tls: false
   type: vmess
   uuid: 693da022-8e1f-4dab-b3ac-556321989f17
@@ -118,6 +117,20 @@ proxies:
     headers:
       Host: nest-emily-healing-h.trycloudflare.com
     path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
+- alterId: 0
+  cipher: auto
+  name: 1|_ES_->_HK_
+  network: ws
+  port: 34601
+  server: 185.214.103.156
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
+  ws-opts:
+    headers:
+      host: cache-hk-2.cn-db.top
+    path: /db00
 - alterId: 0
   cipher: auto
   name: 1|_US_->_FR__1
@@ -134,31 +147,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_CA_->_US__1
-  network: ws
-  port: 8080
-  server: 23.227.39.45
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
-  ws-opts:
-    headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
-- name: 1|_CA_->_US__2
-  network: ws
-  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-  port: 443
-  server: 23.227.38.11
-  skip-cert-verify: true
-  sni: syndication-statutes-wanted-logo.trycloudflare.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /argox-tr
-- alterId: 0
-  cipher: auto
   name: 1|_AE_->_GB_
   network: ws
   port: 8880
@@ -173,21 +161,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_CA_->_US__3
-  network: ws
-  port: 8080
-  server: 23.227.38.11
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e380bde6-f120-4b80-bdae-ea68b1b64504
-  ws-opts:
-    headers:
-      host: configured-creek-relating-theater.trycloudflare.com
-    path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE_
+  name: 1|_US_->_DE__1
   network: ws
   port: 80
   server: 104.21.69.44
@@ -199,78 +173,92 @@ proxies:
     headers:
       host: a.prapt4.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_CA_->_US__4
+- name: 1|_CA_->_US_
   network: ws
-  port: 8080
-  server: 23.227.39.23
+  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+  port: 443
+  server: 23.227.38.11
+  skip-cert-verify: true
+  sni: syndication-statutes-wanted-logo.trycloudflare.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /argox-tr
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 1|_US_->_IR_
+  network: ws
+  port: 80
+  server: you2.fastiran.info
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e380bde6-f120-4b80-bdae-ea68b1b64504
+  uuid: 9c9d54e5-b213-4e5d-a6fe-4cf40b2b2baf
   ws-opts:
     headers:
-      host: configured-creek-relating-theater.trycloudflare.com
-    path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm
+      host: y2.fastiran.info
+    path: /R5ymmhAFAg5fXQOaPOZVq
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA_
+  name: 1|_US_->_FR__2
   network: ws
-  port: 8080
-  server: yh1.freeh1.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5818310a-92ee-40cd-8303-0dc1396aadda
-  ws-opts:
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: 5818310a-92ee-40cd-8303-0dc1396aadda-vm
-- alterId: 0
-  cipher: auto
-  name: '1,19|美国 CloudFlare节点 #3'
-  network: ws
-  port: '2082'
+  port: 2082
   server: s1c.v2.v001sss.xyz
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: ''
+      host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,25,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供；kk...
+  name: '1,13,16|dongtaiwang.com_8 #2'
   network: ws
   port: 8080
   server: yh1.freeh1.xyz
+  servername: larger-marketing-amounts-skin.trycloudflare.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5818310a-92ee-40cd-8303-0dc1396aadda
+  uuid: fbacc445-fe1c-4122-a2dd-c28c733ea043
   ws-opts:
     headers:
-      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: 5818310a-92ee-40cd-8303-0dc1396aadda-vm
+      host: larger-marketing-amounts-skin.trycloudflare.com
+    path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
 - alterId: 0
   cipher: auto
-  name: 3,4,8,25,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_24
+  name: 1|_US_->_DE__2
   network: ws
   port: 8080
-  server: 23.227.39.23
+  server: de-01.cloudlion.me
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e380bde6-f120-4b80-bdae-ea68b1b64504
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
   ws-opts:
     headers:
-      Host: configured-creek-relating-theater.trycloudflare.com
-    path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm
+      host: de-01.cloudlion.me
+    path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,25,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_由快嘴科技提供；kk...
+  name: '1,16,17|dongtaiwang.com_3 #5'
+  network: ws
+  port: 8080
+  server: fbi.gov
+  servername: nest-emily-healing-h.trycloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 693da022-8e1f-4dab-b3ac-556321989f17
+  ws-opts:
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+    path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
+- alterId: 0
+  cipher: auto
+  name: 8,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_由快嘴科技提供；kk...
   network: ws
   port: 8080
   server: 23.227.39.45
@@ -283,7 +271,7 @@ proxies:
     path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
 - alterId: 0
   cipher: auto
-  name: 3,4,8,25,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_4_25
+  name: 8,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_4_25
   network: ws
   port: 8080
   server: 23.227.38.11
@@ -296,7 +284,33 @@ proxies:
     path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #9'
+  name: 8,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_24
+  network: ws
+  port: 8080
+  server: 23.227.39.23
+  tls: false
+  type: vmess
+  uuid: e380bde6-f120-4b80-bdae-ea68b1b64504
+  ws-opts:
+    headers:
+      Host: configured-creek-relating-theater.trycloudflare.com
+    path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm
+- alterId: 0
+  cipher: auto
+  name: 8,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供；kk...
+  network: ws
+  port: 8080
+  server: yh1.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 5818310a-92ee-40cd-8303-0dc1396aadda
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: 5818310a-92ee-40cd-8303-0dc1396aadda-vm
+- alterId: 0
+  cipher: auto
+  name: '9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #3'
   network: ws
   port: 8080
   server: 23.227.38.22

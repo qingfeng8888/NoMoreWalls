@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7fa0647d-5b46-43bc-b60b-fd31d9e3c262
+  uuid: 2d02780d-349c-4fba-ab69-0275cfaf9c28
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7fa0647d-5b46-43bc-b60b-fd31d9e3c262
+  uuid: 2d02780d-349c-4fba-ab69-0275cfaf9c28
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7fa0647d-5b46-43bc-b60b-fd31d9e3c262
+  uuid: 2d02780d-349c-4fba-ab69-0275cfaf9c28
 - alterId: 0
   cipher: auto
   name: 21|日本 002
@@ -52,7 +52,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08643ef1-4bbc-45bd-bc50-75aaf1fcda25
+  uuid: f9367180-7418-4c19-bb09-9e68ca271144
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -62,7 +62,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08643ef1-4bbc-45bd-bc50-75aaf1fcda25
+  uuid: f9367180-7418-4c19-bb09-9e68ca271144
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -72,7 +72,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08643ef1-4bbc-45bd-bc50-75aaf1fcda25
+  uuid: f9367180-7418-4c19-bb09-9e68ca271144
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本特殊|@ripaojiedian
@@ -85,23 +85,9 @@ proxies:
   cipher: auto
   name: 26|baipaovpn日本
   network: tcp
-  port: '21583'
-  server: 18.183.205.202
-  servername: jp03-alt-vm0.entry.srthdw.art
+  port: '28785'
+  server: 18.183.95.192
+  servername: jp06-vm0.entry.jpojpoh.art
   tls: true
   type: vmess
-  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn日本东京
-  network: ws
-  port: '33003'
-  server: 141.147.174.139
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7
-  ws-opts:
-    headers:
-      Host: jp-tokyo-oracle-dc8895.ip1.shop
-    path: /TG:@dns68提供技术支持
+  uuid: 22cd0e59-02ab-3b48-956a-cfe6b9054ada

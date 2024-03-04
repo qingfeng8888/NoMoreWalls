@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7fa0647d-5b46-43bc-b60b-fd31d9e3c262
+  uuid: 2d02780d-349c-4fba-ab69-0275cfaf9c28
 - alterId: 0
   cipher: auto
   name: '21|Channel id: @ShadowProxy66 🇨🇦'
@@ -262,6 +262,20 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
+  name: 21|加拿大 060
+  network: ws
+  port: 8080
+  server: 172.67.143.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
   name: 21|加拿大 022
   network: ws
   port: 80
@@ -300,6 +314,20 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
+  name: 21|加拿大 005
+  network: ws
+  port: 8080
+  server: www.ywnouvbale.biz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.ywnouvbale.biz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -307,4 +335,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08643ef1-4bbc-45bd-bc50-75aaf1fcda25
+  uuid: f9367180-7418-4c19-bb09-9e68ca271144
