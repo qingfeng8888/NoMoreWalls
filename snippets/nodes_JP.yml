@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0de618bf-7f3c-4792-9c40-44fb9c255d89
+  uuid: bbd940a6-4f13-4d54-a560-0a0e0a2b4e28
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0de618bf-7f3c-4792-9c40-44fb9c255d89
+  uuid: bbd940a6-4f13-4d54-a560-0a0e0a2b4e28
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本06
@@ -28,7 +28,17 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0de618bf-7f3c-4792-9c40-44fb9c255d89
+  uuid: bbd940a6-4f13-4d54-a560-0a0e0a2b4e28
+- alterId: 1
+  cipher: auto
+  name: 21|日本 004
+  network: tcp
+  port: 21583
+  server: 18.183.205.202
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
@@ -57,7 +67,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e15f9605-d71c-4ce4-b830-9d1a6f277a96
+  uuid: 22e2a5ac-beac-469f-a17c-4ba436b37b18
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -67,7 +77,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e15f9605-d71c-4ce4-b830-9d1a6f277a96
+  uuid: 22e2a5ac-beac-469f-a17c-4ba436b37b18
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -77,7 +87,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e15f9605-d71c-4ce4-b830-9d1a6f277a96
+  uuid: 22e2a5ac-beac-469f-a17c-4ba436b37b18
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本特殊|@ripaojiedian
@@ -86,3 +96,41 @@ proxies:
   server: 3.112.221.226
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 18.182.8.172
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6be9b3a4-3e67-4cf5-98dc-c643e3fa8626
+  ws-opts:
+    headers:
+      Host: jp01.beitai.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn日本 #1'
+  network: ws
+  port: '80'
+  server: 43.207.106.188
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6be9b3a4-3e67-4cf5-98dc-c643e3fa8626
+  ws-opts:
+    headers:
+      Host: jp01.beitai.online
+    path: /
+- alterId: 1
+  cipher: auto
+  name: '26|baipaovpn日本 #2'
+  network: tcp
+  port: '21583'
+  server: 18.183.42.232
+  servername: jp03-alt-vm0.entry.srthdw.art
+  tls: true
+  type: vmess
+  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
