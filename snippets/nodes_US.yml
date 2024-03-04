@@ -185,7 +185,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
+  uuid: ce760e28-0dc6-40ab-ba8a-9d5b90a157e0
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -195,7 +195,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
+  uuid: ce760e28-0dc6-40ab-ba8a-9d5b90a157e0
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -205,7 +205,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
+  uuid: ce760e28-0dc6-40ab-ba8a-9d5b90a157e0
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #1'
@@ -621,7 +621,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dc5e0271-c045-41f1-8cbe-83ca42f3e1d2
+  uuid: 82c987a8-c481-472c-8d04-b9323313273f
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -631,7 +631,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dc5e0271-c045-41f1-8cbe-83ca42f3e1d2
+  uuid: 82c987a8-c481-472c-8d04-b9323313273f
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -641,7 +641,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dc5e0271-c045-41f1-8cbe-83ca42f3e1d2
+  uuid: 82c987a8-c481-472c-8d04-b9323313273f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -689,6 +689,48 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn美国
+  network: ws
+  port: '54752'
+  server: 64.110.101.83
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c
+  ws-opts:
+    headers:
+      Host: japan.pxiz.site
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: ws
+  port: '28902'
+  server: 64.110.91.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c
+  ws-opts:
+    headers:
+      Host: kr.pxiz.site
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #2'
+  network: ws
+  port: '42752'
+  server: 64.110.79.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #3'
   network: tcp
   port: '443'
   server: 173.249.197.176
@@ -696,17 +738,3 @@ proxies:
   tls: false
   type: vmess
   uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 52.195.209.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6be9b3a4-3e67-4cf5-98dc-c643e3fa8626
-  ws-opts:
-    headers:
-      Host: jp01.beitai.online
-    path: /
