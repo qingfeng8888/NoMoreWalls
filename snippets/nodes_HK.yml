@@ -31,6 +31,14 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 23|🇭🇰 香港|@ripaojiedian
+  password: da0d870c-6545-4866-8591-3cdebf00f546
+  port: 443
+  server: sst.onlineweb.work
+  skip-cert-verify: false
+  sni: sst.onlineweb.work
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -93,3 +101,17 @@ proxies:
   server: 4cc3.e2s.buzz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|香港2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: onea.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
