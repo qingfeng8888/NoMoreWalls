@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,21,25,29|🇦🇪_AE_阿联酋->🇫🇷_FR_法国_由快嘴科技提供：kk...
+  name: 0,3,4,8,9,25,29|🇦🇪_AE_阿联酋->🇫🇷_FR_法国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -14,11 +14,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,21,25|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
+  name: '0,3,4,8,9,25|🇺🇸_US_美国->🇮🇳_IN_印度 #8'
   network: ws
   port: 8080
   server: www.visa.co.jp
-  servername: ''
   tls: false
   type: vmess
   uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
@@ -28,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,25|🇺🇸_US_美国->🇮🇹_IT_意大利 #3'
+  name: '0,3,4,8,9,25|🇺🇸_US_美国->🇮🇹_IT_意大利 #4'
   network: ws
   port: 2052
   server: frcc.digicert.pp.ua
@@ -41,7 +40,7 @@ proxies:
     path: /apopsdsssaop
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,19,21,25|🇺🇸_US_美国->🇮🇳_IN_印度 #7'
+  name: '0,3,4,8,9,19,25|🇺🇸_US_美国->🇮🇳_IN_印度 #9'
   network: ws
   port: 80
   server: www.visa.com.hk
@@ -55,7 +54,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,25|🇺🇸_US_美国->🇦🇪_AE_阿联酋 #2'
+  name: '0,3,4,8,25|🇺🇸_US_美国->🇦🇪_AE_阿联酋 #3'
   network: ws
   port: 2052
   server: asdad.cxzntq.tech
@@ -161,19 +160,6 @@ proxies:
     path: /apopop
 - alterId: 0
   cipher: auto
-  name: 8,29|🇺🇸_US_美国->🇫🇷_FR_法国_4_2由快嘴科技提供：...
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_20
   network: ws
   port: 8080
@@ -185,3 +171,16 @@ proxies:
     headers:
       Host: nest-emily-healing-h.trycloudflare.com
     path: b1e5c55d-e59b-42c4-aeb9-393e18525cca-vm
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇫🇷_FR_法国_4_2由快嘴科技提供：...
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
