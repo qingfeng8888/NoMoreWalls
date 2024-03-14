@@ -110,3 +110,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn香港
+  network: ws
+  port: '443'
+  server: 47.76.92.191
+  servername: aliyunhk01.caliburnonline.work
+  tls: true
+  type: vmess
+  uuid: a3aeff37-7a5d-4e2b-82fc-8daf44b216c2
+  ws-opts:
+    headers:
+      Host: aliyunhk01.caliburnonline.work
+    path: /oscarspy
