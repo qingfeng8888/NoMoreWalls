@@ -42,9 +42,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,4,8,23,24,25,26|baipaovpn台湾省
+  name: 0,3,4,8,23,24,25,26,29|🇹🇼_TW_台湾_5
   network: ws
-  port: '44332'
+  port: 44332
   server: 118.163.101.44
   servername: cfhk.393930.xyz
   skip-cert-verify: false
@@ -126,7 +126,7 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  name: 9,29|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 9,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 80
   server: 104.21.20.19
@@ -139,7 +139,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_5由快嘴科技提供...
+  name: 9,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
   network: ws
   port: 8080
   server: fbi.gov
@@ -152,7 +152,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  name: 9,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_25
   network: ws
   port: 8080
   server: yh1.freeh1.xyz
@@ -165,117 +165,14 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 29|🇨🇳_CN_中国->🇵🇸_PS_巴勒斯坦_由快嘴科技提供：k...
-  network: tcp
-  port: 30015
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: '29|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz... #2'
-  network: tcp
-  port: 30129
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_5_27
-  network: tcp
-  port: 30051
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇿🇦_ZA_南非->🇩🇪_DE_德国_6
+  name: 29|🇺🇸_US_美国->🇫🇷_FR_法国_6
   network: ws
-  port: 2052
-  server: 206.238.236.36
+  port: 2082
+  server: s1c.v2.v001sss.xyz
   tls: false
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_8_37
-  network: tcp
-  port: 30139
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_4_由快嘴科技提供：k...
-  network: tcp
-  port: 30147
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_6_29
-  network: tcp
-  port: 30141
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_7_3由快嘴科技提供：...
-  network: tcp
-  port: 30058
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_2_25
-  network: tcp
-  port: 30032
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_3_26
-  network: tcp
-  port: 30137
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇺🇸_US_美国_9_39
-  network: tcp
-  port: 30013
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_CN_中国->🇭🇰_HK_香港_47
-  network: ws
-  port: 52052
-  server: 223.113.130.55
-  tls: false
-  type: vmess
-  uuid: c7395784-c77d-390a-9db6-67152462b95b
-  ws-opts:
-    headers:
-      Host: cache-hk-1.cn-db.top
-    path: /db00
+      Host: s1c.v2.v001sss.xyz
+    path: /
