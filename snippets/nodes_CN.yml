@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8,29|🇨🇳_CN_中国_30
-  network: ws
-  port: 58080
-  server: 223.113.130.55
-  tls: false
-  type: vmess
-  uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
-  ws-opts:
-    headers:
-      Host: data-hk-2.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
   name: 19,20,29|🇨🇳_CN_中国->🇨🇦_CA_加拿大_45
   network: ws
   port: 20401
@@ -26,6 +13,16 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 21,24|香港2|@ripaojiedian
+  network: tcp
+  port: '51702'
+  server: 183.236.51.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn广东省佛山市
@@ -40,3 +37,25 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: '29|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz... #1'
+  network: tcp
+  port: 30145
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: 29|🇨🇳_CN_中国_30
+  network: ws
+  port: 58080
+  server: 223.113.130.55
+  tls: false
+  type: vmess
+  uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
+  ws-opts:
+    headers:
+      Host: data-hk-2.cn-db.top
+    path: /db00
