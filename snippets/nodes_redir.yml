@@ -1,11 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,19|美国 CloudFlare节点 #30'
+  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
   port: '2082'
   server: 172.67.130.140
-  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -15,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+  name: 0,3,4,8,9,19,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -28,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,9,19,29|🇨🇦_CA_加拿大_2_27
+  name: 0,9,29|🇨🇦_CA_加拿大_2_27
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -52,21 +51,17 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-29
+  name: 1|_AE_->_FR_
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      HOST: food.zhaal.ir
+      host: food.zhaal.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -96,7 +91,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 9,19,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_24
+  name: 9,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_24
   network: ws
   port: 8080
   server: yh1.freeh1.xyz
