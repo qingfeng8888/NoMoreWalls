@@ -103,7 +103,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3,8,21,25,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
+  name: 3,8,25,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -179,3 +179,16 @@ proxies:
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  network: ws
+  port: 8880
+  server: 172.67.72.2
+  tls: false
+  type: vmess
+  uuid: edbf317d-7671-4089-87ef-89dbc055f428
+  ws-opts:
+    headers:
+      Host: eV2raysadErrrgVxu3pweMTmras.dalidom.com
+    path: /github
