@@ -70,7 +70,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 8,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_39
+  name: 8,19,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_39
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -96,10 +96,11 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 8,9,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_29
+  name: 8,9,19,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_29
   network: ws
   port: 8080
   server: 23.227.38.23
+  servername: ''
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
@@ -116,7 +117,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2ec10a0d-481b-4942-a6f3-25052b4938ee
+  uuid: efaacbee-47ee-45ba-be45-8bbacc33c121
 - alterId: 0
   cipher: auto
   name: 21|加拿大 037
@@ -257,6 +258,19 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 21|🇨🇦 加拿大 081
+  network: ws
+  port: '80'
+  server: 104.21.224.81
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -264,4 +278,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8c77b3a6-2d57-4b58-8ee9-90e62fd2666f
+  uuid: 5cf32c6a-9986-449b-8b39-b0eb661f5f4c
