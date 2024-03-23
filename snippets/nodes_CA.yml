@@ -70,7 +70,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '8|🇨🇦_CA_加拿大 #1'
+  name: 8,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_24
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -96,7 +96,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 8,9,29|🇨🇦_CA_加拿大_2_33
+  name: 8,9,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_28
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -116,7 +116,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f3339178-61d1-413f-80de-31ce85e4bd45
+  uuid: 713f602c-f353-4ce9-9872-7b9d9a652c22
+- alterId: 0
+  cipher: auto
+  name: 19,21|Sh
+  network: ws
+  port: 22751
+  server: 108.181.200.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 09fb03a6-5e49-4a59-e268-dbd1720f5eb1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|加拿大 006
@@ -161,7 +175,7 @@ proxies:
     path: /ows
 - alterId: 0
   cipher: auto
-  name: 21|加拿大 025
+  name: 21,29|🇺🇸_US_美国->🇫🇷_FR_法国_5
   network: ws
   port: 2086
   server: admin.arzonhost.ir
@@ -182,4 +196,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 07c97b26-cfe3-4d6f-8416-785e6e997b10
+  uuid: 6926a0fa-a5d0-477e-91cb-8e04efaedeba
