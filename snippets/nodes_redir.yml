@@ -103,7 +103,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,25,29|🇺🇸_US_美国 #45'
+  name: '3,8,25,29|🇺🇸_US_美国 #43'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -142,7 +142,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '3,9,25,29|🇺🇸_US_美国 #48'
+  name: '3,9,25,29|🇺🇸_US_美国 #46'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -194,6 +194,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 21|🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 29|🇺🇸_US_美国->🇲🇾_MY_马来西亚
   network: ws
   port: 2053
@@ -203,3 +216,16 @@ proxies:
   uuid: d714b81f-0909-4fff-e022-5c5dff67c21a
   ws-opts:
     path: /dq02
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 2086
+  server: de01.appleid.bf
+  tls: false
+  type: vmess
+  uuid: cdccacb4-8335-4824-8d60-005a755f798a
+  ws-opts:
+    headers:
+      Host: de01.appleid.bf
+    path: /ws?ed=2048
