@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b0d8428-1f10-447f-8d90-43d19d7d7ca2
+  uuid: 895da1f3-a274-4c73-9343-21c45338a25c
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b0d8428-1f10-447f-8d90-43d19d7d7ca2
+  uuid: 895da1f3-a274-4c73-9343-21c45338a25c
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b0d8428-1f10-447f-8d90-43d19d7d7ca2
+  uuid: 895da1f3-a274-4c73-9343-21c45338a25c
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 04  | 1x JP
@@ -38,7 +38,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09a89366-6dc1-491f-8e5b-29e1ec5ac727
+  uuid: ffeb2627-cc91-421a-b244-4739a7ff2ba4
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -48,7 +48,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09a89366-6dc1-491f-8e5b-29e1ec5ac727
+  uuid: ffeb2627-cc91-421a-b244-4739a7ff2ba4
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -58,12 +58,12 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09a89366-6dc1-491f-8e5b-29e1ec5ac727
+  uuid: ffeb2627-cc91-421a-b244-4739a7ff2ba4
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇯🇵 日本|@ripaojiedian
   password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
-  port: 50005
+  port: 20007
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
@@ -84,3 +84,25 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.202.41.139
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn日本
+  network: ws
+  port: '41597'
+  server: 183.181.36.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
