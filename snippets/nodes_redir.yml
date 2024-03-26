@@ -103,7 +103,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
+  name: '3,8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -116,7 +116,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,19,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_42
+  name: 3,8,9,19,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -143,7 +143,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: 3,9,25,29|🇺🇸_US_美国->🇫🇷_FR_法国_4_29
+  name: 3,9,25,29|🇺🇸_US_美国->🇫🇷_FR_法国_3_34
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -156,7 +156,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,9,25,29|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
+  name: '3,9,25|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -182,10 +182,19 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  name: 21,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_24
+  network: tcp
+  port: 11129
+  server: 23.142.200.149
+  tls: false
+  type: vmess
+  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
+- alterId: 0
+  cipher: auto
+  name: 21,29|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_由快嘴科技提供：...
   network: ws
   port: 80
-  server: 104.21.235.46
+  server: 104.21.235.6
   tls: false
   type: vmess
   uuid: f4c98b50-e614-11ee-b430-205c6d5f5d78
@@ -195,33 +204,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国->🇿🇦_ZA_南非_3
-  network: ws
-  port: 80
-  server: yhnsb3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
-  ws-opts:
-    headers:
-      Host: yhnsb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇪🇸_ES_西班牙_4
-  network: ws
-  port: 8080
-  server: us2.laobideng.xyz
-  tls: false
-  type: vmess
-  uuid: f9c92e9c-5f92-4ff7-99a1-91a973b6ec57
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_由快嘴科技提供：...
+  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_9
   network: ws
   port: 80
   server: 104.21.235.170
@@ -234,23 +217,27 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_2由快嘴科技提供...
-  network: tcp
-  port: 11129
-  server: 23.142.200.149
-  tls: false
-  type: vmess
-  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_30
+  name: 29|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk...
   network: ws
-  port: 80
-  server: 104.21.235.6
+  port: 8080
+  server: us2.laobideng.xyz
   tls: false
   type: vmess
-  uuid: f4c98b50-e614-11ee-b430-205c6d5f5d78
+  uuid: f9c92e9c-5f92-4ff7-99a1-91a973b6ec57
   ws-opts:
     headers:
-      Host: m4p9q.cnbete.life
-    path: /?ed=2048
+      Host: us2.laobideng.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国->🇿🇦_ZA_南非_36
+  network: ws
+  port: 80
+  server: yhnsb3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  ws-opts:
+    headers:
+      Host: yhnsb3.shabijichang.com
+    path: /
