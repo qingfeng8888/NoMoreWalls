@@ -55,10 +55,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6,12|dongtaiwang.com_1
+  name: 1,12|dongtaiwang.com_1
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -119,7 +116,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f0f34644-ae55-46b8-984f-65f5ccd8918c
+  uuid: e0c6fa08-21ba-4acc-bc2c-048372a0f5ef
 - alterId: 0
   cipher: auto
   name: 21|加拿大 048
@@ -217,6 +214,20 @@ proxies:
     headers:
       Host: nina.bond
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 21,29|🇺🇸_US_美国->🇬🇧_GB_英国_24
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|加拿大 043
@@ -422,4 +433,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8f326b8c-43c2-4edf-bee3-aaf26ffff266
+  uuid: 345d82bf-6a61-4148-a493-2e044ed14d22
