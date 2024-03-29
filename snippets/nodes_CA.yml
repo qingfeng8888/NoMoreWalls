@@ -45,13 +45,22 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 1,3,8,9,25,29|🇨🇦_CA_加拿大_2
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 1,3,6,8,9,25,29|🇨🇦_CA_加拿大_2
   network: http
   port: 3389
   server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
@@ -116,7 +125,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3654a1f2-130e-4122-920f-434c2f43d64a
+  uuid: cfcd7193-405d-40d1-9bc7-ec8d1ad67007
 - alterId: 0
   cipher: auto
   name: 21|加拿大 022
@@ -209,4 +218,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bb9a5c24-d2b2-4b43-91f5-0c80dc13e24a
+  uuid: dcd9ee3e-b5a2-45a5-a9b0-0293dee73f9d
