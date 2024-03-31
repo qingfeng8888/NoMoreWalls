@@ -103,7 +103,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,21,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
+  name: '3,8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -194,7 +194,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '21,29|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
+  name: '21,29|🇺🇸_US_美国->🇬🇧_GB_英国 #3'
+  network: ws
+  port: 8880
+  server: cdn.vds-server.ir
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: cdn.vds-server.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21,29|🇺🇸_US_美国->🇬🇧_GB_英国 #2'
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
