@@ -707,7 +707,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: 3,9,25,29|🇺🇸_US_美国_8_2由快嘴科技提供：kkzui.com
+  name: 3,9,19,25,29|🇺🇸_US_美国_8_2由快嘴科技提供：kkzui.com
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -782,6 +782,19 @@ proxies:
   ws-opts:
     headers:
       Host: cdn.vds-server.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,29|🇺🇸_US_美国->🇫🇷_FR_法国_2_9
+  network: ws
+  port: 2086
+  server: 104.21.4.14
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
