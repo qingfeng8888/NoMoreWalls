@@ -681,7 +681,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+  name: 3,8,9,25,29|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_22
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -707,7 +707,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '3,9,25|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: 3,9,25,29|🇺🇸_US_美国_8_2由快嘴科技提供：kkzui.com
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -720,7 +720,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,9,25|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: '3,9,25|🇺🇸_US_美国->🇫🇷_FR_法国 #7'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -746,7 +746,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '21,29|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz... #1'
+  name: 21,29|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
   port: 2086
   server: admin.arzonhost.ir
@@ -759,7 +759,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  name: '21,29|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,29|🇺🇸_US_美国->🇬🇧_GB_英国_2_35
   network: ws
   port: 8880
   server: cdn.vds-server.ir
@@ -772,14 +785,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_US_美国->🇫🇷_FR_法国_3_20
+  name: 29|🇺🇸_US_美国->🇩🇪_DE_德国_2_39
   network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  tls: false
+  port: 443
+  server: cdn2_de.majutsu.top
+  tls: true
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 61abbe9b-ac90-4dcc-99de-35e17f0ce847
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
+      Host: cdn2_de.majutsu.top
+    path: /acc
