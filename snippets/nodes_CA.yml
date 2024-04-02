@@ -1,16 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '3,8,9,25|🇨🇦_CA_加拿大 #7'
-  network: http
-  port: 3389
-  server: 134.122.41.160
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: '8|🇨🇦_CA_加拿大 #1'
+  name: 8|🇨🇦_CA_加拿大
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -23,7 +14,20 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '8|🇨🇦_CA_加拿大 #3'
+  name: '8,25|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: '8|🇨🇦_CA_加拿大 #2'
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -34,6 +38,15 @@ proxies:
     headers:
       Host: internet.life.com.by
     path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  name: '8,9,25|🇨🇦_CA_加拿大 #6'
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 8,9,29|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_29
@@ -56,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cbc0e79e-85a7-4d83-b70b-01c8680c08df
+  uuid: be44d2a5-bc31-47c4-871d-31166e49d837
 - alterId: 0
   cipher: auto
   name: 21|加拿大 008
@@ -73,24 +86,15 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇦 加拿大 009
+  name: 21|🔒 VM-WS-NA 🇨🇦 CA-104.234.69.24...
   network: ws
-  port: '2095'
-  server: 172.67.214.33
+  port: 53259
+  server: 104.234.69.243
+  servername: ''
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 4dd6c192-8284-4504-9dee-5ca7da27069b
   ws-opts:
     headers:
-      Host: onea.flha.ru
+      Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 22|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m3c5wy.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 440b5a23-6c9e-47e6-a28e-846c62a421f9
