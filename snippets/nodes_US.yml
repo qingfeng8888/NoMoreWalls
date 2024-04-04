@@ -230,7 +230,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86c8f023-e535-4380-9f83-7652a371de4a
+  uuid: 7e0b607e-8ca8-4c18-b5aa-208b2a42e6c9
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -240,7 +240,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86c8f023-e535-4380-9f83-7652a371de4a
+  uuid: 7e0b607e-8ca8-4c18-b5aa-208b2a42e6c9
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -250,7 +250,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86c8f023-e535-4380-9f83-7652a371de4a
+  uuid: 7e0b607e-8ca8-4c18-b5aa-208b2a42e6c9
 - alterId: 0
   cipher: auto
   name: 19|美国 CloudFlare节点
@@ -1091,7 +1091,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8067cd05-805a-4876-a7cd-8e5b7d22d963
+  uuid: f2332175-5903-461c-a7c7-16dd9e453aa2
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -1101,7 +1101,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8067cd05-805a-4876-a7cd-8e5b7d22d963
+  uuid: f2332175-5903-461c-a7c7-16dd9e453aa2
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -1111,7 +1111,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8067cd05-805a-4876-a7cd-8e5b7d22d963
+  uuid: f2332175-5903-461c-a7c7-16dd9e453aa2
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1142,34 +1142,16 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn美国
-  network: ws
-  port: '80'
-  server: 172.64.111.159
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: ru327.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
+- alterId: 1
   cipher: auto
   name: '26|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 104.20.30.205
-  servername: ''
-  tls: false
+  network: tcp
+  port: '28786'
+  server: 52.195.166.42
+  servername: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
   type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: newsg1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
+  uuid: e147ce52-2598-31b0-950d-6b12c306b360
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_18
