@@ -29,22 +29,6 @@ proxies:
   server: 1.65.218.192
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.82.85
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇭🇰 香港|@ripaojiedian
@@ -61,6 +45,17 @@ proxies:
   server: hk.1.thap.xyz
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇭🇰 香港7|@ripaojiedian
+  port: 35601
+  server: 120.238.122.243
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
