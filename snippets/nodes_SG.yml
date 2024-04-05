@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1fdcad85-bc2f-4733-84cf-5d99fdb5d1c5
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1fdcad85-bc2f-4733-84cf-5d99fdb5d1c5
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡06
@@ -28,7 +28,34 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1fdcad85-bc2f-4733-84cf-5d99fdb5d1c5
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
+- alterId: 0
+  cipher: auto
+  name: 21|SG_youtube@资源分享师_217
+  network: ws
+  port: 80
+  server: sg03.oliviapretty.online
+  tls: false
+  type: vmess
+  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
+  ws-opts:
+    headers:
+      Host: sg03.oliviapretty.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: 26012
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: tiktok.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 04 | 1x SG
@@ -38,7 +65,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fbfb4f90-6b36-4392-9437-a245b1a01c53
+  uuid: ef2a7ef3-2182-4879-b540-8e9f5b27b9e9
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 05 | 1x SG
@@ -48,7 +75,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fbfb4f90-6b36-4392-9437-a245b1a01c53
+  uuid: ef2a7ef3-2182-4879-b540-8e9f5b27b9e9
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 06 | 1x SG
@@ -58,12 +85,32 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fbfb4f90-6b36-4392-9437-a245b1a01c53
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.214.212.171
-  tfo: false
-  type: ss
+  uuid: ef2a7ef3-2182-4879-b540-8e9f5b27b9e9
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn新加坡
+  network: ws
+  port: '80'
+  server: 54.255.213.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn新加坡 #1'
+  network: ws
+  port: '80'
+  server: 54.255.213.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
+  ws-opts:
+    headers:
+      Host: sg03.hajimihajimihajimi.online
+    path: /
