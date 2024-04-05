@@ -230,7 +230,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e2ac212d-d55d-43b9-9173-cb1938c0a673
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -240,7 +240,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e2ac212d-d55d-43b9-9173-cb1938c0a673
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -250,7 +250,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e2ac212d-d55d-43b9-9173-cb1938c0a673
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 19|美国 CloudFlare节点
@@ -799,7 +799,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 283ca820-d5bd-4e39-b3c3-575930a9cf6a
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -809,7 +809,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 283ca820-d5bd-4e39-b3c3-575930a9cf6a
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -819,7 +819,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 283ca820-d5bd-4e39-b3c3-575930a9cf6a
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -880,6 +880,62 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 3.38.165.124
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 3.38.179.117
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #2'
+  network: ws
+  port: '2087'
+  server: 47.236.150.13
+  servername: jp.pddf.buzz
+  tls: true
+  type: vmess
+  uuid: 0b732cff-36f4-43e4-a921-7925c78afc92
+  ws-opts:
+    headers:
+      Host: jp.pddf.buzz
+    path: /pdd?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 3.38.165.124
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
+  ws-opts:
+    headers:
+      Host: kr03.hajimihajimihajimi.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_1
