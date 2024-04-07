@@ -540,6 +540,20 @@ proxies:
   uuid: 538f45a8-cfeb-4c29-9903-f8ccec575160
 - alterId: 0
   cipher: auto
+  name: 21|美国 009
+  network: ws
+  port: 2052
+  server: 66.225.246.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-TCP-NA 🇺🇸 US-66.42.118.37...
   network: tcp
   port: '39742'
@@ -852,7 +866,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 60e51218-e571-41ce-b32a-1dfc2216f21c
+  uuid: d801c704-e5d6-445e-bb8a-99d019409696
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -862,7 +876,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 60e51218-e571-41ce-b32a-1dfc2216f21c
+  uuid: d801c704-e5d6-445e-bb8a-99d019409696
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -872,7 +886,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 60e51218-e571-41ce-b32a-1dfc2216f21c
+  uuid: d801c704-e5d6-445e-bb8a-99d019409696
 - alterId: 0
   cipher: auto
   name: '25|🇺🇸_US_美国 #29'
@@ -886,6 +900,20 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 104.19.245.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1b06158a-ea35-4e54-885d-d1eb61f34278
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_5
