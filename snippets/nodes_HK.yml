@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 21,24|香港2|@ripaojiedian
+  network: tcp
+  port: '80'
+  server: UNLIMITED.HUY.0.SRL
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
   network: ws
   port: 24101
@@ -106,7 +116,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 24|香港3|@ripaojiedian
+  name: '24,26|baipaovpn广东省广州市 #1'
   network: tcp
   port: '41492'
   server: 120.232.242.117
@@ -114,13 +124,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn香港 #1'
-  network: tcp
-  port: '80'
-  server: 1.64.14.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
