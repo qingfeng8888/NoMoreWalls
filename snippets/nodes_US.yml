@@ -242,7 +242,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1e8f6099-dd9c-48aa-9e71-660de5376f08
+  uuid: a8eaa66b-70aa-4d26-938e-8325d79bf37b
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -252,7 +252,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1e8f6099-dd9c-48aa-9e71-660de5376f08
+  uuid: a8eaa66b-70aa-4d26-938e-8325d79bf37b
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -262,7 +262,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1e8f6099-dd9c-48aa-9e71-660de5376f08
+  uuid: a8eaa66b-70aa-4d26-938e-8325d79bf37b
 - alterId: 0
   cipher: auto
   name: 19|美国 CloudFlare节点
@@ -457,20 +457,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 10979bca-b26b-42ae-801c-b2efbd1bf8b8
-- alterId: 0
-  cipher: auto
-  name: 21|US美国1[ccbaohe.com]永久免费机场节点
-  network: ws
-  port: '46666'
-  server: us-phoenix-oracle-3e4543.ip1.shop
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: us-phoenix-oracle-3e4543.ip1.shop
-    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: '21|美国 CloudFlare节点 #12'
@@ -1056,7 +1042,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7b3b145-b420-4c57-8d95-a9963cdce774
+  uuid: 8e22122a-df3f-49ef-a62c-69c8e4e402f0
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -1066,7 +1052,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7b3b145-b420-4c57-8d95-a9963cdce774
+  uuid: 8e22122a-df3f-49ef-a62c-69c8e4e402f0
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -1076,7 +1062,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7b3b145-b420-4c57-8d95-a9963cdce774
+  uuid: 8e22122a-df3f-49ef-a62c-69c8e4e402f0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1121,6 +1107,20 @@ proxies:
   tls: false
   type: vmess
   uuid: be2691a5-180e-488b-835a-45e991299830
+- alterId: 0
+  cipher: auto
+  name: 24|美国5|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: fcdn.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '25|🇺🇸_US_美国 #29'
