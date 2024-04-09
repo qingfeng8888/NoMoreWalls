@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰|HK|香港|@wxgqlfx|157
+  network: ws
+  port: '443'
+  server: 43.154.96.33
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
@@ -74,9 +88,17 @@ proxies:
   server: 47.96.69.161
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 23|🇭🇰 香港7|@ripaojiedian
+  password: a-wym4ovY4Yw
+  port: 80
+  server: 1.65.205.246
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 24,26|baipaovpn广东省
+  name: 24|香港2|@ripaojiedian
   network: tcp
   port: '41242'
   server: 183.237.20.158
@@ -86,7 +108,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 24,26|baipaovpn广东省广州市
+  name: 24|香港3|@ripaojiedian
   network: tcp
   port: '41492'
   server: 120.232.242.117
