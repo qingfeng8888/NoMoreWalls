@@ -54,17 +54,6 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #3'
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
   name: '8,9|🇺🇸_US_美国 #19'
   network: ws
   port: 2052
@@ -242,7 +231,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 604306ad-a000-4e8f-b715-65646b829448
+  uuid: 5f522583-bfd7-4200-888e-6a4470f3aa4e
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -252,7 +241,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 604306ad-a000-4e8f-b715-65646b829448
+  uuid: 5f522583-bfd7-4200-888e-6a4470f3aa4e
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -262,7 +251,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 604306ad-a000-4e8f-b715-65646b829448
+  uuid: 5f522583-bfd7-4200-888e-6a4470f3aa4e
 - alterId: 0
   cipher: auto
   name: 19|美国 CloudFlare节点
@@ -764,20 +753,6 @@ proxies:
   uuid: 3b26d949-5b44-4268-dca5-42bf7061db7f
 - alterId: 0
   cipher: auto
-  name: 21|美国 007
-  network: ws
-  port: 443
-  server: 38.96.254.35
-  servername: 38.96.254.35
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: 21|🔒 VM-TCP-NA 🇺🇸 US-207.246.103....
   network: tcp
   port: '44973'
@@ -867,6 +842,20 @@ proxies:
   uuid: d80bd214-da50-4a3a-e1d5-67632bd5094e
 - alterId: 0
   cipher: auto
+  name: 21,24|美国5|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: fcdn.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 21|🇺🇸|US|美国|@wxgqlfx|164
   network: ws
   port: '8080'
@@ -879,20 +868,6 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 21|美国 010
-  network: ws
-  port: 443
-  server: 23.154.136.2
-  servername: 23.154.136.2
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 21|🇺🇸 US_258
@@ -1013,6 +988,15 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 21|🇺🇸 美国 013
+  network: tcp
+  port: '41384'
+  server: 38.147.160.101
+  tls: false
+  type: vmess
+  uuid: ab6643ec-5172-4a7b-b0e0-f2767bae83aa
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-TCP-NA 🇺🇸 US-149.248.0.91...
   network: tcp
   port: '36565'
@@ -1112,7 +1096,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6c197954-f8f7-4dd8-b0a9-f4bcf57f6b4a
+  uuid: 20a09d0e-a5f5-43ae-9b65-250d6bed3e45
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -1122,7 +1106,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6c197954-f8f7-4dd8-b0a9-f4bcf57f6b4a
+  uuid: 20a09d0e-a5f5-43ae-9b65-250d6bed3e45
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -1132,7 +1116,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6c197954-f8f7-4dd8-b0a9-f4bcf57f6b4a
+  uuid: 20a09d0e-a5f5-43ae-9b65-250d6bed3e45
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇺🇸 美国|@ripaojiedian
@@ -1193,16 +1177,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|美国4|@ripaojiedian
-  network: tcp
-  port: '21945'
-  server: 172.98.22.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be2691a5-180e-488b-835a-45e991299830
-- alterId: 0
-  cipher: auto
   name: '25|🇺🇸_US_美国 #29'
   network: ws
   port: 2095
@@ -1216,7 +1190,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn美国 #1'
+  name: 26|baipaovpn美国
   network: ws
   port: '80'
   server: 172.64.104.182
