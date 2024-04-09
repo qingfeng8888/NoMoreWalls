@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 21|🇭🇰|HK|香港|@wxgqlfx|157
+  network: ws
+  port: '443'
+  server: 43.154.96.33
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
   network: ws
   port: 24101
@@ -46,6 +60,19 @@ proxies:
     headers:
       Host: hk.lalayunssl.xyz
     path: /v2ray
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇩🇪 德国|@ripaojiedian
+  password: f37a931d-7092-48fe-b82f-a98da3040eb2
+  port: 2053
+  server: 95.164.68.116
+  skip-cert-verify: false
+  sni: ftp.debian.org
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: be2691a5-180e-488b-835a-45e991299830
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -98,7 +125,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 24|香港2|@ripaojiedian
+  name: 24,26|baipaovpn广东省
   network: tcp
   port: '41242'
   server: 183.237.20.158
@@ -108,7 +135,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 24|香港3|@ripaojiedian
+  name: 24,26|baipaovpn广东省广州市
   network: tcp
   port: '41492'
   server: 120.232.242.117
