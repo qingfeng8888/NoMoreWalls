@@ -76,7 +76,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 24,26|baipaovpn广东省广州市
+  name: 24|香港3|@ripaojiedian
   network: tcp
   port: '41492'
   server: 120.232.242.117
@@ -96,11 +96,15 @@ proxies:
   uuid: 8a082903-6e40-4307-b73b-d0d26791c771
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn香港
-  network: tcp
-  port: '443'
-  server: 220.246.94.127
-  servername: ''
-  tls: false
+  name: '26|baipaovpn香港 #1'
+  network: ws
+  port: '2053'
+  server: 47.242.155.183
+  servername: cfhk.393930.xyz
+  tls: true
   type: vmess
-  uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
