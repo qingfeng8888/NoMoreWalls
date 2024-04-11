@@ -216,7 +216,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 97be9f13-01de-4d0f-9bd3-1f77f91b8d19
+  uuid: 4e4efd59-616e-4df8-8af0-2c09bf1c0fc5
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -226,7 +226,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 97be9f13-01de-4d0f-9bd3-1f77f91b8d19
+  uuid: 4e4efd59-616e-4df8-8af0-2c09bf1c0fc5
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -236,7 +236,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 97be9f13-01de-4d0f-9bd3-1f77f91b8d19
+  uuid: 4e4efd59-616e-4df8-8af0-2c09bf1c0fc5
 - alterId: 0
   cipher: auto
   name: 19,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
@@ -655,20 +655,6 @@ proxies:
   uuid: 260877c8-e970-44b5-97fe-9ef0052158d5
 - alterId: 0
   cipher: auto
-  name: 21,24|美国5|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: fcdn.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 21|🇺🇸 美国 009
   network: ws
   port: '443'
@@ -774,7 +760,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d86065e5-df6a-4457-985f-1b6dd43bad76
+  uuid: 9b4b3325-0d30-4929-aaaa-34a86105c314
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -784,7 +770,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d86065e5-df6a-4457-985f-1b6dd43bad76
+  uuid: 9b4b3325-0d30-4929-aaaa-34a86105c314
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -794,7 +780,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d86065e5-df6a-4457-985f-1b6dd43bad76
+  uuid: 9b4b3325-0d30-4929-aaaa-34a86105c314
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -849,6 +835,20 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: ws
+  port: '8080'
+  server: 172.67.199.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_3_23
