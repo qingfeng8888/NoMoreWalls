@@ -215,7 +215,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 409f2a8d-9f3a-47ec-880b-854e4592d338
+  uuid: 88126dc9-d200-454e-8cf1-3c0bce63c6ec
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -225,7 +225,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 409f2a8d-9f3a-47ec-880b-854e4592d338
+  uuid: 88126dc9-d200-454e-8cf1-3c0bce63c6ec
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -235,10 +235,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 409f2a8d-9f3a-47ec-880b-854e4592d338
+  uuid: 88126dc9-d200-454e-8cf1-3c0bce63c6ec
 - alterId: 0
   cipher: auto
-  name: 19,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
+  name: 19,29|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com8
   network: ws
   port: 2095
   server: onea.flha.ru
@@ -264,9 +264,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_4_由快嘴科技提供：k...
+  name: '19|美国 CloudFlare节点 #2'
   network: ws
-  port: 2082
+  port: '2082'
   server: s1c.v2.v001sss.xyz
   servername: ''
   tls: false
@@ -292,7 +292,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
+  name: 19,29|🇺🇸_US_美国->🇫🇷_FR_法国_2_6
   network: ws
   port: 2086
   server: admin.arzonhost.ir
@@ -499,6 +499,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 21|美国 002
+  network: ws
+  port: 443
+  server: 23.154.136.2
+  servername: 23.154.136.2
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-TCP-NA 🇺🇸 US-207.148.10.2...
   network: tcp
   port: '47918'
@@ -671,20 +685,6 @@ proxies:
     headers:
       Host: kittiy.sbs
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 21|US_粉爱福利线路_11
-  network: ws
-  port: 80
-  server: us219.netfilx.live
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-TCP-NA 🇺🇸 US-172.234.17.2...
@@ -985,7 +985,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ae205cf6-b3d2-4cfe-a63c-c2df852ee9b5
+  uuid: 9ed011dd-eb4d-4fcf-9a39-09dec3e36c2d
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -995,7 +995,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ae205cf6-b3d2-4cfe-a63c-c2df852ee9b5
+  uuid: 9ed011dd-eb4d-4fcf-9a39-09dec3e36c2d
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -1005,11 +1005,11 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ae205cf6-b3d2-4cfe-a63c-c2df852ee9b5
+  uuid: 9ed011dd-eb4d-4fcf-9a39-09dec3e36c2d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24,29|🇺🇸_US_美国->🇬🇧_GB_英国_2_20
+  name: 23,24,29|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
@@ -1086,40 +1086,3 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国_3_23
-  network: ws
-  port: 2095
-  server: 104.18.135.91
-  tls: false
-  type: vmess
-  uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
-  ws-opts:
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com2
-  network: ws
-  port: 2095
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
-  ws-opts:
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
-  network: ws
-  port: 2087
-  server: api.cdn-tgju.org
-  tls: true
-  type: vmess
-  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
-  ws-opts:
-    path: /ows
