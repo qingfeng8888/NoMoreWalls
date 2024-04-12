@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
+  uuid: 50e66f22-89c4-43a4-ab64-5d4c4fc07465
 - alterId: 0
   cipher: auto
   name: 21|رایگان | VMESS | @DailyV2RY | ...
@@ -96,6 +96,23 @@ proxies:
     headers:
       Host: nd-truth-210a8hwjhs.bonar11011.workers.dev
     path: /nina.bond/linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 21,23,24,26|baipaovpn加拿大
+  network: ws
+  port: '443'
+  server: 158.51.123.111
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 21|加拿大 044
@@ -346,4 +363,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0392c3c7-fb59-41c2-b284-3df905f56312
+  uuid: f7809d58-365d-4b1f-883a-6ad9de244acb
