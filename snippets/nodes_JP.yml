@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5e125153-8f1c-47df-8c9f-9d0e1cc60992
+  uuid: b47974d3-c39a-42ce-8cab-8c7e4dde7c5e
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5e125153-8f1c-47df-8c9f-9d0e1cc60992
+  uuid: b47974d3-c39a-42ce-8cab-8c7e4dde7c5e
 - alterId: 0
   cipher: auto
   name: 18|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5e125153-8f1c-47df-8c9f-9d0e1cc60992
+  uuid: b47974d3-c39a-42ce-8cab-8c7e4dde7c5e
 - alterId: 0
   cipher: auto
   name: 21|RU_分享日记
@@ -83,20 +83,6 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 21|日本 001
-  network: ws
-  port: 8080
-  server: kkyx.yydsii.com
-  servername: kkyx.yydsii.com
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 21|JP_分享日记
   network: ws
   port: '12345'
@@ -118,7 +104,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 64c02f5b-1e4a-4405-820b-2855b31a583d
+  uuid: 7bdd6fcb-36fe-4bc3-8d09-b170586354ac
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -128,7 +114,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 64c02f5b-1e4a-4405-820b-2855b31a583d
+  uuid: 7bdd6fcb-36fe-4bc3-8d09-b170586354ac
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -138,7 +124,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 64c02f5b-1e4a-4405-820b-2855b31a583d
+  uuid: 7bdd6fcb-36fe-4bc3-8d09-b170586354ac
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇯🇵 日本1|@ripaojiedian
@@ -165,17 +151,3 @@ proxies:
   tls: false
   type: vmess
   uuid: f094f632-5113-4f1c-8398-25077be216b0
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn日本
-  network: ws
-  port: '2052'
-  server: 47.74.34.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
-  ws-opts:
-    headers:
-      Host: jpyouyou.mac2winer.cfd
-    path: /039fc4e4
