@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 19,24|韩国|@ripaojiedian
+  network: tcp
+  port: '30127'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 64
   cipher: auto
   name: 19,24|香港|@ripaojiedian
@@ -23,3 +33,17 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn中国
+  network: ws
+  port: '80'
+  server: 8.217.147.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
+  ws-opts:
+    headers:
+      Host: mix.tgdns68.vps666.onflashdrive.app
+    path: /TG@dns68公益节点
