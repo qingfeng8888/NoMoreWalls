@@ -69,45 +69,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 87e0f858-ba5b-446a-9a72-8356500043ba
+  uuid: 6893628e-dc16-455e-b7b2-387dfc253372
 - alterId: 0
   cipher: auto
-  name: 21|加拿大 008
+  name: '21|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
-  port: 8080
-  server: 172.67.199.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|加拿大 024
-  network: ws
-  port: 443
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  servername: ''
+  port: '2096'
+  server: 172.67.204.84
+  servername: nl1-vmess.sshmax.xyz
   tls: true
   type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  uuid: 6a91ce2e-c570-4fa4-a497-c6386fb48a15
   ws-opts:
     headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+      Host: nl1-vmess.sshmax.xyz
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 21|CA_speednode_0003
@@ -124,20 +100,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇦 加拿大 067
+  name: 21|🇨🇦 加拿大 041
   network: ws
-  port: '2053'
-  server: u05.tk3322.com
+  port: '443'
+  server: nicoler.lol
   tls: true
   type: vmess
-  uuid: bf185479-64e1-42d5-a98f-f012c7376e2a
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: u05.tk3322.com
-    path: /u05
+      Host: nicoler.lol
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '21|Channel id: @ShadowProxy66 🇨🇦'
+  name: '21|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
   port: '443'
   server: maviss.cfd
@@ -151,6 +127,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 21|加拿大 026
+  network: ws
+  port: 2053
+  server: u05.tk3322.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf185479-64e1-42d5-a98f-f012c7376e2a
+  ws-opts:
+    headers:
+      Host: u05.tk3322.com
+    path: /u05
+- alterId: 0
+  cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -158,7 +148,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a98f0bc-1d2e-4306-b235-243fb15a3a0d
+  uuid: c7e600c1-5ce0-4cba-b924-171e70c1ff8d
 - alterId: 0
   cipher: auto
   name: 29|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_14
