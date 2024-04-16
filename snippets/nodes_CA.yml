@@ -27,11 +27,10 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '8,21|United States_Los Angeles_vmes... #1'
+  name: '8|🇨🇦_CA_加拿大 #2'
   network: ws
   port: 8080
   server: 108.181.23.161
-  servername: ''
   tls: false
   type: vmess
   uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
@@ -70,7 +69,31 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f012a97-d253-4c2b-8001-f5761b04ef39
+  uuid: 2f18be59-800c-44bd-98de-f245a6e84881
+- alterId: 0
+  cipher: auto
+  name: 21|加拿大 003
+  network: ws
+  port: 8080
+  server: 172.67.199.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|Canada_Toronto_vmess_10155
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: '21|Channel id: @ShadowProxy66 🇨🇦'
@@ -84,18 +107,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 21,29|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com0
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  servername: 158.51.123.111
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -113,34 +124,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21|加拿大 003
-  network: ws
-  port: 8080
-  server: 172.67.199.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|Channel id: @ShadowProxy66 🇨🇦 #1'
-  network: ws
-  port: '443'
-  server: 104.21.83.108
-  servername: hms02.fxiaomi.sbs
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /link
-- alterId: 0
-  cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -148,4 +131,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7e8723d9-def6-44ad-a07f-3042e5d10f4e
+  uuid: 6a70706b-efc0-49c3-a230-fd7174fe61ca
