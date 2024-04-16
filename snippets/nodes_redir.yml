@@ -92,19 +92,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_9
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 21,29|🇺🇸_US_美国->🇫🇷_FR_法国_4_由快嘴科技提供：k...
   network: ws
   port: 8880
@@ -115,19 +102,6 @@ proxies:
   ws-opts:
     headers:
       Host: cdn.vds-server.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2086
-  server: 172.67.223.242
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -155,3 +129,12 @@ proxies:
     headers:
       Host: admin.arzonhost.ir
     path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇨🇳_CN_中国->🇹🇼_TW_台湾_2由快嘴科技提供：kk...
+  network: tcp
+  port: 30112
+  server: 183.240.179.207
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
