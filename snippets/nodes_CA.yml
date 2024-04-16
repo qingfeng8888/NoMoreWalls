@@ -69,24 +69,24 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 15b63c7a-076e-4164-9388-fa7ef0d4d1e1
+  uuid: 425e95a1-0795-4636-9001-710e4fbfaa59
 - alterId: 0
   cipher: auto
-  name: 19,21|CA_speednode_0002
+  name: 21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_6_6
   network: ws
-  port: 443
-  server: 158.51.121.36
+  port: 2082
+  server: 104.26.5.32
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 009d320a-5960-49e6-99c3-301966ff6fea
   ws-opts:
     headers:
-      Host: ''
-    path: /linkvws
+      Host: bbh.redbullplus.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 21,29|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com0
+  name: 21,29|🇨🇦_CA_加拿大_29_29
   network: ws
   port: 443
   server: 158.51.123.111
@@ -136,6 +136,20 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
+  name: 21|CA_speednode_0002
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -143,4 +157,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3f7bdd1c-5fba-4403-b587-dea7441f4887
+  uuid: e078ba0b-f431-4fa1-bb57-acd89ff7abcc
