@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d7923ab9-8609-4c46-b643-a4b03aabfaa5
+  uuid: e5f5cf50-3add-4061-abf6-3654a07919a7
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d7923ab9-8609-4c46-b643-a4b03aabfaa5
+  uuid: e5f5cf50-3add-4061-abf6-3654a07919a7
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d7923ab9-8609-4c46-b643-a4b03aabfaa5
+  uuid: e5f5cf50-3add-4061-abf6-3654a07919a7
 - alterId: 0
   cipher: auto
   name: 21|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
@@ -78,7 +78,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ba6f586-d648-45d9-a8d2-a2c662f64104
+  uuid: 36b53899-7e3c-4c6c-b7ba-3787f4a4c527
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 05 | 1x SG
@@ -88,7 +88,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ba6f586-d648-45d9-a8d2-a2c662f64104
+  uuid: 36b53899-7e3c-4c6c-b7ba-3787f4a4c527
 - alterId: 0
   cipher: auto
   name: 22|【BGP】新加坡 06 | 1x SG
@@ -98,7 +98,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ba6f586-d648-45d9-a8d2-a2c662f64104
+  uuid: 36b53899-7e3c-4c6c-b7ba-3787f4a4c527
 - client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian
   network: ws
@@ -129,3 +129,35 @@ proxies:
     headers:
       Host: six.nekoneko.buzz
     path: /cctv13/hd.m3u8
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.218.182
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn新加坡
+  network: ws
+  port: '49829'
+  server: 68.183.180.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 29270a16-0f2a-4919-adf0-2a577eafdd5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn新加坡 #1'
+  network: tcp
+  port: '50001'
+  server: 18.141.146.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
