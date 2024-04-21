@@ -215,7 +215,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc6f4b47-7f09-4ae2-a8a4-d1c3a3e5d965
+  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国05
@@ -225,7 +225,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc6f4b47-7f09-4ae2-a8a4-d1c3a3e5d965
+  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸美国06
@@ -235,7 +235,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc6f4b47-7f09-4ae2-a8a4-d1c3a3e5d965
+  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
 - alterId: 0
   cipher: auto
   name: 19|美国 CloudFlare节点
@@ -303,6 +303,20 @@ proxies:
   ws-opts:
     headers:
       Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #4'
+  network: ws
+  port: '2095'
+  server: onea.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -734,7 +748,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f02c4dd8-eeb2-4778-bf32-2ae0c11eed04
+  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 05 | 1x US
@@ -744,7 +758,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f02c4dd8-eeb2-4778-bf32-2ae0c11eed04
+  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
 - alterId: 0
   cipher: auto
   name: 22|【BGP】美国 06 | 1x US
@@ -754,7 +768,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f02c4dd8-eeb2-4778-bf32-2ae0c11eed04
+  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -828,6 +842,20 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 52.195.3.168
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f64e25e-490d-4929-b901-a5adc6907ecc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_7_40
