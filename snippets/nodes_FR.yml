@@ -10,11 +10,15 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇫🇷 FR-146.59.17.58...
-  network: tcp
-  port: '12960'
-  server: 146.59.17.58
+  name: 26|baipaovpn法国
+  network: ws
+  port: '80'
+  server: 57.180.50.215
   servername: ''
   tls: false
   type: vmess
-  uuid: 48a86563-63c5-4218-e887-d752f801ae82
+  uuid: c61eae8f-0c7e-41a6-b70f-69172382cc67
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
