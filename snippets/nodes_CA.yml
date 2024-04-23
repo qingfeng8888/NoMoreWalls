@@ -69,14 +69,14 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8dbfccc5-3914-4dd6-b023-7a754a1036aa
+  uuid: ac9616bd-aa56-45d8-8fb2-f0b7f423a5bf
 - alterId: 0
   cipher: auto
-  name: 21,29|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_41
+  name: 21,29|🇨🇦_CA_加拿大_2_42
   network: ws
   port: 443
-  server: 23.162.200.227
-  servername: 23.162.200.227
+  server: 158.51.123.111
+  servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -84,21 +84,49 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21|加拿大 032
+  name: '21|Channel id: @ShadowProxy66 🇨🇦'
+  network: ws
+  port: '443'
+  server: 104.21.13.125
+  servername: pl1-vmess.sshmax.xyz
+  tls: true
+  type: vmess
+  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
+  ws-opts:
+    headers:
+      Host: pl1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 21|加拿大 002
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 21|加拿大 056
   network: ws
   port: 2052
-  server: 104.19.246.67
+  server: 162.159.50.164
   servername: ''
   tls: false
   type: vmess
   uuid: aa385f39-d784-4b80-9725-c3904a337cf8
   ws-opts:
     headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
-  name: '21|Channel id: @ShadowProxy66 🇨🇦'
+  name: '21|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
   port: '443'
   server: upload.ir
@@ -126,32 +154,46 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '21|Channel id: @ShadowProxy66 🇨🇦 #1'
+  client-fingerprint: chrome
+  name: 21,23,24|新加坡|@ripaojiedian
   network: ws
-  port: '443'
-  server: 104.21.13.125
-  servername: pl1-vmess.sshmax.xyz
-  tls: true
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
   ws-opts:
     headers:
-      Host: pl1-vmess.sshmax.xyz
-    path: /vmess
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
-  name: '21|Channel id: @ShadowProxy66 🇨🇦 #2'
+  name: 21,29|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_41
   network: ws
-  port: '443'
-  server: 172.67.196.112
-  servername: linde06.indiavideo.sbs
+  port: 443
+  server: 23.162.200.227
+  servername: 23.162.200.227
   tls: true
   type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇦 加拿大 032
+  network: ws
+  port: '2052'
+  server: 104.19.246.67
+  tls: false
+  type: vmess
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
   ws-opts:
     headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
 - alterId: 0
   cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
@@ -161,32 +203,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 224acdc4-46ed-4205-92b8-4c98fff33173
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn加拿大
-  network: ws
-  port: '80'
-  server: 142.93.162.87
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn加拿大 #1'
-  network: ws
-  port: '80'
-  server: 142.93.162.87
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 21945ef8-92c9-4860-a486-5ffc3a5f6435
