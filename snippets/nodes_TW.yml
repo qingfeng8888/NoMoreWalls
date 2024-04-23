@@ -1,7 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn台湾省台中市 #2'
+  client-fingerprint: chrome
+  name: 23,24|台湾|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: 24|台湾2|@ripaojiedian
+  network: tcp
+  port: '11014'
+  server: dotu-twv1.03ezhg0qsa.download
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: '24,26|baipaovpn台湾省台中市 #1'
   network: tcp
   port: '39999'
   server: 36.235.166.17
