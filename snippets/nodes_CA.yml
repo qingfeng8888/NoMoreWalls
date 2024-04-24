@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 357b01fc-0200-4d90-b922-7651a1ad28ad
+  uuid: 578c68c6-7b88-4547-bce4-05349b8e2eb3
 - alterId: 0
   cipher: auto
   name: 21|CA_speednode_0002
@@ -86,31 +86,16 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供：...
+  name: 21,29|🇨🇦_CA_加拿大_50
   network: ws
-  port: 2086
-  server: 104.21.4.14
+  port: 443
+  server: 158.51.123.111
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🇨🇦 加拿大 010
-  network: ws
-  port: '8080'
-  server: 172.67.185.64
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
@@ -120,4 +105,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 66307551-5a73-48b0-bd64-7c6f0969e327
+  uuid: 8181af81-d3d3-405f-abf6-d6011021b794
