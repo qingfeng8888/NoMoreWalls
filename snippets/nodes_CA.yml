@@ -69,7 +69,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6811a32a-ed11-46a8-89e5-a2c63f9f0217
+  uuid: 5f354d73-5d9c-4570-947a-c434ba4d267a
+- alterId: 0
+  cipher: auto
+  name: 19,21|加拿大 001
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 21|CA_speednode_0002
@@ -86,18 +100,33 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇦[CDN]加拿大
+  name: 21,29|🇨🇦_CA_加拿大_4
   network: ws
-  port: '8443'
-  server: ca-0.899994.xyz
-  servername: ca-0.899994.xyz
+  port: 443
+  server: 158.51.123.111
+  servername: ''
   tls: true
   type: vmess
-  uuid: 538444e7-453e-4e5d-a5eb-749c5dbbeeb2
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 21,23,24|美国3|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a595e9ba-b641-480f-8597-323612357ba5
   ws-opts:
     headers:
-      Host: ca-0.899994.xyz
-    path: /ca-0?ed=2048
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
   name: 22|【BGP】加拿大 02 | 1x CA
@@ -107,4 +136,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a8f9aabd-1008-4a8f-a76f-e7025d0fd466
+  uuid: 227167d9-da6f-4211-8281-4957ffc6ed6d
