@@ -27,6 +27,19 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 23|🇨🇦 加拿大|@ripaojiedian
+  password: BZjkHMao
+  port: 443
+  server: 38.180.127.194
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 23,24|香港7|@ripaojiedian
   network: ws
   port: '20206'
@@ -61,3 +74,31 @@ proxies:
   tls: false
   type: vmess
   uuid: d557c608-f676-472a-bd6b-612ba975c116
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn香港
+  network: ws
+  port: '80'
+  server: 47.76.49.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn香港 #1'
+  network: ws
+  port: '80'
+  server: 8.210.146.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
