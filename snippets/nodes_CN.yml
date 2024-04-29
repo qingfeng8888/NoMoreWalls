@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 19,21|CN_youtube@资源分享师_138
+  network: tcp
+  port: 35044
+  server: 183.240.188.59
+  tls: false
+  type: vmess
+  uuid: e3288b08-b2c9-3683-ae96-1dbc4f8dc738
 - alterId: 64
   cipher: auto
   name: 19,24|香港2|@ripaojiedian
@@ -25,34 +34,10 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 21|CN_youtube@资源分享师_138
+  name: 21|CN_youtube@资源分享师_8
   network: tcp
-  port: 35044
-  server: 183.240.188.59
-  tls: false
-  type: vmess
-  uuid: e3288b08-b2c9-3683-ae96-1dbc4f8dc738
-- alterId: 0
-  cipher: auto
-  name: 21,26|baipaovpn广东省潮州市
-  network: tcp
-  port: '35045'
+  port: 35045
   server: 183.240.188.58
-  servername: ''
   tls: false
   type: vmess
   uuid: e3288b08-b2c9-3683-ae96-1dbc4f8dc738
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn中国 #1'
-  network: ws
-  port: '80'
-  server: 8.218.207.169
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
-  ws-opts:
-    headers:
-      Host: mix.tgdns68.vps666.onflashdrive.app
-    path: /TG@dns68公益节点
