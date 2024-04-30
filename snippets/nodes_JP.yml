@@ -1,15 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21|KR_分享日记_2
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    path: /
 - alterId: 64
   cipher: auto
   name: 21|NO_分享日记_1
@@ -25,44 +14,39 @@ proxies:
     path: /path/180401120101
 - alterId: 0
   cipher: auto
-  name: 21|NL_分享日记_5
-  network: ws
-  port: 80
-  server: 188.114.99.77
-  tls: false
-  type: vmess
-  uuid: 2dd253e4-311f-4898-92f5-d4eb88ce27af
-  ws-opts:
-    headers:
-      Host: nl1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- alterId: 0
-  cipher: auto
-  name: 21|NL_分享日记_4
+  name: 21|SE_分享日记
   network: ws
   port: 443
-  server: 188.114.97.3
+  server: 185.146.173.129
   tls: true
   type: vmess
   uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   ws-opts:
     headers:
-      Host: afrhms16v.bestxray.buzz
-    path: /linkws
+      Host: nt-haze-7dad.rogap16875.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 21|JP_分享日记_4
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    path: /bb
+- alterId: 0
+  cipher: auto
+  name: 21|KR_分享日记_2
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    path: /
 - alterId: 64
   cipher: auto
   name: 21|GB_分享日记_1
@@ -78,6 +62,37 @@ proxies:
     path: /path/203113182529
 - alterId: 0
   cipher: auto
+  name: 21|RU_分享日记_1
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: 21|JP_分享日记_1
+  network: tcp
+  port: 14935
+  server: 167.179.111.237
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
+  name: 21|NL_分享日记_4
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
+    path: /linkws
+- alterId: 0
+  cipher: auto
   name: 22|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -85,7 +100,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854d3b88-f92d-40a5-a6f5-624b459cfa35
+  uuid: 2595cca2-5869-4800-9095-106f30c66887
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -95,7 +110,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854d3b88-f92d-40a5-a6f5-624b459cfa35
+  uuid: 2595cca2-5869-4800-9095-106f30c66887
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -105,7 +120,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854d3b88-f92d-40a5-a6f5-624b459cfa35
+  uuid: 2595cca2-5869-4800-9095-106f30c66887
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -123,49 +138,62 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
+- client-fingerprint: chrome
+  name: 23|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  password: g76wex
+  port: 443
+  server: aws-jp-tokyo-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-jp-tokyo-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-jp-tokyo-1.f1cflined.com
+    path: /f1rocket
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.34.246
+  server: 43.207.104.148
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn日本 #3'
+  name: '26|baipaovpn日本东京 #2'
   network: tcp
   port: '23234'
-  server: 52.68.240.158
+  server: 13.231.195.211
   servername: ''
   tls: false
   type: vmess
   uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn日本 #1'
+  name: 26|baipaovpn日本东京都东京
   network: ws
-  port: '45123'
-  server: 52.68.240.158
-  servername: QWQ
-  tls: true
+  port: '26152'
+  server: 168.138.214.200
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  uuid: 4268a1d7-171c-40ae-9684-e580c67b7354
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: jp-tokyo-oracle-5a26da.ip1.shop
+    path: /namedjdghjg
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn日本 #2'
+  name: '26|baipaovpn日本东京都东京 #1'
   network: ws
-  port: '45123'
-  server: 52.68.240.158
-  servername: QWQ
-  tls: true
+  port: '57557'
+  server: 168.138.214.200
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
   ws-opts:
     headers:
-      Host: QWQ
-    path: /
+      Host: jp-tokyo-oracle-5a26da.ip1.shop
+    path: /rongseven?ed=2048
