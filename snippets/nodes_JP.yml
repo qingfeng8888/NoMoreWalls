@@ -28,75 +28,10 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
-  name: 22|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fab57a65-78d2-4ac6-9ae0-b1cdcd16b5be
-- alterId: 0
-  cipher: auto
-  name: 22|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: free.2apzhfa.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fab57a65-78d2-4ac6-9ae0-b1cdcd16b5be
-- alterId: 0
-  cipher: auto
-  name: 22|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: free.2apzhfa.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fab57a65-78d2-4ac6-9ae0-b1cdcd16b5be
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23,24|日本2|@ripaojiedian
+  name: 21||JP|日本|@wxgqlfx|128
   network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12
-  ws-opts:
-    headers:
-      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
-    path: /video/X37qXHip
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.72.91
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn日本 #1'
-  network: ws
-  port: '57557'
-  server: 140.238.41.153
+  port: 57557
+  server: jp-tokyo-oracle-5a26da.ip1.shop
   servername: ''
   tls: false
   type: vmess
@@ -107,15 +42,81 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn日本 #2'
+  name: 21|日本【TG：@ccbaohe】定时更新节点订阅 6
   network: ws
-  port: '26152'
-  server: 140.238.41.153
+  port: 26152
+  server: jp-tokyo-oracle-5a26da.ip1.shop
   servername: ''
   tls: false
   type: vmess
   uuid: 4268a1d7-171c-40ae-9684-e580c67b7354
   ws-opts:
     headers:
-      Host: ''
+      Host: jp-tokyo-oracle-5a26da.ip1.shop
     path: /namedjdghjg
+- alterId: 0
+  cipher: auto
+  name: 22|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ea232955-81c8-4eb6-8cdb-9a9e14fc5f2a
+- alterId: 0
+  cipher: auto
+  name: 22|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: free.2apzhfa.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ea232955-81c8-4eb6-8cdb-9a9e14fc5f2a
+- alterId: 0
+  cipher: auto
+  name: 22|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: free.2apzhfa.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ea232955-81c8-4eb6-8cdb-9a9e14fc5f2a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.72.91
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn日本东京都东京 #2'
+  network: ws
+  port: '26152'
+  server: 168.138.214.86
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4268a1d7-171c-40ae-9684-e580c67b7354
+  ws-opts:
+    headers:
+      Host: jp-tokyo-oracle-5a26da.ip1.shop
+    path: /namedjdghjg
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn日本东京都东京 #3'
+  network: ws
+  port: '57557'
+  server: 168.138.214.86
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: jp-tokyo-oracle-5a26da.ip1.shop
+    path: /rongseven?ed=2048
