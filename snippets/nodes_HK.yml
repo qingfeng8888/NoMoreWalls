@@ -1,15 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 21|🇭🇰 HK_2046 |13.30Mb
-  network: ws
-  port: 80
-  server: hrgdvpn.flycdnedc55.vip
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    path: /opt/video/images
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
@@ -26,6 +15,19 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇫🇷 法国|@ripaojiedian
+  password: MyYoZhfX
+  port: 46001
+  server: 183.232.199.28
+  skip-cert-verify: false
+  sni: 5gzdx.233235.xyz
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
