@@ -1149,6 +1149,31 @@ proxies:
     headers:
       Host: ''
     path: /vmess
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国2|@ripaojiedian
+  password: c440808b-a8ad-484a-90c2-4399d5a26dbe
+  port: 43605
+  server: zy.aand.site
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23,24|美国3|@ripaojiedian
+  network: ws
+  port: '2082'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
   name: '25|🇺🇸_US_美国 #31'
@@ -1162,17 +1187,3 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn美国
-  network: ws
-  port: '2052'
-  server: 172.67.64.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5edafe88-b558-4129-a86d-58fd84be79f0
-  ws-opts:
-    headers:
-      Host: hk07.hy-2.one
-    path: /
