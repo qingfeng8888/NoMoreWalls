@@ -52,7 +52,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3,21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
+  name: 3,21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_16
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -65,7 +65,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: '3,21,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k... #1'
+  name: 3,21,29|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com7
   network: ws
   port: 2052
   server: 104.19.250.15
@@ -78,7 +78,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,21|🇺🇸_US_美国 #30'
+  name: 3,21,29|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com4
   network: ws
   port: 80
   server: 104.19.173.68
@@ -298,137 +298,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|美国 CloudFlare节点
-  network: ws
-  port: '8080'
-  server: 172.67.199.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '19|美国 CloudFlare节点 #1'
   network: ws
-  port: '8080'
-  server: 172.67.172.67
+  port: '2095'
+  server: fcdn.flha.ru
   tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      Host: oiictw.yydsii.com
+      Host: fcdn.flha.ru
     path: /
-- alterId: 0
-  cipher: auto
-  name: '19|美国 CloudFlare节点 #2'
-  network: ws
-  port: 8080
-  server: 172.67.172.219
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '19|美国 CloudFlare节点 #3'
-  network: ws
-  port: '8880'
-  server: 104.19.40.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: uk.moss.network
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- alterId: 0
-  cipher: auto
-  name: '19,21|美国 CloudFlare节点 #9'
-  network: ws
-  port: 2082
-  server: 104.19.138.73
-  tls: false
-  type: vmess
-  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
-  ws-opts:
-    headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
-- alterId: 0
-  cipher: auto
-  name: '19|美国 CloudFlare节点 #5'
-  network: ws
-  port: '8080'
-  server: 172.67.185.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '19|美国 CloudFlare节点 #6'
-  network: ws
-  port: 80
-  server: 104.19.45.45
-  tls: false
-  type: vmess
-  uuid: 34cb3f75-316d-362f-9210-a5f86453b0a4
-  ws-opts:
-    headers:
-      Host: tk-007.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 19,20|github.com/freefq - 美国Fastly全球...
-  network: ws
-  port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  name: '19|美国 CloudFlare节点 #7'
-  network: ws
-  port: '8880'
-  server: 104.19.40.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: uk.moss.network
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: ''
-  name: '19|美国 CloudFlare节点 #8'
-  network: grpc
-  port: '2087'
-  server: 104.25.107.8
-  servername: oc4.serverdmgl.org
-  tls: true
-  type: vmess
-  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
 - alterId: 0
   cipher: auto
   name: 19,20|github.com/freefq - 美国CloudFla...
@@ -441,6 +321,20 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #4'
+  network: ws
+  port: '8080'
+  server: 172.67.172.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
     path: /
 - alterId: 0
   cipher: auto
@@ -470,6 +364,19 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '19,20|github.com/freefq - 美国CloudFla... #3'
@@ -1006,7 +913,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '21|美国 Fastly全球Anycast节点 #1'
+  name: 21|美国 Fastly全球Anycast节点
   network: ws
   port: 80
   server: 151.101.195.10
@@ -1019,9 +926,9 @@ proxies:
     path: /aries?ed=2560
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸美国3-baipiaoyes.top
+  name: 21,29|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com0
   network: ws
-  port: '80'
+  port: 80
   server: 162.159.133.42
   tls: false
   type: vmess
@@ -1063,6 +970,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 191ba971-0f63-402e-bbc9-9e9eb2604b0c
+- alterId: 0
+  cipher: auto
+  name: 21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
+  network: ws
+  port: 2082
+  server: 104.19.138.73
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
   name: 21|🔒 VM-WS-NA 🇺🇸 US-64.23.190.208...
@@ -1244,23 +1164,6 @@ proxies:
     path: /8cda48b3
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 23,24|美国3|@ripaojiedian
-  network: ws
-  port: '13486'
-  server: 218.204.178.2
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 61b81abc-320b-49c1-893c-f3ddd45880de
-  ws-opts:
-    headers:
-      Host: waphk.xlb8.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
   name: '25|🇺🇸_US_美国 #36'
   network: ws
   port: 2095
@@ -1274,28 +1177,28 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn美国加利福尼亚州圣克拉拉县山景市
+  name: 26|baipaovpn美国
   network: ws
-  port: '2087'
-  server: 35.189.159.254
-  servername: ggjp.duduskying.tk
-  tls: true
-  type: vmess
-  uuid: 6559fbc7-4b72-4985-8a80-f3736b9e2eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_US_美国_2_9
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
+  port: '80'
+  server: 52.194.222.87
+  servername: ''
   tls: false
   type: vmess
-  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
   ws-opts:
     headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      Host: jp01.fredericamelody.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com2
+  network: ws
+  port: 80
+  server: 104.18.15.150
+  tls: false
+  type: vmess
+  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+  ws-opts:
+    headers:
+      Host: us3.889611.com
+    path: /
