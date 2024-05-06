@@ -1,24 +1,98 @@
 proxies:
-- name: 1|_US__1
-  network: tcp
-  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
-  port: 443
-  server: 95.164.117.128
+- alterId: 0
+  cipher: auto
+  name: 1|_US__1
+  network: ws
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
   skip-cert-verify: true
-  sni: de2-full.privateip.net
-  type: trojan
-  udp: true
-- name: 1|_US__2
-  network: tcp
-  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
-  port: 443
-  server: de2-full.privateip.net
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
+- alterId: 0
+  cipher: auto
+  name: 1|_US__2
+  network: ws
+  port: 2052
+  server: 104.19.250.15
   skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US__3
+  network: ws
+  port: 80
+  server: 104.19.173.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+  ws-opts:
+    headers:
+      host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- name: 1|_US__4
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.189.91.107
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #13'
+  name: 3,21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
+  network: ws
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
+- alterId: 0
+  cipher: auto
+  name: '3,29|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k... #1'
+  network: ws
+  port: 2052
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,21|🇺🇸美国1-baipiaoyes.top
+  network: ws
+  port: '80'
+  server: 104.19.173.68
+  tls: false
+  type: vmess
+  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '8,9|🇺🇸_US_美国 #16'
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -31,7 +105,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,25|🇺🇸_US_美国 #29'
+  name: '8,25|🇺🇸_US_美国 #32'
   network: ws
   port: 2095
   server: russia.com
@@ -44,7 +118,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #2'
+  name: '8|🇺🇸_US_美国 #5'
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
@@ -55,7 +129,7 @@ proxies:
     path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #18'
+  name: '8,9|🇺🇸_US_美国 #21'
   network: ws
   port: 2052
   server: 104.21.82.39
@@ -68,7 +142,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #19'
+  name: '8,9|🇺🇸_US_美国 #22'
   network: ws
   port: 2052
   server: mahilu.site
@@ -81,7 +155,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,25|🇺🇸_US_美国 #25'
+  name: '8,9,25|🇺🇸_US_美国 #28'
   network: ws
   port: 8080
   server: fbi.gov
@@ -94,7 +168,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #6'
+  name: '8|🇺🇸_US_美国 #9'
   network: ws
   port: 2086
   server: cfcdn1.sanfencdn9.com
@@ -107,7 +181,7 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #16'
+  name: '8,9|🇺🇸_US_美国 #19'
   network: ws
   port: 8080
   server: 162.159.134.23
@@ -120,7 +194,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: '8,25|🇺🇸_US_美国 #28'
+  name: '8,25|🇺🇸_US_美国 #31'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -133,7 +207,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #20'
+  name: '8,9|🇺🇸_US_美国 #23'
   network: ws
   port: 8880
   server: russia.com
@@ -146,7 +220,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #10'
+  name: '8|🇺🇸_US_美国 #13'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -159,7 +233,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #11'
+  name: '9|🇺🇸_US_美国 #14'
   network: ws
   port: 80
   server: 172.67.116.48
@@ -172,7 +246,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #14'
+  name: '9|🇺🇸_US_美国 #17'
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -185,7 +259,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #17'
+  name: '9|🇺🇸_US_美国 #20'
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -198,7 +272,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #21'
+  name: '9|🇺🇸_US_美国 #24'
   network: ws
   port: 443
   server: hms082.gwdef.sbs
@@ -211,7 +285,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #22'
+  name: '9|🇺🇸_US_美国 #25'
   network: ws
   port: 80
   server: 104.21.234.52
@@ -224,54 +298,137 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19,29|🇺🇸_US_美国_2_9
+  name: 19|美国 CloudFlare节点
   network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
+  port: '8080'
+  server: 172.67.199.185
   servername: ''
   tls: false
   type: vmess
-  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #1'
   network: ws
-  port: '2095'
-  server: 104.21.23.231
+  port: '8080'
+  server: 172.67.172.67
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: fcdn.flha.ru
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #2'
+  network: ws
+  port: 8080
+  server: 172.67.172.219
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
     path: /
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #3'
   network: ws
-  port: 80
-  server: 172.67.166.192
-  tls: false
-  type: vmess
-  uuid: cd1db809-2de0-409c-aef5-861e95eff53e
-  ws-opts:
-    headers:
-      Host: ua1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 19,21|🔒 VM-TCP-NA 🇺🇸 US-174.136.205....
-  network: tcp
-  port: '39027'
-  server: 174.136.205.46
+  port: '8880'
+  server: 104.19.40.211
   servername: ''
   tls: false
   type: vmess
-  uuid: 26419143-8a06-43ab-d58c-bea7b7da8203
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: uk.moss.network
+    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #4'
+  network: ws
+  port: 2082
+  server: 104.19.138.73
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #5'
+  network: ws
+  port: '8080'
+  server: 172.67.185.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,21|US_youtube@资源分享师_219
+  network: ws
+  port: 80
+  server: 104.19.45.45
+  tls: false
+  type: vmess
+  uuid: 34cb3f75-316d-362f-9210-a5f86453b0a4
+  ws-opts:
+    headers:
+      Host: tk-007.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 19,20|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #7'
+  network: ws
+  port: '8880'
+  server: 104.19.40.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: uk.moss.network
+    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: ''
+  name: '19|美国 CloudFlare节点 #8'
+  network: grpc
+  port: '2087'
+  server: 104.25.107.8
+  servername: oc4.serverdmgl.org
+  tls: true
+  type: vmess
+  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
 - alterId: 0
   cipher: auto
   name: 19,20|github.com/freefq - 美国CloudFla...
@@ -313,19 +470,6 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|github.com/freefq - 美国Fastly全球...
-  network: ws
-  port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '19,20|github.com/freefq - 美国CloudFla... #3'
@@ -635,19 +779,6 @@ proxies:
     headers:
       Host: best-charm-pediatrician.glitch.me
     path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸美国1-baipiaoyes.top
-  network: ws
-  port: '80'
-  server: 104.19.173.68
-  tls: false
-  type: vmess
-  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 21|US_youtube@资源分享师_206
@@ -1317,6 +1448,16 @@ proxies:
     path: /9b475e2a-
 - alterId: 0
   cipher: auto
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-174.136.205....
+  network: tcp
+  port: '39027'
+  server: 174.136.205.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 26419143-8a06-43ab-d58c-bea7b7da8203
+- alterId: 0
+  cipher: auto
   name: 21|US_youtube@资源分享师_63
   network: ws
   port: 80
@@ -1364,6 +1505,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
+- alterId: 0
+  cipher: auto
+  name: 21,29|🇨🇦_CA_加拿大_5
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 21|美国【TG：@ccbaohe】定时更新节点订阅 3
@@ -1465,7 +1618,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: '21|🇺🇸_US_美国 #24'
+  name: '21|🇺🇸_US_美国 #27'
   network: ws
   port: 80
   server: uk1-vmess.greenssh.xyz
@@ -1688,20 +1841,6 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  name: 21,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
-  network: ws
-  port: 2082
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
-  ws-opts:
-    headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
-- alterId: 0
-  cipher: auto
   name: 21|US_youtube@资源分享师_263
   network: ws
   port: 80
@@ -1815,19 +1954,6 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_219
-  network: ws
-  port: 80
-  server: 104.19.45.45
-  tls: false
-  type: vmess
-  uuid: 34cb3f75-316d-362f-9210-a5f86453b0a4
-  ws-opts:
-    headers:
-      Host: tk-007.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
-- alterId: 0
-  cipher: auto
   name: 21|🔒 VM-TCP-NA 🇺🇸 US-104.249.173....
   network: tcp
   port: 40118
@@ -1934,7 +2060,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '25|🇺🇸_US_美国 #30'
+  name: '25|🇺🇸_US_美国 #33'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -1945,3 +2071,30 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: ws
+  port: '2086'
+  server: 104.16.61.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_US_美国_2_9
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
