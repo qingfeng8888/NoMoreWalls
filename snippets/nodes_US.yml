@@ -1706,13 +1706,17 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn美国
-  network: tcp
-  port: '50001'
-  server: 3.37.15.181
+  network: ws
+  port: '2082'
+  server: 172.67.75.16
   servername: ''
   tls: false
   type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
+  uuid: 4988dfa7-3d44-4b63-9e9e-914948d77420
+  ws-opts:
+    headers:
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com0

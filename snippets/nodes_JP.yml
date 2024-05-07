@@ -76,6 +76,20 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
+  name: 21|日本 - 东京 - Oracle Corporation -...
+  network: ws
+  port: 57557
+  server: jp-tokyo-oracle-5a26da.ip1.shop
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1b91a7d-a5e2-4684-a183-d2d656400ca1
+  ws-opts:
+    headers:
+      Host: jp-tokyo-oracle-5a26da.ip1.shop
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
   name: 21|🇯🇵JP_56 | 5.49Mb
   network: ws
   port: 41597
@@ -94,7 +108,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee88383a-8844-4bba-9ae1-0dcb0ba14f9d
+  uuid: 2ccb79dd-17cc-4ce8-83d0-983405f26d3f
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -104,7 +118,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee88383a-8844-4bba-9ae1-0dcb0ba14f9d
+  uuid: 2ccb79dd-17cc-4ce8-83d0-983405f26d3f
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -114,7 +128,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ee88383a-8844-4bba-9ae1-0dcb0ba14f9d
+  uuid: 2ccb79dd-17cc-4ce8-83d0-983405f26d3f
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本特殊|@ripaojiedian
@@ -135,34 +149,6 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 26|baipaovpn日本东京
-  network: ws
-  port: '80'
-  server: 3.112.30.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn日本
-  network: ws
-  port: '32253'
-  server: 146.56.39.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eedfc125-cc91-4f47-bc7b-41157c200283
-  ws-opts:
-    headers:
-      Host: kr-seoul-oracle-b0566e.ip1.shop
-    path: /gd3DS3432432S32cr
-- alterId: 0
-  cipher: auto
   name: '26|baipaovpn日本 #1'
   network: ws
   port: '25363'
@@ -177,7 +163,7 @@ proxies:
     path: /gd3245vd2S32cr
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn日本东京 #1'
+  name: 26|baipaovpn日本东京
   network: ws
   port: '80'
   server: 3.112.30.211
@@ -189,3 +175,17 @@ proxies:
     headers:
       Host: jp01.fredericamelody.online
     path: /
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn日本东京 #1'
+  network: ws
+  port: '80'
+  server: 3.112.30.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
