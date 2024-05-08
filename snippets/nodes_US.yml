@@ -1345,33 +1345,14 @@ proxies:
     headers:
       Host: ''
     path: /linkws
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 23,24|美国|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cf2.ftclashcloud.site
-  servername: ''
-  skip-cert-verify: false
+  name: 23|🇺🇸 美国3|@ripaojiedian
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 23.157.40.47
   tfo: false
-  tls: false
-  type: vmess
-  uuid: fd09819d-e55a-4e3b-a838-87642d920e3e
-  ws-opts:
-    headers:
-      Host: mhyusa01.ftclashcloud.online
-    path: /ws?ed
-- alterId: 0
-  cipher: auto
-  name: 24|美国3|@ripaojiedian
-  network: tcp
-  port: '80'
-  server: 46.3.82.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
+  type: ss
 - alterId: 0
   cipher: auto
   name: '25|🇺🇸_US_美国 #36'
