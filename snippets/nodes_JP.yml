@@ -98,7 +98,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 905d5b0a-c6ae-4a4a-aaa6-d097868bed21
+  uuid: d859ab11-d51d-4cb0-a16a-de81c23bad32
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 05  | 1x JP
@@ -108,7 +108,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 905d5b0a-c6ae-4a4a-aaa6-d097868bed21
+  uuid: d859ab11-d51d-4cb0-a16a-de81c23bad32
 - alterId: 0
   cipher: auto
   name: 22|【BGP】日本 06  | 1x JP
@@ -118,7 +118,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 905d5b0a-c6ae-4a4a-aaa6-d097868bed21
+  uuid: d859ab11-d51d-4cb0-a16a-de81c23bad32
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇯🇵 日本4|@ripaojiedian
@@ -155,3 +155,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 54.250.35.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn日本东京
+  network: ws
+  port: '80'
+  server: 3.112.193.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ece6750e-df24-48c9-8007-34451285f57e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
