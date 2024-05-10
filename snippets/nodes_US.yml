@@ -391,18 +391,6 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: auto
-  name: '19|美国 CloudFlare节点 #7'
-  network: ws
-  port: 2095
-  server: onea.flha.ru
-  servername: onea.flha.ru
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: '19|美国 CloudFlare节点 #8'
   network: ws
   port: '8080'
@@ -1270,12 +1258,12 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- cipher: aes-128-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 23|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
+  name: 23|🇺🇸 美国2|@ripaojiedian
+  password: 5cp9Z3iWnJZ2
   port: 443
-  server: 212.102.47.198
+  server: 205.134.180.151
   tfo: false
   type: ss
 - alterId: 0
