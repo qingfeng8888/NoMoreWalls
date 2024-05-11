@@ -1155,14 +1155,6 @@ proxies:
   server: 212.102.47.198
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国2|@ripaojiedian
-  password: 5cp9Z3iWnJZ2
-  port: 443
-  server: 205.134.180.151
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1198,7 +1190,7 @@ proxies:
   name: 26|baipaovpn美国
   network: ws
   port: '80'
-  server: 164.92.231.187
+  server: 16.163.129.220
   servername: ''
   tls: false
   type: vmess
@@ -1212,6 +1204,48 @@ proxies:
   name: '26|baipaovpn美国 #1'
   network: ws
   port: '80'
+  server: 158.247.240.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 16.162.22.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 158.247.240.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #4'
+  network: ws
+  port: '80'
   server: 161.35.212.34
   servername: ''
   tls: false
@@ -1223,10 +1257,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn美国 #2'
+  name: '26|baipaovpn美国 #5'
   network: ws
   port: '80'
-  server: 164.92.231.187
+  server: 161.35.212.34
   servername: ''
   tls: false
   type: vmess
@@ -1234,17 +1268,45 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: ''
 - alterId: 0
   cipher: auto
-  name: '26|baipaovpn美国 #3'
+  name: '26|baipaovpn美国 #6'
   network: ws
   port: '80'
-  server: 16.163.148.4
+  server: 16.162.102.206
   servername: ''
   tls: false
   type: vmess
   uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国纽约市
+  network: ws
+  port: '80'
+  server: 207.154.230.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国纽约市 #1'
+  network: ws
+  port: '80'
+  server: 207.154.230.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
   ws-opts:
     headers:
       Host: ''
