@@ -902,6 +902,23 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 21,23,24|台湾2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c5da6e6b-7918-4d29-a05c-450f4eeecb19
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
   name: 21|💰💥🇺🇸 US 34.239.121.90 ◈ ws:443...
   network: ws
   port: 443
@@ -1157,6 +1174,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1190,13 +1215,73 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 26|baipaovpn美国
-  network: tcp
-  port: '8080'
-  server: 172.233.84.25
-  servername: jp-dj-gy-1.skyorg.me
-  tls: true
+  network: ws
+  port: '80'
+  server: 164.92.171.20
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 98e3e6ae-239e-48f7-a5fc-4a6307bf071c
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 16.163.143.224
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 52.195.220.26
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 164.92.171.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #4'
+  network: ws
+  port: '80'
+  server: 16.163.143.224
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1
