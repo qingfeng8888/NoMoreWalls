@@ -887,7 +887,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: c5da6e6b-7918-4d29-a05c-450f4eeecb19
+  uuid: 0a208887-f5d4-40eb-ac7f-7bbc6584f9d7
   ws-opts:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
@@ -1159,10 +1159,18 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24|美国3|@ripaojiedian
+  name: 23,24|美国2|@ripaojiedian
   network: ws
   port: '8880'
   server: cfcdn1.sanfencdn9.com
@@ -1171,7 +1179,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: c5da6e6b-7918-4d29-a05c-450f4eeecb19
+  uuid: 0a208887-f5d4-40eb-ac7f-7bbc6584f9d7
   ws-opts:
     headers:
       Host: us6gzxQRrE4.fzbqfrse.xyz
@@ -1194,7 +1202,21 @@ proxies:
   name: 26|baipaovpn美国
   network: ws
   port: '80'
-  server: 16.162.119.193
+  server: 64.226.69.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 159.65.124.97
   servername: ''
   tls: false
   type: vmess
