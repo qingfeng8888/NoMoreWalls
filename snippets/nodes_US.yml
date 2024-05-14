@@ -897,20 +897,6 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 21|11,13|美国 002
-  network: ws
-  port: 443
-  server: 23.154.136.2
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 21,23,24,29|🇺🇸_US_美国_3_5
   network: ws
@@ -1218,16 +1204,16 @@ proxies:
   cipher: auto
   name: 26|baipaovpn美国
   network: ws
-  port: '80'
-  server: 16.162.121.107
-  servername: ''
-  tls: false
+  port: '443'
+  server: 162.159.128.17
+  servername: v2ray.ryin.vip
+  tls: true
   type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  uuid: 3aee4f5f-30de-4c4c-874d-3206718ae8a7
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: v2ray.ryin.vip
+    path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2

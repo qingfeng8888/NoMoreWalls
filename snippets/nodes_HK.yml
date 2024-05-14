@@ -13,18 +13,22 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 23|🇻🇳 越南|@ripaojiedian
-  password: TNDSJfNv
-  port: 40998
-  server: 529y.6bp4susm-97imynr-vn02.my777999.top
-  skip-cert-verify: false
+  name: 23|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h14.podds.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 8.210.229.184
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 6399ac7d-8265-436d-b348-299df4b735a5
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
