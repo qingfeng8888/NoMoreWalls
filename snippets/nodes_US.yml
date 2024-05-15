@@ -1078,14 +1078,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1116,6 +1108,16 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 26|baipaovpn美国
+  network: tcp
+  port: '41001'
+  server: 18.143.166.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
