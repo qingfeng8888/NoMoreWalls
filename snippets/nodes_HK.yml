@@ -29,14 +29,6 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  port: 81
-  server: 47.242.87.55
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -88,14 +80,6 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港9|@ripaojiedian
-  password: 62b9d2df-b7e4-3bad-88d0-59b2d3fb63dd
-  port: 50001
-  server: iepl1.forlive.live
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 24|香港6|@ripaojiedian
@@ -116,3 +100,13 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 24|香港9|@ripaojiedian
+  network: tcp
+  port: '44803'
+  server: hkgcdn01.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6f3c8fb-259d-498e-b39d-4694bc38e32f
