@@ -1,9 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20,29|🇨🇳_CN_中国->🇺🇸_US_美国_2_27
+  name: 19|广东省佛山市 移动
+  network: tcp
+  port: '21006'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 19,24|香港6|@ripaojiedian
+  network: tcp
+  port: '15601'
+  server: 183.240.179.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 19,20|github.com/freefq - 广东省移动 7
   network: ws
-  port: 20401
+  port: '20401'
   server: data-us-v1.shwjfkw.cn
   servername: ''
   tls: false
@@ -15,11 +35,11 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 19,24|香港|@ripaojiedian
+  name: 26|baipaovpn广东省
   network: tcp
-  port: '15603'
-  server: 183.240.179.195
+  port: '35068'
+  server: 120.233.204.107
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
