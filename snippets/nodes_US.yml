@@ -152,14 +152,11 @@ proxies:
     path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,19,23,24|美国3|@ripaojiedian
+  name: '3,19|美国 CloudFlare节点 #6'
   network: ws
   port: '8880'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248
@@ -1327,24 +1324,23 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国2|@ripaojiedian
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 20003
-  server: deepf.hjkdsak2.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 24|美国6||@ripaojiedian
-  network: tcp
-  port: '443'
-  server: 38.77.232.10
+  client-fingerprint: chrome
+  name: 23,24|美国2|@ripaojiedian
+  network: ws
+  port: '2082'
+  server: cfcdn1.sanfencdn9.com
   servername: ''
-  tls: true
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: dbbb87ba-7b57-4228-b9e7-bdfa5e661b55
+  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
   name: '25|🇺🇸_US_美国 #36'
