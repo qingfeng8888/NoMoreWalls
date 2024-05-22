@@ -47,11 +47,20 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 34.219.161.56
+  name: 23,24|新加坡3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: visa.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: f405eff1-9372-4004-b204-ea6edade31cb
+  ws-opts:
+    headers:
+      Host: acmf.zhangyan56.pp.ua
+    path: /cdcxddd
