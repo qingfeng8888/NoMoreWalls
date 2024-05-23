@@ -1225,14 +1225,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1277,3 +1269,83 @@ proxies:
     headers:
       Host: jp01.appleid.bf
     path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 104.18.5.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #2'
+  network: tcp
+  port: '41001'
+  server: 16.162.48.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 104.16.45.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #4'
+  network: ws
+  port: '80'
+  server: 104.16.45.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #5'
+  network: ws
+  port: '80'
+  server: 104.16.45.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #6'
+  network: ws
+  port: '80'
+  server: 104.16.45.188
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
