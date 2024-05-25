@@ -341,9 +341,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19,21,23|🇺🇸 美国2|@ripaojiedian
+  name: 19,21,23,24|美国2|@ripaojiedian
   network: ws
-  port: 2095
+  port: '2095'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -382,19 +382,6 @@ proxies:
   ws-opts:
     headers:
       Host: fcdn.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '19|美国 CloudFlare节点 #6'
-  network: ws
-  port: 2095
-  server: onea.flha.ru
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -960,7 +947,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 21,23,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
+  name: 21,23,24,29|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
   network: ws
   port: 2052
   server: cfcdn1.sanfencdn9.com
@@ -1251,20 +1238,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|美国2|@ripaojiedian
-  network: ws
-  port: '2082'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
-  ws-opts:
-    headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
-- alterId: 0
-  cipher: auto
   name: '25|🇺🇸_US_美国 #34'
   network: ws
   port: 2095
@@ -1290,6 +1263,16 @@ proxies:
     headers:
       Host: fr.grpc.gay
     path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '26|baipaovpn美国 #1'
+  network: tcp
+  port: '41001'
+  server: 18.143.64.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_US_美国_2_5
