@@ -57,25 +57,11 @@ proxies:
     path: /debian
 - alterId: 64
   cipher: auto
-  name: 26|baipaovpn广东省广州市
+  name: 26|baipaovpn广东省江门市
   network: tcp
-  port: '54100'
-  server: 183.236.51.59
+  port: '40002'
+  server: 120.238.122.238
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn广东省
-  network: ws
-  port: '16632'
-  server: 120.233.204.126
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 757b6db0-be90-40b1-8980-664bba40ae46
-  ws-opts:
-    headers:
-      Host: a3846d6e62ad9e8554f3399a6e361105.mobgslb.tbcache.com
-    path: /
