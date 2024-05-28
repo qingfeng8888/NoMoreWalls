@@ -116,17 +116,6 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #5'
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
   name: '8,9|🇺🇸_US_美国 #21'
   network: ws
   port: 2052
@@ -297,20 +286,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|美国 CloudFlare节点
-  network: ws
-  port: '8080'
-  server: 172.67.185.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 19,20|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -326,29 +301,78 @@ proxies:
   cipher: auto
   name: '19|美国 CloudFlare节点 #2'
   network: ws
-  port: '80'
-  server: 104.16.45.79
-  servername: ''
+  port: '8080'
+  server: 172.67.185.218
   tls: false
   type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '19|美国 CloudFlare节点 #3'
   network: ws
-  port: 80
-  server: 162.159.136.13
+  port: 2095
+  server: russia.com
   tls: false
   type: vmess
-  uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
   ws-opts:
     headers:
-      Host: jp3.visaapp.top
+      Host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #4'
+  network: ws
+  port: 80
+  server: go.alipay.ovh
+  tls: false
+  type: vmess
+  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  ws-opts:
+    headers:
+      Host: hinet.alipay.ovh
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #5'
+  network: ws
+  port: '8080'
+  server: 172.67.185.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '19,20|github.com/freefq - 美国CloudFla... #2'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|美国 纽约市DigitalOcean云公司
+  network: tcp
+  port: 28774
+  server: 45.55.201.210
+  tls: false
+  type: vmess
+  uuid: 49f275eb-bf50-40ce-b615-7c67cfac187e
 - alterId: 0
   cipher: auto
   name: '19,20|github.com/freefq - 美国CloudFla... #1'
@@ -365,17 +389,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '19,20|github.com/freefq - 美国CloudFla... #2'
+  grpc-opts:
+    grpc-service-name: Freevpnhomes
+  name: '19|美国 CloudFlare节点 #8'
+  network: grpc
+  port: '2096'
+  server: 172.67.204.84
+  servername: fragment.mzolfaghari.homes
+  tls: true
+  type: vmess
+  uuid: 02b3ec8f-f568-47c8-9746-fa9a24e547d6
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #9'
   network: ws
-  port: 8880
-  server: 104.21.82.183
+  port: 80
+  server: 104.16.45.79
   servername: ''
   tls: false
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
+      Host: jp.xlb8.eu.org
     path: /
 - alterId: 0
   cipher: auto
@@ -1170,6 +1206,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 24|美国3|@ripaojiedian
@@ -1198,12 +1242,12 @@ proxies:
   name: 26|baipaovpn美国
   network: ws
   port: '80'
-  server: 162.159.9.55
+  server: 172.64.104.182
   servername: ''
   tls: false
   type: vmess
-  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
   ws-opts:
     headers:
-      Host: hinet.alipay.ovh
-    path: /?ed=2048
+      Host: fr.grpc.gay
+    path: /rongseven?ed=2048
