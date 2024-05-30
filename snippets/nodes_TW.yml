@@ -2,10 +2,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23|🇹🇼 台湾|@ripaojiedian
+  name: 23,24|台湾|@ripaojiedian
   network: ws
-  port: 80
+  port: '80'
   server: tw1g.forlive.live
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -17,35 +18,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|台湾|@ripaojiedian
-  network: ws
-  port: '37902'
-  server: hinet-wap.myddns.me
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
-  ws-opts:
-    headers:
-      Host: hinet-wap.myddns.me
-    path: /index?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 26|baipaovpn台湾省高雄市
-  network: ws
-  port: '80'
-  server: 61.227.217.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '26|baipaovpn台湾省高雄市 #2'
+  name: '26|baipaovpn台湾省高雄市 #1'
   network: ws
   port: '80'
   server: 61.227.217.177
