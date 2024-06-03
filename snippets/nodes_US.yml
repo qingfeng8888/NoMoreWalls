@@ -93,10 +93,7 @@ proxies:
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,3,6,21|11,13|美国 002
+  name: 1,3,21|11,13|美国 002
   network: ws
   port: 443
   server: 23.154.136.2
@@ -943,14 +940,17 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸 美国 CloudFlare节点 6
+  client-fingerprint: chrome
+  name: 21,23,24|台湾3|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  uuid: bb1af7d3-9526-44f1-9155-788773cc629e
   ws-opts:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
