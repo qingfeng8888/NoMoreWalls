@@ -1,6 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 21,23,24|日本2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
+  ws-opts:
+    headers:
+      Host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
   network: ws
   port: '888'
@@ -29,21 +46,28 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 21,23,24|日本2|@ripaojiedian
+  name: 21|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
   network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
+  port: 443
+  server: 141.147.174.244
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
+  uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6
   ws-opts:
     headers:
-      Host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|🇯🇵JP | 🟢 | vmess | @Hope_Net |...
+  network: tcp
+  port: '2083'
+  server: jp-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 745a1002-6136-4a61-b865-86e2e29bf8b6
 - alterId: 0
   cipher: auto
   name: 21|JP_youtube@资源分享师_36
@@ -57,25 +81,19 @@ proxies:
     headers:
       Host: cdn.cjhh.lol
     path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 21|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本R|@ripaojiedian
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.230.217
   tfo: false
   type: ss
