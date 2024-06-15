@@ -35,21 +35,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-191
+  name: 1|_US_->_AT_
   network: ws
   port: 80
   server: 172.67.193.67
-  servername: gulasch.online
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
   ws-opts:
     headers:
-      HOST: gulasch.online
+      host: gulasch.online
     path: /
 - alterId: 0
   cipher: auto
@@ -172,17 +168,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 21|🇺🇸_US_美国->🇦🇹_AT_奥地利
   network: ws
   port: 80
-  server: zula.ir
+  server: 172.67.193.67
   tls: false
   type: vmess
-  uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+  uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
   ws-opts:
     headers:
-      Host: Uk2.vmess.site.
-    path: /vmess @hopev2ray
+      Host: gulasch.online
+    path: /
 - alterId: 0
   cipher: auto
   name: '21|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
