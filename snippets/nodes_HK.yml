@@ -1,14 +1,121 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21|[VMess] 🇭🇰 香港 016
-  network: tcp
-  port: 49879
-  server: 206.237.31.203
-  servername: ''
+  name: 21|公测|香港 05 1x
+  network: ws
+  port: '2082'
+  server: baobaojichang.bbjc.xyz
   tls: false
   type: vmess
-  uuid: 2aa1a094-8320-4567-b833-c0b4934eb7e2
+  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰 港鸡蛋仔 01-移动优化2
+  network: ws
+  port: '80'
+  server: cm3-cdn.kfcvme50.life
+  tls: false
+  type: vmess
+  uuid: 69b35ece-15e2-4973-8a5f-891c18a85b7a
+  ws-opts:
+    headers:
+      Host: hkbn.kfcvme50.life
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|公测|香港 02 1x
+  network: ws
+  port: '8080'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|公测|香港 01 1x
+  network: ws
+  port: '80'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|公测|香港 04 1x
+  network: ws
+  port: '2052'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰 港鸡蛋仔 01-IP
+  network: ws
+  port: '80'
+  server: 116.92.208.15
+  tls: false
+  type: vmess
+  uuid: 69b35ece-15e2-4973-8a5f-891c18a85b7a
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|公测|香港 03 1x
+  network: ws
+  port: '8880'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|p香港-3
+  network: ws
+  port: '8880'
+  server: yx3.gyyun.top
+  tls: false
+  type: vmess
+  uuid: 56a9b039-eca8-40de-9b71-9b7cff56ecea
+  ws-opts:
+    headers:
+      Host: pqxg1.gyyun.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|🇭🇰 港鸡蛋仔 01-移动优化
+  network: ws
+  port: '80'
+  server: cm2-cdn.kfcvme50.life
+  tls: false
+  type: vmess
+  uuid: 69b35ece-15e2-4973-8a5f-891c18a85b7a
+  ws-opts:
+    headers:
+      Host: hkbn.kfcvme50.life
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港KT|@ripaojiedian
