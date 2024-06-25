@@ -1,9 +1,9 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1,3|🇨🇳_CN_中国->🇺🇸_US_美国
+  name: '1,3,19|广东省广州市 移动 #2'
   network: tcp
-  port: 34002
+  port: '34002'
   server: 120.232.153.27
   sni: ''
   tls: false
@@ -62,9 +62,9 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '1,3,19|广东省广州市 移动 #4'
+  name: '1,3|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
   network: tcp
-  port: '54965'
+  port: 54965
   server: 120.232.153.71
   tls: false
   type: vmess
@@ -114,11 +114,10 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: '1,3,19|广东省广州市 移动 #2'
+  name: '1,3|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   network: tcp
-  port: '35972'
+  port: 35972
   server: 120.232.153.71
-  servername: ''
   sni: ''
   tls: false
   type: vmess
@@ -211,10 +210,11 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9,25|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  name: '9,19,25|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
   server: 104.21.8.157
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
