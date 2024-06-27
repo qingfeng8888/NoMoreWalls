@@ -101,7 +101,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: JP
+  country: SG
   name: 1,6,23|🇺🇸 美国4|@ripaojiedian
   password: RmdXQRXg
   port: 20344
@@ -137,29 +137,24 @@ proxies:
   port: 443
   server: 43.203.209.219
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-5
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 134.195.196.178
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-9
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.99.190.198
   type: ss
-- cipher: aes-128-gcm
-  name: 6|-https://t.me/MrXbin-8
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.80
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-10
-  obfs: plain
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
   udp: true
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-16
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13629
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: bb29cs.cdn.node.a.tddns-ounk.com
+  type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-18
+  name: 6|-https://t.me/MrXbin-21
   obfs: plain
   obfs-param: None
   password: SBM7R883jBmnqe6C
@@ -170,7 +165,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-22
+  name: 6|-https://t.me/MrXbin-24
   obfs: plain
   obfs-param: None
   password: BejrQvtu9sqUeNuZ
@@ -181,7 +176,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-20
+  name: 6|-https://t.me/MrXbin-23
   obfs: plain
   obfs-param: None
   password: HSZuyJQcWe8dxNdF
@@ -192,18 +187,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-21
-  obfs: plain
-  obfs-param: None
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-23
+  name: 6|-https://t.me/MrXbin-25
   obfs: plain
   obfs-param: None
   password: p9z5BVADH2YFs3MN
@@ -214,7 +198,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-24
+  name: 6|-https://t.me/MrXbin-26
   obfs: plain
   obfs-param: None
   password: gYCYXfkUQEs2TaJQ
@@ -225,18 +209,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-25
-  obfs: plain
-  obfs-param: None
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-26
+  name: 6|-https://t.me/MrXbin-27
   obfs: plain
   obfs-param: None
   password: rpgbNnU9rDDU4aWZ
@@ -250,13 +223,35 @@ proxies:
   name: 6|-https://t.me/MrXbin-28
   obfs: plain
   obfs-param: None
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-29
+  obfs: plain
+  obfs-param: None
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-31
+  obfs: plain
+  obfs-param: None
   password: FG5ddLsMPbV5CutE
   port: 9050
   protocol: origin
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-29
+  name: 6|-https://t.me/MrXbin-32
   obfs: plain
   obfs-param: None
   password: UTJA57ypk2XKQpnm
@@ -267,7 +262,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-31
+  name: 6|-https://t.me/MrXbin-33
   obfs: plain
   password: y9VURyNzJWNRYEGQ
   port: 9008
@@ -276,29 +271,7 @@ proxies:
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-32
-  obfs: plain
-  obfs-param: None
-  password: GeregetR8cvQHzYr
-  port: 9030
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-33
-  obfs: plain
-  obfs-param: None
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-34
+  name: 6|-https://t.me/MrXbin-36
   obfs: plain
   obfs-param: None
   password: 4R3hUfZ2FHhDmNcP
@@ -309,18 +282,36 @@ proxies:
   type: ssr
   udp: true
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-35
+  name: 6|-https://t.me/MrXbin-37
   obfs: plain
   obfs-param: None
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
+  password: GeregetR8cvQHzYr
+  port: 9030
   protocol: origin
   protocol-param: None
   server: 103.172.116.79
   type: ssr
   udp: true
 - cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-43
+  obfs: tls1.2_ticket_auth
+  password: eAokbaDN6
+  port: 8081
+  protocol: origin
+  protocol-param: None
+  server: jp-am48-6.eqnode.net
+  type: ssr
+- cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-46
+  obfs: plain
+  password: wjTugX3ZtHMB9c3Z
+  port: 9057
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-47
   obfs: plain
   obfs-param: None
   password: FAdUvMJUq5vDgKEq
@@ -332,48 +323,24 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: BE
-  name: 6|-https://t.me/MrXbin-59
+  name: 6|-https://t.me/MrXbin-66
   password: amazonskr05
   port: 443
   server: 57.180.37.197
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: CA
-  name: 6|-https://t.me/MrXbin-60
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 134.195.196.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: CA
-  name: 6|-https://t.me/MrXbin-61
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 134.195.196.178
-  type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 6|-https://t.me/MrXbin-117
-  obfs: tls1.2_ticket_auth
-  password: eAokbaDN6
-  port: 8081
-  protocol: origin
-  protocol-param: ",:\x16\x13##\x16@...:#%%%%%%%%%\x12%^..%"
-  server: jp-am48-6.eqnode.net
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 6|-https://t.me/MrXbin-119
-  password: 3pURuTUf-lFgg5qWg8euFA
-  port: 1080
-  server: 31.129.22.73
+  country: IE
+  name: 6|-https://t.me/MrXbin-135
+  password: CXmScWyHfrz8vfwAvd7dJ7
+  port: 5351
+  server: 52.169.37.198
   type: ss
 - alterId: 0
   cipher: auto
   country: RU
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-120
+  name: 6|-https://t.me/MrXbin-136
   network: tcp
   port: 47555
   server: 46.29.166.237
@@ -391,29 +358,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-122
-  obfs: plain
-  obfs-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  protocol: origin
-  protocol-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 6|-https://t.me/MrXbin-123
-  obfs: plain
-  obfs-param: VG05dVpRJTNEJTNE
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  protocol: origin
-  protocol-param: VG05dVpRJTNEJTNE
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 6|-https://t.me/MrXbin-124
+  name: 6|-https://t.me/MrXbin-138
   obfs: plain
   password: ueLXVkvh4hckhErQ
   port: 9060
@@ -422,7 +367,25 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-125
+  name: 6|-https://t.me/MrXbin-139
+  obfs: plain
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 6|-https://t.me/MrXbin-140
+  obfs: plain
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 6|-https://t.me/MrXbin-141
   obfs: plain
   obfs-param: Tm9uZQ%3D%3D
   password: f8npKgNzdkss2ytn
@@ -433,38 +396,18 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-126
-  obfs: plain
-  obfs-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  protocol: origin
-  protocol-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 6|-https://t.me/MrXbin-127
+  name: 6|-https://t.me/MrXbin-142
   obfs: plain
   obfs-param: Tm9uZQ%3D%3D
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
   protocol: origin
   protocol-param: Tm9uZQ%3D%3D
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-128
-  obfs: plain
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 6|-https://t.me/MrXbin-129
+  name: 6|-https://t.me/MrXbin-143
   obfs: plain
   obfs-param: Vmtjd05XUldjRkpLVkU1RlNsUk9SUSUzRCUzRA%3D%3D
   password: FAdUvMJUq5vDgKEq
@@ -475,26 +418,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-130
-  obfs: plain
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  protocol: origin
-  protocol-param: None
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 6|-https://t.me/MrXbin-131
-  obfs: plain
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  protocol: origin
-  server: 103.172.116.79
-  type: ssr
-- cipher: aes-256-cfb
-  country: SG
-  name: 6|-https://t.me/MrXbin-132
+  name: 6|-https://t.me/MrXbin-144
   obfs: plain
   password: kSPmvwdFzGMMW5pY
   port: 9007
@@ -503,27 +427,29 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-133
+  name: 6|-https://t.me/MrXbin-145
   obfs: plain
-  password: TPqX8edgbAURcAMb
-  port: 9079
+  obfs-param: VG05dVpRJTNEJTNE
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
   protocol: origin
+  protocol-param: VG05dVpRJTNEJTNE
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-134
+  name: 6|-https://t.me/MrXbin-146
   obfs: plain
-  obfs-param: Tm9uZQ%3D%3D
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
+  obfs-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
   protocol: origin
-  protocol-param: Tm9uZQ%3D%3D
+  protocol-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
   server: 103.172.116.79
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-135
+  name: 6|-https://t.me/MrXbin-147
   obfs: plain
   password: f63gg8EruDnUrmz4
   port: 9010
@@ -532,134 +458,282 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: SG
-  name: 6|-https://t.me/MrXbin-136
+  name: 6|-https://t.me/MrXbin-148
+  obfs: plain
+  obfs-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  protocol: origin
+  protocol-param: VkcwNWRWcFJKVE5FSlRORQ%3D%3D
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 6|-https://t.me/MrXbin-149
+  obfs: plain
+  obfs-param: Tm9uZQ%3D%3D
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
+  protocol: origin
+  protocol-param: Tm9uZQ%3D%3D
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 6|-https://t.me/MrXbin-150
   obfs: plain
   password: XPtzA9sCug3SPR4c
   port: 9025
   protocol: origin
   server: 103.172.116.79
   type: ssr
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-137
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 15.204.87.217
+- cipher: aes-256-cfb
+  country: SG
+  name: 6|-https://t.me/MrXbin-151
+  obfs: plain
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: 6|-https://t.me/MrXbin-152
+  obfs: plain
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  country: ' US'
+  name: 6|-https://t.me/MrXbin-154
+  password: -node.ERSH,Uqwioxdw457*[fx
+  port: 20001
+  server: 176.122.177.159
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 6|-https://t.me/MrXbin-138
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 23.157.40.102
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-139
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 15.204.87.217
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-140
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 15.204.87.217
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-141
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 15.204.87.217
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-142
+  name: 6|-https://t.me/MrXbin-155
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 15.204.87.217
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 6|-https://t.me/MrXbin-143
+  name: 6|-https://t.me/MrXbin-156
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 15.204.87.217
   type: ss
+- cipher: aes-256-cfb
+  country: US
+  name: 6|-https://t.me/MrXbin-157
+  password: amazonskr05
+  port: 443
+  server: 54.218.48.199
+  type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 6|-https://t.me/MrXbin-144
+  name: 6|-https://t.me/MrXbin-158
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.157.40.102
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: US
+  name: 6|-https://t.me/MrXbin-159
+  password: 7Fk0MO0Bj2nd0jHepJUKZ1
+  port: 47621
+  server: 170.64.226.74
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 6|-https://t.me/MrXbin-160
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 15.204.87.217
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 6|-https://t.me/MrXbin-161
   password: zDNVedRFPQexG9v
   port: 6379
   server: 15.204.87.217
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 6|-https://t.me/MrXbin-145
-  password: faBAoD54k87UJG7
-  port: 2375
+  name: 6|-https://t.me/MrXbin-162
+  password: Y6R9pAtvxxzmGC
+  port: 5600
   server: 15.204.87.217
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 6|-https://t.me/MrXbin-146
+  name: 6|-https://t.me/MrXbin-163
   password: KixLvKzwjekG00rm
-  port: 8000
+  port: 5500
   server: 15.204.87.217
   type: ss
 - cipher: aes-256-gcm
   country: US
-  name: 6|-https://t.me/MrXbin-147
+  name: 6|-https://t.me/MrXbin-164
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 15.204.87.217
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 6|-https://t.me/MrXbin-165
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 15.204.87.217
+  type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 6|-https://t.me/MrXbin-166
   password: faBAoD54k87UJG7
   port: 2375
-  server: 23.157.40.102
+  server: 15.204.87.217
   type: ss
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-148
-  network: tcp
-  port: 21636
-  server: 207.246.102.64
-  skip-cert-verify: true
-  type: vmess
-  uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-149
-  network: ws
-  port: 443
-  server: 69.50.93.90
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
 - alterId: 64
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-150
+  name: 6|-https://t.me/MrXbin-167
   network: ws
-  port: 38001
-  server: 192.74.240.229
-  servername: www.43535620.xyz
+  port: 37000
+  server: 38.33.19.85
+  servername: www.59653884.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      HOST: www.43535620.xyz
+      HOST: www.59653884.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-168
+  network: ws
+  port: 8080
+  server: 172.67.199.185
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-169
+  network: ws
+  port: 8080
+  server: 172.67.172.67
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-170
+  network: ws
+  port: 8080
+  server: 172.67.199.211
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '6,8|🇺🇸_US_美国 #2'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  servername: cold-dawn-9246.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 64
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-173
+  network: ws
+  port: 37000
+  server: 38.11.60.87
+  servername: www.72795025.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.72795025.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-174
+  network: ws
+  port: 8080
+  server: 172.67.185.64
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 64
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-175
+  network: ws
+  port: 38001
+  server: 38.11.20.78
+  servername: www.45174198.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.45174198.xyz
     path: /path/191019072927
 - alterId: 0
   cipher: auto
@@ -751,17 +825,6 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: '8|🇺🇸_US_美国 #2'
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 - alterId: 0
   cipher: auto
   name: '8,25|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
