@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1,23|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.141.239.48
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 21|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
@@ -22,11 +30,3 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.239.48
-  tfo: false
-  type: ss
