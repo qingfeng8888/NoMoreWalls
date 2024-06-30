@@ -7,17 +7,79 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '19,21|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
+  name: 21|新加坡06 套娃 中继 | 1.3x
   network: tcp
-  port: '2083'
-  server: sg2-v2ray.ipracevpn.com
+  port: 61008
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- alterId: 0
+  cipher: auto
+  name: 21|@QYJC2024  狮城 Singapore 02
+  network: ws
+  port: 8880
+  server: tgqyjc2024.qyjc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e553755-5d34-4c10-9023-e37eee9948cd
+  ws-opts:
+    headers:
+      Host: singapore.tgqyjc2024.qyjc666.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 21|PRO 新加坡03 | 4x
+  network: ws
+  port: 3041
+  server: pro01.dns2024.org
   servername: ''
   tls: true
   type: vmess
-  uuid: 0eb76650-5dda-4466-a142-b2097b93c50a
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+  ws-opts:
+    headers:
+      Host: sg03.li.nbsd.us
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|PRO 新加坡05 | 4x 原生IP
+  network: tcp
+  port: 3051
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
 - alterId: 0
   cipher: auto
   name: 21|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: ws
+  port: 2052
+  server: 206.238.236.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 21|新加坡 隧道 均衡负载 动态IP 1.2x
+  network: tcp
+  port: 61012
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- alterId: 0
+  cipher: auto
+  name: '21|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
   network: ws
   port: '443'
   server: sg2-full.privateip.net
@@ -28,6 +90,20 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 21|@QYJC2024  狮城 Singapore 01
+  network: ws
+  port: 8080
+  server: tgqyjc2024.qyjc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e553755-5d34-4c10-9023-e37eee9948cd
+  ws-opts:
+    headers:
+      Host: singapore.tgqyjc2024.qyjc666.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
