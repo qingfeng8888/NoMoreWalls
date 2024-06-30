@@ -37,7 +37,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: US
+  country: JP
+  h2-opts: {}
+  http-opts: {}
   name: 1,6,23|🇺🇸 美国4|@ripaojiedian
   password: RmdXQRXg
   port: 20344
@@ -145,63 +147,47 @@ proxies:
   server: 52.77.246.165
   type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-25
+  name: 6|-https://t.me/MrXbin-31
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- cipher: aes-256-cfb
+  country: BE
+  name: 6|-https://t.me/MrXbin-67
+  password: amazonskr05
+  port: 443
+  server: 57.180.37.197
+  type: ss
 - cipher: chacha20-ietf-poly1305
   country: IE
-  name: 6|-https://t.me/MrXbin-121
+  name: 6|-https://t.me/MrXbin-144
   password: jjxXMDnfbChUWPL1QM02fM
   port: 16141
   server: 52.169.50.64
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: IN
+  name: 6|-https://t.me/MrXbin-145
+  password: l2zEoLV7XbwU4ZvGN46gyr
+  port: 4917
+  server: 165.22.208.240
+  type: ss
 - cipher: aes-256-cfb
   country: JP
-  name: 6|-https://t.me/MrXbin-122
-  obfs: tls1.2_ticket_auth
-  password: eAokbaDN6
-  port: 8081
-  protocol: origin
-  protocol-param: ",:\x16\x13##\x16@...:#%%%%%%%%%\x12%^..%"
-  server: jp-am48-6.eqnode.net
-  type: ssr
+  name: 6|-https://t.me/MrXbin-146
+  password: amazonskr05
+  port: 443
+  server: 18.181.170.157
+  type: ss
 - alterId: 1
   cipher: auto
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-123
-  network: tcp
-  port: 21581
-  server: avido-g01.jp03-7d22-vm0.entry.fr0307a.art
-  servername: avido-g01.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  country: JP
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-124
-  network: tcp
-  port: 28786
-  server: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e147ce52-2598-31b0-950d-6b12c306b360
-- alterId: 1
-  cipher: auto
-  country: JP
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-125
+  name: 6|-https://t.me/MrXbin-147
   network: tcp
   port: 28788
   server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
@@ -214,19 +200,22 @@ proxies:
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-126
+  name: 6|-https://t.me/MrXbin-148
   network: tcp
-  port: 449
-  server: h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art
+  port: 28786
+  server: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 6|-https://t.me/MrXbin-128
-  password: PcJxyxcDSd2eJGZEMtudcV
-  port: 7843
-  server: 45.159.249.42
+  uuid: e147ce52-2598-31b0-950d-6b12c306b360
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: KR
+  name: 6,23|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.39.227.28
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -237,109 +226,56 @@ proxies:
   server: 172.104.49.76
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  country: US
+  name: 6|-https://t.me/MrXbin-152
+  password: amazonskr05
+  port: 443
+  server: 34.219.151.61
+  type: ss
 - cipher: chacha20-ietf-poly1305
   country: US
-  name: 6|-https://t.me/MrXbin-130
-  password: wfMxCanP6MG3btVknA9doT
-  port: 21405
-  server: 170.64.161.94
+  name: 6|-https://t.me/MrXbin-153
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node5.s.nodelist-gfwairport2.top
   type: ss
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-131
-  network: ws
-  port: 8080
-  server: 172.67.172.67
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-132
-  network: tcp
-  port: 2083
-  server: kz-v2ray.ipracevpn.com
-  servername: kz-v2ray.ipracevpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d19b7c3b-d183-4bd8-9917-fec99ed81698
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-133
-  network: ws
-  port: 8080
-  server: 172.67.199.211
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /
 - alterId: 64
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-134
+  name: 6|-https://t.me/MrXbin-154
   network: ws
   port: 37000
-  server: 38.33.19.86
-  servername: www.25902523.xyz
+  server: 38.33.56.38
+  servername: www.93599412.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      HOST: www.25902523.xyz
+      HOST: www.93599412.xyz
     path: /path/191019072927
-- alterId: 0
+- alterId: 64
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-135
-  network: tcp
-  port: 2083
-  server: 95.164.114.42
+  name: 6|-https://t.me/MrXbin-155
+  network: ws
+  port: 37000
+  server: 38.33.56.39
+  servername: www.93599412.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: d19b7c3b-d183-4bd8-9917-fec99ed81698
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-136
-  network: ws
-  port: 8080
-  server: 172.67.172.65
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      HOST: oiictw.yydsii.com
-    path: /
+      HOST: www.93599412.xyz
+    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 7|德国1
@@ -3930,14 +3866,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 52.221.223.215
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.39.227.28
   tfo: false
   type: ss
 - cipher: aes-256-cfb
