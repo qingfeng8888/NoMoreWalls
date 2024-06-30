@@ -1,14 +1,13 @@
 proxies:
 - cipher: aes-256-cfb
-  country: SG
-  name: 1,6|-https://t.me/MrXbin-141
+  name: 1|_SG_
   password: amazonskr05
   port: 443
   server: 52.77.246.165
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19,21|🇸🇬 新加坡 Linode数据中心
+  name: 21|🇸🇬 新加坡 Linode数据中心
   network: tcp
   port: 2083
   server: sg2-v2ray.ipracevpn.com
@@ -63,6 +62,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
