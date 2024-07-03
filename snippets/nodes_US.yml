@@ -229,10 +229,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|美国 CloudFlare节点
+  name: '19,21|🇺🇸 美国 CloudFlare节点 #2'
   network: ws
   port: 2086
   server: 104.19.45.31
+  servername: ''
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
@@ -242,9 +243,9 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 19,21|美国【TG：@ccbaohe】定时更新节点订阅
+  name: 19,21|🇺🇸 美国 CloudFlare节点 2
   network: ws
-  port: '2086'
+  port: 2086
   server: 104.19.46.233
   servername: ''
   tls: false
@@ -256,7 +257,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '19|美国 CloudFlare节点 #6'
+  name: '19,21|美国 CloudFlare节点 #9'
   network: ws
   port: 2052
   server: www.speedtest.net
@@ -337,10 +338,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_222
+  name: 21|US_youtube@资源分享师_149
   network: ws
-  port: 2086
-  server: 104.19.47.42
+  port: 2052
+  server: 104.19.45.109
   tls: false
   type: vmess
   uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
@@ -352,99 +353,6 @@ proxies:
   cipher: auto
   name: 21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -...
   network: ws
-  port: 2086
-  server: 104.19.46.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 21|رایگان | VMESS | @kingofilter ...
-  network: ws
-  port: '443'
-  server: 172.67.164.164
-  servername: afrhms07.xfixedfloat.cfd
-  tls: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      Host: afrhms07.xfixedfloat.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸US | 🟢 | vmess | @ConfigsHUB...
-  network: tcp
-  port: '22324'
-  server: 38.75.137.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_121
-  network: ws
-  port: 2082
-  server: 104.19.46.245
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|美国 CloudFlare节点 #9'
-  network: ws
-  port: 2052
-  server: 104.19.21.240
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇺🇸 US-38.95.233.222...
-  network: ws
-  port: 80
-  server: 38.95.233.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 41fcf4ae-9266-422f-f730-b1ff57bb0345
-  ws-opts:
-    headers:
-      Host: 38.95.233.222
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|美国FL
-  network: ws
-  port: '80'
-  server: usfl1.ludou.us.kg
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11224ab6-13d6-4a27-ae12-c042b26ea68d
-  ws-opts:
-    headers:
-      Host: usfl.ludou.us.kg
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #1'
-  network: ws
   port: '2086'
   server: 104.19.45.13
   servername: ''
@@ -455,51 +363,35 @@ proxies:
     headers:
       Host: ip13.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 21|US_youtube@资源分享师_148
-  network: ws
-  port: 2082
-  server: 104.19.46.85
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-198.2.234.98...
+  network: tcp
+  port: 39771
+  server: 198.2.234.98
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_189
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #1'
   network: ws
-  port: 2086
-  server: 104.19.47.205
+  port: '2052'
+  server: 104.19.21.73
+  servername: ''
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   ws-opts:
     headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_103
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #2'
   network: ws
-  port: 2082
-  server: 104.19.46.244
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|美国 CloudFlare节点 #10'
-  network: ws
-  port: 2086
-  server: 104.19.45.17
+  port: '2086'
+  server: 104.19.45.19
   servername: ''
   tls: false
   type: vmess
@@ -510,22 +402,9 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_212
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #3'
   network: ws
   port: 2086
-  server: 104.19.47.226
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #2'
-  network: ws
-  port: '2086'
   server: 104.19.46.59
   servername: ''
   tls: false
@@ -537,20 +416,30 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇺🇸 US-66.135.3.168...
+  name: 21|🇺🇸US | 🟢 | vmess | @ShadowProx...
   network: tcp
-  port: '44990'
-  server: 66.135.3.168
+  port: '43834'
+  server: 50.114.243.61
   servername: ''
   tls: false
   type: vmess
-  uuid: 88623615-0713-497a-9233-755a33cc7080
+  uuid: b246e34d-bbd1-4016-8f74-ea461c37e411
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_174
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-38.75.137.27...
+  network: tcp
+  port: '22324'
+  server: 38.75.137.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 21|US_youtube@资源分享师_172
   network: ws
-  port: 2086
-  server: 104.19.47.231
+  port: 2052
+  server: 104.19.45.142
   tls: false
   type: vmess
   uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
@@ -560,10 +449,10 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_140
+  name: 21|US_youtube@资源分享师_211
   network: ws
-  port: 2082
-  server: 104.19.46.80
+  port: 2052
+  server: 104.19.45.98
   tls: false
   type: vmess
   uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
@@ -571,61 +460,80 @@ proxies:
     headers:
       Host: hongkong.tgqyjc2024.qyjc666.xyz
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 21|US_youtube@资源分享师_117
-  network: ws
-  port: 2086
-  server: 104.19.47.199
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-107.148.192....
+  network: tcp
+  port: '41911'
+  server: 107.148.192.156
+  servername: ''
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_186
-  network: ws
-  port: 2086
-  server: 104.19.47.159
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  network: tcp
+  port: '42598'
+  server: 129.146.247.135
+  servername: ''
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_173
-  network: ws
-  port: 2086
-  server: 104.19.47.142
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: 52408
+  server: 129.146.46.181
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_139
+  name: 21|🇺🇸US-155.138.242.207-0198
   network: ws
-  port: 2082
-  server: 104.19.46.36
+  port: 80
+  server: 155.138.242.207
+  servername: ''
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
+  uuid: 81f40c2c-e3e8-4e0a-cb51-33db25e20b97
   ws-opts:
     headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #3'
+  name: 21|🇺🇸US-107.173.146.129-0818
+  network: ws
+  port: 80
+  server: 107.173.146.129
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: 107.173.146.129
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|رایگان | VMESS | @kingofilter ...
+  network: ws
+  port: '443'
+  server: 172.67.131.108
+  servername: glweidf.cfd
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: glweidf.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #4'
   network: ws
   port: '2086'
   server: 172.64.99.22
@@ -639,10 +547,52 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_175
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #5'
   network: ws
-  port: 2082
-  server: 104.19.46.214
+  port: 2086
+  server: 104.19.45.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #6'
+  network: ws
+  port: 2052
+  server: 104.19.38.18
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #7'
+  network: ws
+  port: 2052
+  server: 104.19.21.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 21|US_youtube@资源分享师_202
+  network: ws
+  port: 2052
+  server: 104.19.45.96
   tls: false
   type: vmess
   uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
@@ -666,134 +616,24 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '21|美国 CloudFlare节点 #12'
+  name: 21|🇺🇸US-64.23.196.139-0933
   network: ws
-  port: 2052
-  server: 104.19.38.18
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸 美国 CloudFlare节点 22
-  network: ws
-  port: 2086
-  server: 104.19.57.4
+  port: 13337
+  server: 64.23.196.139
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_107
-  network: ws
-  port: 8880
-  server: 104.19.44.99
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 64
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇺🇸 US-142.0.134.24...
-  network: tcp
-  port: '45017'
-  server: 142.0.134.241
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇺🇸 US-107.148.192....
-  network: tcp
-  port: '41911'
-  server: 107.148.192.156
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-WS-NA 🇺🇸 US-155.138.242.2...
-  network: ws
-  port: 54316
-  server: 155.138.242.207
-  tls: false
-  type: vmess
-  uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd
-  ws-opts:
-    headers:
-      Host: 155.138.242.207
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_185
-  network: ws
-  port: 2082
-  server: 104.19.46.156
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸US-107.173.146.129-0818
-  network: ws
-  port: 80
-  server: 107.173.146.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      Host: 107.173.146.129
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸US-155.138.242.207-0198
-  network: ws
-  port: 80
-  server: 155.138.242.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81f40c2c-e3e8-4e0a-cb51-33db25e20b97
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
-  network: tcp
-  port: '52408'
-  server: 129.146.46.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_178
+  name: 21|US_youtube@资源分享师_113
   network: ws
-  port: 2082
-  server: 104.19.46.6
+  port: 8080
+  server: 104.19.48.22
   tls: false
   type: vmess
   uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
@@ -801,124 +641,6 @@ proxies:
     headers:
       Host: hongkong.tgqyjc2024.qyjc666.xyz
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
-  network: tcp
-  port: '42598'
-  server: 129.146.247.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
-- alterId: 0
-  cipher: auto
-  name: 21|美国LL
-  network: ws
-  port: '80'
-  server: usll1.ludou.us.kg
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11224ab6-13d6-4a27-ae12-c042b26ea68d
-  ws-opts:
-    headers:
-      Host: usll.ludou.us.kg
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_124
-  network: ws
-  port: 2082
-  server: 104.19.46.8
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|美国 082
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  servername: ip11.freegradely.xyz
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #4'
-  network: ws
-  port: 2086
-  server: 104.19.45.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_89
-  network: ws
-  port: 2082
-  server: 104.19.46.45
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_97
-  network: ws
-  port: 2082
-  server: 104.19.46.23
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_210
-  network: ws
-  port: 2082
-  server: 104.19.46.206
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|美国GA
-  network: ws
-  port: '80'
-  server: usga1.ludou.us.kg
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11224ab6-13d6-4a27-ae12-c042b26ea68d
-  ws-opts:
-    headers:
-      Host: usga.ludou.us.kg
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 21|رایگان | VMESS | @v2Line | US🇺...
@@ -935,120 +657,107 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: 21|🔒 VM-TCP-NA 🇺🇸 US-108.181.200....
-  network: ''
-  port: 17163
-  server: 108.181.200.220
-  tls: false
-  type: vmess
-  uuid: d54814a1-7a93-45f8-9117-db317a25d100
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_84
+  name: 21|美国 082
   network: ws
   port: 2086
-  server: 104.19.47.128
+  server: 172.64.175.213
+  servername: ip11.freegradely.xyz
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_224
-  network: ws
-  port: 8880
-  server: 104.19.44.134
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸US-45.145.73.239-0083
-  network: ws
-  port: 443
-  server: us.linkconnectnf.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 50e59d23-d9bb-463e-b9c0-dffc8ff633df
-  ws-opts:
-    headers:
-      Host: aa.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_120
-  network: ws
-  port: 2086
-  server: 104.19.47.237
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_214
-  network: ws
-  port: 2082
-  server: 104.19.46.96
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #5'
-  network: ws
-  port: '2052'
-  server: 104.19.21.73
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
+      Host: ip11.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21|美国LA
-  network: ws
-  port: '80'
-  server: usla1.ludou.us.kg
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-66.135.3.168...
+  network: tcp
+  port: '44990'
+  server: 66.135.3.168
   servername: ''
   tls: false
   type: vmess
-  uuid: 11224ab6-13d6-4a27-ae12-c042b26ea68d
-  ws-opts:
-    headers:
-      Host: usla.ludou.us.kg
-    path: /?ed=2048
+  uuid: 88623615-0713-497a-9233-755a33cc7080
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_109
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #8'
   network: ws
-  port: 2086
-  server: 104.19.47.247
+  port: '2086'
+  server: 104.19.45.17
+  servername: ''
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 21|美国 - 洛杉矶 - Psychz Networks - 1...
+  network: ws
+  port: 2086
+  server: 104.19.47.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip11-2.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #9'
+  network: ws
+  port: '2086'
+  server: 104.19.46.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 21|🔒 VM-WS-NA 🇺🇸 US-155.138.242.2...
+  network: ws
+  port: 54316
+  server: 155.138.242.207
+  tls: false
+  type: vmess
+  uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd
+  ws-opts:
+    headers:
+      Host: 155.138.242.207
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 21|🔒 VM-TCP-NA 🇺🇸 US-142.0.134.24...
+  network: tcp
+  port: '45017'
+  server: 142.0.134.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '21|【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 -... #10'
+  network: ws
+  port: '2086'
+  server: 104.19.45.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 23|🇺🇸 美国3|@ripaojiedian
@@ -1073,6 +782,16 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 24|美国|@ripaojiedian
+  network: tcp
+  port: '41082'
+  server: 103.136.185.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b907cfc5-71ae-4663-83da-51283565adbb
 - alterId: 0
   cipher: auto
   name: '25|🇺🇸_US_美国 #30'
