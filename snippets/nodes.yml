@@ -531,20 +531,14 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-1
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  port: 8080
-  server: 45.158.171.131
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-3
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 167.88.62.62
+  password: amazonskr05
+  port: 443
+  server: 3.39.251.119
   type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-10
+  name: 6|-https://t.me/MrXbin-12
   password: amazonskr05
   port: 443
   server: 13.124.244.90
@@ -553,32 +547,104 @@ proxies:
   name: 6|-https://t.me/MrXbin-13
   password: amazonskr05
   port: 443
-  server: 52.11.246.110
+  server: 52.195.1.82
   type: ss
-- cipher: rc4-md5
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-14
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 134.195.196.178
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 6|-https://t.me/MrXbin-15
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_8)7112bba:140737
+    mode: tls
+  port: 2377
+  server: 18.176.215.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-17
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.99.190.198
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-18
+  password: 3fbeb668f48414f6
+  port: 57456
+  server: us.sptnk.space
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 6|-https://t.me/MrXbin-20
+  obfs: plain
+  obfs-param: 2f51e42274.wns.microsoft.com
+  password: fnf.xyz
+  port: 20505
+  protocol: auth_aes128_sha1
+  protocol-param: 42274:oSRZAa
+  server: ceu-a01.stream.fnode.top
+  type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-21
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13171
+  port: 13226
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-30
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13225
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: SE
+  country: US
   name: 6,23|🇺🇸 美国7|@ripaojiedian
   password: GsKYmYOE
   port: 21636
   server: 207.246.102.64
   skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
+  sni: 421421.xyz
   tfo: false
   tls: false
   type: vmess
   udp: true
   uuid: 53d57cfb-189f-4a9f-b620-a3ca168b7ac1
+- cipher: chacha20-ietf-poly1305
+  country: ' AO'
+  name: 6|-https://t.me/MrXbin-73
+  password: 3fbeb668f48414f6
+  port: 57456
+  server: 104.167.197.23
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: DE
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|116
+  network: tcp
+  port: '58116'
+  server: 45.128.153.28
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 957d375f-a3ac-4ed0-9001-7abbce012521
 - alterId: 0
   cipher: auto
   country: DE
@@ -592,12 +658,60 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-128-gcm
+  country: GB
+  name: 6|-https://t.me/MrXbin-137
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.194
+  type: ss
 - cipher: aes-256-cfb
   country: KR
-  name: 6|-https://t.me/MrXbin-114
+  name: 6|-https://t.me/MrXbin-139
   password: amazonskr05
   port: 443
   server: 54.180.251.250
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: NL
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-140
+  network: ws
+  port: 80
+  server: 188.114.96.3
+  servername: 127.0.0.1.kleksacademy..ak..wonkacapitano.buzz.
+  skip-cert-verify: true
+  type: vmess
+  uuid: 43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f
+  ws-opts:
+    headers:
+      HOST: 127.0.0.1.kleksacademy..ak..wonkacapitano.buzz.
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: NL
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-141
+  network: ws
+  port: 80
+  server: 188.114.96.221
+  servername: dl2.127.0.0.1.p..ka.kl3ksacad3my..wonkacapitano.buzz.
+  skip-cert-verify: true
+  type: vmess
+  uuid: 310fabb7-2abc-4301-b302-22aa49c954fb
+  ws-opts:
+    headers:
+      HOST: dl2.127.0.0.1.p..ka.kl3ksacad3my..wonkacapitano.buzz.
+    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 6|-https://t.me/MrXbin-142
+  password: CaNG1aNlH0QJRkdsWVzW63
+  port: 12575
+  server: 89.185.84.185
   type: ss
 - alterId: 0
   cipher: auto
@@ -626,132 +740,38 @@ proxies:
   tls: false
   type: vmess
   uuid: 2251caa5-3b36-4bbe-98e3-b147c70ba286
-- cipher: aes-256-gcm
-  country: ' US'
-  name: 6|-https://t.me/MrXbin-118
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 167.88.62.62
-  type: ss
-- cipher: aes-256-gcm
-  country: ' US'
-  name: 6|-https://t.me/MrXbin-119
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 167.88.62.62
-  type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   country: US
-  name: 6|-https://t.me/MrXbin-120
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 23.150.152.41
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-121
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.154.136.51
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-122
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 23.150.152.41
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-123
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.150.152.41
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-124
-  password: pKEW8JPByTVTLtM
+  name: 6|-https://t.me/MrXbin-146
+  password: lWaGPVFjmnag
   port: 443
-  server: 23.150.152.41
+  server: 205.134.180.139
   type: ss
 - cipher: aes-256-cfb
   country: US
-  name: 6|-https://t.me/MrXbin-125
+  name: 6|-https://t.me/MrXbin-147
   password: amazonskr05
   port: 443
   server: 47.129.0.210
   type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-126
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 167.88.62.62
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-127
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 167.88.62.62
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-128
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 23.150.152.41
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-129
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 167.88.62.62
-  type: ss
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-130
+  name: 6|-https://t.me/MrXbin-148
   network: tcp
-  port: 23949
-  server: 154.64.232.199
+  port: 19436
+  server: 154.21.194.216
   skip-cert-verify: true
   type: vmess
-  uuid: 9462f12a-4c77-473d-925e-1b2f6123dd10
+  uuid: f0a09995-d83b-4110-847e-6fbd252dbfd3
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-131
-  network: tcp
-  port: 35661
-  server: 154.64.232.40
-  skip-cert-verify: true
-  type: vmess
-  uuid: 15705f6f-9c7a-4702-9348-6a4b007d2b09
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-132
-  network: tcp
-  port: 33581
-  server: 154.64.233.91
-  skip-cert-verify: true
-  type: vmess
-  uuid: 42656a28-c8fe-471b-c705-49f11b25c319
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-133
+  name: 6|-https://t.me/MrXbin-149
   network: tcp
   port: 19134
   server: 154.64.232.177
@@ -763,7 +783,176 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-134
+  name: 6|-https://t.me/MrXbin-150
+  network: ws
+  port: 2095
+  server: onea.flha.ru
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      HOST: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|473
+  network: tcp
+  port: '43947'
+  server: 38.95.119.247
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 68b8c62f-5e7a-4e3a-b313-0700a7f2e38b
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|83
+  network: tcp
+  port: '53983'
+  server: 45.32.78.218
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 01998b9d-751a-49d4-e9eb-61693143f8e2
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-153
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  servername: cold-dawn-9246.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    headers:
+      HOST: cold-dawn-9246.fly.dev
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-154
+  network: ws
+  port: 2095
+  server: 172.67.214.33
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      HOST: onea.flha.ru
+    path: /
+- alterId: 64
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-155
+  network: tcp
+  port: 41911
+  server: 107.148.192.149
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-156
+  network: tcp
+  port: 23949
+  server: 154.64.232.199
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9462f12a-4c77-473d-925e-1b2f6123dd10
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|US_youtube@资源分享师_117
+  network: tcp
+  port: 53510
+  server: 154.21.194.199
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 12cc5587-b1c5-4efd-b7e0-cc681481e86f
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-158
+  network: tcp
+  port: 35661
+  server: 154.64.232.40
+  skip-cert-verify: true
+  type: vmess
+  uuid: 15705f6f-9c7a-4702-9348-6a4b007d2b09
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|US_youtube@资源分享师_230
+  network: tcp
+  port: 28815
+  server: 38.150.3.99
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3c1832e6-8e59-41ba-b9f1-fc171125e601
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-160
+  network: tcp
+  port: 33581
+  server: 154.64.233.91
+  skip-cert-verify: true
+  type: vmess
+  uuid: 42656a28-c8fe-471b-c705-49f11b25c319
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|US_youtube@资源分享师_118
+  network: ws
+  port: 22477
+  server: 154.21.194.210
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3202822c-2ed1-42ca-8b82-7e2d05b38b25
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-162
   network: tcp
   port: 19211
   server: 154.64.232.165
@@ -775,7 +964,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-135
+  name: 6|-https://t.me/MrXbin-163
   network: tcp
   port: 45444
   server: 154.64.232.196
@@ -787,15 +976,18 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6,21|159
-  network: tcp
-  port: '34019'
-  server: 23.27.49.205
-  servername: ''
+  name: 6|-https://t.me/MrXbin-165
+  network: ws
+  port: 16024
+  server: 154.21.194.213
+  servername: 154.21.194.213
   skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: 7b9da037-9629-4157-e6ab-65ef5d82b716
+  uuid: 29b6d6fc-72af-456e-9b6c-3573958e6fb7
+  ws-opts:
+    headers:
+      HOST: 154.21.194.213
+    path: /
 - alterId: 0
   cipher: auto
   country: US
@@ -815,14 +1007,103 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6,21|US_youtube@资源分享师_163
+  name: 6|-https://t.me/MrXbin-167
+  network: ws
+  port: 2052
+  server: 172.67.74.122
+  servername: cdn2.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn2.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|775
   network: tcp
-  port: 38297
-  server: 23.27.49.205
+  port: '47775'
+  server: 154.21.194.107
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f884721d-b5cd-4db4-f0f1-f87f49a58056
+  uuid: 85ecd701-0aca-40ab-c564-90c1f50e9554
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|US_youtube@资源分享师_227
+  network: tcp
+  port: 44400
+  server: 154.21.194.210
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f97b0aa5-3147-4bf7-c1e7-2a2800d0fedb
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-170
+  network: tcp
+  port: 47798
+  server: 154.64.232.40
+  skip-cert-verify: true
+  type: vmess
+  uuid: 77f613e0-b57a-492d-ba09-7ffd34db8fcb
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|499
+  network: tcp
+  port: '26499'
+  server: 138.128.220.123
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0f4da44b-3bed-4f50-edda-64284b0b4175
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6,21|US_youtube@资源分享师_132
+  network: ws
+  port: 40557
+  server: 154.21.194.193
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 47c00ab6-84af-497e-c208-f40193d10a2f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-175
+  network: ws
+  port: 8880
+  server: cf2.trojan.tel
+  servername: ssrsub-cf-v3.trojan.tel
+  skip-cert-verify: true
+  type: vmess
+  uuid: b522ae04-4707-41df-81a8-17163c283675
+  ws-opts:
+    headers:
+      HOST: ssrsub-cf-v3.trojan.tel
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -4249,27 +4530,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21|116
-  network: tcp
-  port: '58116'
-  server: 45.128.153.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 957d375f-a3ac-4ed0-9001-7abbce012521
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_132
-  network: ws
-  port: 40557
-  server: 154.21.194.193
-  tls: false
-  type: vmess
-  uuid: 47c00ab6-84af-497e-c208-f40193d10a2f
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 21|🔘8@oneclickvpnkeys
   network: tcp
   port: '13701'
@@ -4506,15 +4766,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_227
-  network: tcp
-  port: 44400
-  server: 154.21.194.210
-  tls: false
-  type: vmess
-  uuid: f97b0aa5-3147-4bf7-c1e7-2a2800d0fedb
-- alterId: 0
-  cipher: auto
   name: 21|✅سرورهایبیشتردرکانال:prrofile_...
   network: ws
   port: '443'
@@ -4555,16 +4806,6 @@ proxies:
     headers:
       Host: ip1.1457230.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 21|775
-  network: tcp
-  port: '47775'
-  server: 154.21.194.107
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ecd701-0aca-40ab-c564-90c1f50e9554
 - alterId: 0
   cipher: auto
   name: 21|123
@@ -4662,6 +4903,15 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
+  name: 21|US_youtube@资源分享师_163
+  network: tcp
+  port: 38297
+  server: 23.27.49.205
+  tls: false
+  type: vmess
+  uuid: f884721d-b5cd-4db4-f0f1-f87f49a58056
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-WS-NA 🇲🇾 MY-38.54.112.238...
   network: ws
   port: '47720'
@@ -4698,15 +4948,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_230
-  network: tcp
-  port: 28815
-  server: 38.150.3.99
-  tls: false
-  type: vmess
-  uuid: 3c1832e6-8e59-41ba-b9f1-fc171125e601
 - alterId: 0
   cipher: auto
   name: 21|美国  21〖电报：@ccbaohe】免费节点定时更新
@@ -4781,16 +5022,6 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21|499
-  network: tcp
-  port: '26499'
-  server: 138.128.220.123
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0f4da44b-3bed-4f50-edda-64284b0b4175
 - alterId: 0
   cipher: auto
   name: 21|加拿大 044
@@ -5027,16 +5258,6 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 21|83
-  network: tcp
-  port: '53983'
-  server: 45.32.78.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 01998b9d-751a-49d4-e9eb-61693143f8e2
-- alterId: 0
-  cipher: auto
   name: 21|273
   network: tcp
   port: '23273'
@@ -5099,17 +5320,6 @@ proxies:
   uuid: 14f52c3d-4bc6-455a-d741-83249368d907
 - alterId: 0
   cipher: auto
-  name: 21|US_youtube@资源分享师_118
-  network: ws
-  port: 22477
-  server: 154.21.194.210
-  tls: false
-  type: vmess
-  uuid: 3202822c-2ed1-42ca-8b82-7e2d05b38b25
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: '21|美国 CloudFlare节点 #82'
   network: ws
   port: 2095
@@ -5163,16 +5373,6 @@ proxies:
     headers:
       Host: obdii.cfd
     path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 21|473
-  network: tcp
-  port: '43947'
-  server: 38.95.119.247
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 68b8c62f-5e7a-4e3a-b313-0700a7f2e38b
 - alterId: 0
   cipher: auto
   name: 21|Relay_🇺🇸US-🇨🇦CA_108 |125.11Mb
@@ -5336,15 +5536,6 @@ proxies:
     headers:
       Host: 23.230.71.39
     path: /
-- alterId: 0
-  cipher: auto
-  name: 21|US_youtube@资源分享师_117
-  network: tcp
-  port: 53510
-  server: 154.21.194.199
-  tls: false
-  type: vmess
-  uuid: 12cc5587-b1c5-4efd-b7e0-cc681481e86f
 - alterId: 0
   cipher: auto
   name: 21|🏁RELAY-104.19.47.217-0890
@@ -5650,6 +5841,16 @@ proxies:
     headers:
       Host: 107.173.146.129
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|159
+  network: tcp
+  port: '34019'
+  server: 23.27.49.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b9da037-9629-4157-e6ab-65ef5d82b716
 - alterId: 0
   cipher: auto
   name: 21|350
