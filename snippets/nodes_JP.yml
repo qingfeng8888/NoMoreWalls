@@ -1,8 +1,16 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本2|@ripaojiedian
+  password: amazonskr05
+  port: 80
+  server: 13.209.20.172
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 21,23,24|日本4|@ripaojiedian
+  name: 23,24|日本4|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -29,6 +37,6 @@ proxies:
   name: 23|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.255.232.203
+  server: 54.180.251.250
   tfo: false
   type: ss
