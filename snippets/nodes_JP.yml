@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 21|日本🇯🇵
+  network: ws
+  port: '20121'
+  server: osaka002-a.oraclenat.cc
+  tls: false
+  type: vmess
+  uuid: 6142f6f8-5f50-4445-a5ec-61fa9b8c12de
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本2|@ripaojiedian
@@ -30,5 +43,13 @@ proxies:
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.251.250
   tfo: false
   type: ss
