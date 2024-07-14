@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 21|台湾 02 | ws
+  network: ws
+  port: 80
+  server: 207c13fb-83b6-2021-766b-6c95e56a4a33.bugtik.ltd
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e152726-941a-4196-afa4-58aa03d38f8f
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 21|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
   network: ws
   port: '31945'
@@ -13,6 +27,16 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|-0716-TW【ccbaohe.com〗 永久免费节点机场
+  network: tcp
+  port: '63097'
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6cf559be-8e10-3c59-ad8c-7345fa164ab8
 - client-fingerprint: chrome
   name: 23|🇹🇼 台湾|@ripaojiedian
   network: ws
