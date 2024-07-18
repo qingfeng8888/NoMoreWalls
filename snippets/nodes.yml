@@ -528,6 +528,37 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-7
+  network: ws
+  port: 80
+  server: 66.81.247.246
+  servername: 127.0.0.1..j.spacecadet.day0ne.wonkacapitano.buzz.
+  skip-cert-verify: true
+  type: vmess
+  uuid: 28f8d51a-0e75-4fc3-a36e-03bf4e4d0910
+  ws-opts:
+    headers:
+      HOST: 127.0.0.1..j.spacecadet.day0ne.wonkacapitano.buzz.
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-9
+  network: ws
+  port: 80
+  server: 206.238.236.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 6,23|🇺🇸 美国4|@ripaojiedian
   password: MfqALmAJ
@@ -538,6 +569,7 @@ proxies:
   tfo: false
   tls: false
   type: trojan
+  udp: true
   uuid: 5ffe58d1-ddbe-4fc0-8af7-06db520b48c9
 - alterId: 0
   cipher: auto
