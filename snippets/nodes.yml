@@ -527,30 +527,13 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-6
+  name: 6|-https://t.me/MrXbin-5
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-16
-  network: ws
-  port: 38003
-  server: 38.14.107.228
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.23179753.xyz
-    path: /path/181721272114
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -3066,7 +3049,7 @@ proxies:
     skip-cert-verify: false
     tls: true
   port: 8443
-  server: 36.232.14.119
+  server: 36.232.31.218
   tfo: false
   type: ss
 - alterId: 64
@@ -3077,7 +3060,7 @@ proxies:
   port: 40081
   server: 183.232.139.24
   skip-cert-verify: true
-  sni: 421421.xyz
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
   type: trojan
@@ -3122,6 +3105,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 23,24|日本2|@ripaojiedian
+  network: ws
+  port: '63011'
+  server: in06.dns2024.org
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  ws-opts:
+    headers:
+      Host: jp-a-mugua.weibo-cdn.best
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 23,24|日本3|@ripaojiedian
   network: ws
   port: '2052'
@@ -3136,14 +3136,6 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本4|@ripaojiedian
-  password: a2c791a3-b846-4429-9b5a-32003a6bf733
-  port: 61001
-  server: 4.forlive.live
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本R|@ripaojiedian
@@ -3169,19 +3161,14 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
-- client-fingerprint: chrome
-  name: 23|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  password: 401b8df2-10f3-4440-8b7f-9870474b2777
-  port: 443
-  server: ct.cfyun.top
-  skip-cert-verify: false
-  sni: cfus4.trojanwss.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cfus4.trojanwss.xyz
-    path: /CFJICHANG
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡2|@ripaojiedian
+  password: 2af732d9-b956-42dc-8be2-4f28c3407cb2
+  port: 44400
+  server: free-relay.t01.themars.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3204,7 +3191,7 @@ proxies:
   name: 23|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.195.207.131
+  server: 54.255.211.19
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -3220,7 +3207,7 @@ proxies:
   name: 23|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.183.77.249
+  server: 13.212.34.140
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -3243,12 +3230,12 @@ proxies:
   cipher: auto
   name: 24|香港|@ripaojiedian
   network: tcp
-  port: '29767'
-  server: bvip.hongxingdl.vip
+  port: '63099'
+  server: in06.dns2024.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 0daceca8-228a-4cc6-a613-db4c6b05c899
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 64
   cipher: auto
   name: 24|香港2|@ripaojiedian
@@ -3261,14 +3248,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 24|香港3|@ripaojiedian
+  name: 24|台湾3|@ripaojiedian
   network: tcp
-  port: '53061'
-  server: 38.147.188.102
+  port: '3283'
+  server: tw99.jinkela2024vpn.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+- alterId: 0
+  cipher: auto
+  name: 24|韩国|@ripaojiedian
+  network: tcp
+  port: '63097'
+  server: in06.dns2024.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 6f7ad57a-b1c8-4f83-988a-668a927d494e
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 64
   cipher: auto
   name: 24|美国2|@ripaojiedian
