@@ -526,27 +526,32 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-3
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13183
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: z5is.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-7
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13185
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: z5is.cdn.node.a.tddns-ounk.com
+  type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-2
+  name: 6|-https://t.me/MrXbin-8
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国4|@ripaojiedian
-  password: MfqALmAJ
-  port: 40081
-  server: 183.232.139.24
-  skip-cert-verify: true
-  sni: tubular.wireshop.net
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -3003,6 +3008,19 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国4|@ripaojiedian
+  password: MfqALmAJ
+  port: 40081
+  server: 183.232.139.24
+  skip-cert-verify: true
+  sni: tubular.wireshop.net
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
