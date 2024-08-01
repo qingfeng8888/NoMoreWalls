@@ -531,21 +531,13 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-5
+  name: 6|-https://t.me/MrXbin-3
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13318
+  port: 13630
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
-  server: lld9k6.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-6
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
+  server: bb29cs.cdn.node.a.tddns-ounk.com
   type: ssr
 - cipher: rc4-md5
   name: 6|-https://t.me/MrXbin-7
@@ -556,11 +548,19 @@ proxies:
   protocol-param: 524959:5u4MZ6
   server: bb29cs.cdn.node.a.tddns-ounk.com
   type: ssr
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-8
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6,19|0|-https://t.me/MrXbin-11
+  name: 6,19|0|-https://t.me/MrXbin-12
   network: ws
   port: 12910
   server: 22.lwdh.us
@@ -575,11 +575,12 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-12
+  name: 6,19|0|-https://t.me/MrXbin-10
   network: ws
   port: 80
   server: nlch.blueberrynetwork.store
   skip-cert-verify: true
+  tls: false
   type: vmess
   udp: true
   uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
@@ -2894,16 +2895,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: 19|11|香港|@ripaojiedian
-  network: tcp
-  port: '42055'
-  server: 120.232.153.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 19,24|香港2|@ripaojiedian
   network: tcp
   port: '45020'
@@ -2938,6 +2929,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,24|香港6|@ripaojiedian
+  network: tcp
+  port: '33575'
+  server: xctransfer1st.cokecloud.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1de8f496-378f-4979-ba17-500fd9fee228
+- alterId: 0
+  cipher: auto
+  name: 19,24|香港7|@ripaojiedian
+  network: tcp
+  port: '60066'
+  server: hk0069.alibabaokz.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 38571ca6-6692-4559-b901-0bc5826b7661
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3260,23 +3271,3 @@ proxies:
   server: 52.221.255.249
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|香港6|@ripaojiedian
-  network: tcp
-  port: '33575'
-  server: xctransfer1st.cokecloud.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1de8f496-378f-4979-ba17-500fd9fee228
-- alterId: 0
-  cipher: auto
-  name: 24|香港7|@ripaojiedian
-  network: tcp
-  port: '60066'
-  server: hk0069.alibabaokz.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 38571ca6-6692-4559-b901-0bc5826b7661
