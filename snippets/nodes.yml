@@ -527,7 +527,7 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-2
+  name: 6|-https://t.me/MrXbin-1
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -537,7 +537,7 @@ proxies:
   server: 18.176.215.63
   type: ss
 - cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-4
+  name: 6|-https://t.me/MrXbin-2
   obfs: tls1.2_ticket_auth
   password: Cskw6d
   port: 13622
@@ -546,81 +546,76 @@ proxies:
   server: hfa1.cdn.node.a.tddns-ounk.com
   type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-6
+  name: 6|-https://t.me/MrXbin-4
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-6
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13642
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: sjgysy.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-7
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13448
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: sjgysy.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-10
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13620
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: hfa1.cdn.node.a.tddns-ounk.com
+  type: ssr
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-68
+  name: 6,23,24|韩国|@ripaojiedian
   network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  servername: d1ob06rbz99iki.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ba74d613-cee4-4941-8438-fbc987fe1ba0
-  ws-opts:
-    headers:
-      Host: d1ob06rbz99iki.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-45
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d35zr4wmrh6j55.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: af8f416e-d277-49e3-8b6c-905b7596e31f
-  ws-opts:
-    headers:
-      Host: d35zr4wmrh6j55.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-58
-  network: ws
-  port: 30003
+  port: '30003'
   server: shouer2112.12123.org
-  servername: shouer2112.12123.org
-  skip-cert-verify: true
+  servername: www.baidu.com
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 85b733a3-7b70-481e-a7d2-23508408ea61
+  uuid: 4ae987a9-f9e6-49f0-95ad-e8f375678d62
   ws-opts:
     headers:
       Host: www.baidu.com
     path: /12123.org
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-72
+  name: 6,23,24|新加坡|@ripaojiedian
   network: ws
-  port: 30003
+  port: '30003'
   server: xjpx6.12123.org
-  servername: xjpx6.12123.org
-  skip-cert-verify: true
+  servername: www.baidu.com
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 5197c6dd-e796-4031-985e-7b354aff0956
+  uuid: 0e8a4ec6-66c1-45c0-a51a-cd51a35f2a11
   ws-opts:
     headers:
       Host: www.baidu.com
@@ -2317,18 +2312,18 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '13,16|dongtaiwang.com_0 #4'
+  name: '13|dongtaiwang.com_0 #1'
   network: ws
   port: 2082
   server: 104.19.38.9
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2336,14 +2331,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.0.56
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2351,14 +2346,14 @@ proxies:
   network: ws
   port: 2082
   server: 23.227.38.3
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2366,14 +2361,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.38.12
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2381,14 +2376,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.175.88
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2396,14 +2391,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.99.22
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2411,14 +2406,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.21.71
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2426,14 +2421,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.175.213
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2441,14 +2436,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.198.249
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2456,14 +2451,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.194.76
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2471,14 +2466,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.21.63
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2486,14 +2481,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.123.11
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2501,14 +2496,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.18.57.111
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2516,14 +2511,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.21.230
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2531,14 +2526,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.46.103
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2546,14 +2541,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.32.216
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2561,14 +2556,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.47.65
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2576,14 +2571,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.58.175
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2591,14 +2586,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.55.49
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2606,14 +2601,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.42.49
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2621,14 +2616,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.17.106.151
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2636,14 +2631,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.57.4
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2651,14 +2646,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.59.89
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2666,14 +2661,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.20.17.186
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2681,14 +2676,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.20.25.146
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2696,14 +2691,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.7.132
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2711,14 +2706,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.11
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2726,14 +2721,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.13
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2741,14 +2736,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.15
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2756,14 +2751,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.17
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2771,14 +2766,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.19
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2786,14 +2781,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.31
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2801,14 +2796,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.35
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2816,14 +2811,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.42
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2831,14 +2826,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.47
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2846,14 +2841,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.50
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2861,14 +2856,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.45.90
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2876,14 +2871,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.56
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2891,14 +2886,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.66
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2906,14 +2901,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.67
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2921,14 +2916,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.88
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2936,14 +2931,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.90
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2951,14 +2946,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.103
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2966,14 +2961,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.112
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2981,14 +2976,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.113
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2996,14 +2991,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.123
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3011,14 +3006,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.26.5.145
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3026,14 +3021,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.19
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3041,14 +3036,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.33
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3056,14 +3051,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.39
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3071,14 +3066,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.45
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3086,14 +3081,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.56
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3101,14 +3096,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.66
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3116,14 +3111,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.77
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3131,14 +3126,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.89
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3146,14 +3141,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.91
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3161,14 +3156,14 @@ proxies:
   network: ws
   port: 2082
   server: 162.159.140.93
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3176,14 +3171,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.5
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3191,14 +3186,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.8
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3206,14 +3201,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.10
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3221,14 +3216,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.15
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3236,14 +3231,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.19
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3251,14 +3246,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.22
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3266,14 +3261,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.25
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3281,14 +3276,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.29
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3296,14 +3291,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.35
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3311,14 +3306,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.167.44
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3326,14 +3321,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.7
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3341,14 +3336,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.9
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3356,14 +3351,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.15
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3371,14 +3366,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.17
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3386,14 +3381,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.24
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3401,14 +3396,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.27
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3416,14 +3411,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.32
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3431,14 +3426,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.35
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3446,14 +3441,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.37
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3461,14 +3456,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.233.43
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3476,14 +3471,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.2
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3491,14 +3486,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.8
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3506,14 +3501,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.9
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3521,14 +3516,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.12
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3536,14 +3531,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.16
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3551,14 +3546,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.20
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3566,14 +3561,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.22
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3581,14 +3576,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.28
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3596,14 +3591,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.32
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3611,14 +3606,14 @@ proxies:
   network: ws
   port: 2082
   server: 172.64.166.33
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3626,14 +3621,14 @@ proxies:
   network: ws
   port: 2082
   server: fbi.gov
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3641,14 +3636,14 @@ proxies:
   network: ws
   port: 2082
   server: shopify.com
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3656,14 +3651,14 @@ proxies:
   network: ws
   port: 2082
   server: icook.tw
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3671,14 +3666,14 @@ proxies:
   network: ws
   port: 2082
   server: ip.sb
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3686,14 +3681,14 @@ proxies:
   network: ws
   port: 2082
   server: japan.com
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3701,14 +3696,14 @@ proxies:
   network: ws
   port: 2082
   server: malaysia.com
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3716,14 +3711,14 @@ proxies:
   network: ws
   port: 2082
   server: russia.com
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3731,14 +3726,14 @@ proxies:
   network: ws
   port: 2082
   server: singapore.com
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3746,14 +3741,14 @@ proxies:
   network: ws
   port: 2082
   server: skk.moe
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3761,14 +3756,14 @@ proxies:
   network: ws
   port: 2082
   server: www.visa.com
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3776,14 +3771,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.38.10
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3791,14 +3786,14 @@ proxies:
   network: ws
   port: 2082
   server: 104.19.38.11
-  servername: ip7.6929198.xyz
+  servername: ip8.6929198.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip7.6929198.xyz
+      Host: ip8.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -4183,67 +4178,43 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港2|@ripaojiedian
-  password: 71bee62a-a249-4777-827b-289b8f72854a
-  port: 39301
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 23|🇩🇪 德国|@ripaojiedian
-  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
+  password: d6d86a97-2bef-4f89-9527-ce2003377677
   port: 43526
   server: 120.232.153.71
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  sni: naiu-hk.05vr9nyqg5.download
   tfo: false
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港7|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20004
-  server: tw4.mhw7e2.online
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇹🇼 台湾3|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20007
-  server: tw1.mhw7e2.online
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本|@ripaojiedian
-  password: 71bee62a-a249-4777-827b-289b8f72854a
-  port: 19529
+  name: 23|🇭🇰 香港3|@ripaojiedian
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 29527
   server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 23|🇯🇵 日本4|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20014
-  server: jp2.mhw7e2.online
+  name: 23|🇭🇰 香港7|@ripaojiedian
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 40010
+  server: hzhz2.sssyun.xyz
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24|新加坡|@ripaojiedian
+  name: 23,24|台湾|@ripaojiedian
   network: ws
   port: '443'
-  server: 139.162.33.70
-  servername: 139.162.33.70
+  server: 173.230.149.106
+  servername: 173.230.149.106
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -4251,39 +4222,55 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 139.162.33.70
-    path: /BqVwBioP
+      Host: 173.230.149.106
+    path: /xJxdoaCD
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡2|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20009
-  server: sg2.mhw7e2.online
+  name: 23|🇹🇼 台湾2|@ripaojiedian
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 32207
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本|@ripaojiedian
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 39202
+  server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24|新加坡3|@ripaojiedian
+  name: 23,24|新加坡2|@ripaojiedian
   network: ws
   port: '443'
-  server: sgcft01.xqc.best
-  servername: d285gakij18iij.cloudfront.net
+  server: 172.105.115.147
+  servername: 172.105.115.147
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 607fa241-271b-4eba-b543-e918976a50d8
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: d285gakij18iij.cloudfront.net
-    path: /stream
+      Host: 172.105.115.147
+    path: /msCBKVaF
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡3|@ripaojiedian
+  password: 005c0d27-a407-4be9-9740-818da49a50be
+  port: 40013
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡4|@ripaojiedian
-  password: 71bee62a-a249-4777-827b-289b8f72854a
-  port: 40014
-  server: hzhz2.sssyun.xyz
+  password: 0f189a26-78f6-4bd2-9ea7-7a6bbdc443fe
+  port: 58118
+  server: zf.egfu.cn
   tfo: false
   type: ss
 - alterId: 0
@@ -4292,8 +4279,8 @@ proxies:
   name: 23,24|美国|@ripaojiedian
   network: ws
   port: '443'
-  server: 172.234.88.187
-  servername: 172.234.88.187
+  server: 45.79.103.11
+  servername: 45.79.103.11
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -4301,38 +4288,14 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 172.234.88.187
-    path: /KrAJKJQo
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国3|@ripaojiedian
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 23.157.40.85
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国4|@ripaojiedian
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.114.114.158
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国5|@ripaojiedian
-  password: Gru.a-XgKzY+=Nl_
-  port: 1723
-  server: 167.88.62.50
-  tfo: false
-  type: ss
+      Host: 45.79.103.11
+    path: /GDeFfWLn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.35.222.240
+  server: 43.202.68.249
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -4340,7 +4303,7 @@ proxies:
   name: 23|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.254.211
+  server: 43.201.48.132
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -4348,9 +4311,29 @@ proxies:
   name: 23|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.78.63.211
+  server: 13.231.27.52
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|香港2|@ripaojiedian
+  network: tcp
+  port: '44806'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
+- alterId: 0
+  cipher: auto
+  name: 24|香港8|@ripaojiedian
+  network: tcp
+  port: '46026'
+  server: 149.104.15.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fb1b6ae3-140a-41d8-9644-0550e08cdfd0
 - alterId: 64
   cipher: auto
   name: 24|德国|@ripaojiedian
