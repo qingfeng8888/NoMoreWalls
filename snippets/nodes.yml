@@ -527,7 +527,7 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-5
+  name: 6|-https://t.me/MrXbin-4
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -538,25 +538,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-62
-  network: ws
-  port: 30000
-  server: shsz.12123.org
-  servername: shsz.12123.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 520be08d-4193-4a4e-b8f3-273de0a65641
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /12123.org
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-36
+  name: 6|-https://t.me/MrXbin-21
   network: ws
   port: 443
   server: 57.129.28.69
@@ -570,6 +552,20 @@ proxies:
     headers:
       Host: baradiha.com
     path: /linkvws
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,23|🇩🇪 德国|@ripaojiedian
+  password: '3672449442956713984'
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  sni: present-blowfish.sunbeam921.monster
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -3732,6 +3728,20 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 19|美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: cfip.1323123.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ebace182-ad9a-4044-92fd-ad48adf52779
+  ws-opts:
+    headers:
+      Host: kr.freegpt.filegear-sg.me
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
   name: 19,20|github.com/freefq - 印度  10
   network: ws
   port: 443
@@ -3744,19 +3754,6 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 19,20|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 印度  2
@@ -3785,6 +3782,19 @@ proxies:
     headers:
       Host: sahand.serveminecraft.net
     path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 20|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
 - alterId: 0
   cipher: auto
   name: '20|github.com/freefq - 美国CloudFla... #1'
@@ -3854,19 +3864,6 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23|🇩🇪 德国|@ripaojiedian
-  password: '3672449442956713984'
-  port: 43526
-  server: 120.232.153.71
-  skip-cert-verify: false
-  sni: present-blowfish.sunbeam921.monster
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
