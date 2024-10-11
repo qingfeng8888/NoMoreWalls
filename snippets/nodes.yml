@@ -526,19 +526,11 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-12
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-40
+  name: 6|-https://t.me/MrXbin-47
   network: ws
   port: 443
   server: 38.99.82.193
@@ -3714,6 +3706,79 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 19|美国 CloudFlare节点
+  network: ws
+  port: 2095
+  server: www.visa.com
+  tls: false
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  ws-opts:
+    headers:
+      Host: ip2.8084726.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: 104.16.67.38
+  servername: us3e-mmnnfr9dop0.v2freevpn.com
+  tls: true
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us3e-mmnnfr9dop0.v2freevpn.com
+    path: /v118-fccxmxm35
+- alterId: 0
+  cipher: auto
+  name: 19|荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+  network: tcp
+  port: 1010
+  server: 188.166.96.150
+  tls: false
+  type: vmess
+  uuid: 09e3fef1-3136-41a9-9531-6ea36482dea1
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #2'
+  network: ws
+  port: 2095
+  server: 162.159.140.19
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 19,24|香港6|@ripaojiedian
+  network: tcp
+  port: '12960'
+  server: z3.fragranceninja.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 0
+  cipher: auto
+  name: 19,20|github.com/freefq - 印度  2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
   name: '19,20|github.com/freefq - 美国CloudFla... #1'
   network: ws
   port: 8880
@@ -3728,19 +3793,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '19|美国 CloudFlare节点 #1'
-  network: ws
-  port: 2082
-  server: 172.64.198.249
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 19,20|github.com/freefq - 印度  3
   network: ws
   port: 443
@@ -3753,22 +3805,25 @@ proxies:
     headers:
       Host: sahand.serveminecraft.net
     path: /@forwardv2ray
-- alterId: 64
-  cipher: auto
-  name: 19,24|香港4|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '19|美国 CloudFlare节点 #2'
+  name: '19|美国 CloudFlare节点 #4'
+  network: ws
+  port: 2082
+  server: 172.64.198.249
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '19|美国 CloudFlare节点 #5'
   network: ws
   port: 2095
-  server: 104.19.58.175
+  server: 104.19.45.50
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
@@ -3776,47 +3831,6 @@ proxies:
     headers:
       Host: ip2.6016725.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19,20|github.com/freefq - 印度  10
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '19|美国 CloudFlare节点 #3'
-  network: ws
-  port: 2095
-  server: 162.159.140.19
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 20|github.com/freefq - 印度  2
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
@@ -3858,6 +3872,20 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 20|github.com/freefq - 印度  10
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国Fastly全球...
@@ -4092,16 +4120,16 @@ proxies:
   tls: false
   type: vmess
   uuid: db87b0f5-01bb-448c-bb5f-9668fe09300e
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 24|香港6|@ripaojiedian
+  name: 24|香港4|@ripaojiedian
   network: tcp
-  port: '12960'
-  server: z3.fragranceninja.com
+  port: '35601'
+  server: 120.232.153.40
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 24|美国2|@ripaojiedian
