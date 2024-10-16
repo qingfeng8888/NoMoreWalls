@@ -526,98 +526,94 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 6,23|🇬🇧 英国2|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.198
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   name: 6|-https://t.me/MrXbin-4
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 69.50.93.113
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-6
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 69.50.95.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-7
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 69.50.95.218
   type: ss
 - cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-5
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 69.50.93.113
-  type: ss
-- cipher: aes-256-gcm
   name: 6|-https://t.me/MrXbin-8
-  password: Y6R9pAtvxxzmGC
-  port: 3389
+  password: lGqs95QkFHo2NV
+  port: 5498
   server: 69.50.95.179
   type: ss
 - cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-11
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 69.50.92.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-12
+  name: 6|-https://t.me/MrXbin-9
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 69.50.92.99
   type: ss
 - cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-13
-  password: kDWvXYZoTBcGkC4
-  port: 8881
+  name: 6|-https://t.me/MrXbin-10
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 69.50.95.179
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-11
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 69.50.95.179
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-12
+  password: e4FCWrgpkji3QY
+  port: 9102
   server: 69.50.92.99
   type: ss
 - cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-15
+  name: 6|-https://t.me/MrXbin-13
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 69.50.95.218
   type: ss
 - cipher: aes-256-gcm
   name: 6|-https://t.me/MrXbin-16
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 69.50.95.179
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 69.50.93.113
   type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-17
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 69.50.95.218
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-20
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 69.50.95.179
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-31
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-47
-  network: ws
-  port: 80
-  server: 151.101.2.228
-  servername: bRItISh.ovH.55.ISVvpn.UK.
+  name: 6|-https://t.me/MrXbin-34
+  network: tcp
+  port: 64016
+  server: in06.my1188.org
+  servername: us01.wechat-cdn-us01.one
   skip-cert-verify: true
   type: vmess
-  uuid: 7f3e901c-76eb-4480-8803-947e4674ecaa
-  ws-opts:
-    headers:
-      HOST: bRItISh.ovH.55.ISVvpn.UK.
-    path: /RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
+  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-48
+  name: 6|-https://t.me/MrXbin-64
   network: ws
   port: 2095
-  server: japan.com
+  server: 172.64.167.10
   servername: ip10.6016725.xyz
   type: vmess
   udp: true
@@ -630,7 +626,40 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-49
+  name: 6|-https://t.me/MrXbin-67
+  network: ws
+  port: 2095
+  server: malaysia.com
+  servername: ip10.6016725.xyz
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip10.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-68
+  network: ws
+  port: 2053
+  server: 1229VM6.nnaotexiongditkgroup.top
+  servername: 1229VM6.nnaotexiongditkgroup.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 23de7970-038f-403f-f979-28124f3be02a
+  ws-opts:
+    headers:
+      HOST: 1229VM6.nnaotexiongditkgroup.top
+    path: /1229VM6
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-75
   network: ws
   port: 443
   server: speedtest.net
@@ -646,20 +675,18 @@ proxies:
     path: /m28jcoZZUhkqg6pk11
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-70
-  network: ws
-  port: 2095
-  server: 172.64.167.10
-  servername: ip10.6016725.xyz
+  client-fingerprint: chrome
+  name: 6,23|🇮🇹 意大利|@ripaojiedian
+  password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
+  port: 2098
+  server: f41.maryam1500.top
+  skip-cert-verify: false
+  sni: twnode11.oportal.cc
+  tfo: false
+  tls: false
   type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip10.6016725.xyz
-    path: /github.com/Alvin9999
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -3807,47 +3834,10 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 19|丹麦 v2rayfree.eu.org
-  network: ws
-  port: 80
-  server: go.alipay.ovh
-  tls: false
-  type: vmess
-  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
-  ws-opts:
-    headers:
-      Host: open.alipay.ovh
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 19,24|香港6|@ripaojiedian
-  network: tcp
-  port: '12960'
-  server: z3.fragranceninja.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  name: 19,20|github.com/freefq - 印度  2
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
   name: 19|美国 CloudFlare节点
   network: ws
   port: 2095
-  server: 104.19.58.175
+  server: 162.159.140.19
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
@@ -3859,41 +3849,32 @@ proxies:
   cipher: auto
   name: '19|美国 CloudFlare节点 #1'
   network: ws
-  port: 2095
-  server: www.visa.com
+  port: 2082
+  server: 162.159.140.93
   tls: false
   type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip2.8084726.xyz
+      Host: ip3.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '19,20|github.com/freefq - 美国CloudFla... #1'
+  name: 19,20|github.com/freefq - 印度  10
   network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
+  port: 443
+  server: 202.78.162.5
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
-    path: /
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 19|荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
-  network: tcp
-  port: 1010
-  server: 188.166.96.150
-  tls: false
-  type: vmess
-  uuid: 09e3fef1-3136-41a9-9531-6ea36482dea1
-- alterId: 0
-  cipher: auto
-  name: 20|github.com/freefq - 印度  3
+  name: 19,20|github.com/freefq - 印度  3
   network: ws
   port: 443
   server: 202.78.162.5
@@ -3907,6 +3888,20 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
+  name: 20|github.com/freefq - 印度  2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -3917,6 +3912,20 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '20|github.com/freefq - 美国CloudFla... #1'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -3946,20 +3955,6 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 20|github.com/freefq - 印度  10
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国Fastly全球...
@@ -4011,19 +4006,6 @@ proxies:
   server: gtm1.ktmwan.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23|🇮🇹 意大利|@ripaojiedian
-  password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
-  port: 2098
-  server: f41.maryam1500.top
-  skip-cert-verify: false
-  sni: twnode11.oportal.cc
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇭🇰 香港R|@ripaojiedian
@@ -4112,14 +4094,6 @@ proxies:
   server: 13.115.189.201
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇬🇧 英国2|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.198
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇻🇳 越南|@ripaojiedian
@@ -4138,6 +4112,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 0
+  cipher: auto
+  name: 24|香港6|@ripaojiedian
+  network: tcp
+  port: '12960'
+  server: z3.fragranceninja.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 64
   cipher: auto
   name: 24|德国|@ripaojiedian
