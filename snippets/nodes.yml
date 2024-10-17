@@ -526,6 +526,24 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-3
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 69.50.92.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-11
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 69.50.92.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-12
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 69.50.93.113
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 6,23|🇬🇧 英国2|@ripaojiedian
@@ -535,31 +553,13 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-10
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 69.50.93.113
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-11
+  name: 6|-https://t.me/MrXbin-14
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 69.50.93.113
   type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-12
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 69.50.92.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-14
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 69.50.92.99
-  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-20
+  name: 6|-https://t.me/MrXbin-18
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -570,7 +570,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-52
+  name: 6|-https://t.me/MrXbin-46
   network: ws
   port: 80
   server: 151.101.2.228
@@ -586,7 +586,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-53
+  name: 6|-https://t.me/MrXbin-48
   network: ws
   port: 443
   server: speedtest.net
@@ -600,23 +600,6 @@ proxies:
     headers:
       Host: mehrjavan.ir
     path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-56
-  network: ws
-  port: 2053
-  server: 1229VM6.nnaotexiongditkgroup.top
-  servername: 1229VM6.nnaotexiongditkgroup.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 23de7970-038f-403f-f979-28124f3be02a
-  ws-opts:
-    headers:
-      HOST: 1229VM6.nnaotexiongditkgroup.top
-    path: /1229VM6
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
