@@ -526,103 +526,107 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-1
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 38.110.1.107
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-2
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.110.1.107
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-3
-  password: 81aBd6IJIgFwT1lqcojSzK
-  port: 20143
-  server: 52.164.203.76
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-4
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 142.202.48.105
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-5
-  password: 76dze09gQEvqS_jOuo
-  port: 3913
-  server: 144.202.112.106
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-6
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.121.43.204
-  type: ss
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-7
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.51
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-8
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.157
-  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-9
+  name: 6|-https://t.me/MrXbin-1
   password: amazonskr05
   port: 443
   server: 52.43.127.109
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-10
+  name: 6|-https://t.me/MrXbin-2
   password: 5Au7NhFmcBqMnika4KVk7h4ZdV3wD4hFtJ8PJ3AlHzLeU1chEBaz19a643q7hBPV
   port: 19175
   server: ams1.fromblancwithlove.com
   type: ss
 - cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-11
+  name: 6|-https://t.me/MrXbin-3
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 38.121.43.204
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-4
+  password: 81aBd6IJIgFwT1lqcojSzK
+  port: 20143
+  server: 52.164.203.76
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-5
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 38.110.1.107
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-6
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.157.88.61
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-7
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 142.202.48.105
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-8
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.110.1.107
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-9
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.121.43.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-10
+  password: 76dze09gQEvqS_jOuo
+  port: 3913
+  server: 144.202.112.106
+  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-21
+  name: 6|-https://t.me/MrXbin-20
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-23
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13305
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
   name: 6|-https://t.me/MrXbin-24
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13299
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
+  network: ws
+  port: 2095
+  server: 172.64.194.76
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-27
+  network: ws
+  port: 2095
+  server: 172.64.198.249
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-30
+  name: 6|-https://t.me/MrXbin-34
   network: ws
   port: 443
   server: 23.158.56.39
@@ -635,71 +639,11 @@ proxies:
     headers:
       Host: 23.158.56.39
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-32
-  network: ws
-  port: 2095
-  server: singapore.com
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
   name: 6|-https://t.me/MrXbin-35
-  network: ws
-  port: 443
-  server: 149.7.16.194
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-36
-  network: ws
-  port: 2082
-  server: 172.64.166.22
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-37
-  network: ws
-  port: 2082
-  server: 172.64.166.20
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 1
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-41
   network: ws
   port: 443
   server: 23.158.56.145
@@ -716,11 +660,11 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-53
+  name: 6|-https://t.me/MrXbin-42
   network: ws
   port: 443
-  server: 38.99.82.187
-  servername: 38.99.82.187
+  server: 38.75.137.121
+  servername: 38.75.137.121
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -728,29 +672,30 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 38.99.82.187
+      Host: 38.75.137.121
+    path: /linkvws
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-45
+  network: ws
+  port: 443
+  server: 23.158.56.81
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.81
     path: /linkvws
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-54
-  network: ws
-  port: 2082
-  server: 172.64.99.22
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-56
+  name: 6|-https://t.me/MrXbin-51
   network: ws
   port: 2082
   server: 172.64.166.9
@@ -761,73 +706,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-58
-  network: ws
-  port: 2082
-  server: 172.64.166.2
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 6,23,24|香港2|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aaa1b350-15f7-4837-9a08-2129ff9c6d1e
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
-- alterId: 1
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-60
-  network: ws
-  port: 443
-  server: 23.157.88.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.157.88.6
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-62
-  network: ws
-  port: 2095
-  server: 172.64.167.15
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
@@ -3840,6 +3718,20 @@ proxies:
     path: /77848824
 - alterId: 0
   cipher: auto
+  name: '19,20|github.com/freefq - 美国CloudFla... #2'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 19,20|github.com/freefq - 印度  10
   network: ws
   port: 443
@@ -3923,20 +3815,6 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '20|github.com/freefq - 美国CloudFla... #2'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '20|github.com/freefq - 美国CloudFla... #3'
   network: ws
   port: 8880
@@ -3965,6 +3843,23 @@ proxies:
   ws-opts:
     headers:
       Host: z3.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23,24|香港2|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: cdn1.bpcdn.cc
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaa1b350-15f7-4837-9a08-2129ff9c6d1e
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
     path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
