@@ -527,34 +527,28 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-1
+  name: 6|-https://t.me/MrXbin-2
   password: faBAoD54k87UJG7
   port: 2376
   server: 38.75.136.117
   type: ss
-- cipher: aes-128-gcm
-  name: 6|-https://t.me/MrXbin-2
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 6|-https://t.me/MrXbin-3
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-4
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.87.175.188
   type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-4
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.134.94.168
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   name: 6|-https://t.me/MrXbin-5
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.164
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
   type: ss
 - cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-17
@@ -568,48 +562,46 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-20
+  name: 6|-https://t.me/MrXbin-21
   network: ws
-  port: 2082
-  server: 172.64.167.5
-  servername: ip18.6929198.xyz
+  port: 2095
+  server: 172.64.166.2
+  skip-cert-verify: true
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
+      Host: ip12.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-22
-  network: ws
-  port: 2082
-  server: 172.64.175.88
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,19|0|--24
-  network: ws
-  port: 2082
-  server: japan.com
+  name: 6,19|0|--47
+  network: tcp
+  port: 443
+  server: 185.231.181.46
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
+  uuid: 95a69849-23c4-4669-91ed-cec32ad1341c
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-26
+  network: ws
+  port: 2082
+  server: 172.64.166.32
+  servername: ip18.6929198.xyz
+  type: vmess
+  udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip16.6929198.xyz
+      Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -618,7 +610,7 @@ proxies:
   name: 6|-https://t.me/MrXbin-27
   network: ws
   port: 2082
-  server: 172.64.175.213
+  server: 172.64.167.22
   servername: ip18.6929198.xyz
   type: vmess
   udp: true
@@ -649,15 +641,36 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6,19|0|--47
-  network: tcp
-  port: 443
-  server: 185.231.181.46
+  name: 6,19|0|--27
+  network: ws
+  port: 2082
+  server: 172.64.166.2
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6,19|0|--39
+  network: ws
+  port: 2082
+  server: 172.64.166.22
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 95a69849-23c4-4669-91ed-cec32ad1341c
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 12|dongtaiwang.com_0
@@ -3630,6 +3643,19 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 19|0|--24
+  network: ws
+  port: 2082
+  server: japan.com
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 19|0|--25
   network: ws
   port: 2082
@@ -3640,20 +3666,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19|0|--27
-  network: ws
-  port: 2082
-  server: 172.64.166.2
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3706,19 +3718,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19|0|--39
-  network: ws
-  port: 2082
-  server: 172.64.166.22
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
