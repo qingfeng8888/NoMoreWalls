@@ -526,21 +526,21 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-1
+  password: rUODuKJMdVMTxlq3Q5iSDX
+  port: 59644
+  server: 150.241.102.95
+  type: ss
 - cipher: aes-128-gcm
-  name: 6|-https://t.me/MrXbin-2
+  name: 6|-https://t.me/MrXbin-3
   password: shadowsocks
   port: 443
   server: 212.102.53.195
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-3
-  password: rUODuKJMdVMTxlq3Q5iSDX
-  port: 59644
-  server: 150.241.102.95
-  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-12
+  name: 6|-https://t.me/MrXbin-14
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -551,7 +551,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-22
+  name: 6,19|0|--25
   network: ws
   port: 38007
   server: 38.174.190.80
@@ -565,10 +565,72 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-29
+  name: 6,19|0|--30
+  network: ws
+  port: 2095
+  server: singapore.com
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-22
+  network: ws
+  port: 2095
+  server: russia.com
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6,19|0|--28
   network: ws
   port: 2082
-  server: 172.64.175.213
+  server: 172.64.166.32
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-25
+  network: ws
+  port: 2082
+  server: 172.64.99.22
+  servername: ip18.6929198.xyz
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-27
+  network: ws
+  port: 2082
+  server: 172.64.194.76
   servername: ip18.6929198.xyz
   type: vmess
   udp: true
@@ -3551,8 +3613,21 @@ proxies:
   cipher: auto
   name: 19|0|--19
   network: ws
-  port: 2082
+  port: 2095
   server: 172.64.99.22
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 19|0|--21
+  network: ws
+  port: 2082
+  server: 172.64.167.10
   servername: ip18.6929198.xyz
   tls: false
   type: vmess
@@ -3563,7 +3638,47 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 19|0|--33
+  name: 19|0|--23
+  network: ws
+  port: 2095
+  server: 172.64.166.8
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 19|0|--27
+  network: ws
+  port: 2095
+  server: 172.64.166.2
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 19|0|--31
+  network: ws
+  port: 443
+  server: 172.67.173.142
+  servername: cjuzius.zdzdzd.xyz
+  tls: true
+  type: vmess
+  uuid: b87e29df-7dd9-4c0c-8530-b2847e27522c
+  ws-opts:
+    headers:
+      Host: cjuzius.zdzdzd.xyz
+    path: /juzi
+- alterId: 0
+  cipher: auto
+  name: 19|0|--32
   network: ws
   port: 2095
   server: 172.64.166.22
@@ -3575,59 +3690,6 @@ proxies:
     headers:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19|0|--35
-  network: ws
-  port: 2095
-  server: 172.64.166.9
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19|0|--36
-  network: ws
-  port: 2082
-  server: 172.64.166.2
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19|0|--40
-  network: ws
-  port: 443
-  server: dkzbofzkop.com
-  tls: true
-  type: vmess
-  uuid: fa1897db-1925-4c86-a495-939a959af900
-  ws-opts:
-    headers:
-      Host: dkzbofzkop.com
-    path: /rbqqvws
-- alterId: 0
-  cipher: auto
-  name: 19|0|--44
-  network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  tls: true
-  type: vmess
-  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
-  ws-opts:
-    headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
 - alterId: 64
   cipher: auto
   name: 19,24|香港|@ripaojiedian
