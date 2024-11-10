@@ -526,11 +526,11 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-8
-  password: amazonskr05
-  port: 443
-  server: 54.187.244.22
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-6
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.51
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -541,37 +541,57 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-10
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.157
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-30
+  name: 6|-https://t.me/MrXbin-9
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.164
   type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-32
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.121.43.204
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-33
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.121.43.204
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-18
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.157
   type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-47
+  name: 6|-https://t.me/MrXbin-36
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-39
+  network: ws
+  port: 2082
+  server: 172.64.198.249
+  servername: ip18.6929198.xyz
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-40
+  network: ws
+  port: 2082
+  server: 172.64.194.76
+  servername: ip18.6929198.xyz
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -590,22 +610,6 @@ proxies:
     headers:
       Host: mehrjavan.ir
     path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-53
-  network: ws
-  port: 2082
-  server: 172.64.194.76
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 12|dongtaiwang.com_0
