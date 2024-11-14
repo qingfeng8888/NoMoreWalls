@@ -526,44 +526,45 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-1
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 169.197.141.84
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-10
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.75.136.117
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-16
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 169.197.141.84
-  type: ss
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-34
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13488
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-35
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13448
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-37
+  name: 6|-https://t.me/MrXbin-2
+  password: amazonskr05
+  port: 443
+  server: 54.187.244.22
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-3
+  password: gNz73UbALLdO4RKGc99Gul
+  port: 15584
+  server: 213.108.23.243
+  type: ss
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-4
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-6
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-7
+  password: 5cp9Z3iWnJZ2
+  port: 443
+  server: 205.134.180.150
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-9
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.157.40.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-20
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -574,7 +575,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-40
+  name: 6|-https://t.me/MrXbin-23
   network: ws
   port: 2082
   server: 172.64.194.76
@@ -590,85 +591,38 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-45
+  name: 6,19|0|--31
   network: ws
   port: 443
-  server: 172.67.71.160
-  servername: obdii.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-49
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-50
-  network: ws
-  port: 443
-  server: 188.114.97.2
-  servername: obdii.cfd
+  server: speedtest.net
+  servername: mehrjavan.ir
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
   ws-opts:
     headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-51
+  name: 6|-https://t.me/MrXbin-33
   network: ws
   port: 443
-  server: 185.146.173.59
-  servername: obdii.cfd
+  server: 38.75.137.121
+  servername: 38.75.137.121
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-53
-  network: ws
-  port: 443
-  server: 45.149.12.84
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+      Host: 38.75.137.121
+    path: /linkvws
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -3655,43 +3609,99 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 19|0|--44
-  network: ws
-  port: 2095
-  server: 172.64.166.20
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 1
-  cipher: auto
-  name: 19|0|--45
+  name: 19|0|--35
   network: ws
   port: 443
-  server: 23.158.56.39
+  server: 188.114.96.3
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: 23.158.56.39
-    path: /linkvws
+      Host: obdii.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: 19|0|--46
+  name: 19|0|--36
   network: ws
   port: 2082
-  server: 172.64.167.15
+  server: 172.64.175.88
+  servername: ip18.6929198.xyz
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip16.6929198.xyz
+      Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 19|0|--37
+  network: ws
+  port: 443
+  server: 45.149.12.84
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 19|0|--39
+  network: ws
+  port: 443
+  server: 188.114.97.2
+  servername: obdii.cfd
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 19|0|--40
+  network: ws
+  port: 443
+  server: 172.67.71.160
+  servername: obdii.cfd
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 19|0|--41
+  network: ws
+  port: 443
+  server: 185.146.173.59
+  servername: obdii.cfd
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 19|0|--42
+  network: ws
+  port: 443
+  server: obdii.cfd
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
 - alterId: 64
   cipher: auto
   name: 19,24|香港2|@ripaojiedian
