@@ -526,52 +526,8 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 6,23|🇷🇺 俄罗斯|@ripaojiedian
-  password: dongtaiwang.com
-  port: 12345
-  server: 46.17.40.57
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-3
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.86.135.141
-  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-4
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-6
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.154
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-8
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-9
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 13.229.182.85
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-27
+  name: 6|-https://t.me/MrXbin-16
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -582,31 +538,48 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-36
+  name: 6|-https://t.me/MrXbin-20
   network: ws
   port: 443
-  server: 45.149.12.84
+  server: 194.76.18.113
+  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: obdii.cfd
-    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-22
+  network: ws
+  port: 2095
+  server: s2.db-link02.top
+  type: vmess
+  udp: true
+  uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b
+  ws-opts:
+    headers:
+      Host: 100-111-231-156.s2.db-link02.top
+    path: /dabai.in172.67.37.120
 - alterId: 0
   cipher: auto
   name: 12|dongtaiwang.com_0
   network: ws
   port: 2095
   server: 104.21.238.100
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -614,14 +587,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.0.56
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -629,14 +602,14 @@ proxies:
   network: ws
   port: 2095
   server: 23.227.38.3
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -644,14 +617,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.38.12
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -659,14 +632,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.175.88
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -674,14 +647,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.99.22
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -689,14 +662,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.21.71
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -704,14 +677,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.175.213
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -719,14 +692,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.198.249
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -734,14 +707,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.194.76
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -749,14 +722,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.21.63
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -764,14 +737,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.123.11
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -779,14 +752,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.18.57.111
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -794,14 +767,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.21.230
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -809,14 +782,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.46.103
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -824,14 +797,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.32.216
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -839,14 +812,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.47.65
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -854,14 +827,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.58.175
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -869,14 +842,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.55.49
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -884,14 +857,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.42.49
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -899,14 +872,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.17.106.151
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -914,14 +887,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.57.4
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -929,14 +902,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.59.89
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -944,14 +917,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.20.17.186
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -959,14 +932,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.20.25.146
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -974,14 +947,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.7.132
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -989,14 +962,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.11
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1004,14 +977,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.13
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1019,14 +992,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.15
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1034,14 +1007,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.17
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1049,14 +1022,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.19
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1064,14 +1037,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.31
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1079,14 +1052,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.35
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1094,14 +1067,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.42
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1109,14 +1082,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.47
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1124,14 +1097,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.50
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1139,14 +1112,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.90
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1154,14 +1127,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.56
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1169,14 +1142,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.66
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1184,14 +1157,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.67
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1199,14 +1172,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.88
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1214,14 +1187,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.90
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1229,14 +1202,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.103
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1244,14 +1217,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.112
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1259,14 +1232,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.113
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1274,14 +1247,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.123
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1289,14 +1262,14 @@ proxies:
   network: ws
   port: 2095
   server: 104.26.5.145
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1304,14 +1277,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.19
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1319,14 +1292,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.33
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1334,14 +1307,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.39
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1349,14 +1322,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.45
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1364,14 +1337,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.56
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1379,14 +1352,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.66
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1394,14 +1367,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.77
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1409,14 +1382,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.89
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1424,14 +1397,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.91
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1439,14 +1412,14 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.93
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1454,14 +1427,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.5
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1469,14 +1442,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.8
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1484,14 +1457,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.10
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1499,14 +1472,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.15
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1514,14 +1487,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.19
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1529,14 +1502,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.22
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1544,14 +1517,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.25
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1559,14 +1532,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.29
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1574,14 +1547,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.35
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1589,14 +1562,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.44
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1604,14 +1577,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.7
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1619,14 +1592,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.9
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1634,14 +1607,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.15
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1649,14 +1622,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.17
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1664,14 +1637,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.24
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1679,14 +1652,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.27
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1694,14 +1667,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.32
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1709,14 +1682,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.35
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1724,14 +1697,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.37
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1739,14 +1712,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.233.43
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1754,14 +1727,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.2
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1769,14 +1742,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.8
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1784,14 +1757,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.9
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1799,14 +1772,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.12
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1814,14 +1787,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.16
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1829,14 +1802,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.20
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1844,14 +1817,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.22
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1859,14 +1832,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.28
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1874,14 +1847,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.32
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1889,14 +1862,14 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.166.33
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1904,14 +1877,14 @@ proxies:
   network: ws
   port: 2095
   server: fbi.gov
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1919,14 +1892,14 @@ proxies:
   network: ws
   port: 2095
   server: shopify.com
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1934,14 +1907,14 @@ proxies:
   network: ws
   port: 2095
   server: icook.tw
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1949,14 +1922,14 @@ proxies:
   network: ws
   port: 2095
   server: ip.sb
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1964,14 +1937,14 @@ proxies:
   network: ws
   port: 2095
   server: japan.com
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1979,14 +1952,14 @@ proxies:
   network: ws
   port: 2095
   server: malaysia.com
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1994,14 +1967,14 @@ proxies:
   network: ws
   port: 2095
   server: russia.com
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2009,14 +1982,14 @@ proxies:
   network: ws
   port: 2095
   server: singapore.com
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2024,14 +1997,14 @@ proxies:
   network: ws
   port: 2095
   server: skk.moe
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2039,14 +2012,14 @@ proxies:
   network: ws
   port: 2095
   server: www.visa.com
-  servername: c1.6016725.xyz
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: c1.6016725.xyz
+      Host: c2.6016725.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -3842,6 +3815,14 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.229.212.209
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 23|🇷🇺 俄罗斯|@ripaojiedian
+  password: dongtaiwang.com
+  port: 12345
+  server: 46.17.40.57
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
