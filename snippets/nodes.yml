@@ -527,53 +527,70 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-8
-  password: cvII85TrW6n0OGyfpHVS1u
+  name: 6|-https://t.me/MrXbin-1
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-4
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-10
+  password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.87.175.178
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-4
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-5
-  password: amazonskr05
-  port: 443
-  server: 13.229.182.85
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 6|-https://t.me/MrXbin-6
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: beesyar.org
+  server: 45.87.175.154
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-10
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-8
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 6,23|🇬🇧 英国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.195
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-26
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-25
+  name: 6|-https://t.me/MrXbin-34
   network: ws
   port: 443
-  server: dkzbofzkop.com
+  server: obdii.cfd
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: fa1897db-1925-4c86-a495-939a959af900
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: dkzbofzkop.com
-    path: /rbqqvws
+      Host: obdii.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 12|dongtaiwang.com_0
@@ -3544,6 +3561,33 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 19|0|--33
+  network: ws
+  port: 443
+  server: 185.146.173.59
+  servername: obdii.cfd
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 19|0|--36
+  network: ws
+  port: 2095
+  server: 172.64.166.20
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
@@ -3556,14 +3600,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 19|14|香港4|@ripaojiedian
+  name: 19,24|香港4|@ripaojiedian
   network: tcp
-  port: '39949'
-  server: 185.207.155.123
+  port: '35926'
+  server: 103.224.80.56
   servername: ''
   tls: false
   type: vmess
-  uuid: 0899b23d-fbd2-42b8-8e48-b057cf45e24e
+  uuid: d3c1e9d2-4267-4fe6-a189-de4d641c6af9
 - alterId: 64
   cipher: auto
   name: 19,24|香港6|@ripaojiedian
@@ -3576,11 +3620,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 19|13,14|台湾|@ripaojiedian
+  client-fingerprint: chrome
+  name: 19,23,24|日本2|@ripaojiedian
   network: ws
-  port: '80'
+  port: '25758'
   server: twriyfjhhhh1.hfhfb.homes
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 2744bc46-8b19-40a5-9733-5bc819fa9553
@@ -3588,16 +3635,6 @@ proxies:
     headers:
       Host: app.dingtalk.com
     path: /?ed
-- alterId: 0
-  cipher: auto
-  name: 19|14|韩国2|@ripaojiedian
-  network: tcp
-  port: '34103'
-  server: 45.94.68.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f083427f-9d8b-4863-b4a5-fc15255547d2
 - alterId: 64
   cipher: auto
   name: 19,24|美国|@ripaojiedian
@@ -3755,23 +3792,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 23,24|日本2|@ripaojiedian
-  network: ws
-  port: '25758'
-  server: twriyfjhhhh1.hfhfb.homes
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2744bc46-8b19-40a5-9733-5bc819fa9553
-  ws-opts:
-    headers:
-      Host: app.dingtalk.com
-    path: /?ed
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本特殊|@ripaojiedian
@@ -3796,21 +3816,3 @@ proxies:
   server: 13.229.238.238
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇬🇧 英国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.195
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|香港4|@ripaojiedian
-  network: tcp
-  port: '35926'
-  server: 103.224.80.56
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d3c1e9d2-4267-4fe6-a189-de4d641c6af9
