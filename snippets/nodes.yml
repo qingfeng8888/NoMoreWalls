@@ -526,27 +526,37 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-3
+  password: 5cp9Z3iWnJZ2
+  port: 443
+  server: 205.134.180.150
+  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-18
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
+  name: 6|-https://t.me/MrXbin-23
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
   protocol: origin
-  server: us-am3.eqnode.net
+  server: 138.186.142.4
   type: ssr
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇬🇧 英国|@ripaojiedian
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.24.3.210
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tfo: false
+  h2-opts: {}
+  http-opts: {}
+  name: 6,19|0|--31
+  network: ws
+  port: 2095
+  server: 23.227.38.3
+  servername: c2.6016725.xyz
   tls: false
-  type: trojan
-  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: c2.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 12|dongtaiwang.com_0
@@ -3517,32 +3527,6 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19|0|--30
-  network: ws
-  port: 443
-  server: 45.149.12.84
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 19|0|--31
-  network: ws
-  port: 443
-  server: 172.67.175.56
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
 - alterId: 64
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
@@ -3727,6 +3711,19 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇬🇧 英国|@ripaojiedian
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.24.3.210
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇭🇰 香港6|@ripaojiedian
