@@ -526,37 +526,40 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-17
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13620
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: hfa1.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-19
+  name: 6|-https://t.me/MrXbin-17
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- alterId: 0
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-25
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13299
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇹🇭 泰国|@ripaojiedian
-  password: QwwHvrnN
-  port: 45851
-  server: 110.42.36.15
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: false
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-32
+  network: ws
+  port: 38003
+  server: 38.14.107.228
+  skip-cert-verify: true
+  tls: true
   type: vmess
   udp: true
-  uuid: 414c79f7-1742-42f1-a7c6-1ccdbdd8e379
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/181721272114
 - alterId: 0
   cipher: auto
   name: 12|dongtaiwang.com_0
@@ -3527,20 +3530,6 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19|0|--24
-  network: ws
-  port: 2095
-  server: 172.64.166.22
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
@@ -3745,6 +3734,19 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇹🇭 泰国|@ripaojiedian
+  password: QwwHvrnN
+  port: 45851
+  server: 110.42.36.15
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 414c79f7-1742-42f1-a7c6-1ccdbdd8e379
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇭🇰 香港6|@ripaojiedian
