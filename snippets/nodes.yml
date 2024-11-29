@@ -526,37 +526,31 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-1
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.45
-  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-9
+  name: 6|-https://t.me/MrXbin-8
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- alterId: 0
+- alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6,19|0|--18
+  name: 6|-https://t.me/MrXbin-20
   network: ws
-  port: 2095
-  server: 172.64.99.22
+  port: 443
+  server: 23.158.56.39
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip12.6016725.xyz
-    path: /github.com/Alvin9999
+      Host: 23.158.56.39
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 12|dongtaiwang.com_0
@@ -60617,6 +60611,19 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 19|0|--21
+  network: ws
+  port: 2095
+  server: 172.64.99.22
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
