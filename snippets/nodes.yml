@@ -528,18 +528,31 @@ proxies:
   ws-opts: {}
 - cipher: chacha20-ietf-poly1305
   name: 6|-https://t.me/MrXbin-1
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
+  password: LH5o0350poS83OYkcM5s1e
+  port: 19057
+  server: 91.103.253.151
   type: ss
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   name: 6|-https://t.me/MrXbin-2
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-36
+  network: ws
+  port: 443
+  server: 103.158.228.202
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.47187921.xyz
+    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 12|dongtaiwang.com_0
@@ -60600,19 +60613,6 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 19|0|--21
-  network: ws
-  port: 2095
-  server: 172.64.99.22
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
-    path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
