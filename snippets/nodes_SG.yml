@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19,24|新加坡2|@ripaojiedian
+  name: 19|14|新加坡2|@ripaojiedian
   network: tcp
   port: '34843'
   server: sg1.tiljkc.top
@@ -23,11 +23,13 @@ proxies:
   server: 219.135.227.209
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.202.65.32
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|新加坡2|@ripaojiedian
+  network: tcp
+  port: '34842'
+  server: sg1.tiljkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c1ae98ab-35aa-36bf-b317-857006d2fdfb
