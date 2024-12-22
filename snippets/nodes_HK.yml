@@ -21,14 +21,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 19,23,24|香港6|@ripaojiedian
+  name: 19|13,14|香港6|@ripaojiedian
   network: ws
   port: '30000'
   server: 170.178.186.12
   servername: www.59477189.xyz
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -48,7 +45,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 19,24|香港8|@ripaojiedian
+  name: 19|14|香港8|@ripaojiedian
   network: tcp
   port: '39041'
   server: hk1.tiljkc.top
@@ -56,11 +53,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 23|🇭🇰 香港3|@ripaojiedian
-  password: ZpeGa4
-  port: 56018
-  server: db59a98b.b8z9y9a5g9-fb-hk18.6pzfwf.com
+  name: 23,24|香港3|@ripaojiedian
+  network: ws
+  port: '51201'
+  server: b.naiun.node-is.green
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 2d570475-a7a6-4242-b733-d5300305b615
+  ws-opts:
+    headers:
+      Host: live.bilibili.com
+    path: /
