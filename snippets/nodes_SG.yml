@@ -22,17 +22,9 @@ proxies:
     headers:
       Host: amd.al
     path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡2|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54030
-  server: s-g04.loveroise.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 24|新加坡3|@ripaojiedian
+  name: 19,24|新加坡3|@ripaojiedian
   network: tcp
   port: '34843'
   server: sggp1.pfdsddla.com
@@ -42,7 +34,7 @@ proxies:
   uuid: f5dca880-153e-3ff1-a940-681b01da4629
 - alterId: 0
   cipher: auto
-  name: 24|新加坡4|@ripaojiedian
+  name: 19,24|新加坡4|@ripaojiedian
   network: tcp
   port: '50015'
   server: 50015.baidu-cdn.top
@@ -50,3 +42,11 @@ proxies:
   tls: false
   type: vmess
   uuid: fa2c4c94-b477-4809-9db8-3db03ef06202
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡2|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54030
+  server: s-g04.loveroise.com
+  tfo: false
+  type: ss
