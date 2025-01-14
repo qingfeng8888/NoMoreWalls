@@ -1,16 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 19|14|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 19,24|香港4|@ripaojiedian
   network: tcp
   port: '53002'
@@ -18,6 +8,19 @@ proxies:
   servername: ''
   tls: false
   type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国|@ripaojiedian
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: sg02.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: sg02.trojanyyds.xyz
+  tfo: false
+  tls: false
+  type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
