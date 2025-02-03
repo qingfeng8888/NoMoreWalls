@@ -1,40 +1,72 @@
 proxies:
+- name: 6|🇯🇵2 |  14.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6|🇯🇵1 |  5.9MB/s
+  name: 6|🇯🇵4 |  6.6MB/s
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+- cipher: aes-256-cfb
+  name: 6|🇯🇵6 |  9.1MB/s
   password: amazonskr05
   port: 443
-  server: 13.230.161.241
+  server: 18.183.142.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 6|🇯🇵11 |  7.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.201.102.200
+  type: ss
+- name: 6|🇯🇵12 |  15.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo101-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo101-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- auth: 7e5d075e-9502-417e-8357-85272680f1f7
+  down: 10
+  name: 6|🇯🇵13 |  1.1MB/s
+  password: 7e5d075e-9502-417e-8357-85272680f1f7
+  port: 48512
+  server: jpzl2.stardad.lol
+  skip-cert-verify: true
+  sni: https://bing.com
+  type: hysteria2
+  udp: true
+  up: 10
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇯🇵19 |  8.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.76.121
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 6|🇯🇵2 |  1.2MB/s
-  password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00
-  port: 40021
-  server: vn.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本|@ripaojiedian
-  password: f1aaae80-3206-4b02-9283-739f0bdf0e36
-  port: 24960
-  server: 49.7.215.3
+  password: FS0NUQEKML4CH312
+  port: 18001
+  server: 156.231.104.11
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本2|@ripaojiedian
-  password: f804de13-7228-441d-9fb9-5e46afea1deb
-  port: 12015
-  server: mdss-jp.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.79.147.203
+  password: H0P889CX07EQNGNV
+  port: 18005
+  server: 156.231.104.15
   tfo: false
   type: ss
