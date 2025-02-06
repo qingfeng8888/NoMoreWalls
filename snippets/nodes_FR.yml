@@ -1,4 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|🇫🇷1 |  2.0MB/s
+  network: ws
+  port: 80
+  server: plex.com
+  servername: telegram-isvvpn.ir
+  skip-cert-verify: true
+  type: vmess
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      HOST: telegram-isvvpn.ir
+      Host: plex.com
+    path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇫🇷 法国|@ripaojiedian
