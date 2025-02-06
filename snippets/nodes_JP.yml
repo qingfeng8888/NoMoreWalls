@@ -1,19 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 6|🇯🇵1 |  5.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.203.206.63
-  type: ss
-- auth: 50463abf-32e2-47c9-a205-b7894c40e2af
-  client-fingerprint: chrome
-  name: 6|🇯🇵2 |  5.6MB/s
-  password: 50463abf-32e2-47c9-a205-b7894c40e2af
-  port: 5001
-  server: krseoul.aikunapp.com
-  skip-cert-verify: true
-  sni: d1--cn-gotcha204-4.bilivideo.com
-  type: hysteria2
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -26,28 +11,8 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
-- cipher: aes-256-cfb
-  name: 6|🇯🇵4 |  3.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.248.40.18
-  type: ss
-- auth: 50463abf-32e2-47c9-a205-b7894c40e2af
-  client-fingerprint: chrome
-  name: 6|🇯🇵5 |  6.0MB/s
-  password: 50463abf-32e2-47c9-a205-b7894c40e2af
-  port: 5001
-  server: aws-jpjp.aikunapp.com
-  skip-cert-verify: true
-  sni: d1--cn-gotcha204-4.bilivideo.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 6|🇯🇵6 |  4.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.249.170.37
-  type: ss
 - alterId: 0
   cipher: auto
   name: 19,24|日本2|@ripaojiedian
