@@ -236,108 +236,55 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: 6|🇺🇸1 |  2.6MB/s
+  name: 6|🇺🇸1 |  2.0MB/s
   password: amazonskr05
   port: 443
-  server: 54.214.157.34
+  server: 34.219.5.41
   type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 6|🇺🇸2 |  4.4MB/s
-  password: '!!str 123456'
-  port: 443
-  server: 192.3.85.237
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 6|🇺🇸3 |  1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.211.228.158
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 6|🇺🇸4 |  4.6MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
+  client-fingerprint: chrome
+  name: 6,23|🇭🇰 香港2|@ripaojiedian
+  password: 3aec9607-0136-4ca1-90c2-553a0322b25e
+  port: 12926
+  server: 38.147.189.163
+  skip-cert-verify: false
+  sni: cdn.alibaba.com
+  tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: f51a9dd0-fef3-314b-b2e0-d855a5b123f8
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸6 |  3.3MB/s
-  password: b9a03320-6563-4f7f-a171-88fff06b7cec
-  port: 36721
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸7 |  1.5MB/s
-  password: b9a03320-6563-4f7f-a171-88fff06b7cec
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-- name: 6|🇺🇸8 |  2.7MB/s
+  uuid: e2103b64-fdfd-4efb-8330-c1c1ff0efdea
+- name: 6|🇺🇸4 |  12.5MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: usgp1-cdn-route.couldflare-cdn.com
+  server: jp104-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
-  sni: usgp1-cdn-route.couldflare-cdn.com
+  sni: jp104-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 6|🇺🇸6 |  1.1MB/s
+  port: 38670
+  ports: 10000-20000
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - cipher: aes-256-cfb
-  name: 6|🇺🇸9 |  4.6MB/s
+  client-fingerprint: chrome
+  name: 6|🇺🇸8 |  5.5MB/s
   password: amazonskr05
   port: 443
-  server: 35.162.245.105
+  server: 35.94.121.57
   type: ss
-- name: 6|🇺🇸10 |  2.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp3-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp3-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
-  cipher: auto
-  name: 6|🇺🇸11 |  5.6MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f51a9dd0-fef3-314b-b2e0-d855a5b123f8
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 6|🇺🇸12 |  3.2MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f51a9dd0-fef3-314b-b2e0-d855a5b123f8
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
