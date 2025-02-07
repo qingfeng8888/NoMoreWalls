@@ -5,30 +5,46 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
+- auth: __mPDL8oqKjx2v2VpdSfG0g4
   client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国3|@ripaojiedian
-  password: '!!str 65086520307764900'
-  port: 44447
-  server: 38.147.161.47
-  skip-cert-verify: false
-  sni: grateful-lark.shiner427.skin
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
+  name: 6|🇸🇬1 |  6.0MB/s
+  password: __mPDL8oqKjx2v2VpdSfG0g4
+  port: 443
+  server: starlink-sgp.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6|🇸🇬2 |  1.8MB/s
+  name: 6|🇸🇬2 |  5.8MB/s
   password: amazonskr05
   port: 443
-  server: 52.77.240.71
+  server: 13.212.113.186
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇸🇬3 |  1.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.250.99.8
+  type: ss
+- auth: __mPDL8oqKjx2v2VpdSfG0g4
+  client-fingerprint: chrome
+  name: 6|🇸🇬4 |  3.1MB/s
+  password: __mPDL8oqKjx2v2VpdSfG0g4
+  port: 443
+  server: starlink-sgp2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 6|🇸🇬5 |  2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.141.177.51
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19,24|新加坡|@ripaojiedian
+  name: 19|14|新加坡|@ripaojiedian
   network: tcp
   port: '50012'
   server: 50012.baidu-cdn.top
@@ -36,11 +52,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 224e3ed4-96d2-4ae0-8d24-070b0039074e
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.25.54
+  name: 23|🇸🇬 新加坡|@ripaojiedian
+  password: 2XZNFVL28OOLLELR
+  port: 16005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡2|@ripaojiedian
+  password: UEC9F1QB458GMQEK
+  port: 16010
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡3|@ripaojiedian
+  password: 0HBGSZP1UCOGQDZW
+  port: 16002
+  server: 183.61.177.234
   tfo: false
   type: ss
