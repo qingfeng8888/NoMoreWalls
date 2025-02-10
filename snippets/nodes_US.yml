@@ -235,46 +235,58 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 6|🇺🇸1 |  6.0MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fb362f19-b489-3f1e-8c0d-573b60360f05
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
+- name: 6|🇺🇸1 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: chacha20-ietf
-  name: 6|🇺🇸2 |  1.6MB/s
+  client-fingerprint: chrome
+  name: 6|🇺🇸2 |  5.8MB/s
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8123
+  port: 8512
   protocol: origin
   protocol-param: ''
-  server: cn05.closeai.one
+  server: cn16.closeai.one
   type: ssr
   udp: true
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 6,23|🇸🇬 新加坡5|@ripaojiedian
-  password: 415b770f-20de-4be4-a3c1-8376da50a1b7
-  port: 49549
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  sni: mm2.redapricotcloud.com
-  tfo: false
-  tls: false
-  type: vmess
+  name: 6|🇺🇸3 |  6.2MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8110
+  protocol: origin
+  protocol-param: ''
+  server: cn02.closeai.one
+  type: ssr
   udp: true
-  uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 6|🇺🇸4 |  1.8MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8513
+  protocol: origin
+  protocol-param: ''
+  server: cn16.closeai.one
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|🇺🇸5 |  2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.221.171.18
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
@@ -343,27 +355,13 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国|@ripaojiedian
-  password: NG8UKXGFBF4LFJQ9
-  port: 17005
-  server: 183.232.239.172
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国2|@ripaojiedian
-  password: M4GWJS4SIR9UHK0Y
-  port: 17002
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国3|@ripaojiedian
-  password: 5FJF20OHXKZCSDEB
-  port: 17006
-  server: 183.61.177.234
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|美国2|@ripaojiedian
+  network: tcp
+  port: '44447'
+  server: 38.147.161.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
