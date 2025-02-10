@@ -235,27 +235,73 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: chacha20-ietf
+- alpn:
+  - h3
+  auth: 3e62210d-f3a1-4a0c-840c-5cbb1fd9c664
   client-fingerprint: chrome
-  name: 6|🇺🇸1 |  5.0MB/s
+  name: 6|🇺🇸1 |  1.3MB/s
+  password: 3e62210d-f3a1-4a0c-840c-5cbb1fd9c664
+  port: 65128
+  server: 107.149.242.75
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf
+  name: 6|🇺🇸2 |  5.1MB/s
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8503
+  port: 8505
   protocol: origin
   protocol-param: ''
   server: cn15.closeai.one
   type: ssr
   udp: true
-- name: 6|🇺🇸2 |  2.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf
+  name: 6|🇺🇸3 |  5.4MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8110
+  protocol: origin
+  protocol-param: ''
+  server: cn02.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 6|🇺🇸4 |  3.3MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8508
+  protocol: origin
+  protocol-param: ''
+  server: cn16.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 6|🇺🇸5 |  3.5MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8109
+  protocol: origin
+  protocol-param: ''
+  server: cn02.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 6|🇺🇸6 |  6.2MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8123
+  protocol: origin
+  protocol-param: ''
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
