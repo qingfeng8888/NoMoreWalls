@@ -1,49 +1,26 @@
 proxies:
 - cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 6|🇯🇵1 |  5.1MB/s
   password: amazonskr05
   port: 443
-  server: 13.115.39.161
+  server: 18.179.112.66
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇬🇧 英国|@ripaojiedian
-  password: '!!str 65086441068973800'
-  port: 443
-  server: grown-mackerel.shiner427.skin
-  skip-cert-verify: false
-  sni: grown-mackerel.shiner427.skin
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6,23|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.206.238.113
-  tfo: false
-  type: ss
-  udp: true
-- name: 6|🇯🇵5 |  3.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本2|@ripaojiedian
   password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
   port: 58148
   server: lm.kaiqsz.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.206.238.113
   tfo: false
   type: ss
 - alterId: 0
