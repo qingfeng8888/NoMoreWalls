@@ -1,45 +1,49 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 6|🇯🇵1 |  5.7MB/s
+  name: 6|🇯🇵1 |  5.1MB/s
   password: amazonskr05
   port: 443
-  server: 3.112.28.118
+  server: 13.115.39.161
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 23,24|日本2|@ripaojiedian
-  network: ws
-  port: '25775'
-  server: tttxbmsm.fask511.cfd
-  servername: ''
+  name: 6,23|🇬🇧 英国|@ripaojiedian
+  password: '!!str 65086441068973800'
+  port: 443
+  server: grown-mackerel.shiner427.skin
   skip-cert-verify: false
+  sni: grown-mackerel.shiner427.skin
   tfo: false
   tls: false
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /?ed=1024
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本3|@ripaojiedian
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8411
-  protocol: origin
-  protocol-param: ''
-  server: cn14.closeai.one
-  type: ssr
+  type: trojan
+  udp: true
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 23|🇯🇵 日本特殊|@ripaojiedian
+  name: 6,23|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.192.7.214
+  server: 43.206.238.113
+  tfo: false
+  type: ss
+  udp: true
+- name: 6|🇯🇵5 |  3.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本2|@ripaojiedian
+  password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
+  port: 58148
+  server: lm.kaiqsz.com
   tfo: false
   type: ss
 - alterId: 0
@@ -51,4 +55,4 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: e1541125-9df4-4ee7-bb05-e68f85d7937f
+  uuid: 0acfdca6-a960-469a-a7b8-2634371fd9d3
