@@ -235,71 +235,43 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 6|🇺🇸1 |  5.6MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21151
-  server: 510613.frederica.xyz
+- cipher: aes-256-cfb
+  name: 6|🇺🇸1 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.143.103.137
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 6|🇺🇸2 |  6.2MB/s
-  network: tcp
-  port: 31151
-  server: 510613.frederica.xyz
+  name: 6,23|🇺🇸 美国2|@ripaojiedian
+  password: '!!str 65086441068973800'
+  port: 45402
+  server: 120.232.153.123
+  skip-cert-verify: false
+  sni: live-serval.shiner427.skin
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: chacha20-ietf-poly1305
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 6|🇺🇸3 |  6.0MB/s
-  password: 4abcfe47-d1bb-42fc-b560-648c10cd32a4
-  port: 49095
-  server: temp.haoyf.xyz
+  name: 6|🇺🇸3 |  7.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.245.222.80
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
+- auth: 9bb452b106ffc217
   client-fingerprint: chrome
-  name: 6|🇺🇸4 |  2.5MB/s
-  network: tcp
-  port: 31100
-  server: 910281.chasel.sbs
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 6|🇺🇸5 |  5.8MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21150
-  server: 510613.frederica.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6|🇺🇸6 |  1.6MB/s
-  network: tcp
-  port: 31152
-  server: 510613.frederica.xyz
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 6|🇺🇸7 |  2.9MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21102
-  server: 910281.chasel.sbs
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6|🇺🇸8 |  3.3MB/s
-  network: tcp
-  port: 31124
-  server: 510613.frederica.xyz
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  name: 6|🇺🇸7 |  3.1MB/s
+  obfs: salamander
+  obfs-password: cd29099d
+  password: 9bb452b106ffc217
+  port: 443
+  server: 207.148.22.93
+  skip-cert-verify: true
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
