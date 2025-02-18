@@ -1,18 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国3|@ripaojiedian
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 31909
-  server: 23.224.152.62
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: false
-  type: vmess
+- name: 6|🇯🇵1 |  1.8MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
   udp: true
-  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+  username: myszy
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 23|🇯🇵 日本2|@ripaojiedian
@@ -24,6 +17,14 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本3|@ripaojiedian
+  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
+  port: 30003
+  server: gdgs.tarioblink.me
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本特殊|@ripaojiedian
