@@ -235,14 +235,22 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 6|🇺🇸1 |  3.0MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 24928
+  server: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 6|🇺🇸1 |  6.8MB/s
+  name: 6|🇺🇸2 |  2.5MB/s
   password: amazonskr05
   port: 443
-  server: 54.245.222.80
+  server: 35.86.249.1
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -257,21 +265,91 @@ proxies:
   type: vmess
   udp: true
   uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- auth: iMqY3uG_5pgEj3hCfyHB-0vB
+  client-fingerprint: chrome
+  name: 6|🇺🇸4 |  1.8MB/s
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
+  port: 443
+  server: 143.198.235.49
+  skip-cert-verify: true
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸6 |  4.2MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23903
+  server: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸7 |  4.5MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 26977
+  server: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 6|🇺🇸8 |  2.1MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 22688
+  server: ln4.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ln4.xiaoliyu.cyou
+  type: hysteria2
+- name: 6|🇺🇸9 |  3.6MB/s
+  obfs: salamander
+  obfs-password: 13f7ba5f
+  password: 4e9ee29b39a28277
+  port: 443
+  server: 66.135.11.68
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇺🇸10 |  5.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.245.222.80
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   down: 100
-  name: 6|🇺🇸3 |  6.5MB/s
+  name: 6|🇺🇸11 |  1.9MB/s
   password: 4a48871d49c3f20fd93d365c49e45f78
   port: 443
   server: v.mch.vaala.cat
   sni: v.mch.vaala.cat
   type: hysteria2
   up: 100
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 6|🇺🇸12 |  1.7MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 24359
+  server: kr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸13 |  1.1MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 22123
+  server: kr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 6|🇺🇸4 |  1.1MB/s
+  name: 6|🇺🇸14 |  4.8MB/s
   network: ws
-  port: 23605
-  server: 5.mamamajd.site
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -279,48 +357,8 @@ proxies:
   uuid: 91223d10-afa5-3c1f-b7ae-8cdf9bfcd388
   ws-opts:
     headers:
-      Host: 5.mamamajd.site
+      Host: 17.mamamajd.site
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸7 |  4.6MB/s
-  password: 4a0ea1d4-9703-4575-b50e-0be5b93ab0b1
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-- name: 6|🇺🇸8 |  1.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- auth: 334c4713-73ea-4e71-b827-21a22d31736b
-  client-fingerprint: chrome
-  name: 6|🇺🇸10 |  2.1MB/s
-  password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 23014
-  server: us2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
-  type: hysteria2
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6|🇺🇸11 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.220.99.193
-  type: ss
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  client-fingerprint: chrome
-  name: 6|🇺🇸12 |  1.5MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 26818
-  server: ln4.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ln4.xiaoliyu.cyou
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
