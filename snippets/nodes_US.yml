@@ -235,47 +235,95 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  name: 6|🇺🇸2 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.184.126.174
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸3 |  3.2MB/s
-  network: ws
-  port: 80
-  server: cloudflare.182682.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
-  ws-opts:
-    headers:
-      Host: kr.cfyyds.filegear-sg.me
-    path: /rongseven?ed=2048
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸1 |  1.2MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23014
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸2 |  2.1MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 26717
+  server: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸3 |  4.1MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24544
+  server: ln4.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ln4.xiaoliyu.cyou
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 6|🇺🇸6 |  4.0MB/s
+  name: 6|🇺🇸4 |  4.4MB/s
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
-  skip-cert-verify: false
-  tls: true
+  port: 23615
+  server: 15.mamamajd.site
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  udp: true
+  uuid: 2a3705f4-84b9-3fa2-8a84-b8e7bb65f59a
   ws-opts:
     headers:
-      Host: tk.hzlt.tkddns.xyz
+      Host: 15.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 6|🇺🇸5 |  1.8MB/s
+  network: ws
+  port: 23618
+  server: 18.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a3705f4-84b9-3fa2-8a84-b8e7bb65f59a
+  ws-opts:
+    headers:
+      Host: 18.mamamajd.site
     path: /
 - cipher: aes-256-cfb
-  name: 6|🇺🇸7 |  5.7MB/s
+  name: 6|🇺🇸6 |  4.4MB/s
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 52.194.186.197
+  protocol: origin
+  server: 54.189.149.15
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 6|🇺🇸7 |  1.7MB/s
+  password: ce49b294-08d6-409e-8fc8-aa0d0ff5df00
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸8 |  1.5MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23084
+  server: ln4.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ln4.xiaoliyu.cyou
+  type: hysteria2
+- auth: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  client-fingerprint: chrome
+  name: 6|🇺🇸9 |  2.8MB/s
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 26349
+  server: fr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
