@@ -5,27 +5,25 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国2|@ripaojiedian
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: fluent-bat.treefrog761.one
-  skip-cert-verify: false
-  sni: fluent-bat.treefrog761.one
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
 - cipher: aes-256-cfb
-  name: 6|🇸🇬2 |  4.8MB/s
+  name: 6|🇸🇬2 |  5.6MB/s
   password: amazonskr05
   port: 443
   server: 13.229.180.183
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡|@ripaojiedian
+  password: f4cd0a554e9d0558c581
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45917
+  server: console.03.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡2|@ripaojiedian
