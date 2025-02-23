@@ -235,126 +235,91 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6|🇺🇸1 |  4.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.194.186.197
-  type: ss
 - auth: bcf89582-072f-4e16-97e2-5d1258e0100d
   client-fingerprint: chrome
-  name: 6|🇺🇸3 |  4.6MB/s
+  name: 6|🇺🇸1 |  2.1MB/s
   password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 26175
+  port: 26415
   server: fr2.xiaoliyu.cyou
   skip-cert-verify: true
   sni: fr2.xiaoliyu.cyou
   type: hysteria2
-- cipher: aes-256-cfb
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
   client-fingerprint: chrome
-  name: 6|🇺🇸4 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.215.236
-  type: ss
-  udp: true
+  name: 6|🇺🇸2 |  2.0MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 25804
+  server: fr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸6 |  1.4MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23084
+  server: ln4.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ln4.xiaoliyu.cyou
+  type: hysteria2
 - auth: 830a6085-9aeb-449b-bfd2-1924eb972941
   client-fingerprint: chrome
-  name: 6|🇺🇸5 |  1.9MB/s
+  name: 6|🇺🇸7 |  1.5MB/s
   password: 830a6085-9aeb-449b-bfd2-1924eb972941
-  port: 5001
-  server: 152.53.125.70
+  port: 5051
+  server: 104.238.222.79
   skip-cert-verify: true
   sni: d1--cn-gotcha204-4.bilivideo.com
   type: hysteria2
 - auth: 334c4713-73ea-4e71-b827-21a22d31736b
   client-fingerprint: chrome
-  name: 6|🇺🇸6 |  1.6MB/s
+  name: 6|🇺🇸8 |  4.5MB/s
   password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 23014
-  server: us2.xiaoliyu.cyou
+  port: 23022
+  server: us1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 6|🇺🇸9 |  5.1MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 25684
+  server: fr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr2.xiaoliyu.cyou
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 6|🇺🇸7 |  1.5MB/s
-  obfs: plain
+  name: 6|🇺🇸10 |  2.6MB/s
   password: amazonskr05
   port: 443
-  protocol: origin
-  server: 35.94.23.23
-  type: ssr
-- cipher: aes-256-cfb
-  name: 6|🇺🇸8 |  3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.245.222.80
+  server: 34.221.167.203
   type: ss
-- alterId: 0
-  cipher: auto
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
   client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国2|@ripaojiedian
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: fluent-bat.treefrog761.one
-  skip-cert-verify: false
-  sni: fluent-bat.treefrog761.one
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- cipher: aes-256-cfb
-  name: 6|🇺🇸11 |  5.6MB/s
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 52.12.191.72
-  type: ssr
-- cipher: aes-256-cfb
-  name: 6|🇺🇸12 |  2.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.39.248.156
-  type: ss
+  name: 6|🇺🇸12 |  4.6MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 25444
+  server: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 6,19|1|🇺🇸13 |  1.2MB/s
+  name: 19|2|🇺🇸13 |  1.2MB/s
   network: ws
   port: 23615
   server: 15.mamamajd.site
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: d4efa54f-0964-3c48-b9d0-d4a9d22a947f
   ws-opts:
     headers:
       Host: 15.mamamajd.site
     path: /
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  client-fingerprint: chrome
-  name: 6|🇺🇸15 |  3.3MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 25644
-  server: gb1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: gb1.xiaoliyu.cyou
-  type: hysteria2
-- auth: 334c4713-73ea-4e71-b827-21a22d31736b
-  client-fingerprint: chrome
-  name: 6|🇺🇸18 |  4.5MB/s
-  password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 24660
-  server: au1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: au1.xiaoliyu.cyou
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 19|1|🇺🇸17 |  3.4MB/s
+  name: 19|2|🇺🇸17 |  3.4MB/s
   network: tcp
   port: 50023
   server: 50023.baidu-cdn.top
