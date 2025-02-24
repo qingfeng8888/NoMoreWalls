@@ -1,4 +1,32 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,23|🇭🇰 香港3|@ripaojiedian
+  password: 1e63e585ab2fef3adcc9ea75a62abc23
+  port: 30704
+  server: 43.247.135.63
+  skip-cert-verify: false
+  sni: hezijiasuqi.com
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇯🇵4 |  2.2MB/s
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 6|🇯🇵5 |  3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.202.60.105
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本|@ripaojiedian
@@ -23,22 +51,11 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本5|@ripaojiedian
-  obfs: plain
-  obfs-param: c499e93390.wns.windows.com
-  password: mtbv8n
-  port: 1454
-  protocol: auth_aes128_md5
-  protocol-param: 93390:TDWk1JwybHq
-  server: relayjp4.vip.primeconectin.pro
-  type: ssr
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.7.198
+  server: 13.212.32.201
   tfo: false
   type: ss
