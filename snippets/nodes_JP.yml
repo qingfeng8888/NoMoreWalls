@@ -1,18 +1,40 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇯🇵1 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.181.198.147
+  type: ss
+- alterId: '64'
+  cipher: auto
+  name: 6|🇯🇵2 |  3.3MB/s
+  network: tcp
+  port: 30565
+  server: 120.198.71.214
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国|@ripaojiedian
+  name: 6,23|🇭🇰 香港9|@ripaojiedian
   password: Vad3.123a)asd1234-asdasd.asdazzS.123
-  port: 50004
-  server: 50004.baidu-cdn.top
+  port: 33311
+  server: bg.guangsu888.cc
   skip-cert-verify: false
   sni: xx.tc.hk.go.107421.xyz
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
+  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇯🇵4 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.238.247.32
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本|@ripaojiedian
@@ -37,23 +59,11 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本4|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 4602
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.38.214.76
+  server: 47.129.225.199
   tfo: false
   type: ss
