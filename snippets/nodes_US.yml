@@ -235,19 +235,21 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   client-fingerprint: chrome
-  down: 55 Mbps
-  name: 6|🇺🇸1 |  5.8MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
+  name: 6|🇺🇸1 |  1.6MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: fh5.su8.lol
+  skip-cert-verify: false
+  sni: fh5.su8.lol
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 6|🇺🇸2 |  3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.212.0.149
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -262,58 +264,90 @@ proxies:
   type: vmess
   udp: true
   uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
-- name: 6|🇺🇸5 |  2.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- client-fingerprint: chrome
+  name: 6|🇺🇸4 |  5.3MB/s
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
-  server: usgp3-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp3-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- auth: b546e98f-967a-4e95-aa67-4cdd6c1b9677
-  client-fingerprint: chrome
-  name: 6|🇺🇸7 |  2.3MB/s
-  password: b546e98f-967a-4e95-aa67-4cdd6c1b9677
-  port: 10002
-  server: 50.114.152.111
+  server: 143.198.235.49
   skip-cert-verify: true
   type: hysteria2
-- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
-  client-fingerprint: chrome
-  name: 6|🇺🇸8 |  2.7MB/s
-  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
-  port: 8899
-  server: yingguo2.su8.lol
-  skip-cert-verify: false
-  sni: yingguo2.su8.lol
-  type: hysteria2
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 6|🇺🇸9 |  1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.220.174.155
-  tls: false
+- cipher: aes-256-gcm
+  name: 6|🇺🇸5 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.143.66.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|🇺🇸7 |  1.0MB/s
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 69.50.95.115
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 6|🇺🇸10 |  6.1MB/s
-  network: tcp
-  port: 44014
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: 6|🇺🇸8 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.143.66.99
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇺🇸9 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.185.211.74
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇺🇸10 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.211.97.239
+  type: ss
+- cipher: aes-256-cfb
+  name: 6|🇺🇸11 |  4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.33.5.226
+  type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 6|🇺🇸13 |  3.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   client-fingerprint: chrome
-  name: 6|🇺🇸11 |  5.0MB/s
+  name: 6|🇺🇸15 |  5.2MB/s
   password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   port: 8899
-  server: shenghesai1.su8.lol
+  server: fenghuang1.su8.lol
   skip-cert-verify: false
-  sni: shenghesai1.su8.lol
+  sni: fenghuang1.su8.lol
   type: hysteria2
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 6|🇺🇸16 |  4.1MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: dg1.su8.lol
+  skip-cert-verify: false
+  sni: dg1.su8.lol
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 6|🇺🇸17 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 69.50.95.115
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
