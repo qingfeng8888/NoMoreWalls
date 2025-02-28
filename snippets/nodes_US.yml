@@ -235,32 +235,16 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- name: 6|🇺🇸2 |  5.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 6|🇺🇸1 |  1.8MB/s
+  password: amazonskr05
   port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  name: 6|🇺🇸3 |  5.6MB/s
-  password: iMqY3uG_5pgEj3hCfyHB-0vB
-  port: 443
-  server: 143.198.235.49
-  skip-cert-verify: true
-  type: hysteria2
-- alterId: '0'
-  cipher: auto
-  name: 6|🇺🇸4 |  1.0MB/s
-  network: tcp
-  port: 35641
-  server: 120.198.71.216
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 54.185.211.74
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: 6|🇺🇸7 |  3.2MB/s
+  name: 6|🇺🇸7 |  2.0MB/s
   password: f4cd0a554e9d0558c581
   plugin: obfs
   plugin-opts:
@@ -269,21 +253,6 @@ proxies:
   port: 45917
   server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 6|🇺🇸9 |  2.3MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2d0466cf-016f-3777-97f1-8d2df5d67bba
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
