@@ -235,12 +235,34 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 6|🇺🇸2 |  6.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: 6|🇺🇸3 |  5.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp2-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: usgp2-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 2
   cipher: auto
-  name: 6|🇺🇸2 |  4.9MB/s
+  name: 6|🇺🇸5 |  2.4MB/s
   network: ws
-  port: 23615
-  server: 15.mamamajd.site
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -248,17 +270,8 @@ proxies:
   uuid: 91a7ddba-3af8-3797-b75a-20e9d9d9ca47
   ws-opts:
     headers:
-      Host: 15.mamamajd.site
+      Host: 17.mamamajd.site
     path: /
-- name: 6|🇺🇸5 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
