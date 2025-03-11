@@ -235,70 +235,15 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 6|🇺🇸1 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.92.145.143
-  tls: false
-  type: ss
-  udp: true
-- name: 6|🇺🇸3 |  3.0MB/s
+- name: 6|🇺🇸1 |  10.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: usgp3-cdn-route.couldflare-cdn.com
+  server: jp104-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
-  sni: usgp3-cdn-route.couldflare-cdn.com
+  sni: jp104-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 6|🇺🇸4 |  3.9MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: chrome
-  name: 6|🇺🇸5 |  2.3MB/s
-  obfs: salamander
-  obfs_password: PlNYjSECZNqpSCX9
-  password: 264136cf-2212-4668-ad6e-6807e7de04c6
-  port: 40000
-  server: racknerd-207.solook.uk
-  skip-cert-verify: true
-  sni: racknerd-207.solook.uk
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 6|🇺🇸8 |  4.2MB/s
-  obfs: salamander
-  obfs_password: PlNYjSECZNqpSCX9
-  password: 264136cf-2212-4668-ad6e-6807e7de04c6
-  port: 40000
-  server: yyk-5-169.solook.uk
-  skip-cert-verify: true
-  sni: yyk-5-169.solook.uk
-  type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: 19|2|🇺🇸3 |  5.5MB/s
-  network: ws
-  port: 23605
-  server: 5.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: a0d03891-4a6b-35f6-a35d-db1ed152774c
-  ws-opts:
-    headers:
-      Host: 5.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
