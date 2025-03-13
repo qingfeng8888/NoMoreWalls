@@ -235,16 +235,7 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- name: 6|🇺🇸1 |  5.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 6|🇺🇸2 |  2.2MB/s
+- name: 6|🇺🇸1 |  12.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -253,32 +244,21 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1239
-  name: 6|🇺🇸3 |  1.7MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 38.165.233.18
-  type: ss
-- name: 6|🇺🇸4 |  5.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp3-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp3-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 6|🇺🇸5 |  5.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp2-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp2-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 2
+  cipher: auto
+  name: 6|🇺🇸3 |  1.8MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cf21325c-a1e0-3d7d-8911-b52c2200f960
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
@@ -347,3 +327,23 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国3|@ripaojiedian
+  password: 9GP4N1O8WHSV99JV
+  port: 17002
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
