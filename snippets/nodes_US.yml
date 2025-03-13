@@ -236,23 +236,34 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸2 |  11.8MB/s
-  password: fb21d25d-f58f-4140-a11a-c3743978e9bd
-  port: 36641
+  name: 6|🇺🇸1 |  5.2MB/s
+  password: cf6f8b70-546e-496c-8edb-473f473cff78
+  port: 36111
   server: free.2weradf.xyz
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸4 |  27.4MB/s
-  password: fb21d25d-f58f-4140-a11a-c3743978e9bd
-  port: 36731
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸5 |  20.9MB/s
-  password: fb21d25d-f58f-4140-a11a-c3743978e9bd
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
+- client-fingerprint: chrome
+  name: 6|🇺🇸2 |  6.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 2
+  cipher: auto
+  name: 19|1|🇺🇸1 |  2.7MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: 78bdf06d-d09d-3b23-8d89-55f5b091f000
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
