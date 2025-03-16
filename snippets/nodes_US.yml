@@ -237,31 +237,49 @@ proxies:
   ws-opts: {}
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 6|🇺🇸1 |  2.4MB/s
+  name: 6|🇺🇸1 |  2.7MB/s
   password: amazonskr05
   port: 443
-  server: 34.211.230.161
+  server: 34.221.169.63
   type: ss
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸2 |  1.7MB/s
-  port: 11512
-  server: 108.181.24.77
+  name: 6|🇺🇸2 |  5.4MB/s
+  port: 17549
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: apple.com
+  sni: www.bing.com
   type: hysteria
-  udp: true
   up: 1000 Mbps
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6|🇺🇸3 |  1.1MB/s
-  password: amazonskr05
+- name: 6|🇺🇸3 |  3.4MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg4.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg4.gywanglug.xyz
+  tfo: false
+  type: hysteria2
+- name: 6|🇺🇸6 |  5.0MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg2.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg2.gywanglug.xyz
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 6|🇺🇸7 |  3.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 54.184.74.88
-  type: ss
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
