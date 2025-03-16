@@ -1,6 +1,30 @@
 proxies:
+- name: 6|🇯🇵6 |  6.1MB/s
+  password: b48cb0d2-4dbf-3256-a12e-0e22ce8b076f
+  port: 20142
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z142.hongkongnode.top
+  type: trojan
+  udp: true
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 1652
+  name: 6|🇯🇵2 |  2.1MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: rb2.gy6688.xyz
+  skip-cert-verify: false
+  sni: rb2.gy6688.xyz
+  type: hysteria2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6|🇯🇵4 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.179.8.12
+  type: ss
 - client-fingerprint: chrome
-  name: 6|🇯🇵6 |  6.2MB/s
+  name: 6|🇯🇵5 |  6.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
