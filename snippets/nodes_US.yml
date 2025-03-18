@@ -235,6 +235,49 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- name: 6|🇺🇸1 |  4.5MB/s
+  password: 5CBqBh6MeDq6GajcilBiDg==
+  port: 61001
+  server: 192-227-152-86.nip.io
+  skip-cert-verify: true
+  sni: 192-227-152-86.nip.io
+  tfo: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 2247
+  name: 6,23|🇺🇸 美国3|@ripaojiedian
+  password: 8cwxYqlSeC4Xw8KOApT3SxCIX69eZ7zBNZDE0Dap3y9AZTFBFlD5a2euA7A3YzR2DpSyI
+  port: 443
+  server: bedsheet.homeofbrave.net
+  skip-cert-verify: false
+  sni: bedsheet.homeofbrave.net
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 6|🇺🇸6 |  3.4MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- cipher: aes-128-cfb
+  name: 6|🇺🇸10 |  5.3MB/s
+  obfs: plain
+  password: shadowsocks
+  port: 443
+  protocol: origin
+  server: 184.170.241.194
+  type: ssr
 - alterId: 2
   cipher: auto
   name: 19|2|🇺🇸7 |  5.1MB/s
@@ -322,7 +365,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -334,25 +377,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国3|@ripaojiedian
-  password: E1SCB7Q1P7HFR8K8
-  port: 17005
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇺🇸 美国4|@ripaojiedian
-  password: 54SY1SP5HU73E00Z
-  port: 17001
-  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss

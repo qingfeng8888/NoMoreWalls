@@ -6,12 +6,20 @@ proxies:
   server: 54.179.87.28
   type: ss
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 270
-  name: 6|🇸🇬1 |  6.0MB/s
+  client-fingerprint: chrome
+  name: 6|🇸🇬1 |  4.2MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.209.178
+  server: 13.215.252.57
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 263
+  name: 6,23|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.215.250.172
+  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -36,19 +44,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡|@ripaojiedian
-  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-  port: 12022
-  server: mdss-sg.04z3susick.download
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.0.54.96
+  server: 54.151.230.240
   tfo: false
   type: ss
