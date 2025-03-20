@@ -235,26 +235,14 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: rc4-md5
-  name: 6|🇺🇸1 |  1.4MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
-- alterId: 32
-  cipher: auto
-  name: 19|2|🇺🇸2 |  5.4MB/s
-  network: ws
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 6|🇺🇸1 |  1.5MB/s
+  password: amazonskr05
   port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  tls: true
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
+  server: 34.219.71.252
+  tls: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
