@@ -7,3 +7,15 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 6|🇫🇷3 |  5.7MB/s
+  port: 44557
+  protocol: udp
+  server: 195.154.200.178
+  skip-cert-verify: true
+  type: hysteria
+  up: 1000
