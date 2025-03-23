@@ -1,31 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 6|🇭🇰3 |  5.8MB/s
-  network: tcp
-  port: 55754
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 6|🇭🇰9 |  1.5MB/s
-  network: tcp
-  port: 34093
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- name: 6|🇭🇰10 |  3.7MB/s
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇭🇰2 |  1.5MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2000
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 6|🇭🇰4 |  6.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -34,14 +17,46 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf
+  name: 6|🇭🇰7 |  2.7MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 6,19|1|🇭🇰9 |  1.5MB/s
+  network: tcp
+  port: 34093
+  server: 120.198.71.214
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰12 |  1.1MB/s
+  name: 6|🇭🇰10 |  1.7MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 1000
+  server: tw.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇭🇰12 |  4.9MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2021
   server: tw3.akebi.cc
   skip-cert-verify: false
   sni: hk03.akebi.cc
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇭🇰3 |  5.8MB/s
+  network: tcp
+  port: 55754
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
