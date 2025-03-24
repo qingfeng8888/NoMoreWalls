@@ -1,11 +1,17 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 6|🇯🇵3 |  6.0MB/s
+  name: 6|🇯🇵4 |  4.8MB/s
   password: amazonskr05
   port: 443
   server: 43.207.71.139
   type: ss
-- name: 6|🇯🇵5 |  3.0MB/s
+- cipher: aes-256-cfb
+  name: 6|🇯🇵8 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.230.142.42
+  type: ss
+- name: 6|🇯🇵9 |  6.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -14,28 +20,6 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 6|🇯🇵7 |  1.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.196.75.153
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇯🇵11 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 57.180.35.64
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,24|日本5|@ripaojiedian
-  network: tcp
-  port: '10703'
-  server: 120.198.71.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
 - alterId: 0
   cipher: auto
   name: 19,24|日本A|@ripaojiedian
@@ -52,7 +36,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-aLCpr7tZEF.download.microsoft.com
+    host: 202503170996717-B3WS06QTgX.download.microsoft.com
     mode: http
   port: 8764
   server: cn01.efan8867801.xyz
@@ -64,26 +48,34 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-aLCpr7tZEF.download.microsoft.com
+    host: 202503170996717-B3WS06QTgX.download.microsoft.com
     mode: http
   port: 8761
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇯🇵 日本3|@ripaojiedian
-  password: 7NJNZOGIM3GT2ZOP
-  port: 18003
-  server: 156.231.104.13
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11001
+  server: 61.172.235.22
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇯🇵 日本4|@ripaojiedian
-  password: 61B0I2IAA8ZZD7KH
-  port: 18006
-  server: 156.231.104.16
+  password: SP1ITNU7HMEIXN5U
+  port: 18012
+  server: 156.231.104.22
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本5|@ripaojiedian
+  password: LEUK3TF3CLKRNJWF
+  port: 18005
+  server: 156.231.104.15
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -91,6 +83,6 @@ proxies:
   name: 23|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.229.233.60
+  server: 13.229.99.127
   tfo: false
   type: ss
