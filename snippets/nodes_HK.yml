@@ -1,24 +1,8 @@
 proxies:
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 6,23|🇭🇰 香港5|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
-  tfo: false
-  type: ss
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰11 |  5.4MB/s
+  name: 6|🇭🇰1 |  4.4MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2000
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰15 |  4.2MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2021
   server: tw3.akebi.cc
   skip-cert-verify: false
   sni: hk03.akebi.cc
@@ -69,6 +53,14 @@ proxies:
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
   port: 11002
   server: 183.232.229.164
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 23|🇭🇰 香港5|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
   tfo: false
   type: ss
 - cipher: aes-256-gcm
