@@ -1,12 +1,32 @@
 proxies:
+- name: 6|🇭🇰6 |  1.5MB/s
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰1 |  4.4MB/s
+  name: 6|🇭🇰9 |  4.7MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2000
+  port: 2021
   server: tw3.akebi.cc
   skip-cert-verify: false
   sni: hk03.akebi.cc
   type: hysteria2
+- name: 6|🇭🇰10 |  6.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   name: 19,24|香港|@ripaojiedian
