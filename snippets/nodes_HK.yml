@@ -1,22 +1,6 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国5|@ripaojiedian
-  password: d8285a86cdb003de
-  port: 16112
-  server: 46.17.40.113
-  tfo: false
-  type: ss
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰11 |  2.8MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2021
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
 - client-fingerprint: chrome
-  name: 6|🇭🇰14 |  2.0MB/s
+  name: 6|🇭🇰6 |  6.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -27,38 +11,24 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6|🇭🇰15 |  1.5MB/s
+  name: 19|2|🇭🇰15 |  1.5MB/s
   network: ws
   port: 22030
   server: 212.192.12.73
   tls: false
   type: vmess
-  udp: true
   uuid: 148c90c0-b259-4f75-aaa3-1b3feb98f78f
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国4|@ripaojiedian
-  password: '!!str 74260704627805900'
-  port: 443
-  server: capital-hyena.shiner427.skin
-  skip-cert-verify: false
-  sni: capital-hyena.shiner427.skin
-  tfo: false
+  name: 19|2|🇭🇰16 |  2.2MB/s
+  network: tcp
+  port: 55754
+  server: 183.236.51.38
   tls: false
-  type: trojan
-  uuid: b2259281-bad1-499a-bde4-4df89ff286bd
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰17 |  1.8MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2000
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 19,24|香港A|@ripaojiedian
