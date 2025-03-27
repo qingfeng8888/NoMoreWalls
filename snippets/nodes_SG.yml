@@ -5,7 +5,19 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- name: 6|🇸🇬1 |  6.2MB/s
+- cipher: aes-256-cfb
+  name: 6|🇸🇬1 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.250.106.255
+  type: ss
+- cipher: aes-256-cfb
+  name: 6|🇸🇬2 |  4.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.103.201
+  type: ss
+- name: 6|🇸🇬3 |  6.2MB/s
   password: myszy28811
   port: 28811
   server: pipi.myddns.me
@@ -13,53 +25,16 @@ proxies:
   udp: true
   username: myszy
 - cipher: aes-256-cfb
-  name: 6|🇸🇬3 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.250.106.255
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇸🇬4 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.76.22.133
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇸🇬5 |  6.1MB/s
+  name: 6|🇸🇬4 |  6.1MB/s
   password: amazonskr05
   port: 443
   server: 47.129.51.201
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6|🇸🇬6 |  6.1MB/s
+  name: 6|🇸🇬6 |  5.4MB/s
   password: amazonskr05
   port: 443
-  server: 47.129.38.96
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇸🇬7 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.179.52.175
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇸🇬8 |  2.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.73.58
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇸🇬9 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.141.139.23
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇸🇬11 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.0.184.150
+  server: 52.76.22.133
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome

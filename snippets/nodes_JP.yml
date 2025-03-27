@@ -1,56 +1,40 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 6|🇯🇵1 |  6.1MB/s
+  client-fingerprint: chrome
+  name: 6|🇯🇵1 |  5.5MB/s
   password: amazonskr05
   port: 443
-  server: 43.207.203.164
+  server: 54.199.103.26
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 6|🇯🇵6 |  4.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.178.177.97
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6|🇯🇵8 |  5.6MB/s
+  name: 6|🇯🇵4 |  4.6MB/s
   password: amazonskr05
   port: 443
   server: 43.207.157.253
   type: ss
 - cipher: aes-256-cfb
-  name: 6|🇯🇵9 |  6.1MB/s
+  delay: 897
+  name: 6|🇯🇵5 |  4.1MB/s
   password: amazonskr05
   port: 443
-  server: 54.199.64.156
+  server: 43.207.150.238
   type: ss
+- name: 6|🇯🇵8 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6|🇯🇵15 |  5.4MB/s
+  name: 6|🇯🇵10 |  5.2MB/s
   password: amazonskr05
   port: 443
-  server: 54.199.103.26
+  server: 52.195.209.247
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇯🇵3 |  3.0MB/s
-  network: tcp
-  port: 45056
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: f88725a7-8766-4cb4-8a53-b0214f246185
-- alterId: 0
-  cipher: auto
-  name: 19|13|日本4|@ripaojiedian
-  network: tcp
-  port: '18744'
-  server: 156.246.91.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b2259281-bad1-499a-bde4-4df89ff286bd
 - alterId: 0
   cipher: auto
   name: 19,24|日本A|@ripaojiedian
