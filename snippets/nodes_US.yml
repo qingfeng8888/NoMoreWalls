@@ -235,7 +235,19 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- name: 6|🇺🇸2 |  4.4MB/s
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇺🇸2 |  4.6MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- name: 6|🇺🇸3 |  1.7MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: ustx004-cdn-route.couldflare-cdn.com
@@ -244,15 +256,17 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- allowInsecure: ''
-  name: 6|🇺🇸7 |  2.6MB/s
-  network: tcp
-  password: '!!str 74260704627805900'
-  port: 443
-  server: factual-snake.shiner427.skin
-  skip-cert-verify: false
-  tls: true
-  type: trojan
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 6|🇺🇸11 |  3.6MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
