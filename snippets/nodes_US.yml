@@ -235,28 +235,11 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸5 |  2.5MB/s
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12356
-  server: hk.bazhuayujiasu.cc
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 6|🇺🇸7 |  2.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸8 |  5.6MB/s
+  name: 6|🇺🇸2 |  3.6MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -264,31 +247,33 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸11 |  2.6MB/s
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12353
-  server: 183.232.229.164
+- cipher: aes-256-cfb
+  name: 6|🇺🇸8 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.69.142.224
   type: ss
   udp: true
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 6|🇺🇸12 |  5.1MB/s
+  name: 6|🇺🇸10 |  4.8MB/s
   port: 17549
   server: 208.87.243.151
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 11 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇺🇸14 |  2.3MB/s
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12357
-  server: 120.232.150.248
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇺🇸13 |  6.0MB/s
+  network: tcp
+  port: 41068
+  server: ttsh.xissyun.com
+  tls: false
+  type: vmess
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
