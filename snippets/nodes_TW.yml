@@ -1,20 +1,15 @@
 proxies:
-- name: 6|🇹🇼8 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇹🇼7 |  1.7MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 30001
+  server: tw.akebi.cc
   skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 0
-  cipher: auto
-  name: 19|13|台湾|@ripaojiedian
-  network: tcp
-  port: '31919'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  sni: tw.akebi.cc
+  type: hysteria2
+- cipher: aes-128-gcm
+  name: 6|🇹🇼9 |  6.1MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 33368
+  server: shenzhou05.mysynology.net
+  type: ss
