@@ -1,5 +1,12 @@
 proxies:
-- name: 6|🇭🇰5 |  6.1MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 6|🇭🇰22 |  1.3MB/s
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11001
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- name: 6|🇭🇰24 |  6.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -34,14 +41,6 @@ proxies:
   server: 183.232.229.164
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 23|🇺🇸 美国4|@ripaojiedian
-  password: '!!str 74260702287384200'
-  port: 443
-  server: settled-mite.shiner427.skin
-  skip-cert-verify: false
-  sni: settled-mite.shiner427.skin
-  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港4|@ripaojiedian
