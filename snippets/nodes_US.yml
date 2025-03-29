@@ -235,21 +235,43 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- client-fingerprint: chrome
-  name: 6|🇺🇸1 |  4.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸1 |  1.9MB/s
+  network: tcp
+  port: 8080
+  raw:
+    add: 199.195.253.98
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 6e0ba6b7-ee39-5d17-94cf-502f7a2e9144
+    net: tcp
+    path: ''
+    port: '8080'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: chacha20-poly1305
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 199.195.253.98
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6e0ba6b7-ee39-5d17-94cf-502f7a2e9144
+- cipher: chacha20-ietf
+  name: 6|🇺🇸5 |  2.4MB/s
+  password: asd123456
+  port: 8388
+  server: 137.175.113.193
+  type: ss
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸9 |  5.4MB/s
+  name: 6|🇺🇸13 |  4.2MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -257,23 +279,6 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- cipher: chacha20-ietf
-  name: 6|🇺🇸15 |  5.0MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.215
-  type: ss
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|🇺🇸16 |  6.0MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
