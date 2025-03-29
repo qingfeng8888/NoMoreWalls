@@ -3,7 +3,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇫🇷2 |  5.7MB/s
+  name: 6|🇫🇷1 |  5.7MB/s
   port: 44557
   server: 195.154.200.178
   servername: apple.com
@@ -11,20 +11,20 @@ proxies:
   tls: true
   type: hysteria
   up: 1000 Mbps
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇫🇷2 |  4.3MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2005
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: fr01.akebi.cc
+  type: hysteria2
 - auth: dongtaiwang.com
   client-fingerprint: chrome
-  name: 6|🇫🇷3 |  3.7MB/s
+  name: 6|🇫🇷4 |  5.1MB/s
   password: dongtaiwang.com
   port: 59967
   server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: dongtaiwang.com
-  name: 6|🇫🇷4 |  5.5MB/s
-  password: dongtaiwang.com
-  port: 61770
-  server: 51.159.226.1
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
