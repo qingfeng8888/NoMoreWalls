@@ -1,6 +1,6 @@
 proxies:
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰3 |  3.0MB/s
+  name: 6|🇭🇰2 |  2.6MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2000
   server: tw3.akebi.cc
@@ -8,42 +8,27 @@ proxies:
   sni: hk03.akebi.cc
   type: hysteria2
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰6 |  3.1MB/s
+  name: 6|🇭🇰5 |  2.5MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2021
   server: tw3.akebi.cc
   skip-cert-verify: false
   sni: hk03.akebi.cc
   type: hysteria2
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰9 |  1.8MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 1000
-  server: tw.akebi.cc
+- name: 6|🇭🇰8 |  5.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  name: 6,19|2|🇭🇰10 |  4.4MB/s
+  name: 19|2|🇭🇰10 |  4.4MB/s
   network: ws
   port: 443
-  raw:
-    add: www.visa.com.tw
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: hk.insbot.filegear-sg.me
-    id: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
-    net: ws
-    path: /aa
-    port: 443
-    ps: CloudFlare
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
   server: www.visa.com.tw
   servername: ''
   tls: true
@@ -53,15 +38,6 @@ proxies:
     headers:
       Host: hk.insbot.filegear-sg.me
     path: /aa
-- name: 6|🇭🇰16 |  5.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   name: 19,24|香港|@ripaojiedian
