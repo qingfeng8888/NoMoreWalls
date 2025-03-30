@@ -235,22 +235,22 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇺🇸23 |  3.3MB/s
-  network: ws
-  port: '443'
-  server: us10-04.852224.ggff.net
-  tls: true
-  type: vmess
-  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-  ws-opts:
-    path: /SNwNdunw28lVztopw90eoXel
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 6|🇺🇸2 |  4.9MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸8 |  4.8MB/s
+  name: 6|🇺🇸6 |  2.5MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -258,163 +258,20 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|🇺🇸9 |  3.4MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
 - auth: 5CBqBh6MeDq6GajcilBiDg==
-  name: 6|🇺🇸11 |  1.5MB/s
+  name: 6|🇺🇸13 |  2.3MB/s
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192-227-152-86.nip.io
   skip-cert-verify: true
   sni: 192-227-152-86.nip.io
   type: hysteria2
-- name: 6|🇺🇸12 |  5.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 6|🇺🇸13 |  1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.222.2.112
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 19|2|🇺🇸1 |  5.2MB/s
-  network: ws
-  port: 443
-  server: us10-09.852224.ggff.net
-  servername: us10-09.852224.ggff.net
-  tls: true
-  type: vmess
-  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-  ws-opts:
-    headers:
-      Host: us10-09.852224.ggff.net
-    path: /SNwNdunw28lVztopw90eoXel
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸2 |  1.3MB/s
-  network: ws
-  port: 8443
-  server: 185.176.26.209
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸5 |  1.6MB/s
-  network: ws
-  port: '8443'
-  server: 185.176.26.209
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸6 |  4.0MB/s
-  network: ws
-  port: 443
-  server: 107.174.34.6
-  tls: true
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /dabai.in172.64.19.172
-- alterId: 64
-  cipher: auto
-  name: 19|2|🇺🇸8 |  3.9MB/s
-  network: tcp
-  port: 52143
-  server: 142.4.104.33
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸11 |  1.1MB/s
-  network: ws
-  port: '8443'
-  server: 194.59.5.221
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸16 |  1.5MB/s
-  network: ws
-  port: 8443
-  server: 45.205.0.22
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸18 |  1.3MB/s
-  network: ws
-  port: 8443
-  server: 188.42.145.9
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸20 |  1.9MB/s
-  network: ws
-  port: 8443
-  server: 185.238.228.41
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸24 |  3.7MB/s
+  name: 19|2|🇺🇸6 |  1.5MB/s
   network: ws
   port: '443'
-  server: us10-09.852224.ggff.net
+  server: us10-04.852224.ggff.net
   tls: true
   type: vmess
   uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
