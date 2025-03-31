@@ -5,9 +5,23 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 6|🇸🇬5 |  4.7MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
+  type: ss
+- name: 6|🇸🇬8 |  6.3MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 6|🇸🇬1 |  6.0MB/s
+  name: 6|🇸🇬9 |  4.1MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -16,49 +30,26 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 857
-  name: 6|🇸🇬2 |  3.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.73.58
-  type: ss
-- name: 6|🇸🇬4 |  6.3MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
 - alterId: 0
   cipher: auto
-  name: 6,19|2|🇸🇬5 |  6.3MB/s
+  name: 19|2|🇸🇬5 |  6.3MB/s
   network: ws
   port: 25245
   server: sg1.awslcn.info
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: sg1.awslcn.info
   ws-opts: {}
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 6,19|2|🇸🇬6 |  2.3MB/s
+  name: 19|2|🇸🇬6 |  2.3MB/s
   network: ws
   port: 25243
   server: sg1.awslcn.info
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: sg1.awslcn.info
   ws-opts: {}
-  ws-path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇸🇬 狮城特殊|@ripaojiedian

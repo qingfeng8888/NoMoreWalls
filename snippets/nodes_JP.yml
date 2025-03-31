@@ -1,5 +1,25 @@
 proxies:
-- name: 6|🇯🇵2 |  1.5MB/s
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,23|🇯🇵 日本|@ripaojiedian
+  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+  port: 29206
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  sni: 10.elk3b3nwfy.xyz
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
+- cipher: chacha20-ietf-poly1305
+  name: 6|🇯🇵5 |  5.8MB/s
+  password: BFD35F45-24F6-4C80-BED0-81A6FB018DC6
+  port: 31100
+  server: free-relay.themars.top
+  type: ss
+  udp: true
+- name: 6|🇯🇵8 |  6.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -8,24 +28,38 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 6|🇯🇵4 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.199.64.156
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇯🇵7 |  2.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.199.103.26
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇯🇵11 |  2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.8.12
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6|🇯🇵12 |  6.1MB/s
+  network: ws
+  port: 3774
+  server: v9.emovpn.buzz
+  tls: false
+  type: vmess
+  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  ws-opts:
+    headers:
+      Host: v9.emovpn.buzz
+    path: /
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  client-fingerprint: chrome
+  name: 6|🇯🇵18 |  3.7MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2012
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: jp02.akebi.cc
+  type: hysteria2
+- auth: MLIvJyBzI4u1E4L7CarV1lBmPnY
+  client-fingerprint: chrome
+  name: 6|🇯🇵19 |  5.9MB/s
+  password: MLIvJyBzI4u1E4L7CarV1lBmPnY
+  port: 29677
+  server: 54.238.17.181
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 19,24|日本|@ripaojiedian
