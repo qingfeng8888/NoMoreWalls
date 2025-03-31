@@ -1,25 +1,45 @@
 proxies:
+- auth: MLIvJyBzI4u1E4L7CarV1lBmPnY
+  client-fingerprint: chrome
+  name: 6|🇯🇵5 |  6.0MB/s
+  password: MLIvJyBzI4u1E4L7CarV1lBmPnY
+  port: 29677
+  server: 54.238.17.181
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 6|🇯🇵6 |  3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.179.8.12
+  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇯🇵 日本|@ripaojiedian
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 29206
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  sni: 10.elk3b3nwfy.xyz
-  tfo: false
+  name: 6|🇯🇵8 |  4.9MB/s
+  network: tcp
+  port: 3684
+  server: 28e38e7c-su2dc0-sv85jh-dcdv.d.volczijie.com
   tls: false
   type: vmess
-  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
+  uuid: 1659deda-0625-11f0-8002-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 6|🇯🇵9 |  3.7MB/s
+  network: tcp
+  port: 4151
+  server: 82ba1c75-su2dc0-sv85jh-dcdv.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 1659deda-0625-11f0-8002-f23c93141fad
 - cipher: chacha20-ietf-poly1305
-  name: 6|🇯🇵5 |  5.8MB/s
+  name: 6|🇯🇵10 |  6.1MB/s
   password: BFD35F45-24F6-4C80-BED0-81A6FB018DC6
   port: 31100
   server: free-relay.themars.top
   type: ss
   udp: true
-- name: 6|🇯🇵8 |  6.1MB/s
+- name: 6|🇯🇵11 |  6.0MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -30,8 +50,17 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6|🇯🇵12 |  6.1MB/s
+  name: 19,24|日本|@ripaojiedian
+  network: tcp
+  port: '29206'
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇯🇵12 |  6.1MB/s
   network: ws
   port: 3774
   server: v9.emovpn.buzz
@@ -42,34 +71,6 @@ proxies:
     headers:
       Host: v9.emovpn.buzz
     path: /
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  client-fingerprint: chrome
-  name: 6|🇯🇵18 |  3.7MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2012
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: jp02.akebi.cc
-  type: hysteria2
-- auth: MLIvJyBzI4u1E4L7CarV1lBmPnY
-  client-fingerprint: chrome
-  name: 6|🇯🇵19 |  5.9MB/s
-  password: MLIvJyBzI4u1E4L7CarV1lBmPnY
-  port: 29677
-  server: 54.238.17.181
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 19,24|日本|@ripaojiedian
-  network: tcp
-  port: '29206'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
 - alterId: 0
   cipher: auto
   name: 19,24|日本A|@ripaojiedian

@@ -1,32 +1,35 @@
 proxies:
-- allowInsecure: '1'
-  name: 6|🇭🇰4 |  2.0MB/s
-  network: tcp
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20103
-  server: 111.62.241.211
-  skip-cert-verify: true
-  sni: 3.2gyh5ybsic.xyz
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰13 |  3.8MB/s
+  network: ws
+  port: 443
+  raw:
+    add: hknbyivfffj.site
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hknbyivfffj.site
+    id: d13fc2f5-3e05-4795-81eb-44143a09e552
+    net: ws
+    path: /rbqqvws
+    port: 443
+    ps: 🇺🇸 US_440
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: hknbyivfffj.site
+  servername: ''
   tls: true
-  type: trojan
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰5 |  3.6MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 1000
-  server: tw.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  client-fingerprint: chrome
-  name: 6|🇭🇰10 |  4.3MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2000
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
-- name: 6|🇭🇰13 |  4.0MB/s
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
+- name: 6|🇭🇰4 |  6.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -35,6 +38,67 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,23|🇯🇵 日本|@ripaojiedian
+  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+  port: 29206
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  sni: 10.elk3b3nwfy.xyz
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇭🇰9 |  1.6MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2000
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇭🇰10 |  1.8MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2021
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰11 |  2.1MB/s
+  network: tcp
+  port: 4136
+  server: ac9d3c3c-su2dc0-sv9ymy-dezg.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰14 |  1.7MB/s
+  network: tcp
+  port: 4138
+  server: d64de51c-su2dc0-susvoj-d6ar.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰16 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 104.21.6.201
+  servername: hknbyivfffj.site
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
 - alterId: 0
   cipher: auto
   name: 19,24|香港A|@ripaojiedian
