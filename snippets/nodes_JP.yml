@@ -1,12 +1,17 @@
 proxies:
-- auth: 876EJevSC3
-  name: 6|🇯🇵1 |  2.5MB/s
-  password: 876EJevSC3
-  port: 42675
-  server: 103.106.228.28
-  skip-cert-verify: true
-  type: hysteria2
-- name: 6|🇯🇵10 |  5.3MB/s
+- alterId: '0'
+  cipher: auto
+  name: 6|🇯🇵4 |  2.9MB/s
+  network: ws
+  port: 25775
+  server: kkkghdragxc.fask511.cfd
+  type: vmess
+  uuid: 50597737-862b-43c4-a4ba-5c808171d6d1
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /www.khanacademy.org?ed=512
+- name: 6|🇯🇵5 |  6.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -15,16 +20,6 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 1
-  cipher: auto
-  name: 19|2|🇯🇵16 |  5.3MB/s
-  network: tcp
-  port: 28788
-  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  servername: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
