@@ -1,17 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇯🇵 日本4|@ripaojiedian
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 36001
-  server: v2-hk2-zf2.netcar.live
-  skip-cert-verify: false
-  sni: 7.qzhm8l42g1.xyz
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
+- name: 6|🇭🇰1 |  2.3MB/s
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
 - alterId: 0
   cipher: auto
   name: 19,24|香港3|@ripaojiedian

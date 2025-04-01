@@ -1,25 +1,47 @@
 proxies:
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 6|🇯🇵4 |  2.9MB/s
+  client-fingerprint: chrome
+  name: 6,23|🇯🇵 日本4|@ripaojiedian
+  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+  port: 36001
+  server: v2-hk2-zf2.netcar.live
+  skip-cert-verify: false
+  sni: 7.qzhm8l42g1.xyz
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
+- alterId: 0
+  cipher: auto
+  name: 6,19,24|日本4|@ripaojiedian
+  network: tcp
+  port: '36001'
+  server: v2-hk2-zf2.netcar.live
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
+- cipher: aes-256-cfb
+  name: 6|🇯🇵9 |  3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.179.8.12
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇯🇵4 |  2.9MB/s
   network: ws
   port: 25775
   server: kkkghdragxc.fask511.cfd
+  tls: false
   type: vmess
   uuid: 50597737-862b-43c4-a4ba-5c808171d6d1
   ws-opts:
     headers:
       Host: www.douyin.com
     path: /www.khanacademy.org?ed=512
-- name: 6|🇯🇵5 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -37,16 +59,6 @@ proxies:
     headers:
       Host: lc.loc.cc
     path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm
-- alterId: 0
-  cipher: auto
-  name: 19,24|日本4|@ripaojiedian
-  network: tcp
-  port: '36001'
-  server: v2-hk2-zf2.netcar.live
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
 - alterId: 0
   cipher: auto
   name: 19,24|日本A|@ripaojiedian
