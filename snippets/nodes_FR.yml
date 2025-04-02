@@ -1,33 +1,55 @@
 proxies:
 - auth: dongtaiwang.com
-  name: 6|🇫🇷3 |  2.2MB/s
-  password: dongtaiwang.com
-  port: 59967
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: dongtaiwang.com
-  name: 6|🇫🇷4 |  5.4MB/s
+  name: 6|🇫🇷1 |  5.2MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  delay: 1749
-  name: 6|🇫🇷5 |  5.0MB/s
-  password: 76cf56c1e0092b97
-  port: 26567
-  server: 57.130.21.12
-  type: ss
+- allowInsecure: ''
+  name: 6|🇫🇷3 |  1.2MB/s
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.226.27
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+- auth: dongtaiwang.com
+  name: 6|🇫🇷4 |  5.3MB/s
+  password: dongtaiwang.com
+  port: 59967
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇫🇷5 |  6.2MB/s
+  port: 44557
+  server: 195.154.200.178
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: hysteria
+  up: 1000 Mbps
 - cipher: chacha20-ietf-poly1305
   country: 🇫🇷FR
   delay: 1773
-  name: 6|🇫🇷6 |  5.5MB/s
+  name: 6|🇫🇷6 |  5.2MB/s
   password: b3a20bc01aa4ce13
   port: 26567
   server: 57.130.21.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇫🇷FR
+  delay: 1749
+  name: 6|🇫🇷7 |  5.4MB/s
+  password: 76cf56c1e0092b97
+  port: 26567
+  server: 57.130.21.12
   type: ss
