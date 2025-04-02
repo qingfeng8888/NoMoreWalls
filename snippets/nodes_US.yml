@@ -235,51 +235,81 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- auth: 5CBqBh6MeDq6GajcilBiDg==
-  name: 6|🇺🇸5 |  3.0MB/s
-  password: 5CBqBh6MeDq6GajcilBiDg==
-  port: 61001
-  server: 192-227-152-86.nip.io
-  skip-cert-verify: true
-  sni: 192-227-152-86.nip.io
-  type: hysteria2
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|🇺🇸9 |  6.2MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- cipher: aes-256-cfb
-  name: 6|🇺🇸13 |  5.4MB/s
-  password: amazonskr05
+- delay: 2425
+  name: 6|🇺🇸3 |  5.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 54.202.0.97
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇺🇸19 |  1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.222.2.112
-  type: ss
+  server: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,23,24|美国3|@ripaojiedian
+  network: ws
+  port: '2053'
+  server: usa.visa.com
+  servername: hax.hy.cloudns.ch
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d79261b1-b706-49f6-b39d-af2a0b8ebac5
+  ws-opts:
+    headers:
+      Host: hax.hy.cloudns.ch
+    path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm
 - auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  name: 6|🇺🇸27 |  2.0MB/s
+  name: 6|🇺🇸13 |  1.4MB/s
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 164.152.19.229
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 6|🇺🇸28 |  1.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.208.203.47
-  type: ss
+- auth: 5CBqBh6MeDq6GajcilBiDg==
+  name: 6|🇺🇸14 |  3.9MB/s
+  password: 5CBqBh6MeDq6GajcilBiDg==
+  port: 61001
+  server: 192-227-152-86.nip.io
+  skip-cert-verify: true
+  sni: 192-227-152-86.nip.io
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,23|🇭🇰 香港5|@ripaojiedian
+  password: 64770f2e-b784-4331-938e-26cd54e3eff1
+  port: 41002
+  server: 120.232.153.40
+  skip-cert-verify: false
+  sni: mmbiz1.redapricotcloud.com
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇺🇸34 |  4.6MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- auth: f6c0c82a-5515-4f03-9491-6be60427db68
+  name: 6|🇺🇸38 |  5.3MB/s
+  password: f6c0c82a-5515-4f03-9491-6be60427db68
+  port: 14351
+  server: 38.92.13.8
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 美国CloudFla...
@@ -354,7 +384,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8776
   server: cn01.efan8867801.xyz
@@ -366,7 +396,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz

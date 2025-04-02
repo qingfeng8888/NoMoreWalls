@@ -1,25 +1,9 @@
 proxies:
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇫🇷1 |  1.0MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2005
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: fr01.akebi.cc
-  type: hysteria2
-- auth: dongtaiwang.com
-  name: 6|🇫🇷2 |  4.1MB/s
-  password: dongtaiwang.com
-  port: 59967
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇫🇷3 |  1.1MB/s
+  name: 6|🇫🇷1 |  5.9MB/s
   port: 44557
   server: 195.154.200.178
   servername: apple.com
@@ -27,11 +11,35 @@ proxies:
   tls: true
   type: hysteria
   up: 1000 Mbps
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 6|🇫🇷3 |  5.2MB/s
+  network: ws
+  port: 2082
+  server: 45.142.120.190
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link#
 - auth: dongtaiwang.com
-  name: 6|🇫🇷4 |  4.0MB/s
+  name: 6|🇫🇷4 |  5.4MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- auth: dongtaiwang.com
+  name: 6|🇫🇷5 |  5.1MB/s
+  password: dongtaiwang.com
+  port: 59967
+  server: 195.154.33.70
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
