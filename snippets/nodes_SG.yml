@@ -5,17 +5,35 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-cfb
+  name: 6|🇸🇬3 |  3.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 46.137.227.253
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 6,23|🇭🇰 香港5|@ripaojiedian
-  port: 41002
-  server: 120.232.153.40
+  name: 6,23|🇯🇵 日本3|@ripaojiedian
+  password: '!!str 74260700211203800'
+  port: 443
+  server: powerful-grackle.shiner427.skin
   skip-cert-verify: false
+  sni: powerful-grackle.shiner427.skin
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: 🇸🇬SG
+  delay: 288
+  name: 6,23|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.222.104
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 6,19|2|🇸🇬3 |  1.3MB/s
@@ -26,38 +44,24 @@ proxies:
   type: vmess
   uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 557
-  name: 6|🇸🇬5 |  5.1MB/s
+  name: 6|🇸🇬11 |  4.8MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.48.116
+  server: 52.76.47.112
   type: ss
 - cipher: aes-256-cfb
-  name: 6|🇸🇬6 |  5.3MB/s
+  name: 6|🇸🇬12 |  4.9MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.73.58
+  server: 13.250.61.152
   type: ss
 - cipher: aes-256-cfb
-  name: 6|🇸🇬10 |  4.1MB/s
+  country: 🇺🇸US
+  delay: 1414
+  name: 6|🇸🇬13 |  6.0MB/s
   password: amazonskr05
   port: 443
-  server: 13.250.5.171
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 288
-  name: 6|🇸🇬11 |  5.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.222.104
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|🇸🇬12 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.140.70.168
+  server: 47.129.202.70
   type: ss
 - alterId: 0
   cipher: auto
@@ -77,40 +81,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian
-  password: 3IID3X30X5V41GUG
-  port: 16001
-  server: w72tapyb.slashdevslashnetslashtun.net
+  password: bc2c6c43-ead0-422d-ae03-a211523a34e9
+  port: 52134
+  server: rk1.nynode0.cc
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡2|@ripaojiedian
-  password: 73X9GBT73GSRS89R
-  port: 16011
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡3|@ripaojiedian
-  password: cfa82b34-bb9a-44e5-bb6c-e3df8284a070
-  port: 26712
-  server: rk2.nynode0.cc
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡4|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 55417938a8.m.ctrip.com
-    mode: http
-  port: 10003
-  server: south.inmysecretlife.xyz
+  password: sgg7vReHnfEtUtAsWFPeeFOSJ6Q3d9owYfCQSwQMPnk=
+  port: 28187
+  server: 45.80.181.77
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -118,6 +102,6 @@ proxies:
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.207.203.164
+  server: 47.128.80.62
   tfo: false
   type: ss
