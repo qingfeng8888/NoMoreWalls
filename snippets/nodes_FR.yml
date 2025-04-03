@@ -1,14 +1,26 @@
 proxies:
 - auth: dongtaiwang.com
-  name: 6|🇫🇷2 |  4.9MB/s
+  name: 6|🇫🇷1 |  5.2MB/s
   password: dongtaiwang.com
   port: 59967
   server: 195.154.33.70
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇫🇷2 |  7.7MB/s
+  port: 44557
+  server: 195.154.200.178
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: hysteria
+  up: 1000 Mbps
 - auth: dongtaiwang.com
-  name: 6|🇫🇷3 |  4.6MB/s
+  name: 6|🇫🇷4 |  5.5MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1

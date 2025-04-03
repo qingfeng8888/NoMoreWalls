@@ -235,11 +235,25 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- allowInsecure: ''
+  name: 6|🇺🇸10 |  1.6MB/s
+  network: ws
+  password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
+  port: 443
+  server: 104.21.34.159
+  skip-cert-verify: false
+  sni: df5tym.2031.pp.ua
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: df5tym.2031.pp.ua
+    path: /I4L1BP2DQVYmx5NYQ76MGGq
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸7 |  1.4MB/s
+  name: 6|🇺🇸14 |  4.8MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -247,44 +261,34 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- country: 🇺🇸US
-  name: 6|🇺🇸8 |  3.0MB/s
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-  port: 443
-  server: 107.167.18.123
-  skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-  type: hysteria2
-  udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 6|🇺🇸15 |  6.0MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
 - auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  name: 6|🇺🇸16 |  4.2MB/s
+  name: 6|🇺🇸22 |  4.6MB/s
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 164.152.19.229
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- fast-open: true
-  name: 6|🇺🇸27 |  5.2MB/s
-  password: dongtaiwang.com
-  port: 15544
-  server: 108.181.5.133
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 6|🇺🇸24 |  5.9MB/s
+  port: 17549
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: apple.com
-  tls: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- country: 🇺🇸US
+  name: 6|🇺🇸25 |  4.0MB/s
+  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
+  port: 443
+  server: 107.167.18.123
+  skip-cert-verify: true
+  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
   type: hysteria2
   udp: true
 - alterId: 0
