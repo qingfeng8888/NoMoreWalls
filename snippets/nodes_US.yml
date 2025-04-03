@@ -235,8 +235,60 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇺🇸8 |  5.5MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- fast-open: true
+  name: 6|🇺🇸10 |  5.3MB/s
+  password: dongtaiwang.com
+  port: 15544
+  server: 108.181.5.133
+  skip-cert-verify: true
+  sni: apple.com
+  tls: true
+  type: hysteria2
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 6|🇺🇸12 |  4.7MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- country: 🇺🇸US
+  name: 6|🇺🇸28 |  4.2MB/s
+  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
+  port: 443
+  server: 107.167.18.123
+  skip-cert-verify: true
+  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
+  type: hysteria2
+  udp: true
+- auth: 5CBqBh6MeDq6GajcilBiDg==
+  name: 6|🇺🇸30 |  4.3MB/s
+  password: 5CBqBh6MeDq6GajcilBiDg==
+  port: 61001
+  server: 192-227-152-86.nip.io
+  skip-cert-verify: true
+  sni: 192-227-152-86.nip.io
+  type: hysteria2
 - allowInsecure: ''
-  name: 6|🇺🇸10 |  1.6MB/s
+  name: 6|🇺🇸33 |  5.8MB/s
   network: ws
   password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
   port: 443
@@ -249,48 +301,14 @@ proxies:
     headers:
       Host: df5tym.2031.pp.ua
     path: /I4L1BP2DQVYmx5NYQ76MGGq
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 6|🇺🇸14 |  4.8MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
 - auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  name: 6|🇺🇸22 |  4.6MB/s
+  name: 6|🇺🇸34 |  4.0MB/s
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 164.152.19.229
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 6|🇺🇸24 |  5.9MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- country: 🇺🇸US
-  name: 6|🇺🇸25 |  4.0MB/s
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-  port: 443
-  server: 107.167.18.123
-  skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-  type: hysteria2
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
