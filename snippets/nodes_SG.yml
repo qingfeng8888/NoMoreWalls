@@ -5,6 +5,27 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-cfb
+  name: 6|🇸🇬1 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.64.13
+  type: ss
+- name: 6|🇸🇬2 |  3.4MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 6,23|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.76.47.112
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 6,19|2|🇸🇬4 |  2.0MB/s
@@ -18,25 +39,11 @@ proxies:
   ws-headers:
     Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
   ws-path: /
-- cipher: aes-256-cfb
-  name: 6|🇸🇬2 |  1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.238.196
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡2|@ripaojiedian
   password: sgg7vReHnfEtUtAsWFPeeFOSJ6Q3d9owYfCQSwQMPnk=
   port: 28187
   server: 45.80.181.77
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.76.47.112
   tfo: false
   type: ss

@@ -11,14 +11,12 @@ proxies:
   server: south.inmysecretlife.xyz
   tfo: false
   type: ss
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰4 |  1.2MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2021
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
+- cipher: chacha20-ietf
+  name: 6|🇭🇰6 |  1.5MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19,24|香港5|@ripaojiedian
@@ -37,3 +35,14 @@ proxies:
   server: 156.245.190.21
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本4|@ripaojiedian
+  port: 28588
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11

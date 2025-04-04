@@ -235,8 +235,36 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸2 |  5.3MB/s
+  network: ws
+  port: 2087
+  server: lon1-dash.890699.xyz
+  servername: lon1-dash.890699.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
+  ws-opts:
+    headers:
+      Host: lon1-dash.890699.xyz
+    path: /lon1-sub.890699.xyz
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 6|🇺🇸6 |  5.7MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - fast-open: true
-  name: 6|🇺🇸1 |  4.5MB/s
+  name: 6|🇺🇸9 |  5.1MB/s
   password: dongtaiwang.com
   port: 15544
   server: 108.181.5.133
@@ -245,52 +273,14 @@ proxies:
   tls: true
   type: hysteria2
   udp: true
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,19|2|🇺🇸4 |  1.2MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- country: 🇺🇸US
-  name: 6|🇺🇸8 |  5.3MB/s
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-  port: 443
-  server: 107.167.18.123
-  skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-  type: hysteria2
-  udp: true
-- auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  client-fingerprint: chrome
-  name: 6|🇺🇸12 |  3.0MB/s
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 164.152.19.229
+- auth: db4e9143
+  name: 6|🇺🇸27 |  4.7MB/s
+  password: db4e9143
+  port: 66
+  server: cc.w1997.eu.org
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|🇺🇸14 |  5.9MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
 - alterId: 0
   cipher: auto
   name: 6,19|2|🇺🇸16 |  3.1MB/s
@@ -305,24 +295,48 @@ proxies:
     headers:
       Host: us.insbot.filegear-sg.me
     path: /aa
-- auth: db4e9143
-  name: 6|🇺🇸25 |  5.2MB/s
-  password: db4e9143
-  port: 66
-  server: cc.w1997.eu.org
+- auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  client-fingerprint: chrome
+  name: 6|🇺🇸30 |  4.9MB/s
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 164.152.19.229
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇺🇸31 |  5.2MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
 - alterId: 2
   cipher: auto
-  name: 6,19|2|🇺🇸26 |  4.9MB/s
+  name: 19|2|🇺🇸4 |  1.2MB/s
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 19|2|🇺🇸26 |  4.9MB/s
   network: ws
   port: 30807
   server: v7.heduian.link
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
