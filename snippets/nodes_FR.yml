@@ -1,33 +1,48 @@
 proxies:
 - auth: dongtaiwang.com
-  name: 6|🇫🇷1 |  5.0MB/s
+  name: 6|🇫🇷1 |  4.4MB/s
   password: dongtaiwang.com
   port: 59967
   server: 195.154.33.70
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 6|🇫🇷2 |  4.7MB/s
+  network: ws
+  port: 30837
+  server: v37.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- auth: dongtaiwang.com
+  name: 6|🇫🇷4 |  5.5MB/s
+  password: dongtaiwang.com
+  port: 61770
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  client-fingerprint: chrome
+  name: 6|🇫🇷5 |  3.0MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2005
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: fr01.akebi.cc
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 6|🇫🇷2 |  5.2MB/s
+  name: 19|1|🇫🇷2 |  5.2MB/s
   network: ws
   port: 443
-  raw:
-    add: 172.67.136.233
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: az05.beyondy.cfd
-    id: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-    net: ws
-    path: /link
-    port: 443
-    ps: 🇺🇸 US_306
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
   server: 172.67.136.233
   servername: ''
   tls: true
@@ -37,11 +52,3 @@ proxies:
     headers:
       Host: az05.beyondy.cfd
     path: /link
-- auth: dongtaiwang.com
-  name: 6|🇫🇷3 |  3.5MB/s
-  password: dongtaiwang.com
-  port: 61770
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
