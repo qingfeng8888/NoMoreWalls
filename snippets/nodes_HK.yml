@@ -1,44 +1,24 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 6,23|🇭🇰 香港2|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 5f981bce46.m.ctrip.com
+    mode: http
+  port: 10001
+  server: south.inmysecretlife.xyz
+  tfo: false
+  type: ss
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰9 |  5.6MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2000
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰10 |  1.3MB/s
+  name: 6|🇭🇰4 |  1.2MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2021
   server: tw3.akebi.cc
   skip-cert-verify: false
   sni: hk03.akebi.cc
   type: hysteria2
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰12 |  3.8MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 1000
-  server: tw.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
-- cipher: chacha20-ietf
-  name: 6|🇭🇰14 |  1.1MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,24|香港2|@ripaojiedian
-  network: tcp
-  port: '18279'
-  server: 103.30.76.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
 - alterId: 0
   cipher: auto
   name: 19,24|香港5|@ripaojiedian
@@ -49,19 +29,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港|@ripaojiedian
-  password: 9b0ea2c9-c013-4b13-9ba6-fceae06e69f4
-  port: 19873
-  server: rk1.nynode0.cc
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港3|@ripaojiedian
-  password: f203200f-f6a4-49d8-893e-6559804d79ae
-  port: 50103
-  server: bgp-xdd.blue-bgp.xyz
+  password: 2EJ0PUVXQ58KR0VG
+  port: 15012
+  server: 156.245.190.21
   tfo: false
   type: ss
