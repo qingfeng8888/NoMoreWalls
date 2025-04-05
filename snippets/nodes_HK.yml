@@ -1,6 +1,6 @@
 proxies:
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰3 |  1.1MB/s
+  name: 6|🇭🇰4 |  3.6MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2000
   server: tw3.akebi.cc
@@ -8,7 +8,7 @@ proxies:
   sni: hk03.akebi.cc
   type: hysteria2
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰13 |  2.7MB/s
+  name: 6|🇭🇰9 |  2.5MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2021
   server: tw3.akebi.cc
@@ -17,7 +17,17 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 19,24|香港5|@ripaojiedian
+  name: 19,24|香港|@ripaojiedian
+  network: tcp
+  port: '4136'
+  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 19,24|香港2|@ripaojiedian
   network: tcp
   port: '41002'
   server: 120.232.153.40
@@ -25,23 +35,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港|@ripaojiedian
-  password: 2EJ0PUVXQ58KR0VG
-  port: 15012
-  server: 156.245.190.21
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港2|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 5f981bce46.m.ctrip.com
-    mode: http
-  port: 10001
-  server: south.inmysecretlife.xyz
-  tfo: false
-  type: ss
