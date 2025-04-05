@@ -1,5 +1,5 @@
 proxies:
-- name: 6|🇯🇵10 |  6.1MB/s
+- name: 6|🇯🇵2 |  5.6MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -8,6 +8,32 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇯🇵1 |  1.4MB/s
+  network: ws
+  port: 443
+  server: ip4-jp1.vp1000.net
+  tls: true
+  type: vmess
+  uuid: 6f1e1c1a-667f-4dbb-b089-4e2a355c21ce
+  ws-opts:
+    headers:
+      Host: ip4-jp1.vp1000.net
+    path: /pulicpaylfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇯🇵2 |  1.4MB/s
+  network: ws
+  port: 443
+  server: ip6-jp2.vp1000.net
+  tls: true
+  type: vmess
+  uuid: 6f1e1c1a-667f-4dbb-b089-4e2a355c21ce
+  ws-opts:
+    headers:
+      Host: ip4-jp2.vp1000.net
+    path: /pulicpaylfastpDisney
 - alterId: 0
   cipher: auto
   name: 19,24|日本7|@ripaojiedian
