@@ -1,14 +1,38 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 6|🇭🇰11 |  2.3MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 6|🇭🇰4 |  1.5MB/s
+  network: ws
+  port: 80
+  raw:
+    add: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: ca506e08-ce3d-5e5a-c128-6358caca15e5
+    net: ws
+    path: /
+    port: 80
+    ps: 🇭🇰 HK_154
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - auth: 6467b3ad-1551-4ccc-9727-587e9a9089b1
   client-fingerprint: chrome
   down: 100
-  name: 6|🇭🇰13 |  1.3MB/s
+  name: 6|🇭🇰5 |  1.6MB/s
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   password: 6467b3ad-1551-4ccc-9727-587e9a9089b1
