@@ -1,18 +1,12 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 19|2|🇭🇰9 |  3.2MB/s
-  network: ws
-  port: 80
-  server: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3035b36e-679f-11ed-87fd-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇭🇰12 |  4.0MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 1000
+  server: tw.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 19,24|香港6|@ripaojiedian
@@ -58,6 +52,19 @@ proxies:
   server: mdss-hk.04z3susick.download
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡|@ripaojiedian
+  password: '!!str 74260700211203800'
+  port: 4135
+  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
+  skip-cert-verify: false
+  sni: possible-tiger.shiner427.skin
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港5|@ripaojiedian

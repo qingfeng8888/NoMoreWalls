@@ -1,26 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇸🇬 新加坡|@ripaojiedian
-  password: '!!str 74260700211203800'
-  port: 4135
-  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇹🇼1 |  5.8MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 30001
+  server: tw.akebi.cc
   skip-cert-verify: false
-  sni: possible-tiger.shiner427.skin
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇹🇼6 |  1.3MB/s
-  network: tcp
-  port: 3687
-  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  sni: tw.akebi.cc
+  type: hysteria2
+- allowInsecure: ''
+  name: 6|🇹🇼3 |  3.9MB/s
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 188.164.159.49
+  skip-cert-verify: false
+  sni: epccw.ambercc.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epccw.ambercc.filegear-sg.me
+    path: /?ed=2560
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇹🇼 台湾|@ripaojiedian
