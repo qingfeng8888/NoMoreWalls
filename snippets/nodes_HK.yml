@@ -1,20 +1,23 @@
 proxies:
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰8 |  2.5MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2000
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
+- cipher: chacha20-ietf
+  name: 6|🇭🇰11 |  2.3MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
+  type: ss
+- auth: 6467b3ad-1551-4ccc-9727-587e9a9089b1
+  client-fingerprint: chrome
+  down: 100
+  name: 6|🇭🇰13 |  1.3MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 6467b3ad-1551-4ccc-9727-587e9a9089b1
+  port: 33000
+  server: 103.136.150.2
+  skip-cert-verify: true
   type: hysteria2
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰10 |  4.8MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2021
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
+  udp: true
+  up: 100
 - alterId: 0
   cipher: auto
   name: 19,24|香港6|@ripaojiedian
