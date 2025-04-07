@@ -1,18 +1,44 @@
 proxies:
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇹🇼9 |  3.8MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 5006
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: tw3.akebi.cc
-  type: hysteria2
 - cipher: rc4-md5
-  name: 6|🇹🇼10 |  3.1MB/s
+  name: 6|🇹🇼2 |  2.0MB/s
   password: z6D4Jf
   port: 25245
   server: 118.184.136.138
   type: ss
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇹🇼4 |  1.3MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 30001
+  server: tw.akebi.cc
+  skip-cert-verify: false
+  sni: tw.akebi.cc
+  type: hysteria2
+- name: 6|🇹🇼8 |  4.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇹🇼13 |  1.0MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 9000
+  server: tw3.akebi.cc
+  skip-cert-verify: true
+  sni: tw3.akebi.cc
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇹🇼6 |  6.1MB/s
+  network: tcp
+  port: 3687
+  server: d8f6d89a-suh6o0-svx90b-1ith.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: af6cd71c-9604-11ef-a97b-f23c93141fad
 - alterId: 0
   cipher: auto
   name: 19,24|台湾|@ripaojiedian
