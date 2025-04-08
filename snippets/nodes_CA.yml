@@ -1,15 +1,23 @@
 proxies:
 - auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  name: 6|🇨🇦2 |  2.7MB/s
+  name: 6|🇨🇦1 |  1.2MB/s
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 192.18.145.7
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  name: 6|🇨🇦2 |  4.5MB/s
+  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  port: 30300
+  server: 155.248.219.28
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 6|🇨🇦4 |  4.9MB/s
+  name: 19|1|🇨🇦4 |  4.9MB/s
   network: ws
   port: 30825
   server: v25.heduian.link
@@ -20,11 +28,3 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  name: 6|🇨🇦5 |  1.9MB/s
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 155.248.219.28
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2

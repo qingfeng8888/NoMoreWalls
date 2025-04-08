@@ -235,140 +235,16 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸2 |  6.0MB/s
-  network: ws
-  port: 2096
-  server: ny2-dash.930.pp.ua
-  servername: ny2-dash.930.pp.ua
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f082eeca-e068-45f9-d1bf-46e9de9bdf57
-  ws-opts:
-    headers:
-      Host: ny2-sub.930.pp.ua
-    path: /ny2-sub.930.pp.ua
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|🇺🇸4 |  5.6MB/s
-  port: 17549
-  server: 208.87.243.151
+- auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  name: 6|🇺🇸2 |  3.2MB/s
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 164.152.19.229
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  name: 6|🇺🇸7 |  5.5MB/s
-  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  port: 8443
-  server: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸8 |  2.4MB/s
-  network: ws
-  port: 2053
-  raw:
-    add: 141.101.120.64
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
-    id: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-    net: ws
-    path: /
-    port: 2053
-    ps: CloudFlare
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 141.101.120.64
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
-    path: /
-- auth: a93ae9ba-091d-11f0-8d46-f23c9313b177
-  name: 6|🇺🇸16 |  4.9MB/s
-  password: a93ae9ba-091d-11f0-8d46-f23c9313b177
-  port: 443
-  server: 147ef105-submo0-sudpdj-d5nv.la.shifen.uk
-  skip-cert-verify: false
-  sni: 147ef105-submo0-sudpdj-d5nv.la.shifen.uk
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸19 |  5.4MB/s
-  network: ws
-  port: 2096
-  raw:
-    add: 104.18.119.222
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: 1743256978.speed.adl.cccp.freefly.pp.ua
-    id: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-    net: ws
-    path: /
-    port: 2096
-    ps: CloudFlare
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 104.18.119.222
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743256978.speed.adl.cccp.freefly.pp.ua
-    path: /
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 6|🇺🇸20 |  2.8MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  name: 6|🇺🇸24 |  5.4MB/s
-  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  port: 8443
-  server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-  type: hysteria2
-- auth: 4aecd339-9094-11ef-96ff-f23c9313b177
-  name: 6|🇺🇸27 |  2.7MB/s
-  password: 4aecd339-9094-11ef-96ff-f23c9313b177
-  port: 443
-  server: 3b78a277-sudhc0-sv0ksy-1l5c.la.shifen.uk
-  skip-cert-verify: false
-  sni: 3b78a277-sudhc0-sv0ksy-1l5c.la.shifen.uk
   type: hysteria2
 - fast-open: true
-  name: 6|🇺🇸29 |  4.2MB/s
+  name: 6|🇺🇸8 |  5.5MB/s
   password: dongtaiwang.com
   port: 15544
   server: 108.181.5.133
@@ -377,54 +253,29 @@ proxies:
   tls: true
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸30 |  1.7MB/s
-  network: ws
-  port: 443
-  server: QWe.852224.GGFF.NEt
-  servername: QWe.852224.GGFF.NEt
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇺🇸13 |  5.9MB/s
+  port: 11512
+  server: 108.181.24.77
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126
-  ws-opts:
-    headers:
-      Host: qwe.852224.ggff.net
-    path: /SpXidaRA9PbqU8RhisheV
-- auth: fb8812ae-dcb5-11ef-a57d-f23c9313b177
-  name: 6|🇺🇸33 |  5.2MB/s
-  password: fb8812ae-dcb5-11ef-a57d-f23c9313b177
-  port: 443
-  server: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  name: 6|🇺🇸19 |  5.0MB/s
+  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  port: 8443
+  server: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net
   skip-cert-verify: false
-  sni: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
-  type: hysteria2
-- allowInsecure: ''
-  name: 6|🇺🇸34 |  2.4MB/s
-  network: ws
-  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
-  port: 443
-  server: 104.21.48.1
-  skip-cert-verify: false
-  sni: 1g.890699.xyZ
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1g.890699.xyz
-    path: /lXENb74xF4ylXngZ
-- auth: 82efba2c-f420-11ef-9529-f23c93141fad
-  name: 6|🇺🇸36 |  5.4MB/s
-  password: 82efba2c-f420-11ef-9529-f23c93141fad
-  port: 443
-  server: d7babeae-sudhc0-svm3vt-czv5.la.shifen.uk
-  skip-cert-verify: false
-  sni: d7babeae-sudhc0-svm3vt-czv5.la.shifen.uk
+  sni: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸42 |  3.6MB/s
+  name: 6,19|1|🇺🇸42 |  3.6MB/s
   network: ws
   port: 2053
   raw:
@@ -452,45 +303,43 @@ proxies:
     headers:
       Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
     path: /
-- country: 🇺🇸US
-  name: 6|🇺🇸43 |  3.6MB/s
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-  port: 443
-  server: 107.167.18.123
-  skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇺🇸51 |  5.8MB/s
-  network: tcp
-  port: '5228'
-  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇺🇸36 |  5.7MB/s
-  network: ws
+- auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  name: 6|🇺🇸28 |  3.1MB/s
+  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
   port: 8443
-  server: 104.18.118.195
-  servername: 1743919978.speed.zjgza.cccp.freefly.pp.ua
+  server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
+  type: hysteria2
+- auth: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+  name: 6|🇺🇸32 |  5.2MB/s
+  password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+  port: 8443
+  server: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇺🇸2 |  6.0MB/s
+  network: ws
+  port: 2096
+  server: ny2-dash.930.pp.ua
+  servername: ny2-dash.930.pp.ua
   tls: true
   type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  uuid: f082eeca-e068-45f9-d1bf-46e9de9bdf57
   ws-opts:
     headers:
-      Host: 1743919978.speed.zjgza.cccp.freefly.pp.ua
-    path: /
+      Host: ny2-sub.930.pp.ua
+    path: /ny2-sub.930.pp.ua
 - alterId: 0
   cipher: auto
-  name: 19|1|🇺🇸54 |  3.9MB/s
+  name: 19|1|🇺🇸8 |  2.4MB/s
   network: ws
   port: 2053
-  server: 1744007541.tencentapp.cn
-  servername: 1744007578.speed.zjgza.cccp.freefly.pp.ua
+  server: 141.101.120.64
+  servername: ''
   tls: true
   type: vmess
   uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
@@ -498,20 +347,34 @@ proxies:
     headers:
       Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 19|1|🇺🇸55 |  5.8MB/s
+  name: 19|1|🇺🇸19 |  5.4MB/s
   network: ws
-  port: 22643
-  server: 119.188.66.248
-  servername: zxjp-c.tkong.cc
+  port: 2096
+  server: 104.18.119.222
+  servername: ''
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: 1743256978.speed.adl.cccp.freefly.pp.ua
     path: /
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇺🇸30 |  1.7MB/s
+  network: ws
+  port: 443
+  server: QWe.852224.GGFF.NEt
+  servername: QWe.852224.GGFF.NEt
+  tls: true
+  type: vmess
+  uuid: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126
+  ws-opts:
+    headers:
+      Host: qwe.852224.ggff.net
+    path: /SpXidaRA9PbqU8RhisheV
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
