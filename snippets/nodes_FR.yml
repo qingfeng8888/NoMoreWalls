@@ -1,21 +1,11 @@
 proxies:
-- country: 🇫🇷FR
-  delay: 2308
-  name: 6|🇫🇷1 |  5.0MB/s
-  password: dongtaiwang.com
-  port: 59967
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 6|🇫🇷3 |  3.0MB/s
+  name: 6,19|1|🇫🇷4 |  3.1MB/s
   network: ws
   port: 443
   raw:
-    add: 152.67.251.232
+    add: 172.67.154.84
     aid: '0'
     alpn: ''
     fp: ''
@@ -24,13 +14,13 @@ proxies:
     net: ws
     path: /linkws
     port: 443
-    ps: 🇺🇸 US_227
+    ps: 🇺🇸 US_219
     scy: ''
     sni: ''
     tls: tls
     type: ''
     v: '2'
-  server: 152.67.251.232
+  server: 172.67.154.84
   servername: ''
   tls: true
   type: vmess
@@ -39,17 +29,19 @@ proxies:
     headers:
       Host: irvideo.cfd
     path: /linkws
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇫🇷4 |  1.6MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2005
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: fr01.akebi.cc
+- country: 🇫🇷FR
+  delay: 2308
+  name: 6|🇫🇷5 |  5.2MB/s
+  password: dongtaiwang.com
+  port: 59967
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
+  udp: true
 - country: 🇫🇷FR
   delay: 2273
-  name: 6|🇫🇷6 |  5.6MB/s
+  name: 6|🇫🇷8 |  3.4MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1
