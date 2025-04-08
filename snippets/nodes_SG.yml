@@ -5,8 +5,24 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|🇸🇬1 |  4.7MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
+  servername: sg02s.de15-5483-d16b.sbs
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    headers:
+      HOST: sg02s.de15-5483-d16b.sbs
+    path: /
 - auth: 493ed7e0-4657-4ec2-818f-e600c47c14fa
-  name: 6|🇸🇬2 |  4.9MB/s
+  name: 6|🇸🇬4 |  1.9MB/s
   password: 493ed7e0-4657-4ec2-818f-e600c47c14fa
   port: 20000
   server: 168.138.184.187
