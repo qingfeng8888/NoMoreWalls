@@ -1,5 +1,42 @@
 proxies:
-- name: 6|🇭🇰7 |  3.2MB/s
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰3 |  3.6MB/s
+  network: ws
+  port: 23008
+  raw:
+    add: 212.192.12.154
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 2dfca8d6-065c-4a6b-8039-d66268751451
+    net: ws
+    path: /
+    port: '23008'
+    ps: 🇭🇰 --001-1F
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 212.192.12.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2dfca8d6-065c-4a6b-8039-d66268751451
+  ws-opts:
+    path: /
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  client-fingerprint: chrome
+  name: 6|🇭🇰4 |  1.4MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2021
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- name: 6|🇭🇰9 |  4.1MB/s
   password: myszy28811
   port: 28811
   server: pipi.myddns.me
@@ -7,7 +44,7 @@ proxies:
   udp: true
   username: myszy
 - client-fingerprint: chrome
-  name: 6|🇭🇰14 |  6.3MB/s
+  name: 6|🇭🇰13 |  6.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -16,12 +53,6 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf
-  name: 6|🇭🇰16 |  2.0MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.182.61
-  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -39,16 +70,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 19|13|香港7|@ripaojiedian
+  name: 19,24|香港6|@ripaojiedian
   network: tcp
-  port: '50002'
-  server: 47.104.186.133
+  port: '4136'
+  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 19,24|香港8|@ripaojiedian
@@ -94,13 +125,3 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 24|香港6|@ripaojiedian
-  network: tcp
-  port: '4136'
-  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
