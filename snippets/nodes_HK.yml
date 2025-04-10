@@ -1,6 +1,13 @@
 proxies:
+- name: 6|🇭🇰7 |  3.2MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - client-fingerprint: chrome
-  name: 6|🇭🇰3 |  6.5MB/s
+  name: 6|🇭🇰14 |  6.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -9,15 +16,12 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  client-fingerprint: chrome
-  name: 6|🇭🇰9 |  1.6MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2021
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
+- cipher: chacha20-ietf
+  name: 6|🇭🇰16 |  2.0MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.61
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -37,7 +41,7 @@ proxies:
     path: /oooo
 - alterId: 64
   cipher: auto
-  name: 19,24|香港7|@ripaojiedian
+  name: 19|13|香港7|@ripaojiedian
   network: tcp
   port: '50002'
   server: 47.104.186.133
@@ -65,6 +69,14 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 23|🇭🇰 香港2|@ripaojiedian
+  password: d316fca3-e4ca-4774-8230-24a8fb9f99f6
+  port: 26912
+  server: 120.234.255.106
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 23|🇭🇰 香港3|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
@@ -82,19 +94,13 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港9|@ripaojiedian
-  password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
-  port: 46602
-  server: xg-jd.huidu51.com
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇭🇰 香港10|@ripaojiedian
-  password: MeSiyHQ1G3
-  port: 31396
-  server: 27.106.101.214
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|香港6|@ripaojiedian
+  network: tcp
+  port: '4136'
+  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
