@@ -1,16 +1,20 @@
 proxies:
-- country: 🇫🇷FR
-  delay: 2348
-  name: 6|🇫🇷4 |  3.2MB/s
-  password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 22246
-  server: fr3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: fr3.xiaoliyu.cyou
-  type: hysteria2
-  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,23|🇺🇸 美国2|@ripaojiedian
+  password: hZ7JkYVAfB
+  port: 5229
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  skip-cert-verify: false
+  sni: x1ch-ovh.devefun.net
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - auth: dongtaiwang.com
-  name: 6|🇫🇷5 |  4.2MB/s
+  client-fingerprint: chrome
+  name: 6|🇫🇷2 |  1.8MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1
@@ -19,8 +23,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  delay: 2233
-  name: 6,19|2|🇫🇷3 |  2.3MB/s
+  name: 19|2|🇫🇷9 |  5.8MB/s
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -31,17 +34,3 @@ proxies:
     headers:
       Host: Fra-Vp-123.BLaZECLOUD.Site
     path: /linvkws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇫🇷4 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 8.219.206.22
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
