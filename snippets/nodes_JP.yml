@@ -1,38 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6,19|2|🇯🇵10 |  1.2MB/s
+  client-fingerprint: chrome
+  name: 6,23|🇺🇸 美国2|@ripaojiedian
+  password: 4732adfa16c6450bbef87264e41332db
+  port: 5229
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  skip-cert-verify: false
+  sni: nextstepcareer.online
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 6|🇯🇵3 |  5.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇯🇵1 |  1.7MB/s
   network: tcp
   port: 27750
   server: 5.253.41.147
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
-  ws-headers:
-    Host: 5.253.41.147
-  ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6,23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.194.243.103
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 6|🇯🇵7 |  5.7MB/s
+  name: 19|1|🇯🇵7 |  5.7MB/s
   network: tcp
   port: 17233
   server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-  ws-headers:
-    Host: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19,24|日本|@ripaojiedian
