@@ -1,7 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|🇨🇦2 |  2.4MB/s
+  name: 6|🇨🇦1 |  5.4MB/s
+  network: ws
+  port: 12897
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  name: 6|🇨🇦3 |  1.1MB/s
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 192.18.145.7
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇨🇦2 |  2.4MB/s
   network: tcp
   port: 27699
   raw:
@@ -25,13 +47,3 @@ proxies:
   tls: false
   type: vmess
   uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇨🇦1 |  1.0MB/s
-  network: tcp
-  port: 58891
-  server: 91.194.11.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
