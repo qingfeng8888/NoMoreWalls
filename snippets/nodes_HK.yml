@@ -1,11 +1,5 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 6|🇭🇰2 |  1.1MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.182.61
-  type: ss
-- name: 6|🇭🇰5 |  3.4MB/s
+- name: 6|🇭🇰5 |  6.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -14,6 +8,14 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: '0'
+  cipher: auto
+  name: 6|🇭🇰6 |  2.8MB/s
+  network: tcp
+  port: 34652
+  server: 183.236.51.38
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
