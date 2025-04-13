@@ -1,25 +1,29 @@
 proxies:
-- name: 6|🇭🇰7 |  5.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 19|2|🇭🇰3 |  2.7MB/s
-  network: ws
-  port: 8100
-  server: 01f3ee63-sunz40-sumf02-155d9.wtt5.p5pv.com
-  servername: ''
+  name: 6|🇭🇰1 |  1.0MB/s
+  network: tcp
+  port: 42524
+  server: 183.236.51.38
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    path: ''
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: chacha20-ietf
+  name: 6|🇭🇰9 |  2.2MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|🇭🇰13 |  8.0MB/s
+  password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
+  port: 49709
+  server: jg647hf446ghvw.gym0boy.com
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
