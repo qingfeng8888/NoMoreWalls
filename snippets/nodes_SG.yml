@@ -5,48 +5,19 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6,23|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.255.246.167
-  tfo: false
-  type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 6,19|1|🇸🇬3 |  3.6MB/s
-  network: tcp
-  port: 44396
-  raw:
-    add: 84.247.148.192
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
-    net: tcp
-    path: ''
-    port: '44396'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 84.247.148.192
-  servername: ''
+  client-fingerprint: chrome
+  name: 6,23|🇭🇰 香港7|@ripaojiedian
+  password: VMhGp5wEIyCDf90T
+  port: 43121
+  server: 183.236.51.38
+  skip-cert-verify: false
+  sni: hk39.work.gd
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
-- auth: 073d062a-3170-4e8c-9123-aaa32155152d
-  name: 6|🇸🇬5 |  2.9MB/s
-  password: 073d062a-3170-4e8c-9123-aaa32155152d
-  port: 29831
-  server: 111.119.207.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian
@@ -69,5 +40,13 @@ proxies:
   password: d192a833-b118-4b46-8e54-12cf5025d4cd
   port: 33461
   server: gsyd.aicheetah.lol
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.255.246.167
   tfo: false
   type: ss
