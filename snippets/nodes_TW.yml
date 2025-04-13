@@ -1,23 +1,26 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 6|🇹🇼16 |  3.4MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 6,23|🇹🇼 台湾3|@ripaojiedian
-  password: d192a833-b118-4b46-8e54-12cf5025d4cd
-  port: 33248
-  server: gsyd.aicheetah.lol
-  tfo: false
-  type: ss
+- name: 6|🇹🇼38 |  1.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇹🇼 台湾2|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.20.79
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇹🇼 台湾3|@ripaojiedian
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 33248
+  server: gsyd.aicheetah.lol
   tfo: false
   type: ss
