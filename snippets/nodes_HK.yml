@@ -1,27 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 6|🇭🇰4 |  1.6MB/s
-  network: tcp
-  port: 15229
-  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  ws-headers:
-    Host: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
-  ws-path: /
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰8 |  2.8MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2000
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰9 |  1.0MB/s
+  name: 6|🇭🇰2 |  5.5MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2021
   server: tw3.akebi.cc
@@ -29,31 +8,67 @@ proxies:
   sni: hk03.akebi.cc
   type: hysteria2
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 6|🇭🇰11 |  2.2MB/s
+  name: 6|🇭🇰5 |  4.3MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 1000
   server: tw.akebi.cc
   skip-cert-verify: false
   sni: hk03.akebi.cc
   type: hysteria2
-- name: 6|🇭🇰13 |  2.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 6|🇭🇰9 |  4.4MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2000
+  server: tw3.akebi.cc
   skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  sni: hk03.akebi.cc
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 19|2|🇭🇰8 |  2.1MB/s
-  network: tcp
-  port: 15229
-  server: 4c16178d-surog0-t26vr3-1likw.cm.plebai.net
+  name: 6|🇭🇰13 |  3.5MB/s
+  network: ws
+  port: 23011
+  raw:
+    add: 212.192.12.154
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 337db17e-a3b1-4dec-96d2-acc302f5d858
+    net: ws
+    path: /
+    port: '23011'
+    ps: 🇭🇰 --001-1E
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 212.192.12.154
+  servername: ''
   tls: false
   type: vmess
-  uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
+  uuid: 337db17e-a3b1-4dec-96d2-acc302f5d858
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇭🇰4 |  1.6MB/s
+  network: tcp
+  port: 15229
+  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇭🇰16 |  2.6MB/s
+  network: tcp
+  port: 15229
+  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
