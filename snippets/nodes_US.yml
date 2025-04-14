@@ -237,9 +237,22 @@ proxies:
   ws-opts: {}
 - alpn:
   - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 6|🇺🇸6 |  5.9MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- alpn:
+  - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸4 |  4.5MB/s
+  name: 6|🇺🇸8 |  5.0MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -247,40 +260,16 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- alterId: '0'
-  cipher: auto
-  name: 6|🇺🇸18 |  5.3MB/s
-  network: tcp
-  port: '5228'
-  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
-  type: vmess
-  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇭🇰 香港7|@ripaojiedian
-  port: 43121
-  server: 183.236.51.38
+- auth: be8ba532-0dcf-11f0-9a65-f23c9164ca5d
+  name: 6|🇺🇸10 |  3.8MB/s
+  password: be8ba532-0dcf-11f0-9a65-f23c9164ca5d
+  port: 8443
+  server: 8b21ebfd-suif40-tcvn0z-1tlyg.hy2.gotochinatown.net
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 6|🇺🇸17 |  5.0MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
+  sni: 8b21ebfd-suif40-tcvn0z-1tlyg.hy2.gotochinatown.net
+  type: hysteria2
 - fast-open: true
-  name: 6|🇺🇸26 |  4.5MB/s
+  name: 6|🇺🇸14 |  5.0MB/s
   password: dongtaiwang.com
   port: 15544
   server: 108.181.5.133
@@ -291,7 +280,55 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 19|2|🇺🇸10 |  5.7MB/s
+  name: 6,19|2|🇺🇸18 |  5.3MB/s
+  network: tcp
+  port: '5228'
+  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
+- allowInsecure: ''
+  name: 6|🇺🇸17 |  6.3MB/s
+  network: ws
+  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  port: 443
+  server: 104.21.23.115
+  skip-cert-verify: false
+  sni: sanjose02.852224.ggff.net
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sanjose02.852224.ggff.net
+    path: /T5yZBrY2Qkg2cThJQeJb
+- alterId: '2'
+  cipher: auto
+  name: 6|🇺🇸27 |  5.4MB/s
+  network: ws
+  port: '30807'
+  server: v7.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸29 |  5.5MB/s
+  network: ws
+  port: 22083
+  server: ddf277c3-sutj40-sv07nd-jtx1.se.plebai.net
+  tls: false
+  type: vmess
+  uuid: 947dde8e-bcf5-11ef-af4a-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇺🇸10 |  4.7MB/s
   network: tcp
   port: 5229
   server: e7d11ca5-surog0-t26vr3-1likw.cu.plebai.net
