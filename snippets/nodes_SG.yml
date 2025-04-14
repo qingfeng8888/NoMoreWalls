@@ -5,36 +5,22 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: chacha20-ietf
-  name: 6|🇸🇬1 |  2.5MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8215
-  protocol: origin
-  protocol-param: ''
-  server: cn09.closeai.one
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|🇸🇬2 |  2.6MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8211
-  protocol: origin
-  protocol-param: ''
-  server: cn08.closeai.one
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|🇸🇬4 |  6.3MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8207
-  protocol: origin
-  protocol-param: ''
-  server: cn07.closeai.one
-  type: ssr
+- auth: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  name: 6|🇸🇬1 |  1.1MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  port: 9999
+  server: sg1.epclub.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 6|🇸🇬3 |  1.1MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian
