@@ -6,46 +6,7 @@ proxies:
   server: 54.179.87.28
   type: ss
 - cipher: chacha20-ietf
-  name: 6|🇸🇬1 |  1.7MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8215
-  protocol: origin
-  protocol-param: ''
-  server: cn09.closeai.one
-  type: ssr
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇭🇰 香港7|@ripaojiedian
-  password: VMhGp5wEIyCDf90T
-  port: 43121
-  server: 183.236.51.38
-  skip-cert-verify: false
-  sni: hk06.run.place
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- auth: 00a41b90-d694-406b-9b4b-392fe2c52cf1
-  name: 6|🇸🇬4 |  2.2MB/s
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 00a41b90-d694-406b-9b4b-392fe2c52cf1
-  port: 9999
-  server: sg1.epclub.xyz
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: 6|🇸🇬5 |  5.5MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: okanc.node-is.green
-  type: ss
-- cipher: chacha20-ietf
-  name: 6|🇸🇬6 |  4.6MB/s
+  name: 6|🇸🇬1 |  6.2MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
@@ -55,24 +16,25 @@ proxies:
   server: cn08.closeai.one
   type: ssr
 - cipher: chacha20-ietf
-  name: 6|🇸🇬7 |  6.3MB/s
+  name: 6|🇸🇬3 |  6.1MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
-  port: 8207
+  port: 8215
   protocol: origin
   protocol-param: ''
-  server: cn07.closeai.one
+  server: cn09.closeai.one
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇸🇬5 |  6.3MB/s
-  network: tcp
-  port: 3683
-  server: 183.240.179.191
-  tls: false
-  type: vmess
-  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
+- auth: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  name: 6|🇸🇬5 |  3.6MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  port: 9999
+  server: sg1.epclub.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡|@ripaojiedian

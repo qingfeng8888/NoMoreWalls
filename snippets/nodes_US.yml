@@ -235,19 +235,9 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: chacha20-ietf
-  name: 6|🇺🇸2 |  3.8MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8504
-  protocol: origin
-  protocol-param: ''
-  server: cn15.closeai.one
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 6,19|1|🇺🇸73 |  2.4MB/s
+  name: 6,19|2|🇺🇸6 |  5.6MB/s
   network: ws
   port: 7612
   server: f05013d4-surog0-svbm2l-1t8q3.lza.plebai.net
@@ -258,30 +248,229 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 6|🇺🇸8 |  5.5MB/s
-  port: 17549
-  server: 208.87.243.151
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸4 |  5.6MB/s
+  network: tcp
+  port: 5229
+  server: 03f17bde-supts0-tfvcxz-1nq4g.cu.plebai.net
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
+  tls: false
+  type: vmess
+  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+  ws-headers:
+    Host: 03f17bde-supts0-tfvcxz-1nq4g.cu.plebai.net
+  ws-path: /
+- cipher: chacha20-ietf
+  name: 6|🇺🇸5 |  5.7MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8519
+  protocol: origin
+  protocol-param: ''
+  server: cn18.closeai.one
+  type: ssr
+- auth: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+  name: 6|🇺🇸7 |  3.9MB/s
+  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+  port: 3002
+  server: us.10101251.xyz
+  skip-cert-verify: false
+  sni: us.10101251.xyz
+  type: hysteria2
 - auth: 564b440a-700f-11ee-a90c-f23c9313b177
-  name: 6|🇺🇸9 |  4.6MB/s
+  name: 6|🇺🇸11 |  4.6MB/s
   password: 564b440a-700f-11ee-a90c-f23c9313b177
   port: 443
   server: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
   skip-cert-verify: false
   sni: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
   type: hysteria2
+- auth: fb8812ae-dcb5-11ef-a57d-f23c9313b177
+  name: 6|🇺🇸12 |  3.3MB/s
+  password: fb8812ae-dcb5-11ef-a57d-f23c9313b177
+  port: 443
+  server: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  skip-cert-verify: false
+  sni: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  type: hysteria2
+- auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  name: 6|🇺🇸14 |  3.1MB/s
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 164.152.19.229
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇺🇸18 |  4.7MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
 - alterId: 0
   cipher: auto
-  name: 6,19|1|🇺🇸48 |  2.1MB/s
+  name: 6,19|2|🇺🇸26 |  4.8MB/s
+  network: tcp
+  port: 5229
+  server: e18f3df9-surog0-t2cl3c-14ubl.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
+  ws-headers:
+    Host: e18f3df9-surog0-t2cl3c-14ubl.cu.plebai.net
+  ws-path: /
+- country: 🇺🇸US
+  delay: 2308
+  name: 6|🇺🇸21 |  1.1MB/s
+  password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+  port: 8443
+  server: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf
+  name: 6|🇺🇸22 |  5.6MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8504
+  protocol: origin
+  protocol-param: ''
+  server: cn15.closeai.one
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸27 |  4.1MB/s
+  network: tcp
+  port: 5229
+  server: 7a40b936-supts0-swbd0b-716s.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
+  ws-headers:
+    Host: 7a40b936-supts0-swbd0b-716s.cu.plebai.net
+  ws-path: /
+- auth: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9
+  name: 6|🇺🇸29 |  2.7MB/s
+  password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9
+  port: 8443
+  server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸31 |  4.9MB/s
+  network: ws
+  port: 7612
+  server: ac9c2713-surog0-tb016b-1m7l4.lza.plebai.net
+  tls: false
+  type: vmess
+  uuid: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 6|🇺🇸36 |  1.3MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸41 |  1.6MB/s
+  network: ws
+  port: 8443
+  server: 156.238.18.68
+  servername: uswuxian.pai50288.uk
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+  ws-opts:
+    headers:
+      Host: uswuxian.pai50288.uk
+    path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸42 |  3.6MB/s
+  network: ws
+  port: 14555
+  server: 2.58.87.221
+  servername: 2.58.87.221
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6c764a03-bb1a-4bc6-baca-452453fce1ae
+  ws-opts:
+    headers:
+      Host: 2.58.87.221
+    path: /
+- cipher: chacha20-ietf
+  name: 6|🇺🇸44 |  3.8MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8514
+  protocol: origin
+  protocol-param: ''
+  server: cn16.closeai.one
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸45 |  4.9MB/s
+  network: tcp
+  port: 5228
+  server: b4fd1bd2-surog0-tc9wl2-py5w.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  ws-headers:
+    Host: b4fd1bd2-surog0-tc9wl2-py5w.cu.plebai.net
+  ws-path: /
+- auth: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  name: 6|🇺🇸47 |  1.5MB/s
+  password: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  port: 8443
+  server: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+  type: hysteria2
+- fast-open: true
+  name: 6|🇺🇸49 |  5.2MB/s
+  password: dongtaiwang.com
+  port: 15544
+  server: 108.181.5.133
+  skip-cert-verify: true
+  sni: apple.com
+  tls: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸13 |  5.6MB/s
   network: ws
   port: 7612
   raw:
@@ -309,159 +498,9 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: chacha20-ietf
-  name: 6|🇺🇸15 |  3.0MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8514
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
-  type: ssr
-- auth: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
-  name: 6|🇺🇸20 |  5.5MB/s
-  password: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
-  port: 443
-  server: 57ad5f46-submo0-sv7alj-ctxx.la.shifen.uk
-  skip-cert-verify: false
-  sni: 57ad5f46-submo0-sv7alj-ctxx.la.shifen.uk
-  type: hysteria2
-- auth: 3c461e2c-9d13-11ef-8563-f23c913c8d2b
-  name: 6|🇺🇸21 |  1.2MB/s
-  password: 3c461e2c-9d13-11ef-8563-f23c913c8d2b
-  port: 8443
-  server: 4e4babe3-suk9s0-t234dm-eso8.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 4e4babe3-suk9s0-t234dm-eso8.hy2.gotochinatown.net
-  type: hysteria2
-- fast-open: true
-  name: 6|🇺🇸23 |  5.0MB/s
-  password: dongtaiwang.com
-  port: 15544
-  server: 108.181.5.133
-  skip-cert-verify: true
-  sni: apple.com
-  tls: true
-  type: hysteria2
-  udp: true
-- cipher: aes-128-cfb
-  delay: 803
-  name: 6|🇺🇸24 |  4.6MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸25 |  4.4MB/s
-  network: tcp
-  port: 5229
-  server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9
-  ws-headers:
-    Host: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 6,19|1|🇺🇸36 |  3.2MB/s
-  network: tcp
-  port: 5229
-  server: e18f3df9-surog0-t2cl3c-14ubl.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
-  ws-headers:
-    Host: e18f3df9-surog0-t2cl3c-14ubl.cu.plebai.net
-  ws-path: /
-- auth: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9
-  name: 6|🇺🇸30 |  1.0MB/s
-  password: b778e4ae-1458-11ec-a8bf-f23c91cfbbc9
-  port: 8443
-  server: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 6,19|1|🇺🇸39 |  5.5MB/s
-  network: ws
-  port: 7612
-  server: ac9c2713-surog0-tb016b-1m7l4.lza.plebai.net
-  tls: false
-  type: vmess
-  uuid: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 6|🇺🇸33 |  5.8MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- name: 6|🇺🇸35 |  3.5MB/s
-  network: ws
-  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
-  port: 443
-  server: 104.21.6.179
-  sni: uS6-16.890601.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uS6-16.890601.xyz
-    path: /ILLcisbMYUd6MQzxVoMQ
-- cipher: chacha20-ietf
-  name: 6|🇺🇸39 |  5.2MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8519
-  protocol: origin
-  protocol-param: ''
-  server: cn18.closeai.one
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 6,19|1|🇺🇸15 |  5.8MB/s
-  network: ws
-  port: 8443
-  server: 156.238.18.68
-  servername: uswuxian.pai50288.uk
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
-  ws-opts:
-    headers:
-      Host: uswuxian.pai50288.uk
-    path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
-- country: 🇺🇸US
-  delay: 2308
-  name: 6|🇺🇸46 |  2.4MB/s
-  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  port: 8443
-  server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 6,19|1|🇺🇸13 |  4.8MB/s
+  name: 6,19|2|🇺🇸47 |  5.6MB/s
   network: ws
   port: 7612
   server: 6d1c9bd9-surog0-sy0g8x-1cc8s.lza.plebai.net
@@ -472,37 +511,24 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- country: 🇺🇸US
-  delay: 2308
-  name: 6|🇺🇸51 |  3.0MB/s
-  password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
-  port: 8443
-  server: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
-  type: hysteria2
-  udp: true
-- auth: b57110e7-dc44-4034-85a0-ac0e4bcb591e
-  name: 6|🇺🇸57 |  1.2MB/s
-  password: b57110e7-dc44-4034-85a0-ac0e4bcb591e
-  port: 36000
-  server: sg3.interld123456789.com
-  skip-cert-verify: true
-  sni: 1231231.1234567890spcloud.com
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 6,19|1|🇺🇸67 |  4.3MB/s
+  name: 19|2|🇺🇸25 |  4.4MB/s
+  network: tcp
+  port: 5229
+  server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇺🇸59 |  3.6MB/s
   network: tcp
   port: 5228
   server: 312b7317-surog0-svbm2l-1t8q3.cu.plebai.net
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 775baa4a-d75b-11ef-a11a-f23c913c8d2b
-  ws-headers:
-    Host: 312b7317-surog0-svbm2l-1t8q3.cu.plebai.net
-  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -520,38 +546,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 19|1|🇺🇸16 |  2.0MB/s
-  network: ws
-  port: 22643
-  server: 119.188.66.248
-  servername: zxjp-c.tkong.cc
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇺🇸29 |  4.0MB/s
-  network: tcp
-  port: 5228
-  server: 6912162d-surog0-tb016b-1m7l4.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: bd515574-3b10-11ee-ac14-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇺🇸65 |  5.1MB/s
-  network: tcp
-  port: 5229
-  server: 7a40b936-supts0-swbd0b-716s.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

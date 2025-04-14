@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf
-  name: 6|🇯🇵5 |  4.8MB/s
+  name: 6|🇯🇵1 |  6.2MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
@@ -9,27 +9,8 @@ proxies:
   protocol-param: ''
   server: cn13.closeai.one
   type: ssr
-- name: 6|🇯🇵7 |  6.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: chacha20-ietf
-  name: 6|🇯🇵9 |  3.9MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8407
-  protocol: origin
-  protocol-param: ''
-  server: cn12.closeai.one
-  type: ssr
-- cipher: chacha20-ietf
-  name: 6|🇯🇵10 |  5.9MB/s
+  name: 6|🇯🇵2 |  2.4MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
@@ -38,6 +19,25 @@ proxies:
   protocol-param: ''
   server: cn14.closeai.one
   type: ssr
+- cipher: chacha20-ietf
+  name: 6|🇯🇵9 |  3.6MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8407
+  protocol: origin
+  protocol-param: ''
+  server: cn12.closeai.one
+  type: ssr
+- name: 6|🇯🇵11 |  1.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 23|🇯🇵 日本|@ripaojiedian
