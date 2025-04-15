@@ -5,22 +5,32 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- auth: 073d062a-3170-4e8c-9123-aaa32155152d
-  name: 6|🇸🇬1 |  1.0MB/s
-  password: 073d062a-3170-4e8c-9123-aaa32155152d
-  port: 29831
-  server: 111.119.207.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 54.255.247.220
-  tfo: false
+  name: 6|🇸🇬1 |  5.9MB/s
+  password: wUIFQcMM2K2VYdVz8GKyeE
+  port: 443
+  server: 13.212.90.20
   type: ss
+- auth: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  name: 6|🇸🇬5 |  1.2MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  port: 9999
+  server: sg1.epclub.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 19,24|新加坡|@ripaojiedian
+  network: tcp
+  port: '23910'
+  server: hzz9.fgmcx.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇸🇬 新加坡2|@ripaojiedian
@@ -29,19 +39,11 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 23|🇸🇬 新加坡3|@ripaojiedian
-  password: d192a833-b118-4b46-8e54-12cf5025d4cd
-  port: 33461
-  server: gsyd.aicheetah.lol
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.209.80.28
+  server: 57.180.253.62
   tfo: false
   type: ss
