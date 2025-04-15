@@ -1,13 +1,4 @@
 proxies:
-- name: 6|🇯🇵12 |  6.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   name: 6,19|0|🇯🇵13 |  6.1MB/s
@@ -23,6 +14,25 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: 6,19,24|日本4|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+- name: 6|🇯🇵9 |  6.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
   name: 19,24|日本2|@ripaojiedian
   network: tcp
   port: '23919'
@@ -31,23 +41,13 @@ proxies:
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- alterId: 0
-  cipher: auto
-  name: 19,24|日本4|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 23|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504140137024-c4W9JRrQAZ.download.microsoft.com
+    host: 202504140137024-w6DDrFgxZZ.download.microsoft.com
     mode: http
   port: 8765
   server: cn01.efan8867801.xyz
