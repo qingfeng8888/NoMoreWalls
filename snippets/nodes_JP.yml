@@ -1,22 +1,26 @@
 proxies:
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 6,23|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.179.174.138
-  tfo: false
-  type: ss
-- allowInsecure: ''
-  name: 6|🇯🇵4 |  4.4MB/s
-  network: tcp
-  password: '!!str 74260698218909400'
-  port: 443
-  server: smooth-imp.shiner427.skin
+  name: 6,23|🇺🇸 美国2|@ripaojiedian
+  password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93
+  port: 23903
+  server: usz1.fgmcx.top
   skip-cert-verify: false
-  sni: smooth-imp.shiner427.skin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- name: 6|🇯🇵3 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
   tls: true
-  type: trojan
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   name: 6,19,24|日本4|@ripaojiedian
@@ -31,15 +35,32 @@ proxies:
   ws-headers:
     Host: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
   ws-path: /
-- name: 6|🇯🇵12 |  1.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: 6|🇯🇵11 |  2.6MB/s
+  network: tcp
+  port: 17233
+  raw:
+    add: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
+    aid: 0
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
+    net: tcp
+    path: ''
+    port: 17233
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
 - alterId: 0
   cipher: auto
   name: 19|2|🇯🇵15 |  3.8MB/s
@@ -101,3 +122,11 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: /?ed=2560&proxyip=103.232.213.117:8080
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.179.174.138
+  tfo: false
+  type: ss
