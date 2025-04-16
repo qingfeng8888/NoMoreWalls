@@ -1,28 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国2|@ripaojiedian
-  password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93
-  port: 23903
-  server: usz1.fgmcx.top
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- name: 6|🇯🇵3 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 0
-  cipher: auto
   name: 6,19,24|日本4|@ripaojiedian
   network: tcp
   port: '17233'
@@ -35,32 +13,47 @@ proxies:
   ws-headers:
     Host: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
   ws-path: /
+- cipher: chacha20-ietf
+  name: 6|🇯🇵7 |  1.4MB/s
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 6|🇯🇵11 |  2.6MB/s
-  network: tcp
-  port: 17233
-  raw:
-    add: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
-    aid: 0
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
-    net: tcp
-    path: ''
-    port: 17233
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
-  servername: ''
+  client-fingerprint: chrome
+  name: 6,23|🇺🇸 美国2|@ripaojiedian
+  password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93
+  port: 23903
+  server: usz1.fgmcx.top
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- name: 6|🇯🇵10 |  6.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: 6|🇯🇵11 |  2.7MB/s
+  network: tcp
+  port: 17233
+  server: 5ed696c1-sutj40-t907cr-1c1mr.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
+  ws-headers:
+    Host: 5ed696c1-sutj40-t907cr-1c1mr.cm5.p5pv.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19|2|🇯🇵15 |  3.8MB/s
