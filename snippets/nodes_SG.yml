@@ -5,35 +5,33 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-gcm
+  name: 6|🇸🇬4 |  4.9MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
+  type: ss
+- cipher: aes-256-gcm
+  name: 6|🇸🇬7 |  1.5MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇸🇬 新加坡2|@ripaojiedian
-  password: '!!str 74260696553770704'
-  port: 17231
+  name: 6,19,24|新加坡2|@ripaojiedian
+  network: tcp
+  port: '17231'
   server: 0496335c-sux8g0-swbudg-1mzwj.cm5.p5pv.com
-  skip-cert-verify: false
-  sni: robust-redfish.shiner427.skin
-  tfo: false
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: a203d80e-10fe-11ef-88a6-f23c9164ca5d
-- allowInsecure: ''
-  name: 6|🇸🇬4 |  6.0MB/s
-  network: original
-  password: dQUWbcwECl
-  port: 443
-  server: automq4-proxy.automq-sg.com
-  skip-cert-verify: false
-  type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 6,23|tg频道:@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.254.116.102
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: 0496335c-sux8g0-swbudg-1mzwj.cm5.p5pv.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -51,54 +49,11 @@ proxies:
     headers:
       Host: gtm1.ktmwan.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇸🇬2 |  4.9MB/s
-  network: tcp
-  port: 17231
-  server: f8553737-suz340-sw30na-2vfx.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 7d74be30-1102-11ec-a0fc-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 19,24|新加坡2|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: 0496335c-sux8g0-swbudg-1mzwj.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a203d80e-10fe-11ef-88a6-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇸🇬4 |  2.9MB/s
-  network: tcp
-  port: 17231
-  server: cd4bd325-suz340-sw0fy8-4c42.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 1758c288-c39d-3d20-f34f-f4c62bc1d8d4
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇸🇬5 |  5.0MB/s
-  network: tcp
-  port: 17231
-  server: af11f5b7-suz340-sv1gez-1tk5u.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: e3217bc2-061f-11f0-90e2-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇸🇬6 |  5.7MB/s
-  network: ws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 104.21.42.243
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: sgfqkqmltcy.site
-    path: /rbqqvws
+  server: 43.203.242.176
+  tfo: false
+  type: ss
