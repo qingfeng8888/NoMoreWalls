@@ -1,5 +1,5 @@
 proxies:
-- name: 6|🇹🇼6 |  2.0MB/s
+- name: 6|🇹🇼3 |  3.5MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -8,6 +8,13 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 6|🇹🇼8 |  2.8MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 33368
+  server: shenzhou05.mysynology.net
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19,24|台湾|@ripaojiedian
@@ -18,30 +25,3 @@ proxies:
   tls: false
   type: vmess
   uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
-- alterId: 0
-  cipher: auto
-  name: 19|12|🇹🇼 台湾2|@ripaojiedian
-  network: ws
-  port: 46005
-  server: fadawtawd.zhangwei.li
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 19|13|台湾2|@ripaojiedian
-  network: ws
-  port: '46005'
-  server: fadawtawd.zhangwei.li
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
