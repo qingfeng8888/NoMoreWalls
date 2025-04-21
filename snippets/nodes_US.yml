@@ -235,44 +235,54 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国3|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 97.107.140.236
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 6,19|1|🇺🇸27 |  5.2MB/s
-  network: ws
-  port: 80
-  server: www.wn03.cc
-  skip-cert-verify: true
-  tfo: true
+- auth: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  name: 6|🇺🇸2 |  3.0MB/s
+  password: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  port: 8443
+  server: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+  type: hysteria2
+- auth: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
+  name: 6|🇺🇸4 |  1.6MB/s
+  password: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
+  port: 8443
+  server: bec3dd81-suk9s0-sxv16d-1k09w.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: bec3dd81-suk9s0-sxv16d-1k09w.hy2.gotochinatown.net
+  type: hysteria2
+- name: 6|🇺🇸6 |  1.4MB/s
+  password: 262e7386-f8a9-11ef-ba82-f23c913c8d2b
+  port: 8443
+  server: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
-  ws-opts:
-    headers:
-      Host: us.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸15 |  5.3MB/s
-  network: tcp
-  port: 5228
-  server: 000611b6-sva740-t4ib2y-1kdw3.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e39687a8-3350-11ed-8110-f23c91cfbbc9
-  ws-headers:
-    Host: 000611b6-sva740-t4ib2y-1kdw3.cu.plebai.net
-  ws-path: /
-- name: 6|🇺🇸18 |  4.7MB/s
+  type: hysteria2
+- auth: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
+  name: 6|🇺🇸9 |  1.5MB/s
+  password: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
+  port: 8443
+  server: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
+  type: hysteria2
+- auth: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  name: 6|🇺🇸13 |  2.3MB/s
+  password: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  port: 8443
+  server: d446948b-sunz40-svabg7-1td06.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: d446948b-sunz40-svabg7-1td06.hy2.gotochinatown.net
+  type: hysteria2
+- auth: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  name: 6|🇺🇸15 |  1.8MB/s
+  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  port: 8443
+  server: 74f0ee85-suk9s0-swtza9-1q91p.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 74f0ee85-suk9s0-swtza9-1q91p.hy2.gotochinatown.net
+  type: hysteria2
+- name: 6|🇺🇸16 |  5.2MB/s
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
@@ -280,24 +290,22 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alterId: '0'
-  cipher: auto
-  name: 6|🇺🇸21 |  5.5MB/s
-  network: ws
-  port: '2053'
-  server: 141.101.121.127
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      host: 1744007578.speed.mamha.cccp.freefly.pp.ua
-    path: /
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 6|🇺🇸18 |  6.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸22 |  5.7MB/s
+  name: 6|🇺🇸21 |  5.8MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -305,34 +313,42 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- name: 6|🇺🇸23 |  3.9MB/s
-  password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-  port: 8443
-  server: b2c00bcd-sv4n40-t9uin7-19ord.hy2.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 6|🇺🇸24 |  3.7MB/s
-  password: 54cef7fa-90ad-11eb-a8bf-f23c91cfbbc9
-  port: 8443
-  server: 05e4b25c-sv8cg0-sxxt3o-15z76.hy2.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|🇺🇸25 |  5.3MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 6|🇺🇸26 |  5.3MB/s
+  name: 19|1|🇺🇸10 |  1.7MB/s
+  network: ws
+  port: 80
+  server: www.wn03.cc
+  tls: false
+  type: vmess
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: us.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇺🇸15 |  5.3MB/s
+  network: tcp
+  port: 5228
+  server: 000611b6-sva740-t4ib2y-1kdw3.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: e39687a8-3350-11ed-8110-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇺🇸21 |  5.5MB/s
+  network: ws
+  port: '2053'
+  server: 141.101.121.127
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇺🇸26 |  5.3MB/s
   network: ws
   port: 2053
   server: 141.101.121.127
@@ -442,5 +458,13 @@ proxies:
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 23|🇺🇸 美国3|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 97.107.140.236
   tfo: false
   type: ss
