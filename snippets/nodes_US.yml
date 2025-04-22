@@ -235,15 +235,7 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- auth: fb8812ae-dcb5-11ef-a57d-f23c9313b177
-  name: 6|🇺🇸2 |  5.4MB/s
-  password: fb8812ae-dcb5-11ef-a57d-f23c9313b177
-  port: 443
-  server: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
-  skip-cert-verify: false
-  sni: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
-  type: hysteria2
-- name: 6|🇺🇸3 |  4.7MB/s
+- name: 6|🇺🇸2 |  4.5MB/s
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
@@ -251,69 +243,46 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 6|🇺🇸4 |  2.8MB/s
-  network: ws
-  password: 00a9a559-8bb0-425e-bc97-c9885a575455
+- auth: fb8812ae-dcb5-11ef-a57d-f23c9313b177
+  name: 6|🇺🇸6 |  2.6MB/s
+  password: fb8812ae-dcb5-11ef-a57d-f23c9313b177
   port: 443
-  server: time.is
-  skip-cert-verify: true
-  sni: usargo.lzj520hxw.dpdns.org
+  server: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  skip-cert-verify: false
+  sni: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  type: hysteria2
+- auth: 564b440a-700f-11ee-a90c-f23c9313b177
+  name: 6|🇺🇸7 |  5.3MB/s
+  password: 564b440a-700f-11ee-a90c-f23c9313b177
+  port: 443
+  server: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
+  skip-cert-verify: false
+  sni: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
+  type: hysteria2
+- allowInsecure: ''
+  name: 6|🇺🇸9 |  5.9MB/s
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 104.21.69.41
+  skip-cert-verify: false
+  sni: 1SdfghJk.890602.xyz
+  tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: usargo.lzj520hxw.dpdns.org
-    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-tr?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸5 |  5.8MB/s
-  network: ws
-  port: 2053
-  raw:
-    add: 104.21.96.1
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: mass3.890601.xyz
-    id: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
-    net: ws
-    path: /
-    port: '2053'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: mass3.890601.xyz
-    tls: tls
-    type: ''
-    v: '2'
-  server: 104.21.96.1
-  servername: mass3.890601.xyz
-  tls: true
-  type: vmess
-  uuid: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
-  ws-opts:
-    headers:
-      Host: mass3.890601.xyz
-    path: /
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|🇺🇸7 |  3.8MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- auth: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
-  name: 6|🇺🇸9 |  2.1MB/s
-  password: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
-  port: 443
-  server: f6f7c702-submo0-suc86w-7yd9.la.shifen.uk
+      Host: 1sdfghjk.890602.xyz
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- auth: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+  name: 6|🇺🇸11 |  3.0MB/s
+  password: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+  port: 8443
+  server: c26d0357-supts0-tfvcxz-1nq4g.hy2.gotochinatown.net
   skip-cert-verify: false
-  sni: f6f7c702-submo0-suc86w-7yd9.la.shifen.uk
+  sni: c26d0357-supts0-tfvcxz-1nq4g.hy2.gotochinatown.net
   type: hysteria2
 - allowInsecure: ''
-  name: 6|🇺🇸15 |  2.2MB/s
+  name: 6|🇺🇸12 |  2.2MB/s
   network: ws
   password: 0212fab5-e93c-4904-b7a8-187fd535f354
   port: 443
@@ -328,7 +297,7 @@ proxies:
     path: /rFt8MpX4JNWO67qEaMINZ1
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸17 |  5.8MB/s
+  name: 6,19|2|🇺🇸14 |  1.3MB/s
   network: ws
   port: 443
   server: 66.179.48.117
@@ -340,44 +309,48 @@ proxies:
     headers:
       Host: usargo.lzj520hxw.dpdns.org
     path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-vm?ed=2048
-- name: 6|🇺🇸18 |  3.9MB/s
-  password: dongtaiwang.com
-  port: 65232
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- auth: 82efba2c-f420-11ef-9529-f23c93141fad
-  name: 6|🇺🇸23 |  5.5MB/s
-  password: 82efba2c-f420-11ef-9529-f23c93141fad
-  port: 443
-  server: d7babeae-sudhc0-svm3vt-czv5.la.shifen.uk
+- auth: bf140bc0-3f68-11ee-953a-f23c9164ca5d
+  name: 6|🇺🇸20 |  2.5MB/s
+  password: bf140bc0-3f68-11ee-953a-f23c9164ca5d
+  port: 8443
+  server: 468ce536-supts0-svp9t7-1oijm.hy2.gotochinatown.net
   skip-cert-verify: false
-  sni: d7babeae-sudhc0-svm3vt-czv5.la.shifen.uk
+  sni: 468ce536-supts0-svp9t7-1oijm.hy2.gotochinatown.net
   type: hysteria2
-- cipher: chacha20-ietf
-  name: 6|🇺🇸24 |  5.5MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.215
-  type: ss
-- allowInsecure: ''
-  name: 6|🇺🇸25 |  5.8MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
+- auth: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+  name: 6|🇺🇸24 |  3.6MB/s
+  password: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
   port: 443
-  server: 104.21.69.41
+  server: f6f7c702-submo0-suc86w-7yd9.la.shifen.uk
   skip-cert-verify: false
-  sni: 1SdfghJk.890602.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1sdfghjk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
+  sni: f6f7c702-submo0-suc86w-7yd9.la.shifen.uk
+  type: hysteria2
+- auth: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
+  name: 6|🇺🇸26 |  3.9MB/s
+  password: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
+  port: 8443
+  server: b6ea3219-supts0-swbd0b-716s.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: b6ea3219-supts0-swbd0b-716s.hy2.gotochinatown.net
+  type: hysteria2
+- auth: ae403676-1f72-11ef-98df-f23c91cfbbc9
+  name: 6|🇺🇸29 |  1.1MB/s
+  password: ae403676-1f72-11ef-98df-f23c91cfbbc9
+  port: 8443
+  server: 996b0aed-suz340-t21ryz-1rk0u.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 996b0aed-suz340-t21ryz-1rk0u.hy2.gotochinatown.net
+  type: hysteria2
+- auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  name: 6|🇺🇸30 |  1.1MB/s
+  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  port: 8443
+  server: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net
+  type: hysteria2
 - allowInsecure: ''
-  name: 6|🇺🇸37 |  5.0MB/s
+  name: 6|🇺🇸34 |  5.8MB/s
   network: ws
   password: 0212fab5-e93c-4904-b7a8-187fd535f354
   port: 443
@@ -390,28 +363,34 @@ proxies:
     headers:
       Host: 3wsxcvbn.890617.xyz
     path: /rFt8MpX4JNWO67qEaMINZ1
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 6|🇺🇸38 |  5.9MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- auth: 564b440a-700f-11ee-a90c-f23c9313b177
-  name: 6|🇺🇸39 |  5.4MB/s
-  password: 564b440a-700f-11ee-a90c-f23c9313b177
+- auth: 82efba2c-f420-11ef-9529-f23c93141fad
+  name: 6|🇺🇸35 |  4.9MB/s
+  password: 82efba2c-f420-11ef-9529-f23c93141fad
   port: 443
-  server: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
+  server: d7babeae-sudhc0-svm3vt-czv5.la.shifen.uk
   skip-cert-verify: false
-  sni: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
+  sni: d7babeae-sudhc0-svm3vt-czv5.la.shifen.uk
   type: hysteria2
+- cipher: aes-128-cfb
+  name: 6|🇺🇸40 |  2.9MB/s
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- name: 6|🇺🇸44 |  4.2MB/s
+  network: ws
+  password: 00a9a559-8bb0-425e-bc97-c9885a575455
+  port: 443
+  server: time.is
+  skip-cert-verify: true
+  sni: usargo.lzj520hxw.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: usargo.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-tr?ed=2048
 - allowInsecure: ''
-  name: 6|🇺🇸43 |  5.1MB/s
+  name: 6|🇺🇸45 |  5.7MB/s
   network: ws
   password: 5453ae26-250d-4e79-b4ec-016baf806865
   port: 443
@@ -424,6 +403,67 @@ proxies:
     headers:
       Host: 1sdfghjk.890602.xyz
     path: /OYzPAeaZdXUq2d6J3gc4aj
+- alterId: 2
+  cipher: auto
+  name: 6,19|2|🇺🇸46 |  4.4MB/s
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- name: 6|🇺🇸48 |  2.5MB/s
+  password: dongtaiwang.com
+  port: 65232
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 6|🇺🇸49 |  5.9MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸50 |  3.9MB/s
+  network: ws
+  port: 443
+  server: www.racknerd.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 247be9aa-0741-48a1-a69e-61fdaf5290c3
+  ws-opts:
+    headers:
+      Host: haxargo.lzj520hxw.dpdns.org
+    path: /vmess-argo?ed=2048
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇺🇸51 |  4.8MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
 - alterId: 0
   cipher: auto
   name: 19,24|美国|@ripaojiedian
