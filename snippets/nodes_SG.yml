@@ -5,50 +5,55 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 6|🇸🇬2 |  6.3MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9a871ebd-b399-36ab-8ab9-875c2db5158a
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
-  name: 6,19,24|新加坡|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
-  ws-headers:
-    Host: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 6,19,24|新加坡2|@ripaojiedian
-  network: tcp
-  port: '41902'
-  server: 183.236.51.38
-  servername: ''
+  client-fingerprint: chrome
+  name: 6,23|🇺🇸 美国|@ripaojiedian
+  password: 8e603038-3713-4c74-9b9c-43ad4cc15650
+  port: 44015
+  server: 120.198.71.219
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6,19|2|🇸🇬5 |  5.6MB/s
+  network: ws
+  port: 2086
+  server: cdn1.bpcdn.cc
+  servername: sgtxv82wilpfh6a8vm.lovebaipiao.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    path: /
+- auth: 82613a89cb5319d9
+  name: 6|🇸🇬8 |  3.8MB/s
+  password: 82613a89cb5319d9
+  port: 44874
+  server: 92.112.23.195
+  skip-cert-verify: true
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇸🇬4 |  4.9MB/s
+  network: tcp
+  port: 17231
+  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.221.216
+  server: 43.207.191.66
   tfo: false
   type: ss
