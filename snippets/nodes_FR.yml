@@ -1,9 +1,24 @@
 proxies:
 - auth: dongtaiwang.com
-  name: 6|🇫🇷2 |  1.1MB/s
+  delay: 1663
+  name: 6|🇫🇷1 |  4.3MB/s
   password: dongtaiwang.com
   port: 23587
   server: 195.154.33.70
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6|🇫🇷2 |  4.8MB/s
+  network: tcp
+  port: 17235
+  server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
+  ws-headers:
+    Host: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
+  ws-path: /
