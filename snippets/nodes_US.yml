@@ -239,7 +239,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸2 |  5.8MB/s
+  name: 6|🇺🇸3 |  3.9MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -247,29 +247,7 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇺🇸19 |  5.2MB/s
-  network: ws
-  port: '80'
-  server: 104.18.10.143
-  tls: false
-  type: vmess
-  uuid: 06135553-6f54-4d32-af08-83bc94823e7e
-  ws-opts:
-    path: /s15.html
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 6|🇺🇸6 |  6.0MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 6|🇺🇸13 |  5.0MB/s
+- name: 6|🇺🇸7 |  1.4MB/s
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
@@ -277,27 +255,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国|@ripaojiedian
-  password: 64abf593-eeb7-4785-9323-d6f40e9a79d4
-  port: 44015
-  server: 120.198.71.219
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 6|🇺🇸17 |  4.4MB/s
-  password: dongtaiwang.com
-  port: 65232
-  server: 108.181.5.130
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 6|🇺🇸12 |  2.2MB/s
+  port: 17549
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - alterId: 0
   cipher: auto
   name: 19|2|🇺🇸3 |  1.4MB/s
@@ -348,6 +316,17 @@ proxies:
   uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
   ws-opts:
     path: /DAxJddOdTd5pVam9w
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇺🇸19 |  5.2MB/s
+  network: ws
+  port: '80'
+  server: 104.18.10.143
+  tls: false
+  type: vmess
+  uuid: 06135553-6f54-4d32-af08-83bc94823e7e
+  ws-opts:
+    path: /s15.html
 - alterId: 0
   cipher: auto
   name: 19|2|🇺🇸21 |  4.5MB/s
