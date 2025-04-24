@@ -235,44 +235,52 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸5 |  4.9MB/s
-  network: ws
-  port: 8443
-  server: 199.34.228.174
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 3a1c628b-806d-461b-c28d-44b3bdff5220
-  ws-opts:
-    headers:
-      Host: mass2.890602.xyz
-    path: /
-- auth: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  name: 6|🇺🇸7 |  4.2MB/s
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  port: 8443
-  server: 50b8214a-suz340-sx19e8-gacy.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 50b8214a-suz340-sx19e8-gacy.hy2.gotochinatown.net
-  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 6|🇺🇸10 |  2.1MB/s
+  client-fingerprint: chrome
+  name: 6|🇺🇸3 |  1.3MB/s
   network: ws
-  port: 30829
-  server: v29.heduian.link
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ocbc.com
+      Host: baidu.com
     path: /oooo
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 6|🇺🇸7 |  4.8MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: 6|🇺🇸9 |  2.6MB/s
+  password: dongtaiwang.com
+  port: 65232
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- auth: aedae871-a4e5-489f-946c-98372f15bee2
+  name: 6|🇺🇸10 |  3.0MB/s
+  password: aedae871-a4e5-489f-946c-98372f15bee2
+  port: 7009
+  server: cn.eans.top
+  skip-cert-verify: true
+  sni: h.eans.top
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸11 |  4.9MB/s
+  name: 6|🇺🇸11 |  1.3MB/s
   network: ws
   port: 443
   server: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
@@ -285,53 +293,63 @@ proxies:
     headers:
       Host: 2E21CEDc-fA8B-4020-8Ce0-390e7287D276.890603.Pp.uA
     path: /h7Rcu0y30lhjdVjJ3gc4aj
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸12 |  5.6MB/s
-  network: ws
-  port: 8443
-  server: 199.34.228.161
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 3a1c628b-806d-461b-c28d-44b3bdff5220
-  ws-opts:
-    headers:
-      Host: mass2.890602.xyz
-    path: /
-- auth: aedae871-a4e5-489f-946c-98372f15bee2
-  name: 6|🇺🇸15 |  4.9MB/s
-  password: aedae871-a4e5-489f-946c-98372f15bee2
-  port: 7009
-  server: cn.eans.top
-  skip-cert-verify: true
-  sni: h.eans.top
-  type: hysteria2
-- ip-version: dual
-  name: 6|🇺🇸18 |  2.4MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
+- auth: 564b440a-700f-11ee-a90c-f23c9313b177
+  name: 6|🇺🇸13 |  5.2MB/s
+  password: 564b440a-700f-11ee-a90c-f23c9313b177
   port: 443
-  server: 172.67.204.22
+  server: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
   skip-cert-verify: false
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 1sdfghjk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- name: 6|🇺🇸19 |  5.3MB/s
-  password: dongtaiwang.com
-  port: 65232
-  server: 108.181.5.130
+  sni: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
+  type: hysteria2
+- auth: d68fa1c3-1dcc-4fb0-b906-68b9384f2b64
+  name: 6|🇺🇸16 |  1.0MB/s
+  password: d68fa1c3-1dcc-4fb0-b906-68b9384f2b64
+  port: 8443
+  server: mg6.gywanglug.xyz
   skip-cert-verify: true
-  sni: apple.com
+  sni: mg6.gywanglug.xyz
+  type: hysteria2
+- auth: 5CBqBh6MeDq6GajcilBiDg==
+  name: 6|🇺🇸26 |  4.3MB/s
+  password: 5CBqBh6MeDq6GajcilBiDg==
+  port: 61001
+  server: 192-227-152-86.nip.io
+  skip-cert-verify: true
+  sni: 192-227-152-86.nip.io
+  type: hysteria2
+- cipher: chacha20-ietf
+  name: 6|🇺🇸30 |  3.4MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  name: 6|🇺🇸34 |  5.2MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg2.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg2.gywanglug.xyz
+  type: hysteria2
+- name: 6|🇺🇸36 |  2.0MB/s
+  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  port: 443
+  server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
+  tls: true
+  type: http
+  udp: true
+  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- name: 6|🇺🇸40 |  2.9MB/s
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.204.186
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸26 |  5.7MB/s
+  name: 6|🇺🇸41 |  2.2MB/s
   network: ws
   port: 443
   server: 7fa54343-7c0a-45c9.2031.pp.ua
@@ -344,52 +362,86 @@ proxies:
     headers:
       Host: 7fa54343-7c0a-45c9.2031.pp.ua
     path: /usYhm60UxQ8YJFJxz
-- name: 6|🇺🇸27 |  2.5MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
+- auth: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+  name: 6|🇺🇸45 |  4.7MB/s
+  password: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
   port: 443
-  server: 104.21.69.41
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- auth: 5CBqBh6MeDq6GajcilBiDg==
-  name: 6|🇺🇸28 |  4.5MB/s
-  password: 5CBqBh6MeDq6GajcilBiDg==
-  port: 61001
-  server: 192-227-152-86.nip.io
-  skip-cert-verify: true
-  sni: 192-227-152-86.nip.io
-  type: hysteria2
-- name: 6|🇺🇸29 |  5.0MB/s
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.204.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
+  server: f6f7c702-submo0-suc86w-7yd9.la.shifen.uk
+  skip-cert-verify: false
+  sni: f6f7c702-submo0-suc86w-7yd9.la.shifen.uk
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸30 |  1.7MB/s
+  name: 6|🇺🇸46 |  6.1MB/s
   network: ws
   port: 443
-  server: 3sdfgvcxxx.938.pp.ua
+  raw:
+    add: 9uyiopsdfh.iran.pp.ua
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 906ba92f-ef96-4133-8eee-f33202a5a721
+    net: ws
+    path: /DAxJddOdTd5pVam9w
+    port: 443
+    ps: CloudFlare
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 9uyiopsdfh.iran.pp.ua
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
+  ws-opts:
+    path: /DAxJddOdTd5pVam9w
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸49 |  2.1MB/s
+  network: ws
+  port: 443
+  server: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
   ws-opts:
     headers:
-      Host: 3sdfgvcxxx.938.pp.ua
-    path: /P879mtCoHQqaWO67qEaMINZ1
+      Host: D2860d7d-07ee-A0Db-EF7B-54808dB00b03.890601.pP.UA
+    path: /h7Rcu0y30lhjdVjJ3gc4aj
+- name: 6|🇺🇸51 |  5.8MB/s
+  network: ws
+  password: f82fb954-06a1-4f0b-9180-17e07585b61f
+  port: 443
+  server: 104.21.23.162
+  skip-cert-verify: false
+  sni: 6tghjk.131.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6tghjk.131.pp.ua
+    path: '%2FYu29UN3Yz8hcnI3SlZor0'
+- alterId: 2
+  cipher: auto
+  name: 6|🇺🇸54 |  5.3MB/s
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 6|🇺🇸31 |  2.1MB/s
+  name: 6|🇺🇸56 |  5.3MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -397,6 +449,28 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
+- auth: fb8812ae-dcb5-11ef-a57d-f23c9313b177
+  name: 6|🇺🇸57 |  3.5MB/s
+  password: fb8812ae-dcb5-11ef-a57d-f23c9313b177
+  port: 443
+  server: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  skip-cert-verify: false
+  sni: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸60 |  2.6MB/s
+  network: ws
+  port: 8443
+  server: 199.34.228.161
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 3a1c628b-806d-461b-c28d-44b3bdff5220
+  ws-opts:
+    headers:
+      Host: mass2.890602.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|2|🇺🇸37 |  2.4MB/s
@@ -512,7 +586,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504221857755-wjQtxZzCYu.download.microsoft.com
+    host: 202504231516596-2ovXmdP1DN.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
