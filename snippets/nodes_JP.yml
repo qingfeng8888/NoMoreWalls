@@ -1,7 +1,16 @@
 proxies:
+- delay: 2309
+  name: 6|🇯🇵3 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  name: 6,19|2|🇯🇵1 |  6.2MB/s
+  name: 6,19|2|🇯🇵5 |  4.3MB/s
   network: tcp
   port: 17233
   server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
@@ -12,22 +21,12 @@ proxies:
   ws-headers:
     Host: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
   ws-path: /
-- delay: 2309
-  name: 6|🇯🇵6 |  6.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  name: 6|🇯🇵11 |  1.9MB/s
+  name: 19|2|🇯🇵11 |  1.9MB/s
   network: ws
   port: 80
   server: 154.83.93.132
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3b948c60-31ad-4a50-af86-dc0af6cb16d2
