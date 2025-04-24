@@ -5,20 +5,15 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
+- auth: ef95716d-fec2-4257-b7a9-a2c064bdd2d6
   client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国|@ripaojiedian
-  password: 64abf593-eeb7-4785-9323-d6f40e9a79d4
-  port: 44015
-  server: 120.198.71.219
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  name: 6|🇸🇬5 |  3.8MB/s
+  password: ef95716d-fec2-4257-b7a9-a2c064bdd2d6
+  port: 54822
+  server: 92.112.22.208
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 19,24|新加坡3|@ripaojiedian
@@ -46,3 +41,11 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.139.84
+  tfo: false
+  type: ss
