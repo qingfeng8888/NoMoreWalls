@@ -1,21 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国|@ripaojiedian
-  password: ff832dd3-18a9-441f-bae0-24e8b98dc96b
-  port: 44015
-  server: 120.198.71.219
+  name: 6|🇭🇰8 |  1.2MB/s
+  network: ws
+  port: 23023
+  server: 212.192.12.154
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
   tls: false
   type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 018474eb-864a-4fb6-9ee7-bcc51fb7e986
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 6|🇭🇰2 |  1.4MB/s
+  name: 6,19|1|🇭🇰2 |  1.4MB/s
   network: tcp
   port: 15229
   server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
@@ -28,17 +26,13 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 6|🇭🇰7 |  1.7MB/s
+  name: 19|1|🇭🇰7 |  1.7MB/s
   network: tcp
   port: 15229
   server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  ws-headers:
-    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
