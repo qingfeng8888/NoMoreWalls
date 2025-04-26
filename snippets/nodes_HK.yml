@@ -1,19 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|🇭🇰8 |  1.2MB/s
-  network: ws
-  port: 23023
-  server: 212.192.12.154
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 018474eb-864a-4fb6-9ee7-bcc51fb7e986
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6,19|1|🇭🇰2 |  1.4MB/s
+  name: 6,19|2|🇭🇰17 |  1.4MB/s
   network: tcp
   port: 15229
   server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
@@ -26,39 +14,28 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19|1|🇭🇰7 |  1.7MB/s
+  name: 19|2|🇭🇰2 |  1.3MB/s
   network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  port: 4136
+  server: 02c32b60-sudhc0-sva30v-au6.d.volczijie.com
   tls: false
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 19,24|香港3|@ripaojiedian
+  name: 19|2|🇭🇰12 |  4.6MB/s
   network: tcp
-  port: '57888'
-  server: 47.83.137.220
-  servername: ''
+  port: 4138
+  server: 4b2f25cf-sudhc0-sva30v-au6.c.volczijie.com
   tls: false
   type: vmess
-  uuid: b68f8c35-935e-444f-8944-291bf15a56a5
+  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 19,24|香港5|@ripaojiedian
   network: tcp
   port: '41291'
   server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 19,24|香港6|@ripaojiedian
-  network: tcp
-  port: '43674'
-  server: 120.234.102.229
   servername: ''
   tls: false
   type: vmess
@@ -108,7 +85,15 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 19789
+  port: 39170
   server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 23|🇭🇰 香港3|@ripaojiedian
+  password: 796EA43C-1A63-8C50-3745-FD3946149E4F
+  port: 21202
+  server: 910281.chasel.sbs
   tfo: false
   type: ss
