@@ -1,18 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
+  name: 6|🇯🇵4 |  1.2MB/s
+  password: amazonskr05
+  port: 80
+  server: 52.198.168.58
+  type: ss
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国|@ripaojiedian
-  password: bc8b766c-5065-4bf1-8553-c9629d9e1106
-  port: 44015
-  server: 120.198.71.219
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  name: 6,23|🇯🇵 日本3|@ripaojiedian
+  password: 796EA43C-1A63-8C50-3745-FD3946149E4F
+  port: 21227
+  server: 910281.chasel.sbs
   tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19,24|日本5|@ripaojiedian
@@ -49,14 +49,6 @@ proxies:
     tls: true
   port: 443
   server: jp5v1.8vote.cn
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 23|🇯🇵 日本3|@ripaojiedian
-  password: 796EA43C-1A63-8C50-3745-FD3946149E4F
-  port: 21227
-  server: 910281.chasel.sbs
   tfo: false
   type: ss
 - cipher: aes-256-cfb
