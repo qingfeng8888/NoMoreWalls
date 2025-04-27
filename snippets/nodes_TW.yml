@@ -1,24 +1,5 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 6|🇹🇼1 |  6.2MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
-- name: 6|🇹🇼2 |  6.0MB/s
-  network: ws
-  password: Aimer
-  port: 20087
-  server: 107.173.111.232
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epcca.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 6|🇹🇼7 |  4.8MB/s
+- name: 6|🇹🇼4 |  6.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -27,7 +8,20 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 6|🇹🇼8 |  1.8MB/s
+- name: 6|🇹🇼5 |  6.0MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 156.225.72.199
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 6|🇹🇼6 |  1.3MB/s
   network: ws
   password: Aimer
   port: 2087
@@ -40,11 +34,17 @@ proxies:
     headers:
       host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 6|🇹🇼11 |  1.3MB/s
+- cipher: aes-128-gcm
+  name: 6|🇹🇼8 |  6.3MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 33368
+  server: shenzhou05.mysynology.net
+  type: ss
+- name: 6|🇹🇼9 |  1.4MB/s
   network: ws
   password: Aimer
-  port: 8443
-  server: 188.164.159.74
+  port: 20087
+  server: 107.173.111.232
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
@@ -52,4 +52,18 @@ proxies:
   ws-opts:
     headers:
       host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 1521
+  name: 6|🇹🇼12 |  1.4MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.36
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
