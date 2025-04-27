@@ -1,33 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国|@ripaojiedian
-  password: 1b97e412-8bf8-4521-b9d6-8ca529f8cbc9
-  port: 44015
-  server: 120.198.71.219
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 6|🇭🇰7 |  5.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-256-gcm
-  name: 6|🇭🇰10 |  3.8MB/s
+  name: 6|🇭🇰5 |  2.9MB/s
   password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f
   port: 30018
   server: 114.132.40.118
   type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  h2-opts: {}
+  http-opts: {}
+  name: 6|🇭🇰12 |  2.4MB/s
+  network: ws
+  port: 80
+  server: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3035b36e-679f-11ed-87fd-f23c9164ca5d
+  ws-headers:
+    HOST: broadcastlv.chat.bilibili.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19,24|香港5|@ripaojiedian
