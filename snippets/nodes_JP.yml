@@ -1,6 +1,41 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 6,19|1|🇯🇵1 |  5.8MB/s
+  network: tcp
+  port: 17233
+  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  ws-headers:
+    Host: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 6|🇯🇵7 |  5.2MB/s
+  network: tcp
+  port: 17233
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  ws-headers:
+    Host: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 6|🇯🇵9 |  6.0MB/s
+  network: tcp
+  port: 17233
+  server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - delay: 2053
-  name: 6|🇯🇵5 |  1.3MB/s
+  name: 6|🇯🇵11 |  4.6MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -8,42 +43,6 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇯🇵2 |  5.3MB/s
-  network: tcp
-  port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇯🇵7 |  1.9MB/s
-  network: tcp
-  port: 17233
-  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇯🇵8 |  1.9MB/s
-  network: tcp
-  port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 19|1|🇯🇵14 |  1.9MB/s
-  network: tcp
-  port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
