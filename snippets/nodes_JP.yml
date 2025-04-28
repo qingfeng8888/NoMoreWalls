@@ -1,4 +1,13 @@
 proxies:
+- delay: 2053
+  name: 6|🇯🇵2 |  1.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -14,41 +23,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 6|🇯🇵2 |  6.1MB/s
-  network: tcp
-  port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇯🇵3 |  6.6MB/s
-  network: tcp
-  port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
-  ws-headers:
-    Host: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
-  ws-path: /
-- delay: 2053
-  name: 6|🇯🇵8 |  5.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 0
-  cipher: auto
   name: 19|2|🇯🇵1 |  6.1MB/s
   network: tcp
   port: 17233
@@ -56,6 +30,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇯🇵3 |  6.6MB/s
+  network: tcp
+  port: 17233
+  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 19|2|🇯🇵6 |  2.9MB/s
