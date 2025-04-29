@@ -1,9 +1,48 @@
 proxies:
-- name: 6|🇫🇷4 |  4.3MB/s
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1922
+  h2-opts: {}
+  http-opts: {}
+  name: 6|🇫🇷2 |  1.3MB/s
+  network: ws
+  port: 30837
+  server: v37.heduian.link
+  servername: ocbc.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: ocbc.com
+    path: /oooo
+- name: 6|🇫🇷3 |  3.1MB/s
   password: 45b46edb-679b-4ea5-befd-88c05bb94f80
   port: 2056
   server: fr3.eyucdn.xyz
   skip-cert-verify: true
   sni: fr3.eyucdn.xyz
   tls: false
+  type: hysteria2
+- alterId: '0'
+  cipher: auto
+  name: 6|🇫🇷8 |  5.4MB/s
+  network: tcp
+  port: '17235'
+  server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
+  ws-headers:
+    Host: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
+  ws-path: /
+- auth: dongtaiwang.com
+  name: 6|🇫🇷7 |  5.2MB/s
+  password: dongtaiwang.com
+  port: 43496
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
