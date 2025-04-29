@@ -1,42 +1,30 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 6|🇭🇰5 |  3.5MB/s
-  network: ws
-  port: 80
-  server: 3278b52d-sv2sg0-sw0kma-1tauc.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 36b8113e-e455-11ef-90fa-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 6|🇭🇰8 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 104.21.6.201
-  servername: hknbyivfffj.site
-  skip-cert-verify: false
-  tls: true
+  name: 6|🇭🇰1 |  5.9MB/s
+  network: tcp
+  port: 30251
+  raw:
+    add: 35.220.230.251
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 86c9c119-c46d-45a9-82a6-75a886e5e795
+    net: tcp
+    path: ''
+    port: '30251'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 35.220.230.251
+  servername: ''
+  tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: hknbyivfffj.site
-    path: /rbqqvws
-- name: 6|🇭🇰11 |  4.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
 - alterId: 0
   cipher: auto
   name: 19,24|香港5|@ripaojiedian
