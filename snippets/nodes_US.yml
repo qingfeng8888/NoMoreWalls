@@ -237,13 +237,32 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 6,19|2|🇺🇸74 |  4.0MB/s
+  name: 6,19|2|🇺🇸22 |  4.1MB/s
   network: tcp
   port: 5229
-  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
+  server: 0fad9e0f-svlb40-t1bnjq-1krtb.cu.plebai.net
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 6|🇺🇸3 |  2.9MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: 0c7fa052-svjgg0-swy6li-tni2.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- name: 6|🇺🇸5 |  5.2MB/s
+  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  port: 443
+  server: c96dfa8f-svjgg0-t28b6o-ef48.los.gotochinatown.net
+  tls: true
+  type: http
+  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- name: 6|🇺🇸6 |  5.6MB/s
+  port: 443
+  server: 0c755197-svhls0-t1bnjq-1krtb.sj.gotochinatown.net
+  tls: true
+  type: socks5
 - alterId: 0
   cipher: auto
   name: 6,19|2|🇺🇸73 |  2.9MB/s
@@ -257,164 +276,22 @@ proxies:
   ws-headers:
     Host: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
   ws-path: /
-- name: 6|🇺🇸4 |  5.3MB/s
-  port: 443
-  server: 5e26927f-svfr40-swy6li-tni2.los.gotochinatown.net
-  tls: true
-  type: socks5
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇺🇸21 |  3.9MB/s
-  network: tcp
-  port: 5229
-  server: b3e1a577-svjgg0-t1bnjq-1krtb.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: b3e1a577-svjgg0-t1bnjq-1krtb.cu.plebai.net
-  ws-path: /
-- name: 6|🇺🇸6 |  4.4MB/s
-  port: 443
-  server: db402f78-svfr40-t1bnjq-1krtb.los.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸7 |  2.1MB/s
-  network: ws
-  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
-  port: 443
-  server: 104.21.57.88
-  skip-cert-verify: false
-  sni: 10tyu.iran.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 10tyu.iran.pp.ua
-    path: /VEP415T5mby2DulPWRIwOavJd
-- allowInsecure: ''
-  name: 6|🇺🇸9 |  4.9MB/s
-  network: ws
-  password: 075b9690-f1cc-4d0c-aa1e-f80f07f09815
-  port: 443
-  server: 104.21.69.50
-  skip-cert-verify: false
-  sni: 4o.191292.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4o.191292.xyz
-    path: /w8oHMEEc9tWBZ57XYkE
-- name: 6|🇺🇸12 |  3.3MB/s
-  port: 443
-  server: a165488e-svlb40-t28b6o-ef48.los.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸13 |  1.0MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 104.21.69.41
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- name: 6|🇺🇸14 |  5.3MB/s
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 443
-  server: fde84327-svjgg0-t1bnjq-1krtb.los.gotochinatown.net
-  tls: true
-  type: http
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 6|🇺🇸15 |  5.5MB/s
+- name: 6|🇺🇸9 |  5.2MB/s
   port: 443
   server: e0616d84-svfr40-t28b6o-ef48.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 6|🇺🇸16 |  3.4MB/s
+- cipher: chacha20-ietf
+  name: 6|🇺🇸10 |  1.4MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: 6|🇺🇸11 |  5.1MB/s
   port: 443
-  server: 2be2e542-svc1s0-swy6li-tni2.sj.gotochinatown.net
+  server: e3c570fd-svhls0-swy6li-tni2.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 6|🇺🇸18 |  5.2MB/s
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 443
-  server: 2a1f5176-svlb40-swy6li-tni2.los.gotochinatown.net
-  tls: true
-  type: http
-  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇺🇸36 |  1.7MB/s
-  network: tcp
-  port: 5228
-  server: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸21 |  5.5MB/s
-  network: ws
-  port: 40601
-  server: us05.jssssss.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5c634f9c-3dd4-4d3e-97c2-9db2470cf722
-  ws-opts:
-    headers:
-      Host: us05.jssssss.com
-    path: /
-- name: 6|🇺🇸22 |  5.6MB/s
-  port: 443
-  server: 88316701-svhls0-t28b6o-ef48.los.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸23 |  3.2MB/s
-  port: 443
-  server: ec2e7c65-svdwg0-t28b6o-ef48.los.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸24 |  3.8MB/s
-  password: dongtaiwang.com
-  port: 65232
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇺🇸53 |  5.1MB/s
-  network: tcp
-  port: '5228'
-  server: 1449f183-svhls0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- name: 6|🇺🇸27 |  5.7MB/s
-  port: 443
-  server: d34be828-svc1s0-t1bnjq-1krtb.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇺🇸58 |  4.2MB/s
-  network: tcp
-  port: 5229
-  server: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 6,19|2|🇺🇸44 |  4.0MB/s
@@ -430,19 +307,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 6,19|2|🇺🇸56 |  4.2MB/s
-  network: tcp
-  port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  ws-headers:
-    Host: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 6,19|2|🇺🇸67 |  2.0MB/s
   network: tcp
   port: 5229
@@ -454,120 +318,9 @@ proxies:
   ws-headers:
     Host: 73618903-svhls0-t1bnjq-1krtb.cu.plebai.net
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇺🇸22 |  4.1MB/s
-  network: tcp
-  port: 5229
-  server: 0fad9e0f-svlb40-t1bnjq-1krtb.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 6|🇺🇸42 |  1.7MB/s
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 443
-  server: 82289c96-svlb40-t1bnjq-1krtb.sj.gotochinatown.net
-  tls: true
-  type: http
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 6|🇺🇸43 |  4.0MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- name: 6|🇺🇸44 |  5.3MB/s
-  port: 443
-  server: 05fcb8e9-svhls0-t1bnjq-1krtb.los.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸45 |  5.6MB/s
-  port: 443
-  server: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸49 |  1.8MB/s
-  port: 443
-  server: 07f52356-svfr40-swy6li-tni2.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸50 |  3.8MB/s
-  port: 443
-  server: 3d772104-svdwg0-t1bnjq-1krtb.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸52 |  5.3MB/s
-  port: 443
-  server: 65240551-svlb40-t1bnjq-1krtb.los.gotochinatown.net
-  tls: true
-  type: socks5
-- auth: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
-  name: 6|🇺🇸53 |  3.4MB/s
-  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
-  port: 3002
-  server: us.10101251.xyz
-  skip-cert-verify: false
-  sni: us.10101251.xyz
-  type: hysteria2
-- name: 6|🇺🇸54 |  5.6MB/s
-  port: 443
-  server: e147ddc2-svjgg0-t28b6o-ef48.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸55 |  5.6MB/s
-  port: 443
-  server: 61209291-svc1s0-t28b6o-ef48.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸56 |  4.9MB/s
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 443
-  server: af3bff92-svlb40-swy6li-tni2.sj.gotochinatown.net
-  tls: true
-  type: http
-  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- name: 6|🇺🇸57 |  3.8MB/s
-  port: 443
-  server: e320d05b-svdwg0-t1bnjq-1krtb.los.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸58 |  1.2MB/s
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 443
-  server: 894526ae-svjgg0-swy6li-tni2.sj.gotochinatown.net
-  tls: true
-  type: http
-  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- name: 6|🇺🇸61 |  5.2MB/s
-  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  port: 443
-  server: c96dfa8f-svjgg0-t28b6o-ef48.los.gotochinatown.net
-  tls: true
-  type: http
-  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- client-fingerprint: chrome
-  name: 6|🇺🇸62 |  5.1MB/s
-  port: 443
-  server: 0b366624-svdwg0-swy6li-tni2.sj.gotochinatown.net
-  sni: 0b366624-svdwg0-swy6li-tni2.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 6|🇺🇸64 |  1.8MB/s
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 443
-  server: bb2b0784-svjgg0-t1bnjq-1krtb.sj.gotochinatown.net
-  tls: true
-  type: http
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - country: 🇺🇸US
   delay: 1290
-  name: 6|🇺🇸66 |  4.6MB/s
+  name: 6|🇺🇸16 |  1.4MB/s
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
@@ -575,48 +328,255 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸56 |  4.2MB/s
+  network: tcp
+  port: 5228
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  ws-headers:
+    Host: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  ws-path: /
+- name: 6|🇺🇸21 |  5.5MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: 2a1f5176-svlb40-swy6li-tni2.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 6|🇺🇸67 |  4.0MB/s
+  name: 6|🇺🇸23 |  4.8MB/s
   port: 17549
   server: 208.87.243.151
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 11 Mbps
-- name: 6|🇺🇸68 |  2.3MB/s
+- name: 6|🇺🇸25 |  5.6MB/s
   port: 443
-  server: 6c39e127-svdwg0-t28b6o-ef48.sj.gotochinatown.net
+  server: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 6|🇺🇸69 |  2.6MB/s
+- name: 6|🇺🇸29 |  2.0MB/s
   port: 443
-  server: 35806ac4-svc1s0-t1bnjq-1krtb.los.gotochinatown.net
+  server: 30e8c0db-svn5s0-t1bnjq-1krtb.sj.gotochinatown.net
   tls: true
   type: socks5
+- name: 6|🇺🇸30 |  3.1MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: 894526ae-svjgg0-swy6li-tni2.sj.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸70 |  2.2MB/s
-  network: ws
-  port: 443
-  server: 1ddfa4a6-svlb40-tdad3n-1lv9y.sea.plebai.net
-  servername: 1ddfa4a6-svlb40-tdad3n-1lv9y.sea.plebai.net
+  name: 6,19|2|🇺🇸36 |  1.7MB/s
+  network: tcp
+  port: 5228
+  server: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
   skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  ws-headers:
+    Host: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
+  ws-path: /
+- name: 6|🇺🇸33 |  5.2MB/s
+  port: 443
+  server: dbd2bf6a-svdwg0-swy6li-tni2.los.gotochinatown.net
   tls: true
+  type: socks5
+- name: 6|🇺🇸34 |  5.5MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: 4c7dc40e-svn5s0-swy6li-tni2.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸46 |  2.4MB/s
+  network: tcp
+  port: 5228
+  server: c6147365-svjgg0-t28b6o-ef48.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  ws-headers:
+    Host: c6147365-svjgg0-t28b6o-ef48.cu.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸36 |  4.1MB/s
+  network: ws
+  port: 40601
+  server: us05.jssssss.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
   udp: true
-  uuid: 9dfb2c9a-b7fd-11ed-a66b-f23c913c8d2b
+  uuid: 5c634f9c-3dd4-4d3e-97c2-9db2470cf722
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: us05.jssssss.com
     path: /
+- name: 6|🇺🇸37 |  5.5MB/s
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  port: 443
+  server: 696008bb-svn5s0-t1bnjq-1krtb.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 6|🇺🇸38 |  2.6MB/s
+  port: 443
+  server: ec2e7c65-svdwg0-t28b6o-ef48.los.gotochinatown.net
+  tls: true
+  type: socks5
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 6|🇺🇸39 |  4.9MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
 - alterId: 2
   cipher: auto
-  name: 19|2|🇺🇸7 |  1.7MB/s
+  client-fingerprint: chrome
+  name: 6|🇺🇸41 |  5.5MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- name: 6|🇺🇸42 |  2.1MB/s
+  port: 443
+  server: 80fe2901-svc1s0-swy6li-tni2.los.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 6|🇺🇸43 |  4.3MB/s
+  port: 443
+  server: 88316701-svhls0-t28b6o-ef48.los.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 6|🇺🇸44 |  3.1MB/s
+  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  port: 443
+  server: 12237308-svn5s0-t28b6o-ef48.sj.gotochinatown.net
+  tls: true
+  type: http
+  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- name: 6|🇺🇸45 |  3.0MB/s
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  port: 443
+  server: 82289c96-svlb40-t1bnjq-1krtb.sj.gotochinatown.net
+  tls: true
+  type: http
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 6|🇺🇸46 |  3.6MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: af3bff92-svlb40-swy6li-tni2.sj.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- name: 6|🇺🇸49 |  5.8MB/s
+  port: 443
+  server: 07f52356-svfr40-swy6li-tni2.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 6|🇺🇸50 |  5.7MB/s
+  port: 443
+  server: e320d05b-svdwg0-t1bnjq-1krtb.los.gotochinatown.net
+  tls: true
+  type: socks5
+- client-fingerprint: chrome
+  name: 6|🇺🇸51 |  5.6MB/s
+  port: 443
+  server: 0b366624-svdwg0-swy6li-tni2.sj.gotochinatown.net
+  sni: 0b366624-svdwg0-swy6li-tni2.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 6|🇺🇸53 |  2.8MB/s
+  port: 443
+  server: d8f8c1e0-svfr40-t1bnjq-1krtb.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 6|🇺🇸55 |  2.0MB/s
+  port: 443
+  server: 65240551-svlb40-t1bnjq-1krtb.los.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 6|🇺🇸57 |  5.5MB/s
+  port: 443
+  server: 678aeea8-svhls0-swy6li-tni2.los.gotochinatown.net
+  tls: true
+  type: socks5
+- auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  name: 6|🇺🇸58 |  1.1MB/s
+  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  port: 8443
+  server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
+  type: hysteria2
+- auth: bf140bc0-3f68-11ee-953a-f23c9164ca5d
+  name: 6|🇺🇸59 |  1.1MB/s
+  password: bf140bc0-3f68-11ee-953a-f23c9164ca5d
+  port: 8443
+  server: 468ce536-supts0-svp9t7-1oijm.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 468ce536-supts0-svp9t7-1oijm.hy2.gotochinatown.net
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸21 |  3.9MB/s
+  network: tcp
+  port: 5229
+  server: b3e1a577-svjgg0-t1bnjq-1krtb.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  ws-headers:
+    Host: b3e1a577-svjgg0-t1bnjq-1krtb.cu.plebai.net
+  ws-path: /
+- name: 6|🇺🇸61 |  5.7MB/s
+  port: 443
+  server: 041ce782-svlb40-t28b6o-ef48.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 6|🇺🇸62 |  5.8MB/s
+  port: 443
+  server: 3d772104-svdwg0-t1bnjq-1krtb.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- alterId: 2
+  cipher: auto
+  name: 6,19|2|🇺🇸7 |  1.7MB/s
   network: ws
   port: '30808'
   server: v8.heduian.link
@@ -625,6 +585,111 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸59 |  4.5MB/s
+  network: tcp
+  port: 5228
+  server: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+  ws-headers:
+    Host: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net
+  ws-path: /
+- name: 6|🇺🇸66 |  5.7MB/s
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  port: 443
+  server: fde84327-svjgg0-t1bnjq-1krtb.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸53 |  5.1MB/s
+  network: tcp
+  port: '5228'
+  server: 1449f183-svhls0-t28b6o-ef48.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  ws-headers:
+    Host: 1449f183-svhls0-t28b6o-ef48.cu.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸74 |  4.0MB/s
+  network: tcp
+  port: 5229
+  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 6|🇺🇸75 |  2.8MB/s
+  port: 443
+  server: 05fcb8e9-svhls0-t1bnjq-1krtb.los.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 6|🇺🇸77 |  4.6MB/s
+  port: 443
+  server: e147ddc2-svjgg0-t28b6o-ef48.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- alterId: 0
+  cipher: auto
+  name: 6,19|2|🇺🇸58 |  4.2MB/s
+  network: tcp
+  port: 5229
+  server: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  ws-headers:
+    Host: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 6|🇺🇸82 |  2.3MB/s
+  network: ws
+  port: '443'
+  server: 104.18.149.76
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      host: us.kkp.me.eu.org
+    path: /aa
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 6|🇺🇸85 |  1.4MB/s
+  password: b842f3bc-0ba4-45db-80ec-4540bbb23ae0
+  port: 16947
+  server: hm.huamao888.top
+  type: ss
+  udp: true
+- allowInsecure: ''
+  name: 6|🇺🇸86 |  5.3MB/s
+  network: ws
+  password: 075b9690-f1cc-4d0c-aa1e-f80f07f09815
+  port: 443
+  server: 172.67.204.177
+  skip-cert-verify: false
+  sni: 4o.191292.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 4o.191292.xyz
+    path: /w8oHMEEc9tWBZ57XYkE
+- name: 6|🇺🇸88 |  5.1MB/s
+  port: 443
+  server: 2be2e542-svc1s0-swy6li-tni2.sj.gotochinatown.net
+  tls: true
+  type: socks5
 - alterId: 0
   cipher: auto
   name: 19|2|🇺🇸24 |  2.5MB/s
@@ -649,15 +714,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 19|2|🇺🇸46 |  2.4MB/s
-  network: tcp
-  port: 5228
-  server: c6147365-svjgg0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
   name: 19|2|🇺🇸57 |  4.3MB/s
   network: tcp
   port: 5228
@@ -665,15 +721,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇺🇸59 |  4.5MB/s
-  network: tcp
-  port: 5228
-  server: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 19,24|美国|@ripaojiedian

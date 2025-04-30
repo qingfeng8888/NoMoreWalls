@@ -1,41 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇯🇵3 |  5.0MB/s
-  network: tcp
-  port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇯🇵8 |  3.8MB/s
-  network: tcp
-  port: 17233
-  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国|@ripaojiedian
-  password: a74ec813-6683-47ea-996e-d81447db44df
-  port: 44015
-  server: 120.198.71.219
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
-  tls: false
-  type: vmess
+  name: 6|🇯🇵2 |  6.4MB/s
+  password: b842f3bc-0ba4-45db-80ec-4540bbb23ae0
+  port: 16945
+  server: hm.huamao888.top
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 6|🇯🇵8 |  5.7MB/s
+- name: 6|🇯🇵6 |  5.6MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -46,17 +18,22 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  name: 6|🇯🇵11 |  6.2MB/s
+  name: 19|2|🇯🇵3 |  5.0MB/s
   network: tcp
   port: 17233
-  server: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|2|🇯🇵8 |  3.8MB/s
+  network: tcp
+  port: 17233
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 19,24|日本5|@ripaojiedian
