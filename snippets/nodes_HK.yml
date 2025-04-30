@@ -1,31 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 6,19|1|🇭🇰5 |  5.9MB/s
-  network: tcp
-  port: 30251
-  raw:
-    add: 35.220.230.251
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 86c9c119-c46d-45a9-82a6-75a886e5e795
-    net: tcp
-    path: ''
-    port: '30251'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 35.220.230.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
-- name: 6|🇭🇰4 |  6.2MB/s
+- name: 6|🇭🇰2 |  5.1MB/s
   network: tcp
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
@@ -34,31 +8,6 @@ proxies:
   sni: hk-13-568.flztjc.net
   type: trojan
   udp: true
-- country: 🇹🇼TW
-  delay: 199
-  name: 6|🇭🇰10 |  1.3MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2021
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
-  udp: true
-- name: 6|🇭🇰14 |  3.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-gcm
-  name: 6|🇭🇰15 |  6.3MB/s
-  password: 887306f3-af8c-472e-b6e0-e7dcf970a4f0
-  port: 34713
-  server: jsyd.piaomiaoxu.net
-  type: ss
 - alterId: 0
   cipher: auto
   name: 19|1|🇭🇰1 |  4.6MB/s
@@ -73,6 +22,16 @@ proxies:
     headers:
       Host: hknbyivfffj.site
     path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 19|1|🇭🇰5 |  5.9MB/s
+  network: tcp
+  port: 30251
+  server: 35.220.230.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
 - alterId: 0
   cipher: auto
   name: 19,24|香港5|@ripaojiedian
@@ -118,7 +77,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 50676
+  port: 22568
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
