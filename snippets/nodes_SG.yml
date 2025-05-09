@@ -7,7 +7,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 6|🇸🇬1 |  5.2MB/s|54%|Youtube|Ope...
+  name: 6|🇸🇬1 |  6.6MB/s|Youtube|Openai
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -47,3 +47,11 @@ proxies:
     headers:
       Host: web.xcjs.info
     path: /home
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 23|🇸🇬 狮城特殊|@ripaojiedian
+  password: awsps0501
+  port: 443
+  server: 52.27.142.2
+  tfo: false
+  type: ss
