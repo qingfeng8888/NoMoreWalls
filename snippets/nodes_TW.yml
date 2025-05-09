@@ -1,25 +1,25 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国5|@ripaojiedian
-  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
-  port: 46759
-  server: 120.198.71.216
-  skip-cert-verify: false
-  sni: 45.32.28.232
+- name: 6|🇹🇼3 |  5.8MB/s|0%|Netflix|Disn...
+  network: ws
+  password: Aimer
+  port: 443
+  server: 209.208.227.79
+  skip-cert-verify: true
+  sni: epccj.ambercc.filegear-sg.me
   tfo: false
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: epccj.ambercc.filegear-sg.me
+    path: /?ed=2560
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 6|🇹🇼4 |  5.7MB/s|Netflix|Disney|...
+  name: 6|🇹🇼4 |  2.1MB/s|0%|Disney|Opena...
   network: ws
   password: Aimer
-  port: '443'
+  port: 443
   server: 27.50.49.136
   skip-cert-verify: false
   sni: epccj.ambercc.filegear-sg.me
@@ -30,3 +30,17 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  delay: 986
+  name: 6|🇹🇼7 |  5.4MB/s|0%|Disney|Youtu...
+  network: ws
+  port: 2082
+  server: yx1.niaoba.top
+  tls: false
+  type: vmess
+  uuid: 763b29f0-ffba-42e8-a054-d595092135e6
+  ws-opts:
+    headers:
+      Host: 1176552658409.vmtw.taobao.pdd.niaoba.top
+    path: /
