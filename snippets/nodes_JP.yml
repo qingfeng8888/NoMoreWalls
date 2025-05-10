@@ -1,15 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  name: 6|🇯🇵3 |  2.6MB/s|13%|Youtube|Ope...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky03.sqx001.com
+- alterId: 64
+  cipher: auto
+  name: 6|🇯🇵1 |  4.8MB/s|51%|Youtube|Ope...
+  network: ws
+  port: 1443
+  server: sslvpn.51job.com
   skip-cert-verify: true
-  sni: tky03.sqx001.com
+  tfo: false
   tls: true
-  type: http
+  type: vmess
   udp: true
-  username: dmpyoary@mayorlogistic.com
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
 - alterId: 64
   cipher: auto
   name: 19,24|日本3|@ripaojiedian

@@ -1,5 +1,5 @@
 proxies:
-- name: 6|🇫🇷1 |  5.8MB/s|16%|Openai
+- name: 6|🇫🇷1 |  5.6MB/s|16%|Openai
   password: dongtaiwang.com
   port: 4489
   server: hy2-1.694463.xyz
@@ -7,26 +7,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- delay: 703
-  down: ''
-  fingerprint: ''
-  name: 6|🇫🇷2 |  5.8MB/s|16%|Openai
-  obfs: ''
-  obfs-password: ''
-  password: dongtaiwang.com
-  port: 4489
-  server: 51.158.205.126
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   delay: 1173
   down: 100
-  name: 6|🇫🇷3 |  5.7MB/s|16%|Openai
+  name: 6|🇫🇷2 |  2.5MB/s|16%|Openai
   port: 14241
   protocol: udp
   server: 51.159.226.1
@@ -39,24 +26,9 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  delay: 941
-  down: 55
-  name: 6|🇫🇷5 |  3.8MB/s|0%|Youtube|Open...
-  port: 46938
-  protocol: udp
-  server: 195.154.200.178
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 11
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
   delay: 1110
   down: '100'
-  name: 6|🇫🇷6 |  2.4MB/s|0%|Youtube|Open...
+  name: 6|🇫🇷3 |  4.4MB/s|0%|Youtube|Open...
   obfs: ''
   port: 15010
   protocol: ''
@@ -65,9 +37,21 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '100'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 6|🇫🇷5 |  3.2MB/s|34%|Youtube|Ope...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: '22222'
+  server: 52.47.159.179
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - down: ''
   fingerprint: ''
-  name: 6|🇫🇷7 |  4.1MB/s|0%|Youtube|Open...
+  name: 6|🇫🇷12 |  2.2MB/s|0%|Youtube|Ope...
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -77,3 +61,18 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 941
+  down: 55
+  name: 6|🇫🇷13 |  6.0MB/s|0%|Youtube|Ope...
+  port: 46938
+  protocol: udp
+  server: 195.154.200.178
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 11
