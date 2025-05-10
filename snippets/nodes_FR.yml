@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 6|🇫🇷1 |  5.9MB/s|16%|Openai
+  name: 6|🇫🇷1 |  2.6MB/s|16%|Openai
   password: dongtaiwang.com
   port: 4489
   server: hy2-1.694463.xyz
@@ -13,7 +13,7 @@ proxies:
   auth_str: dongtaiwang.com
   delay: 1173
   down: 100
-  name: 6|🇫🇷2 |  6.0MB/s|16%|Openai
+  name: 6|🇫🇷2 |  3.1MB/s|16%|Openai
   port: 14241
   protocol: udp
   server: 51.159.226.1
@@ -22,26 +22,25 @@ proxies:
   type: hysteria
   udp: true
   up: 100
-- alterId: 0
-  cipher: auto
-  name: 6,19|2|🇫🇷5 |  5.4MB/s|38%|Openai
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 941
+  down: 55
+  name: 6|🇫🇷5 |  2.8MB/s|Youtube|Openai
+  port: 46938
+  protocol: udp
+  server: 195.154.200.178
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
   udp: true
-  uuid: cbe129db-24fa-4bb5-99de-03a6e7b1604c
-  ws-opts:
-    headers:
-      Host: MaxNEtVipAp-fr1.maXnEtServICES.onliNe
-    path: /linkws
-  xudp: true
+  up: 11
 - delay: 703
   down: ''
   fingerprint: ''
-  name: 6|🇫🇷9 |  3.6MB/s|16%|Openai
+  name: 6|🇫🇷8 |  1.6MB/s|16%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -51,3 +50,18 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1110
+  down: '100'
+  name: 6|🇫🇷9 |  5.5MB/s|0%|Youtube|Open...
+  obfs: ''
+  port: 15010
+  protocol: ''
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '100'
