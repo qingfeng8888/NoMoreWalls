@@ -4,6 +4,7 @@ proxies:
   alterId: 64
   cipher: auto
   client-fingerprint: chrome
+  delay: 994
   name: 6,23|🇺🇸 美国5|@ripaojiedian
   password: bpb-trojan
   port: 46759
@@ -16,27 +17,12 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
-  name: 6|🇭🇰2 |  3.4MB/s|16%|Netflix|Dis...
+  name: 6|🇭🇰2 |  1.4MB/s|16%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11501'
   server: cdn-p1-hk.weibo-dns.com
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 6,19|2|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
-  network: ws
-  port: 80
-  server: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7c129766-8656-11ea-8fc9-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 6,19|2|🇭🇰5 |  2.2MB/s|0%
@@ -52,16 +38,20 @@ proxies:
     headers:
       Host: wamxoa.com
     path: /asdd
-- client-fingerprint: chrome
-  name: 6|🇭🇰6 |  4.4MB/s|Youtube
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: hk05.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
+- alterId: 2
+  cipher: auto
+  name: 19|2|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
+  network: ws
+  port: 80
+  server: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 7c129766-8656-11ea-8fc9-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
