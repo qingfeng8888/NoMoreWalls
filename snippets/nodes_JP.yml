@@ -1,17 +1,13 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 6|🇯🇵1 |  4.4MB/s|0%|Disney|Youtu...
-  password: 904d4c81-aebf-4882-bb2a-b4dcb8cb5d05
-  port: 12062
-  server: bit-jp.03ezhg0qsa.download
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 6|🇯🇵2 |  1.1MB/s|62%|Netflix|Dis...
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19832
-  server: h.cm2.xiaomi-api.xyz
-  type: ss
+- name: 6|🇯🇵2 |  1.9MB/s|0%|Netflix|Disn...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky03.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: dmpyoary@mayorlogistic.com
 - alterId: 64
   cipher: auto
   name: 19,24|日本3|@ripaojiedian
