@@ -1,23 +1,36 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰1 |  2.0MB/s|16%|Netflix|Dis...
+  network: ws
+  port: 8080
+  server: e9a671ea-sw1z40-t4vk19-1nlwy.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9247343a-5db0-11ee-9367-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: e9a671ea-sw1z40-t4vk19-1nlwy.hgc1.tcpbbr.net
+    path: /
 - client-fingerprint: chrome
-  name: 6|🇭🇰2 |  1.1MB/s
+  name: 6|🇭🇰2 |  2.0MB/s|6%|Youtube
   password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 8443
-  server: hk04.sqx001.com
+  port: 443
+  server: hk05.sqx001.com
   skip-cert-verify: true
-  sni: hk04.sqx001.com
   tls: true
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
 - alterId: 0
   cipher: auto
-  name: 6|🇭🇰4 |  1.6MB/s|16%|Netflix|Dis...
+  name: 19|2|🇭🇰4 |  1.6MB/s|16%|Netflix|D...
   network: ws
   port: 8080
   server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
   servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
