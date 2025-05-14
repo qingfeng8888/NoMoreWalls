@@ -5,20 +5,22 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 64
-  cipher: auto
+- cipher: chacha20-ietf
+  name: 6|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- auth: d711d15c-adf6-4d98-991e-93172cc5eff0
   client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国5|@ripaojiedian
-  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
-  port: 46759
-  server: 120.198.71.216
-  skip-cert-verify: false
-  sni: data.sub-zrj.com
-  tfo: false
-  tls: false
-  type: vmess
+  name: 6|🇸🇬4 |  4.8MB/s|Youtube|Openai|...
+  password: d711d15c-adf6-4d98-991e-93172cc5eff0
+  port: 30003
+  server: qyxjp.qy1357.top
+  skip-cert-verify: true
+  sni: qyxjp.qy1357.top
+  type: hysteria2
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -36,11 +38,28 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19,23,24|新加坡2|@ripaojiedian
+  network: ws
+  port: '46019'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 23|🇸🇬 狮城特殊|@ripaojiedian
   password: yijian0503
   port: 443
-  server: 3.36.122.17
+  server: 47.128.78.62
   tfo: false
   type: ss
