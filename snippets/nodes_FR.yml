@@ -1,7 +1,7 @@
 proxies:
 - down: ''
   fingerprint: ''
-  name: 6|🇫🇷1 |  3.1MB/s|Openai
+  name: 6|🇫🇷1 |  5.7MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -13,7 +13,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: 6|🇫🇷2 |  2.6MB/s|15%|Openai
+  name: 6|🇫🇷2 |  5.0MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -23,16 +23,31 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1608
+  down: 100
+  name: 6|🇫🇷3 |  4.2MB/s|15%|Openai
+  port: 14241
+  protocol: udp
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 100
 - cipher: aes-256-gcm
-  name: 6|🇫🇷3 |  2.1MB/s|36%|Openai
+  name: 6|🇫🇷5 |  5.1MB/s|36%|Openai
   password: PqJc89bEJnYJ-3mFetkZRQ
   port: '20'
-  server: ss.sps1.sbs
+  server: 82.146.46.28
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 6,19|2|🇫🇷14 |  3.4MB/s|0%
+  name: 6,19|2|🇫🇷5 |  2.8MB/s|0%|Youtube|Op...
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -46,113 +61,3 @@ proxies:
       Host: Fra-Vp-123.BLaZECLOUD.Site
     path: /linvkws
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 1608
-  down: 100
-  name: 6|🇫🇷7 |  5.4MB/s|15%|Openai
-  port: 14241
-  protocol: udp
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇫🇷3 |  5.5MB/s|100%|Openai
-  network: ws
-  port: '443'
-  server: 188.114.96.2
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇫🇷9 |  2.8MB/s|100%|Openai
-  network: ws
-  port: '443'
-  server: 172.67.71.160
-  servername: obdii.cfd
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇫🇷6 |  2.0MB/s|100%|Openai
-  network: ws
-  port: 443
-  server: 104.21.31.62
-  servername: obdii.cfd
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇫🇷18 |  2.4MB/s|100%|Openai
-  network: ws
-  port: '443'
-  server: 172.67.175.56
-  servername: obdii.cfd
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇫🇷8 |  3.9MB/s|100%
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇫🇷15 |  2.0MB/s|100%|Openai
-  network: ws
-  port: '443'
-  server: 104.26.0.95
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 19|2|🇫🇷21 |  2.0MB/s|100%|Openai
-  network: ws
-  port: 443
-  server: 188.114.97.2
-  servername: obdii.cfd
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
