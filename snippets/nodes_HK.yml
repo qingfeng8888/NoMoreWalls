@@ -1,11 +1,22 @@
 proxies:
+- name: 6|🇭🇰1 |  5.0MB/s|0%|Netflix|Disn...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: us.madison.eu.org
+  skip-cert-verify: false
+  sni: skwygx.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
 - alterId: 0
   cipher: auto
-  name: 6|🇭🇰1 |  4.6MB/s|Youtube|Openai
+  name: 19|2|🇭🇰1 |  4.6MB/s|Youtube|Opena...
   network: ws
   port: 8080
   server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
@@ -13,12 +24,6 @@ proxies:
     headers:
       Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
     path: /
-- cipher: chacha20-ietf
-  name: 6|🇭🇰2 |  1.1MB/s|0%
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
 - alterId: 64
   cipher: auto
   name: 19,24|香港3|@ripaojiedian
