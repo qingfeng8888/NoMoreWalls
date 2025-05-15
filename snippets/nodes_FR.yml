@@ -1,22 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 1608
-  down: 100
-  name: 6|🇫🇷1 |  5.5MB/s|15%|Openai
-  port: 14241
-  protocol: udp
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 100
 - down: ''
   fingerprint: ''
-  name: 6|🇫🇷2 |  5.7MB/s|15%|Openai
+  name: 6|🇫🇷1 |  1.8MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -30,9 +15,51 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
+  delay: 1608
+  down: 100
+  name: 6|🇫🇷2 |  4.3MB/s|15%|Openai
+  port: 14241
+  protocol: udp
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 100
+- down: ''
+  fingerprint: ''
+  name: 6|🇫🇷4 |  3.3MB/s|15%|Openai
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: '4489'
+  server: 51.158.205.126
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: 6|🇫🇷5 |  4.4MB/s|42%|Netflix|You...
+  network: ws
+  password: 2faaf996-d2b0-440d-8258-81f2b05dd0e4
+  port: '443'
+  server: 172.67.75.172
+  skip-cert-verify: false
+  sni: fwd-refuse-senators-brought.trycloudflare.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trojan-argo?ed=2560
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
   delay: 1086
   down: '100'
-  name: 6|🇫🇷4 |  4.4MB/s|25%|Youtube|Ope...
+  name: 6|🇫🇷9 |  4.5MB/s|25%|Youtube|Ope...
   obfs: ''
   port: 15010
   protocol: ''
