@@ -1,20 +1,48 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 6,23|🇭🇰 香港2|@ripaojiedian
-  password: 91a41f4e02dc
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hkkh11v1.xpmc.cc
-    mode: websocket
-    mux: true
-    path: /utvbnrzejpmt
-    skip-cert-verify: false
-    tls: true
-  port: 15985
-  server: hkkh11v1.xpmc.cc
-  tfo: false
+- cipher: chacha20-ietf
+  name: 6|🇭🇰1 |  1.0MB/s|0%|Netflix|Disn...
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,19,23,24|香港8|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: aes-256-gcm
+  delay: 244
+  name: 6|🇭🇰3 |  4.5MB/s|21%|Netflix|Dis...
+  password: 93f122df-87be-4554-b6cd-4f55da7f619a
+  port: 39102
+  server: 183.236.51.26
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6|🇭🇰4 |  2.9MB/s|25%
+  network: ws
+  port: 80
+  server: 3fbc10.2ca52629-3a60.shop
+  tls: false
+  type: vmess
+  uuid: 5be76fa5-3758-4282-bb54-b1efabd6ba3d
+  ws-opts:
+    headers:
+      Host: hk02s.2ca52629-3a60.shop
+    path: /
 - alterId: 0
   cipher: auto
   name: 19,24|香港|@ripaojiedian
@@ -55,23 +83,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 19,23,24|香港8|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
+  name: 23|🇭🇰 香港2|@ripaojiedian
+  password: 91a41f4e02dc
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hkkh11v1.xpmc.cc
+    mode: websocket
+    mux: true
+    path: /utvbnrzejpmt
+    skip-cert-verify: false
+    tls: true
+  port: 15985
+  server: hkkh11v1.xpmc.cc
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 23|🇭🇰 香港6|@ripaojiedian
