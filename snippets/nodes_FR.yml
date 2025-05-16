@@ -1,7 +1,7 @@
 proxies:
 - auth: dongtaiwang.com
   client-fingerprint: chrome
-  name: 6|🇫🇷1 |  5.8MB/s|15%|Openai
+  name: 6|🇫🇷1 |  5.9MB/s|15%|Openai
   password: dongtaiwang.com
   port: 4489
   server: 51.158.205.126
@@ -9,17 +9,22 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 1086
-  down: '100'
-  name: 6|🇫🇷2 |  5.1MB/s|25%|Youtube|Ope...
-  obfs: ''
-  port: 15010
-  protocol: ''
-  server: 195.154.200.40
+  - http/1.1
+  client-fingerprint: chrome
+  name: 6|🇫🇷4 |  1.7MB/s|30%|Youtube|Ope...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: '22222'
+  server: 13.37.147.179
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 6|🇫🇷7 |  5.8MB/s|15%|Openai
+  password: dongtaiwang.com
+  port: 4489
+  server: hy2-1.694463.xyz
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '100'
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
