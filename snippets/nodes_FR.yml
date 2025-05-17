@@ -1,5 +1,5 @@
 proxies:
-- name: 6|🇫🇷1 |  5.9MB/s|15%|Openai
+- name: 6|🇫🇷1 |  5.4MB/s|15%|Openai
   password: dongtaiwang.com
   port: 4489
   server: hy2-1.694463.xyz
@@ -13,7 +13,7 @@ proxies:
   auth_str: dongtaiwang.com
   delay: 1086
   down: '100'
-  name: 6|🇫🇷2 |  2.1MB/s|25%|Youtube|Ope...
+  name: 6|🇫🇷2 |  5.4MB/s|25%|Youtube|Ope...
   obfs: ''
   port: 15010
   protocol: ''
@@ -22,3 +22,12 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '100'
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 6|🇫🇷4 |  1.6MB/s|15%|Openai
+  password: dongtaiwang.com
+  port: 4489
+  server: 51.158.205.126
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
