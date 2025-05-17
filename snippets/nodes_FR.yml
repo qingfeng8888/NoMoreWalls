@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 6|🇫🇷11 |  5.3MB/s|15%|Openai
+  password: dongtaiwang.com
+  port: 4489
+  server: 51.158.205.126
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 6|🇫🇷12 |  5.3MB/s|15%|Openai
+  password: dongtaiwang.com
+  port: 4489
+  server: hy2-1.694463.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1086
+  down: '100'
+  name: 6|🇫🇷13 |  2.5MB/s|25%|Openai
+  obfs: ''
+  port: 15010
+  protocol: ''
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '100'
