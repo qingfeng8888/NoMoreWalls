@@ -5,12 +5,30 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- client-fingerprint: chrome
+  name: 6|🇸🇬7 |  1.6MB/s|61%|Youtube|Ope...
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8444
+  server: singapore02.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: podbbylf@mayorlogistic.com
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 6,23|🇸🇬 新加坡2|@ripaojiedian
+  password: O363WP68J33COIEX
+  port: 16009
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 19,23,24|新加坡|@ripaojiedian
+  name: 19,23|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '30812'
+  port: 30812
   server: v12.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -22,13 +40,3 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 19,24|新加坡2|@ripaojiedian
-  network: tcp
-  port: '54652'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
