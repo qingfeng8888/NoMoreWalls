@@ -1,18 +1,18 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 6,23|🇰🇷 韩国2|@ripaojiedian
+  name: 6,23|🇰🇷 韩国|@ripaojiedian
   password: 85f133142f04dbf6547da33895cfabb3
-  port: 18740
-  server: 45.94.68.130
-  skip-cert-verify: false
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
   sni: www.yrtok.com
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 0d90d331-6c70-4cb9-855b-c11bcfd227c4
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 19|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
@@ -51,7 +51,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 19,24|新加坡2|@ripaojiedian
+  name: 19|14|新加坡2|@ripaojiedian
   network: tcp
   port: '41024'
   server: 183.236.51.38
@@ -61,7 +61,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 19,24|新加坡4|@ripaojiedian
+  name: 19|14|新加坡4|@ripaojiedian
   network: tcp
   port: '56051'
   server: 38.47.176.251
@@ -69,3 +69,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23,24|新加坡2|@ripaojiedian
+  network: ws
+  port: '46019'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
