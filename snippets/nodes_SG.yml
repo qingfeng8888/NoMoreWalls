@@ -2,23 +2,33 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 6,23|🇺🇸 美国3|@ripaojiedian
-  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  port: 15229
-  server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
+  name: 6,23|🇸🇬 新加坡2|@ripaojiedian
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 50152
+  server: 120.232.153.40
   skip-cert-verify: false
-  sni: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
+  sni: www.yrtok.com
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 19|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 19|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,24|新加坡2|@ripaojiedian
+  network: tcp
+  port: '50152'
+  server: 120.232.153.40
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
