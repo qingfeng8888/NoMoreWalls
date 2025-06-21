@@ -1,16 +1,15 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 6,23|🇸🇬 新加坡2|@ripaojiedian
+  name: 6,23|🇰🇷 韩国2|@ripaojiedian
   password: 85f133142f04dbf6547da33895cfabb3
-  port: 50152
-  server: 120.232.153.40
-  skip-cert-verify: false
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
   sni: www.yrtok.com
-  tfo: false
   tls: false
-  type: vmess
+  type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
@@ -24,7 +23,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 19,24|新加坡2|@ripaojiedian
+  name: 19|13|新加坡2|@ripaojiedian
   network: tcp
   port: '50152'
   server: 120.232.153.40
@@ -42,3 +41,28 @@ proxies:
   tls: false
   type: vmess
   uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 23,24|新加坡2|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 172.64.229.5
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 697343bc-9c91-47bb-a277-181ea7586313
+  ws-opts:
+    headers:
+      Host: xjp.yilex.icu
+    path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 23|🇸🇬 新加坡3|@ripaojiedian
+  password: fwjJxq
+  port: 29191
+  server: sgp05.htz.wtf
+  tfo: false
+  type: ss
