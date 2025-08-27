@@ -108,33 +108,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 19|香港3|@ripaojiedian
-  network: tcp
-  port: '14951'
-  server: 103.224.80.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8f5f6bb6-115f-4736-b36c-479da6636106
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '19,23,24|美国|@ripaojiedian #1'
-  network: ws
-  port: '443'
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  servername: ssssssssssssfffffffgh.2032.pp.ua
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
-- alterId: 0
-  cipher: auto
   name: '19,24|香港v2|@ripaojiedian #1'
   network: kcp
   port: '28590'
@@ -153,6 +126,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '19,23,24|美国|@ripaojiedian #1'
+  network: ws
+  port: '443'
+  server: ssssssssssssfffffffgh.2032.pp.ua
+  servername: ssssssssssssfffffffgh.2032.pp.ua
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  ws-opts:
+    headers:
+      Host: ssssssssssssfffffffgh.2032.pp.ua
+    path: /6We3U9Df1WGxgFnoFPw1
 - alterId: 0
   cipher: auto
   name: 20|github.com/freefq - 印度  2
@@ -301,15 +291,15 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: 23|🇺🇸 美国4|@ripaojiedian
-  server: 43.199.63.145
-  port: 5343
-  client-fingerprint: chrome
-  type: trojan
+- client-fingerprint: chrome
+  name: 23|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  sni: www.baidu.com
+  port: 5343
+  server: 43.199.63.145
+  server 43.199.63.145: null
   skip-cert-verify: true
-  true: 43.199.63.145
+  sni: www.baidu.com
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 23|🇹🇼 台湾|@ripaojiedian
