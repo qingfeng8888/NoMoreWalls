@@ -18,14 +18,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 19|香港3|@ripaojiedian
+  name: '19,24|香港3|@ripaojiedian #1'
   network: tcp
-  port: '27549'
-  server: 103.224.80.26
+  port: '51571'
+  server: 38.147.188.96
   servername: ''
   tls: false
   type: vmess
-  uuid: 907a372b-b6b8-41df-9d56-a244b4e1a320
+  uuid: 740ec514-d2bd-45bb-b410-7ea5a05cdd87
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -43,6 +43,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: '19,24|美国|@ripaojiedian #1'
+  network: tcp
+  port: '443'
+  server: 165.140.216.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: auto
   name: '19,24|香港v2|@ripaojiedian #1'
@@ -304,23 +314,3 @@ proxies:
   server: 134.209.147.198
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '24|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '51571'
-  server: 38.147.188.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 740ec514-d2bd-45bb-b410-7ea5a05cdd87
-- alterId: 0
-  cipher: auto
-  name: 24|美国|@ripaojiedian
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
