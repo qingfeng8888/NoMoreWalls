@@ -18,14 +18,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 19|香港3|@ripaojiedian
+  name: '19,24|香港3|@ripaojiedian #1'
   network: tcp
-  port: '40177'
-  server: 45.89.233.162
+  port: '46981'
+  server: 43.247.134.211
   servername: ''
   tls: false
   type: vmess
-  uuid: eb6f0b67-a6b5-461f-81f7-f2e50e4104bc
+  uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -43,34 +43,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 19|美国|@ripaojiedian
-  network: ws
-  port: '30829'
-  server: v29.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 19|马来西亚|@ripaojiedian
-  network: ws
-  port: '16622'
-  server: t.cnmjcn.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 743dbce9-ec7d-49dd-b9d6-3b1a151e729f
-  ws-opts:
-    headers:
-      Host: f604066249a784d694db65d3ebf5d60c.mobgslb.tbcache.com
-    path: /
 - alterId: 0
   cipher: auto
   name: '19,24|香港v2|@ripaojiedian #1'
@@ -340,13 +312,3 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '24|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '46981'
-  server: 43.247.134.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b
