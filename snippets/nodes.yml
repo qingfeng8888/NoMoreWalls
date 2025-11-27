@@ -16,7 +16,7 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: '19,24|香港6|@ripaojiedian #1'
+  name: 19|香港6|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -26,7 +26,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '19,24|美国4|@ripaojiedian #1'
+  name: 19|美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -162,7 +162,7 @@ proxies:
   name: 23|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.9.17.198
+  server: 63.180.254.10
   type: ss
 - cipher: aes-256-gcm
   name: 23|🇭🇰 香港2|@ripaojiedian
@@ -180,38 +180,34 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '23|🇺🇸 美国4|@ripaojiedian #1'
+  name: 23|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
+  port: 2569
+  server: 18.183.209.234
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-gcm
-  name: 23|🇭🇰 香港7|@ripaojiedian
-  password: b0c9d775-32f7-459a-b24d-ecda7c9f3720
-  port: 11688
-  server: ss.020.node-for-bigairport.win
+  type: trojan
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- cipher: aes-256-cfb
+  name: '23|🇺🇸 美国4|@ripaojiedian #1'
+  password: amazonskr05
+  port: 443
+  server: 107.23.148.46
   type: ss
 - cipher: aes-256-cfb
-  name: 23|🇹🇼 台湾|@ripaojiedian
-  obfs: http_simple
-  obfs-param: 1f4c39347.microsoft.com
-  password: dajkd*/?
-  port: 39007
-  protocol: auth_aes128_md5
-  protocol-param: 9347:AhttlGdymF
-  server: glimmerdsds.sdl-sz.com
-  type: ssr
-- cipher: aes-256-cfb
-  name: 24|5Y-w5rm-fEByaXBhb2ppZWRpYW4
-  obfs: http_simple
-  obfs-param: MWY0YzM5MzQ3Lm1pY3Jvc29mdC5jb20
-  password: dajkd*/?
-  port: '39007'
-  protocol: auth_aes128_md5
-  protocol-param: OTM0NzpBaHR0bEdkeW1G
-  server: glimmerdsds.sdl-sz.com
-  type: ssr
+  name: 23|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.184
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|韩国|@ripaojiedian
+  network: tcp
+  port: '80'
+  server: 152.70.92.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
